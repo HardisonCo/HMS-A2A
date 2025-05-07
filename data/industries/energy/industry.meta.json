@@ -1,0 +1,673 @@
+{
+    "id": 1,
+    "name": "Energy",
+    "icon": "fas fa-bolt",
+    "description": "Energy systems focus on the generation, distribution, and management of power from both renewable and conventional sources. They integrate smart grid technologies, energy storage solutions, and efficiency measures to optimize consumption and support sustainability goals.",
+    "fullDescription": "A robust energy sector underpins modern economies and is critical to social well-being. Energy systems involve multiple components—from power generation (solar, wind, hydro, nuclear, fossil fuels) to transmission lines, distribution networks, and consumer-level management tools (smart meters, demand-response systems). Increasingly, energy strategies emphasize decarbonization and grid flexibility, leveraging advanced storage solutions, distributed generation, and AI-based load forecasting. Successful energy planning also balances affordability, reliability, and environmental stewardship, ensuring equitable access and resilience against disruptions (e.g., natural disasters or cyberattacks).",
+    "statistics": [
+      {
+        "value": "13% global renewable share",
+        "description": "Renewable sources (including hydro) account for roughly 13% of global primary energy consumption, although this share is steadily rising."
+      },
+      {
+        "value": "940 million",
+        "description": "Nearly 940 million people worldwide still lack electricity access, highlighting the need for off-grid solutions."
+      },
+      {
+        "value": "32% of emissions",
+        "description": "The power sector contributes roughly 32% of global greenhouse gas emissions, driving the push toward cleaner energy."
+      }
+    ],
+    "targets": [
+      "Increase the share of renewables in the energy mix",
+      "Improve energy efficiency across residential, commercial, and industrial sectors",
+      "Deploy energy storage at scale to enhance grid stability",
+      "Expand electrification (e.g., e-mobility) and reduce reliance on fossil fuels",
+      "Ensure affordable and reliable power for all communities"
+    ],
+    "standards": [
+      {
+        "name": "ISO 50001",
+        "organization": "International Organization for Standardization",
+        "description": "Provides frameworks for establishing, implementing, and maintaining an energy management system to improve energy performance.",
+        "url": "https://www.iso.org/iso-50001-energy-management.html",
+        "relevance": "Helps organizations systematically reduce energy consumption and carbon emissions."
+      },
+      {
+        "name": "IEEE 1547",
+        "organization": "Institute of Electrical and Electronics Engineers",
+        "description": "Covers the interconnection and interoperability of distributed energy resources with electric power systems.",
+        "url": "https://standards.ieee.org/standard/1547-2018.html",
+        "relevance": "Ensures safe and efficient integration of renewable energy into existing grids."
+      },
+      {
+        "name": "IEC 61850",
+        "organization": "International Electrotechnical Commission",
+        "description": "Standard for communication networks and systems for power utility automation.",
+        "url": "https://www.iec.ch/iec-61850",
+        "relevance": "Enables interoperability between various devices in substations and power systems."
+      },
+      {
+        "name": "IEC 62056",
+        "organization": "International Electrotechnical Commission",
+        "description": "Standards for electricity metering data exchange (DLMS/COSEM).",
+        "url": "https://www.iec.ch/standards/iec-62056-61",
+        "relevance": "Facilitates smart metering and advanced metering infrastructure implementations."
+      },
+      {
+        "name": "NERC CIP",
+        "organization": "North American Electric Reliability Corporation",
+        "description": "Critical Infrastructure Protection standards for securing bulk electric systems.",
+        "url": "https://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx",
+        "relevance": "Provides cybersecurity and physical security requirements for power grid infrastructure."
+      }
+    ],
+    "workflows": [
+      "Requirements Gathering: Assess local/national energy demand, regulatory frameworks, environmental constraints, and sustainability targets. This involves stakeholder input (utilities, government agencies, consumers) and technical feasibility studies.",
+      "System Design: Develop infrastructure plans for generation (e.g., renewable integration, conventional power plants), transmission, and distribution. Incorporate future-proofing (EV charging, AI-based forecasting) and advanced control systems (SCADA, demand-response).",
+      "Implementation: Deploy energy generation, distribution, and monitoring technologies. Construct or upgrade infrastructure, install smart meters/sensors, and ensure safety and regulatory compliance.",
+      "Testing & Validation: Conduct performance evaluations and compliance checks, grid stability tests, and interoperability assessments. Measure success against projected capacity and emissions goals.",
+      "Operation & Maintenance: Monitor energy flows, conduct regular maintenance, optimize system performance using data analytics, and adjust for evolving demand or new sources (e.g., prosumer installations).",
+      "Decommissioning & Replacement: Safely decommission aging infrastructure and replace with more efficient technologies.",
+      "Cybersecurity Management: Identify vulnerabilities, implement protections, and maintain secure operations.",
+      "Emergency Response: Develop and test protocols for system disruptions and rapid recovery."
+    ],
+    "kpis": [
+      {
+        "name": "Renewable Penetration",
+        "definition": "The proportion of total electricity generation sourced from renewable energies.",
+        "measurementExample": "Track MWh or GWh of solar, wind, hydro, etc. as a percentage of total power generated."
+      },
+      {
+        "name": "Grid Reliability",
+        "definition": "Measured via indices like SAIDI (System Average Interruption Duration Index) or SAIFI (System Average Interruption Frequency Index).",
+        "measurementExample": "Utility companies compile outage duration/frequency data across service areas."
+      },
+      {
+        "name": "Energy Intensity",
+        "definition": "The amount of energy used per unit of GDP, reflecting efficiency improvements.",
+        "measurementExample": "Calculate total national energy consumption and compare it to GDP for a given year."
+      },
+      {
+        "name": "CO₂ Emissions per kWh",
+        "definition": "Amount of carbon dioxide released per kilowatt-hour of electricity produced.",
+        "measurementExample": "Combine total power sector CO₂ emissions with total electricity generated in that period."
+      }
+    ],
+    "processFlows": [
+      {
+        "name": "Generation Process",
+        "steps": [
+          "Fuel/Resource Acquisition: Obtain primary energy sources (fossil fuels, uranium, biomass) or harness renewable resources (solar, wind, hydro).",
+          "Energy Conversion: Transform primary energy into electricity through appropriate technologies (turbines, photovoltaics, etc.).",
+          "Output Conditioning: Adjust voltage and frequency to grid requirements through transformers and power electronics.",
+          "Grid Connection: Connect to transmission system through switchgear and protection systems.",
+          "Performance Monitoring: Track generation efficiency, emissions, and system stability."
+        ]
+      },
+      {
+        "name": "Distribution Process",
+        "steps": [
+          "Transmission Planning: Determine capacity requirements and routing for power delivery.",
+          "Infrastructure Deployment: Install transmission lines, transformers, and substations.",
+          "Load Management: Balance supply and demand across the network in real-time.",
+          "Voltage Regulation: Maintain proper voltage levels throughout the distribution system.",
+          "Fault Detection: Identify and isolate system failures to prevent cascading outages."
+        ]
+      },
+      {
+        "name": "Energy Storage Integration",
+        "steps": [
+          "Capacity Assessment: Determine storage requirements based on load profiles and generation characteristics.",
+          "Technology Selection: Choose appropriate storage technologies (batteries, pumped hydro, thermal, etc.).",
+          "System Integration: Connect storage systems to the grid with appropriate controls and protection.",
+          "Charge/Discharge Management: Optimize storage operation based on energy prices, grid needs, and renewable generation.",
+          "Performance Tracking: Monitor degradation, efficiency, and system response times."
+        ]
+      }
+    ],
+    "regulatoryFrameworks": [
+      {
+        "name": "Clean Power Plan",
+        "jurisdiction": "United States",
+        "description": "Regulations aimed at reducing carbon emissions from power plants.",
+        "requirements": "Sets state-specific emission reduction targets and compliance pathways."
+      },
+      {
+        "name": "EU Renewable Energy Directive",
+        "jurisdiction": "European Union",
+        "description": "Framework for promoting renewable energy production and consumption.",
+        "requirements": "Sets binding targets for renewable energy share in gross final energy consumption."
+      },
+      {
+        "name": "Energy Efficiency Directive",
+        "jurisdiction": "European Union",
+        "description": "Guidelines for improving energy efficiency across sectors.",
+        "requirements": "Mandates energy savings through national energy efficiency action plans."
+      },
+      {
+        "name": "Renewable Portfolio Standards",
+        "jurisdiction": "Various US States",
+        "description": "Requirements for utilities to procure specific percentages of renewable energy.",
+        "requirements": "Varies by state, typically requiring 20-100% renewable energy by target dates."
+      }
+    ],
+    "environmentalImpact": {
+      "emissions": {
+        "greenhouseGases": "CO2, CH4, and N2O from fossil fuel combustion and extraction operations.",
+        "airPollutants": "SOx, NOx, particulate matter, and volatile organic compounds from combustion processes.",
+        "mitigationStrategies": "Carbon capture and storage, emissions control technologies, fuel switching, and efficiency improvements."
+      },
+      "landUse": {
+        "footprint": "Area required for generation facilities, transmission corridors, and extraction operations.",
+        "habitatEffects": "Potential disruption to wildlife habitats, migration routes, and sensitive ecosystems.",
+        "mitigationStrategies": "Site selection optimization, multi-use land planning, and habitat restoration projects."
+      },
+      "waterImpacts": {
+        "consumption": "Water used for cooling, emissions control, and extraction processes.",
+        "thermalPollution": "Heat discharged to water bodies from cooling systems.",
+        "mitigationStrategies": "Closed-loop cooling, dry cooling technologies, and water recycling systems."
+      }
+    },
+    "monitoringAndAnalytics": {
+      "operationalMetrics": [
+        "Generation Efficiency: Ratio of energy output to input (heat rate, capacity factor).",
+        "Transmission Losses: Energy lost during transmission as percentage of generation.",
+        "Reliability Indices: SAIDI, SAIFI, CAIDI measuring frequency and duration of outages.",
+        "Voltage Quality: Adherence to voltage standards across the distribution network.",
+        "Frequency Stability: Maintenance of system frequency within acceptable ranges."
+      ],
+      "advancedAnalytics": [
+        "Load Forecasting: Predictive models for anticipating demand patterns.",
+        "Failure Prediction: AI-based systems to identify potential equipment failures before they occur.",
+        "Power Flow Optimization: Algorithms for optimal routing of electricity through the grid.",
+        "Renewable Integration Analysis: Tools to manage variability and forecast renewable generation.",
+        "Demand Response Optimization: Systems to identify and execute load reduction opportunities."
+      ]
+    },
+    "sampleDeals": [
+      {
+        "dealId": "EN-Deal1",
+        "dealTitle": "Community Solar Microgrids Initiative",
+        "dealSteps": {
+          "step1_defineProblem": "Rural and remote regions lack stable power, relying on diesel generators or having no electricity at all.",
+          "step2_codifySolution": "Establish solar microgrids with battery storage, letting communities own or co-operate the assets. Integrate smart inverters and local distribution systems.",
+          "step3_setupProgram": {
+            "stakeholders": [
+              "Local cooperatives (ownership, day-to-day ops)",
+              "Solar developers (technical design)",
+              "Financial institutions (micro-financing, grants)",
+              "Government agencies (regulatory support, partial funding)"
+            ],
+            "financing": "Blended finance model: government grants, low-interest loans, community crowdfunding or cooperatives' equity.",
+            "milestones": "Install 20 microgrids over 2 years; measure reliability improvements and reduced diesel consumption."
+          },
+          "step4_executeProgram": "Construct solar arrays, install inverters, set up battery systems, train local operators, and develop tariff structures for sustainable revenue.",
+          "step5_verifyOutcomeAndDistributeFunds": "Collect data on system uptime, local satisfaction, and financial viability. If successful, expand initiative to additional communities."
+        }
+      }
+    ],
+    "relatedContent": [
+      {
+        "type": "story",
+        "title": "Transitioning to 100% renewables in small islands",
+        "link": "/stories/island-renewables-transition"
+      },
+      {
+        "type": "publication",
+        "title": "Global Energy Outlook",
+        "link": "/publications/global-energy-outlook"
+      }
+    ],
+    "usAgencyContributions": {
+      "relevantAgencies": [
+        "Department of Energy (DOE)",
+        "Environmental Protection Agency (EPA)",
+        "Federal Energy Regulatory Commission (FERC)",
+        "Department of the Interior (DOI)",
+        "United States Congress (Energy & Environment Committees)"
+      ],
+      "explanation": "DOE leads energy R&D, funds innovative projects, and provides efficiency standards. EPA regulates emissions and sets standards for power plant pollution control. FERC oversees interstate electricity transmission and wholesale markets. DOI manages energy resources on federal lands (offshore wind, onshore leasing). Congress legislates major energy acts, sets funding levels, and creates incentives (e.g., tax credits) for renewable energy adoption."
+    },
+    "agencyServices": [
+      {
+        "agencyDomain": "doe.us.gov-ai.co",
+        "services": [
+          {
+            "name": "EERE",
+            "desc": "Office of Energy Efficiency & Renewable Energy - funds R&D, promotes green technologies",
+            "status": 2,
+            "url": "https://eere.doe.us.gov-ai.co"
+          },
+          {
+            "name": "ARPA-E",
+            "desc": "Advanced Research Projects Agency-Energy - invests in transformative energy technologies",
+            "status": 1,
+            "url": "https://arpa-e.doe.us.gov-ai.co"
+          }
+        ]
+      },
+      {
+        "agencyDomain": "ferc.us.gov-ai.co",
+        "services": [
+          {
+            "name": "Grid Regulation",
+            "desc": "Regulates interstate transmission and wholesale electricity markets",
+            "status": 1,
+            "url": "https://gridregulation.ferc.us.gov-ai.co"
+          }
+        ]
+      }
+    ],
+    "resources": {
+      "pdfWhyItMatters": "/goal_energy/energy_Why-It-Matters.pdf",
+      "gifMakeEveryDayCount": "/goal_energy/energy_SDG_MakeEveryDayCount_Gifs.gif",
+      "gifIcon": "/goal_energy/energy_GIF_Icon.gif",
+      "actionCardSquare": "/goal_energy/energy_action_card_square.jpg",
+      "actionCardTwitter": "/goal_energy/energy_action_card_twitter.jpg",
+      "webInverted": "/goal_energy/energy_WEB_INVERTED.png",
+      "printFile": "/goal_energy/energy_PRINT.jpg",
+      "printInvertedFile": "/goal_energy/energy_PRINT_INVERTED.jpg",
+      "webImage": "/goal_energy/energy_WEB.png",
+      "infographics": "/goal_energy/energy_infographics.pdf",
+      "elyxImage": "/goal_energy/energy_Elyx.png",
+      "languagesImage": "/goal_energy/energy_Languages.png"
+    },
+    "items": [
+      {
+        "id": "energy-1",
+        "name": "Renewable Energy Implementation",
+        "description": "Deploy solar, wind, and hydroelectric power generation to reduce carbon emissions and improve energy sustainability.",
+        "technicalDetails": {
+          "solarPV": {
+            "technologies": [
+              "Monocrystalline",
+              "Polycrystalline",
+              "Thin-film",
+              "Bifacial"
+            ],
+            "typicalEfficiency": "15-22% for commercial modules",
+            "spacingRequirements": "5-10 acres per MW depending on technology",
+            "inverterTypes": [
+              "String inverters",
+              "Microinverters",
+              "Central inverters"
+            ],
+            "mountingOptions": [
+              "Fixed-tilt",
+              "Single-axis tracking",
+              "Dual-axis tracking"
+            ]
+          },
+          "windPower": {
+            "turbineTypes": ["Horizontal axis", "Vertical axis"],
+            "sizeRanges": "1-15 MW per turbine for utility-scale installations",
+            "windClassRequirements": "Minimum Class 3 wind resource (5-6 m/s annual average)",
+            "spacingRequirements": "40-100 acres per MW for array spacing",
+            "gridConnection": "Medium voltage collector system with step-up transformer"
+          },
+          "hydroelectric": {
+            "configurations": ["Run-of-river", "Storage", "Pumped storage"],
+            "headClassifications": [
+              "High head (>100m)",
+              "Medium head (30-100m)",
+              "Low head (<30m)"
+            ],
+            "turbineTypes": ["Kaplan", "Francis", "Pelton", "Bulb"],
+            "environmentalSystems": [
+              "Fish ladders",
+              "Minimum flow releases",
+              "Dissolved oxygen management"
+            ]
+          }
+        },
+        "implementationSteps": [
+          "Resource Assessment: Conduct detailed measurement of renewable resource availability.",
+          "Site Selection: Identify optimal locations considering resource quality, grid access, and environmental factors.",
+          "Permitting: Obtain necessary regulatory approvals and environmental clearances.",
+          "Engineering Design: Develop detailed technical specifications and construction plans.",
+          "Procurement: Source equipment and materials from qualified suppliers.",
+          "Construction: Build generation facilities and connection infrastructure.",
+          "Commissioning: Test and verify proper operation of all systems.",
+          "Operation: Maintain and optimize system performance over project lifetime."
+        ],
+        "kpis": [
+          {
+            "name": "Renewable Energy Percentage",
+            "definition": "Proportion of energy generated from renewable sources compared to total energy production.",
+            "measurementExample": "Track monthly renewable generation vs. total energy output.",
+            "benchmarks": {
+              "baseline": "Global average of 26% renewable electricity (2018)",
+              "goodPerformance": "50-70% renewable penetration with grid stability",
+              "excellentPerformance": ">80% renewable penetration with adequate storage/balancing"
+            }
+          },
+          {
+            "name": "Carbon Emission Reduction",
+            "definition": "Reduction in greenhouse gas emissions from energy generation and consumption.",
+            "measurementExample": "Compare baseline emissions with post-implementation measurements.",
+            "benchmarks": {
+              "baseline": "Global average of 475 gCO2/kWh for electricity generation",
+              "goodPerformance": "200-300 gCO2/kWh",
+              "excellentPerformance": "<100 gCO2/kWh"
+            }
+          },
+          {
+            "name": "Levelized Cost of Energy (LCOE)",
+            "definition": "Total lifetime cost of building and operating a generating asset divided by total energy production.",
+            "measurementExample": "Calculate all costs including capital, operations, maintenance, and financing over project lifetime.",
+            "benchmarks": {
+              "baseline": "Varies by market and technology",
+              "goodPerformance": "At or below grid parity with conventional sources",
+              "excellentPerformance": "Lower than conventional generation without subsidies"
+            }
+          }
+        ],
+        "targets": [
+          "Increase renewable energy capacity by 30% within 5 years",
+          "Reduce carbon emissions from energy production by 40% by 2030",
+          "Improve energy efficiency in buildings and industrial processes by 25%",
+          "Achieve renewables cost parity with conventional generation in all major markets",
+          "Deploy 500 MW of energy storage capacity to support renewable integration"
+        ]
+      },
+      {
+        "id": "energy-2",
+        "name": "Smart Grid Development",
+        "description": "Implement intelligent energy distribution networks that optimize energy flow, reduce waste, and accommodate diverse energy sources.",
+        "technicalDetails": {
+          "advancedMetering": {
+            "communicationTypes": [
+              "RF Mesh",
+              "Power Line Carrier",
+              "Cellular",
+              "Wi-Fi"
+            ],
+            "dataRates": "15-minute to hourly interval data typical",
+            "functions": [
+              "Remote disconnect",
+              "Outage detection",
+              "Tamper detection",
+              "Power quality monitoring"
+            ]
+          },
+          "distributionAutomation": {
+            "devices": [
+              "Reclosers",
+              "Sectionalizers",
+              "Capacitor banks",
+              "Voltage regulators"
+            ],
+            "controlStrategies": [
+              "Local intelligence",
+              "Centralized control",
+              "Distributed intelligence"
+            ],
+            "communicationRequirements": "Low latency (<100ms) for protection functions"
+          },
+          "demandResponseSystems": {
+            "programTypes": [
+              "Direct load control",
+              "Price-based programs",
+              "Behavioral programs"
+            ],
+            "endpointControl": [
+              "Smart thermostats",
+              "Water heater controls",
+              "Industrial process management"
+            ],
+            "notificationMethods": [
+              "Text messages",
+              "Email alerts",
+              "In-home displays",
+              "Mobile apps"
+            ]
+          }
+        },
+        "implementationSteps": [
+          "Grid Assessment: Evaluate current infrastructure capabilities and limitations.",
+          "Architecture Design: Develop technical architecture for communications and control systems.",
+          "Pilot Deployment: Implement technology in limited areas to validate performance.",
+          "Data Management Planning: Establish systems for handling increased volume of operational data.",
+          "Cybersecurity Implementation: Deploy protections for critical grid infrastructure.",
+          "Full-Scale Rollout: Systematic deployment across service territory.",
+          "Customer Engagement: Educate consumers on new capabilities and benefits.",
+          "Continuous Optimization: Refine algorithms and operations based on performance data."
+        ],
+        "kpis": [
+          {
+            "name": "Grid Reliability Index",
+            "definition": "Measure of system uptime and resilience against outages.",
+            "measurementExample": "Calculate frequency and duration of service interruptions.",
+            "benchmarks": {
+              "baseline": "Industry average SAIDI of 120 minutes per year",
+              "goodPerformance": "SAIDI < 90 minutes per year",
+              "excellentPerformance": "SAIDI < 60 minutes per year"
+            }
+          },
+          {
+            "name": "Energy Distribution Efficiency",
+            "definition": "Percentage of energy successfully delivered compared to energy input.",
+            "measurementExample": "Monitor transmission losses across the distribution network.",
+            "benchmarks": {
+              "baseline": "Global average distribution losses of 8-10%",
+              "goodPerformance": "5-7% losses",
+              "excellentPerformance": "<5% losses"
+            }
+          }
+        ],
+        "targets": [
+          "Deploy smart meters to 80% of consumers by 2025",
+          "Reduce energy distribution losses to less than 5%",
+          "Enable bidirectional energy flow for prosumer integration",
+          "Implement automated outage detection and restoration for 90% of customers",
+          "Establish demand response capability for 20% of peak load reduction"
+        ]
+      },
+      {
+        "id": "energy-3",
+        "name": "Energy Access Expansion",
+        "description": "Extend reliable energy services to underserved communities, supporting economic development and quality of life improvements.",
+        "technicalDetails": {
+          "offGridSolutions": {
+            "solarHome": {
+              "typicalSizes": "20W-500W per household",
+              "components": [
+                "PV modules",
+                "Battery storage",
+                "Charge controller",
+                "DC appliances",
+                "AC inverter (optional)"
+              ],
+              "paymentModels": [
+                "Pay-as-you-go",
+                "Microfinance",
+                "Direct purchase",
+                "Subsidized programs"
+              ]
+            },
+            "miniGrids": {
+              "generationSources": [
+                "Solar PV",
+                "Small hydro",
+                "Biomass",
+                "Diesel/hybrid"
+              ],
+              "storageOptions": [
+                "Lead-acid batteries",
+                "Lithium-ion",
+                "Flow batteries"
+              ],
+              "distributionTypes": [
+                "Low voltage DC",
+                "AC single phase",
+                "AC three phase"
+              ],
+              "managementSystems": [
+                "Pre-payment meters",
+                "Load limiters",
+                "Remote monitoring"
+              ]
+            }
+          },
+          "gridExtension": {
+            "distributionTypes": [
+              "Medium voltage feeders",
+              "Low voltage reticulation"
+            ],
+            "connectionStandards": [
+              "Ready-board systems",
+              "Pre-paid meters",
+              "Limited load connections"
+            ],
+            "constructionApproaches": [
+              "Conventional",
+              "Shield wire systems",
+              "Single wire earth return (SWER)"
+            ]
+          }
+        },
+        "implementationSteps": [
+          "Community Assessment: Evaluate energy needs, resources, and socioeconomic conditions.",
+          "Technology Selection: Identify appropriate technical solutions based on local context.",
+          "Financing Arrangement: Develop sustainable funding mechanisms and payment structures.",
+          "Supply Chain Development: Establish local procurement and maintenance capabilities.",
+          "Installation: Deploy physical infrastructure with community participation.",
+          "Capacity Building: Train local technicians and users on system operation and maintenance.",
+          "Monitoring: Implement systems to track performance and usage patterns.",
+          "Scaling: Expand successful models to additional communities."
+        ],
+        "kpis": [
+          {
+            "name": "Access Coverage Rate",
+            "definition": "Percentage of population with reliable access to electricity.",
+            "measurementExample": "Survey household connection rates across different regions.",
+            "benchmarks": {
+              "baseline": "Global average of 89% electricity access (2017)",
+              "goodPerformance": "95-98% access rate",
+              "excellentPerformance": ">99% access rate"
+            }
+          },
+          {
+            "name": "Energy Affordability Index",
+            "definition": "Measure of energy cost as a proportion of household income.",
+            "measurementExample": "Track energy expenditure relative to income levels.",
+            "benchmarks": {
+              "baseline": "Energy costs <10% of household income considered affordable",
+              "goodPerformance": "Energy costs <6% of household income",
+              "excellentPerformance": "Energy costs <3% of household income"
+            }
+          }
+        ],
+        "targets": [
+          "Achieve 100% electrification rate in target communities",
+          "Ensure energy costs remain below 10% of low-income household budgets",
+          "Deploy at least 50 community microgrids in remote areas",
+          "Establish local maintenance capabilities within 30 minutes travel of all systems",
+          "Enable at least 500 new small businesses through productive use of electricity"
+        ]
+      },
+      {
+        "id": "energy-4",
+        "name": "Energy Storage Implementation",
+        "description": "Deploy various energy storage technologies to enhance grid stability, enable higher renewable penetration, and provide backup power capabilities.",
+        "technicalDetails": {
+          "batteryStorage": {
+            "chemistries": [
+              "Lithium-ion (LFP, NMC, NCA)",
+              "Flow batteries (Vanadium, Zinc-Bromine)",
+              "Lead-acid",
+              "Sodium-sulfur"
+            ],
+            "applications": [
+              "Frequency regulation",
+              "Peak shaving",
+              "Renewable smoothing",
+              "Backup power"
+            ],
+            "installationTypes": [
+              "Utility-scale",
+              "Commercial/industrial",
+              "Residential",
+              "Microgrid"
+            ],
+            "controlSystems": [
+              "Battery management systems",
+              "Energy management systems",
+              "Grid integration controls"
+            ]
+          },
+          "mechanicalStorage": {
+            "technologies": ["Pumped hydro", "Compressed air", "Flywheel"],
+            "siteRequirements": [
+              "Elevation difference for pumped hydro",
+              "Suitable geology for CAES",
+              "Reinforced foundations for flywheels"
+            ],
+            "responseCharacteristics": [
+              "Response times",
+              "Ramp rates",
+              "Efficiency factors"
+            ]
+          },
+          "thermalStorage": {
+            "methods": [
+              "Molten salt",
+              "Chilled water",
+              "Ice storage",
+              "Steam accumulators"
+            ],
+            "applications": [
+              "Concentrated solar power",
+              "District heating/cooling",
+              "Industrial process heat"
+            ],
+            "integrationApproaches": [
+              "Direct thermal use",
+              "Conversion to electricity",
+              "Combined heat and power"
+            ]
+          }
+        },
+        "implementationSteps": [
+          "Needs Assessment: Determine storage applications and requirements based on system analysis.",
+          "Technology Selection: Evaluate options based on technical requirements and economic factors.",
+          "System Design: Develop detailed specifications including capacity, power rating, and controls.",
+          "Permitting: Obtain necessary approvals addressing safety, environmental, and grid connection requirements.",
+          "Procurement: Source equipment from qualified manufacturers with appropriate warranties.",
+          "Installation: Construct facility including all balance of system components.",
+          "Grid Integration: Connect to electrical systems with appropriate protection and control interfaces.",
+          "Commissioning: Test all functions and verify performance against specifications."
+        ],
+        "kpis": [
+          {
+            "name": "Round-Trip Efficiency",
+            "definition": "Percentage of energy retrieved from storage compared to energy input.",
+            "measurementExample": "Measure energy input and output over complete charge/discharge cycles.",
+            "benchmarks": {
+              "baseline": "Varies by technology (70-95%)",
+              "goodPerformance": "80-90% efficiency",
+              "excellentPerformance": ">90% efficiency"
+            }
+          },
+          {
+            "name": "Response Time",
+            "definition": "Speed at which storage system can respond to control signals.",
+            "measurementExample": "Measure time from signal receipt to power output change.",
+            "benchmarks": {
+              "baseline": "Seconds to minutes depending on technology",
+              "goodPerformance": "<1 second for grid services",
+              "excellentPerformance": "Millisecond-level response for frequency regulation"
+            }
+          }
+        ],
+        "targets": [
+          "Deploy 500 MWh of battery storage within distribution networks",
+          "Achieve round-trip efficiency of at least 85% for all new storage installations",
+          "Enable 4-hour backup capacity for critical infrastructure",
+          "Reduce renewable curtailment by 80% through storage integration",
+          "Implement 15-minute rapid response capability across 90% of storage assets"
+        ]
+      }
+    ]
+  }

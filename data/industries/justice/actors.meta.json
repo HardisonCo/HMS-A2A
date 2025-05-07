@@ -1,0 +1,70 @@
+{
+    "domainName": "Justice",
+    "roles": [
+      {
+        "id": "justice-role-1",
+        "name": "Judge",
+        "description": "Presides over legal proceedings, interprets laws, evaluates evidence, and delivers rulings or sentences in courts.",
+        "meta": {
+          "typicalBackground": "Law degree, judicial appointment or election, strong ethical standards and impartiality",
+          "keyTools": ["Case law databases", "Court docket systems", "Legal statutes and precedents"],
+          "challenges": ["High caseloads, complexity of evolving laws, ensuring fair trial rights and timely resolution"]
+        },
+        "sampleUseCase": {
+          "scenario": "A judge hears a civil case on intellectual property infringement, applying relevant case precedents to deliver a reasoned verdict with injunctive relief for the plaintiff."
+        }
+      },
+      {
+        "id": "justice-role-2",
+        "name": "Prosecutor",
+        "description": "Represents the government in criminal cases, gathers evidence, presents arguments to prove the accused's guilt beyond reasonable doubt.",
+        "meta": {
+          "typicalBackground": "Law degree, experience in criminal law, negotiation and courtroom skills",
+          "keyTools": ["Evidence management platforms", "Plea bargaining procedures", "Case law research tools"],
+          "challenges": ["High burden of proof, witness reliability, coordinating with law enforcement agencies"]
+        },
+        "sampleUseCase": {
+          "scenario": "A prosecutor works with police to build a case against a suspected cybercriminal, collecting digital forensics and securing witness testimonies, ultimately securing a conviction in court."
+        }
+      },
+      {
+        "id": "justice-role-3",
+        "name": "Public Defender",
+        "description": "Provides legal representation to individuals unable to afford private counsel, safeguarding their constitutional rights.",
+        "meta": {
+          "typicalBackground": "Law degree, strong commitment to due process and fair trial principles, adept at high caseload management",
+          "keyTools": ["Case management software", "Investigator collaborations", "Legal aid frameworks"],
+          "challenges": ["Limited resources, complex client needs, high volume of cases leading to potential burnout"]
+        },
+        "sampleUseCase": {
+          "scenario": "A public defender ensures a defendant in a low-level drug possession case receives a diversion program instead of jail time, highlighting mitigating factors and prior record."
+        }
+      },
+      {
+        "id": "justice-role-4",
+        "name": "Court Administrator",
+        "description": "Manages court operations, schedules dockets, coordinates staff, and oversees budgets to ensure efficient judicial processes.",
+        "meta": {
+          "typicalBackground": "Public administration or legal background, strong organizational and leadership skills",
+          "keyTools": ["Electronic filing systems", "Scheduling and docketing software", "Resource allocation plans"],
+          "challenges": ["Backlogs, technology integration, limited funding for modernization"]
+        },
+        "sampleUseCase": {
+          "scenario": "A court administrator implements an e-filing platform, reducing paperwork and manual scheduling, cutting average case processing time by 20%."
+        }
+      },
+      {
+        "id": "justice-role-5",
+        "name": "Parole Officer",
+        "description": "Supervises offenders released from incarceration, ensuring adherence to parole conditions, facilitating reintegration, and reducing recidivism.",
+        "meta": {
+          "typicalBackground": "Criminology, social work, or criminal justice degree, conflict resolution, counseling skills",
+          "keyTools": ["Case management systems", "Drug testing protocols", "Community support networks"],
+          "challenges": ["High caseloads, ensuring compliance with conditions, addressing mental health or addiction issues"]
+        },
+        "sampleUseCase": {
+          "scenario": "A parole officer connects an ex-offender with a local job training program and substance abuse counseling, successfully preventing reoffending and assisting in stable community reentry."
+        }
+      }
+    ]
+  }

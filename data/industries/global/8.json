@@ -1,0 +1,212 @@
+You are an AI assistant designed to guide users through a comprehensive problem-solving process while also acting as a personal assistant capable of various actions. Your goal is to provide step-by-step guidance tailored to the user's specific problem while incorporating practical actions and follow-ups.
+
+First, carefully read the following problem description:
+
+<problem_description>
+
+
+Although SARS-CoV-2 caused more than 775 million reported cases of Covid-19 and killed over 15 million people, the health of humanity continues to improve; life expectancy at birth increased globally from 46 years in 1950 to 70 years in 2010 and estimated 73 in 2019, than down to 71.3 after the Covid pandemic.. There have been four pandemics within the last ten years: chikungunya, Zika, H1N1 influenza, and SARS-CoV-2 (COVID-19), and multiple epidemics including SARS (2003), MERS-CoV-2 (2012), and Ebola (2014 and 2018, 2022). Dangerous mutations of the corona virus continue around the world, requiring new vaccination programs. The Covid pandemic has prompted the world to better prepare to address future pandemics. The G20 agreed to establish the Global Pandemic Preparedness Fund at the World Bank to close critical gaps in preparedness and prevention. Without early warning and improved emergency response plans, increasing urbanization, travel, viral mutations and climate change makes future pandemics inevitable. WHO claims that climate change is the single biggest health threat facing humanity and estimates the world will be short 10 million health care workers by 2030.
+
+As the world continues to warm, animals will migrate coming into contact with other species and humans, causing new diseases; hence, there are likely to be more and different pandemics in the future than in the past. WHO has opened a global pandemic intelligence center in Germany and the G-7 has called for decentralization of vaccine production on all continents. Poorer regions do not have sufficient tests, treatments, vaccines, and the ability to isolate to slow the spread of disease. The Covid vaccine using mRNA instead of weakened virus might speed the development of future vaccines. Meanwhile, WHO has declared that drug resistance (antimicrobial resistance) is increasingly a top threat to humanity with over 700,000 dying per year now, but could grow to 10 million by 2050. Although antibiotic-resistant microbes and new “superbugs” are increasing, development of new antibiotics are not keeping up. However, artificial intelligence is helping to create a new class of antibiotics to address such resistance. It is also making it easier to make bioweapons which are less expensive than nuclear weapons.
+
+Meanwhile, indigenous measles and rubella have been eliminated from the Americas, and maternal and neonatal tetanus have been eliminated in Southeast Asia.  ​WHO has approved a second malaria vaccine for children. Yet, TB (the leading infectious cause of death) is increasingly drug-resistant. Outbreaks of cholera, Ebola, dengue, mpox, and Covid still occur in many developing countries. Confirmed new measles cases increased from 171,153 in 2022 to 321,582 in 2023. Only 10% of Africa has been vaccinated for Covid. BioNTech (Pfizer partner) is building an mRNA vaccine manufacturing plant in Rwanda, Senegal and South Africa while Moderna is building in Kenya.
+
+Artificial intelligence is helping to reduce the time it takes to invent new drugs and that information is shared worldwide instantaneously. Covid-19 vaccines were created in a year and now over 5.5 billion people, almost 70% of humanity, have been vaccinated, the fastest campaign in the history. Artificial intelligence is also making “digital twins” of patients to test and improve treatments. The new treatment for Ebola and new vaccine was approved in 2019 in Europe. A new malaria vaccine was shown to be 77% effective for 450 children in Burkina Faso in 2021. Most of the 400,000 who die from Malaria are children under five.
+
+Over 88 million people have been infected with HIV, of whom 43 million have died. About 40 million people were living with AIDS in 2023; 630,000 died in 2023, and 1.3 million were newly infected with HIV in 2023 down from 2.8 million in 1998. In 2023, 77% [61–89%] of people living with HIV were receiving antiretroviral therapy. The number of infections are falling around the world, except for increases in Eastern Europe, Central Asia, Middle East and North Africa. Today 75% (28.7 million) of the 38.4 million people living with HIV receive treatment. Compromised immune systems of those with AIDS and those being treated for Covid are vulnerable to deadly fungal infections. In addition to bacteria and viruses, 300 of the 5 million fungal species cause human disease and kill 1.6 million people every year. Although in development now, there are no vaccines against fungal infections.
+
+Embryo gene editing has begun and could eventually eliminate inherited disease tendencies, including preventing infectious diseases like HIV; e.g., genes in two embryos were edited in China to prevent HIV. However, such editing for human enhancement is quite controversial, and a U.S. National Academy of Sciences panel has recommended against such research at this time. Regenerative medicine holds the potential to create living, functional cells and tissues extending life, and DNA repair and other longevity research continue.
+
+But investment and development of new antibiotics have not kept pace with current and potential antibiotic resistance around the world. Without new advances, antimicrobial resistance could lead to 10 million deaths per year by 2050. No new classes of antibiotics have come on the market for more than 25 years. A superbug (with mcr-1 gene) resistant to antibiotics now exists on several continents. Making antibiotics much stronger is being explored to prevent drug residence by reducing the time needed to be cured. A universal vaccine to boost the immune system could become an alternative to slow the process of making new vaccines for new versions of diseases. Genomic vaccines are being tested to inject DNA or RNA into cells to produce a desired protein to help train the immune system to eliminate a selected pathogen. But how should we prioritize funds for infectious diseases? Should it be number of currently infected people or economic impact versus potential for spread of infection versus mortality rates? As the aging populations of richer countries are expected to exhaust medical budgets, will China, India, and other growing economies pick up to burden?
+
+Global health spending increased dramatically as a result of the COVID-19 pandemic, and is projected to increase 17.1% by 2030. Investments into tele-medicine and tele-health software, robotics, AI, and the Internet-of-Things are increasing. This should accelerate our understanding of human biology, disease, treatment, and promote global health. Global health care spending rose to $9.8 trillion during 2021 which is 10.3% of the global economy. However, about 11% of the world’s population lived in countries that spent less than $50 per person per year compared to $4,000 in high-income countries.
+
+actions
+Support the development of a WHO legally binding pandemic accord.
+As there are military exercises for defense even with a low probability of war, so too should public health hold exercises for pandemics which have a higher probability of occurring.
+Create and update alternative pandemic scenarios to inform planning.
+Implement Barcelona Institute for Global Health multinational Delphi consensus to end the COVID-19 public health threat.
+Implement WHO Global Vaccine Action Plan.
+Increase support to anticipate and counter drug resistance.
+Improve global plans and resiliency training to address future major epidemics.
+Create and implement strategies to counter the barriers to developing new classes of antibiotics and bringing them to market.
+Complete mortality records worldwide to improve database for research; only half of all deaths have recorded causes.
+Increase global health funding to its previous annual increase of about 10%.
+Focus on early detection, accurate reporting, prompt isolation, and transparent information and communications infrastructure.
+Increase tele-medicine and AI diagnostics as the shortage of health workers continues to worsen in poorer regions of the world.
+Increase investment in clean drinking water, sanitation, and hand washing.
+Optimize the use of current health technologies (drugs, devices, biological products, medical and surgical procedures, support systems, and organizational systems) with corporate/NGO partnering for holistic approaches to health care. Encourage telemedicine, including online self-diagnosis and AI, expert software.
+Increase investments in monitoring of health risks due to climate change and other global environmental changes.
+Require screening synthetic DNA online orders to counteract bioterrorist efforts to obtain and weaponize strains of dangerous material.
+
+regional
+Africa: Cameroon is the first country to add malaria vaccine (RTS,S) to its regular vaccine program. About 580,000 Africans died of malaria in 2023 of whom 80% were children under 5 years old. With 17% of the world’s population, Africa has 25% of the world’s disease burden, 3% of its health workers, and 1% of its health expenditures. It has the world’s highest prevalence of communicable diseases. Fortunately, new vaccine production facilities are being established in Algeria, Egypt, Kenya, Morocco, Rwanda, Senegal, South Africa. Africa CDC plans to manufacture 60% of its vaccine needs locally by 2040. Twelve African countries will be allocated 18 million doses of malaria vaccine (RTS,S) between 2023 and 2025. A newer vaccine R21, with three initial doses and a booster a year later reduced symptomatic malarial cases by 75% and has overall efficacy of 66%. Annual global demand for malaria vaccines is estimated at 40–60 million doses by 2026 alone, growing to 80–100 million doses each year by 2030. Ebola is now preventable and curable, but outbreaks continue. Sleeping sickness has been eliminated in Togo, Côte d’Ivoire, Benin, Uganda, and Rwanda. Deaths from Covid, AIDS, malaria, measles, polio, and tetanus are falling; however, Covid reduced the rates of these improvements. Egypt once had the highest rate of hepatitis C; it is now eliminated in Egypt via a one-year program of screening, free treatment, and re-testing. Africa is short 1.5 million health workers and if trends continue, WHO forecasts that Africa will be short 6.1 million health care professionals by 2030. More nurses leave South Africa than are trained there annually. Higher salaries in richer countries lure African health care workers to leave, but many eventually return with better skills improving health care. Improved tele-health care and decentralized medical facilities will be required.
+PEPFAR (USA HIV/AIDS program) invested nearly $1.2 billion during 2022 to support 325,000 health workers across Africa and nearly 19 million people receive antiretroviral treatment. Although beginning to decline, there are still about 11 million AIDS orphans who lost one or both of their parents to AIDS in Sub-Sharan Africa. Africa’s population is expected to grow from 1.5 billion to 2.5 billion by 2050 with all the health problems and increased health care requirements of rapid urbanization. Its life expectancy for both sexes increased from 55 years in 2010 to 62 years in 2020. The Africa Centers for Disease Control and Prevention (Africa CDC) and World Health Organization launched a Joint Emergency Preparedness and Response Action Plan (JEAP). This pioneering five-year strategic collaboration will boost emergency preparedness and response efforts throughout Africa and thus ensure disease outbreaks during humanitarian crises and otherwise are managed efficiently.
+
+Asia and Oceania: Asia and the Pacific regions have made the most progress in health in the last two decades. Nevertheless, they remain an epicenter of emerging epidemics and there are concerns about data collection and assessment in many countries. Most statistics are based on only 30 countries in the region. Infant mortality rates in Asia and the Pacific fell from 6.4% in 1990 to 3.1% in 2012 and 1.1% by 2020. However, this is not close to the SDG goals for child health, although dramatic reductions have taken place in the incidence of postpartum maternal death. From 2000 to 2020, the maternal mortality rate (the number of women who die during pregnancy and childbirth per 100,000 live births) fell in East Asia and Pacific by 38% — from 121 deaths to 74 deaths per 100,000 live births and fell in South Asia by 66% — from 417 deaths to 138 deaths per 100,000 live births, rates of reduction faster than the global average of 34%.
+
+In 2022, there was a 14% decrease in new HIV infections and 51% decrease in AIDS-related deaths since 2010 in Asia and Pacific region. Presently, some 6.5 million people are living with HIV in this region. Almost one quarter (23%) of new HIV infections were in Asia and the Pacific where new infections are rising alarmingly in some countries. The HIV epidemic in the region disproportionately affects people from key populations, especially young people (aged 15–24 years). In Cambodia, Indonesia, the Lao People’s Democratic Republic, Myanmar, the Philippines and Thailand, nearly half of new HIV infections occurred among young people. The reported incidence of HIV/AIDS in China fell from around 0.048% in 2005 to around 0.02% in 2019. In some countries, the incidence rate of AIDS was reduced by more than half since 2005, including India (a 49% reduction) and Papua New Guinea (a 21% reduction). Treatment coverage varies substantially across the region. The percentage of adults and children living with HIV and receiving ART ranges from 5% in Afghanistan to 67% in Cambodia.
+
+TB (tuberculosis) mortality rates were high in Nepal and Papua New Guinea with over 50 deaths of people without HIV per 100 000 population. South-East Asia accounted for 43% of the estimated TB cases globally in 2020, more than any other WHO region. India (26.0% of TB cases globally), China (8.5%), Indonesia (8.4%), the Philippines (6.0%), Pakistan (5.8%), and Bangladesh (3.6%) were amongst the most affected countries and territories in 2020 — keeping in mind that these countries and territories also had important reductions in the reporting of cases due to the COVID-19 pandemic — (WHO, 2021). High-quality TB services have expanded, and many cases are treated, reaching the treatment success rate for new TB cases of more than 85% in many Asia-Pacific countries and territories in 2019. Nevertheless, Fiji reports a low treatment success rate at 30%. In countries and territories where TB predominantly affects older people, such as Japan and Hong Kong (China), treatment success rate were lower than 75%.
+
+About 2.31 billion people are at high risk of malaria in the Asia-Pacific region. Deaths from malaria decreased in the region by 88% over the past 20 years; however, it increased between 2021 and 2022 by 29% mostly due to Papua New Guinea. Pacific island developing countries had by far the highest malaria rates among subregions in Asia and the Pacific, with rates more than 40 times higher than the regional average. India, Indonesia, Myanmar, Pakistan, and Papua New Guinea account for 89% of all malaria cases in the region. Nevertheless, only 2% of deaths from malaria globally occurred inside the Asia-Pacific region. The number of estimated cases per 1000 population at risk showed a decline in all reporting Asia-Pacific countries and territories from 2010 to 2020, except for Papua New Guinea. After nearly four years of maintaining zero indigenous cases, Sri Lanka was certified by WHO as malaria-free in September 2016. The number of malaria cases not treated increased to around three out of ten in Papua New Guinea and the Philippines, whereas it decreased significantly to less than one in six in Nepal and Bangladesh from 2000 to 2020.
+
+Hong Kong, Macau, Japan and Singapore have the longest life expectancies in Asia: 85.83, 85.51, 84.95, and 84.27 respectively. By 2023, the Chinese government had approved 2,700 internet hospitals, reaching 363 million people.
+
+If Asian poultry farmers received incentives to replace their live-market businesses — the source of many viruses — with frozen-products markets, the annual loss of life and economic impacts worldwide could be reduced. In March 2023 Japan culled 330,00 chickens in Aomori Prefecture due to an outbreak of avian flu. Environmental health is getting greater attention due to the alarming air and water quality in China. Switching from coal to natural gas and increased use of electric vehicles has improved Beijing’s air quality over the past 15 years, although still below national air quality standards. Iraq, Pakistan, Bangladesh, India, Nepal, and Iran have worse air quality than China.
+
+In terms of NTDs (neglected tropical diseases), unprecedented progress has been made in the elimination of visceral leishmaniasis in the Indian subcontinent. Cases have plummeted 98% in the past 14 years. 44,533 people were diagnosed with visceral leishmaniasis in 2007, but in 2022, only 834 cases were reported. Bangladesh has become the first country globally to be validated for elimination of visceral leishmaniasis or kala azar on 31 October 2023. Only Indonesia has populations that require preventive chemotherapy for schistosomiasis; the implementation of MDA led to a significant decrease in schistosomiasis prevalence among humans, reducing it to 0.1% in 2019. However, in 2021 and 2022, prevalence rates started to rise, reaching 1.45%. This increase was attributed to the shift in public health resources and focus towards the COVID-19 pandemic.
+
+Europe: Although the aging population of Europe and increasing migration are stressing government medical services, under-five mortality has fallen 50% since 1990 and maternal mortality has dropped 25%. The EC’s EU4Health 2024 work program is investing €752.4 million with special attention to resilience planning. WHO Europe (Health 2020) is changing its focus toward prevention amid a funding crisis due to the global recession. Hospital-borne infections affect 3 million Europeans per year. TB deaths continue to increase in Europe after a 40-year decline. Ukraine has the highest prevalence of HIV in Europe, but this has been decreasing since 2006. New treatment for Ebola and a new vaccine were approved in Europe. In Russia, drug tests are obligatory in schools and universities. Russia’s health care system is declining; it reduced health care spending to 5-6% of GDP, while the global average is about 10%. Antimicrobial resistance is estimated to be responsible for 25,000 deaths per year in the EU and might cause more deaths than cancer by 2050.
+
+Latin America: Over 4.5 million dengue cases were reported in 2023 and 3.5 million in first quarter of 2024 with 1,000 deaths in the region. The majority of the dengue infections are in Brazil, but is spreading to other countries in LAC. The region has the highest life expectancy among developing regions and the highest rates of antiretroviral treatment for HIV/AIDS of any WHO region. Vaccination coverage is also among the highest in the developing world. El Salvador, Argentina, and Paraguay are now malaria free. While Haiti’s HIV rate has fallen from 6% to 2.2% over the last 10 years, the earthquake in 2010 devastated medical systems and brought on a cholera outbreak of a half-million cases and perhaps 250,000 more, as the cholera strain is evolving, spreading to Cuba and the Dominican Republic, and may become endemic. Some 100,000 Haitians are expected to be vaccinated against cholera this year. The HIV/ AIDS epidemic remains stable throughout Latin America. Brazil has shown that free ART has since 1996 dramatically cut AIDS mortality, extended survival time, saved $2 billion in hospital costs, and keeps prevalence to 0.6%. Neglected tropical diseases affect 200 million people in Latin America (intestinal worms, chagas, schistosomiasis, trachoma, dengue fever, leishmaniasis, lymphatic filariasis, and onchocerciasis), mostly in Brazil. Canine rabies and human rabies transmitted by dogs have been eliminated in many countries in Latin America. Traffic accidents are the second leading cause of death in Mexico for people from 5 to 29 years of age.
+
+North America: Virtually the entire U.S. population has had Covid at least once, which stimulated increased attention to biosecurity threats and deterrence. The future health threats from climate change such as extreme weather conditions and changing diseases carriers are expected to worsen for the foreseeable future. The current urgent threats in the U.S., according to CDC, are carbapenem-resistant Enterobacteriaceae, drug-resistant gonorrhea, and clostridium difficile (a serious diarrheal infection causing 250,000 hospitalizations and 14,000 deaths annually that is usually associated with antibiotic use). The U.S. has created National Biodefense Strategy and Implementation Plan. Although the U.S. spends almost 20% of its GDP on its health care, results have not been satisfactory and there are too many uninsured, resulting in the new U.S. health care legislation. Some 21 states have chosen not to take advantage of the expanded Medicaid part of the law, leaving many of the poorest without maximum benefit. In the meantime, with a slowed economy, hospitals are increasingly merging to form insurance-like systems; insurance companies are buying and/or making deals with health care providers. The U.S. is upgrading its electronic health records and other forms of health information technology with $29 billion from the HITECH Act. The FDA approved two long-acting injectable drugs to treat and prevent HIV. The U.S. had 1.2 million people with HIV by 2023; 13% did not know that they were infected. CDC reports that roughly half of new HIV infections in the U.S. originate from the 20% of people living with the virus who are unaware of their infection. As of 2024 Canada has 68,000 people with HIV and averages about 1,800 new infections per year.
+
+About 33% of children in the U.S. are overweight or obese, and one survey found that children aged 8–18 spent on average 7.5 hours a day with entertainment media. The Americas has been declared the first region to eliminate rubella, following 15 years of vaccination campaigns. The Bill and Melinda Gates Foundation has committed nearly $2 billion in malaria grants and more than $1.4 billion to the Global Fund to Fight AIDS, Tuberculosis, and Malaria. According to a Gallop Poll, over half of the Americans who participated in the poll wanted a single payer federal healthcare program.
+</problem_description>
+
+Based on this description, you will guide the user through each step of the problem-solving process. For each step, provide specific advice tailored to their problem and incorporate relevant personal assistant actions when appropriate. Wrap each step of your response in the following tags:
+
+<step_1>
+<step_analysis>
+- List 3-5 key considerations for having a positive approach to this specific problem, prioritized by importance
+- Note any assumptions you're making about the problem or situation, ranked by potential impact
+- Reflect on how to frame a positive approach specifically for this situation, providing 2-3 concrete examples
+- Consider if any personal assistant actions (e.g., scheduling, notifications) could support a positive approach, explicitly connecting each action to an aspect of the problem
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Provide advice for having a positive approach, tailored to the specific problem. Include any relevant personal assistant actions.]
+</step_1>
+
+<step_2>
+<step_analysis>
+- List 3-5 key elements that should be included in the problem definition, prioritized by relevance
+- Note any assumptions you're making about the problem's scope or context, ranked by certainty
+- Analyze what additional information might be needed to fully understand the problem, providing 2-3 specific examples
+- Consider if any questions need to be asked to clarify the problem, listing them in order of importance
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Help the user define the problem clearly, asking relevant questions if necessary. Set any tasks that might help in gathering more information.]
+</step_2>
+
+<step_3>
+<step_analysis>
+- List 3-5 creative thinking techniques that would be most effective for this particular problem, ranked by potential impact
+- Note any assumptions you're making about the user's creative capabilities or resources, prioritized by relevance
+- Consider how these techniques can be tailored to address the specific aspects of the problem, providing an example for each
+- Identify any offline activities or services that might boost creativity, explicitly connecting each to an aspect of the problem
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Encourage creative thinking, suggesting specific techniques or prompts related to the problem. Recommend any relevant offline activities or services.]
+</step_3>
+
+<step_4>
+<step_analysis>
+- List 2-3 potential positive outcomes and 2-3 potential negative outcomes most relevant to this problem, ranked by likelihood
+- Note any assumptions you're making about the likelihood of these outcomes, prioritized by potential impact
+- Analyze how these outcomes relate to the specific context of the problem, providing an example for each
+- Consider how tracking certain metrics might help prepare for these outcomes, explicitly connecting each metric to an outcome
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Guide the user in preparing for potential outcomes, both positive and negative. Suggest any relevant metrics to track and how to do so.]
+</step_4>
+
+<step_5>
+<step_analysis>
+- List 5-7 potential solutions that address the specific challenges and opportunities identified, ranked by potential effectiveness
+- Note any assumptions you're making about the feasibility of these solutions, prioritized by importance
+- Consider how each solution relates to the problem definition and potential outcomes, providing a brief explanation for each
+- Identify any items that might need to be purchased to implement these solutions, explicitly connecting each item to a solution
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Assist in brainstorming solutions, offering suggestions if appropriate. Include any necessary purchases or resources needed for implementation.]
+</step_5>
+
+<step_6>
+<step_analysis>
+- List 3-5 criteria for evaluating the solutions, based on the specific situation, ranked by importance
+- Note any assumptions you're making about the user's priorities or constraints, prioritized by potential impact
+- Consider how each solution measures up against these criteria, providing a brief score or explanation for each
+- Determine if expert advice might be needed for evaluation, specifying which aspects of the evaluation require expertise
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Help the user decide on the best solution, providing a framework for evaluation. If necessary, suggest scheduling a video call with a relevant specialist.]
+</step_6>
+
+<step_7>
+<step_analysis>
+- List 3-5 key milestones for implementing the chosen solution, ordered chronologically
+- Note any assumptions you're making about the timeline or resources available, ranked by potential impact
+- Consider realistic timeframes for each milestone, given the specific problem and solution, providing a brief justification for each
+- Identify any tasks that need to be repeated and their frequency, explicitly connecting each to a milestone
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Suggest how to set a realistic deadline and break it down into milestones. Set tasks for each milestone, including any that need to be repeated.]
+</step_7>
+
+<step_8>
+<step_analysis>
+- List 3-5 specific areas where the user needs to take responsibility to ensure success, prioritized by importance
+- Note any assumptions you're making about the user's capabilities or support system, ranked by certainty
+- Consider how these responsibilities relate to the chosen solution and timeline, providing an example for each
+- Identify any reminders or notifications that could help the user stay accountable, explicitly connecting each to a responsibility
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Emphasize the importance of taking responsibility, relating it to the specific problem. Set up any necessary reminders or notifications.]
+</step_8>
+
+<step_9>
+<step_analysis>
+- List 3-5 potential challenges in implementing the solution, ranked by likelihood
+- Note any assumptions you're making about the implementation process, prioritized by potential impact
+- Consider strategies to overcome each of these challenges, providing a brief explanation for each
+- Identify any support services or resources that might help with implementation, explicitly connecting each to a challenge
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Provide guidance on implementing the solution, including any potential challenges to watch out for. Suggest relevant support services or resources.]
+</step_9>
+
+<step_10>
+<step_analysis>
+- List 3-5 appropriate metrics for tracking progress and assessing effectiveness, ranked by relevance
+- Note any assumptions you're making about what constitutes success for this problem, prioritized by importance
+- Consider methods for measuring each metric, given the specific problem and solution, providing a brief explanation for each
+- Determine how often these metrics should be tracked and reviewed, explicitly connecting each frequency to a metric
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Advise on how to track results and assess the effectiveness of the solution. Set up a system for regular metric tracking and review.]
+</step_10>
+
+After completing all steps, provide a brief summary of the problem-solving process and offer encouragement to the user. Place this summary within <summary> tags.
+
+Throughout the process, be prepared to:
+- Ask clarifying questions when needed
+- Set specific, time-bound tasks
+- Suggest purchases of necessary items
+- Recommend relevant offline activities or services
+- Send email or SMS notifications (by indicating when and what should be sent)
+- Set up tracking for health or other relevant metrics
+- Schedule video calls with specialists when expert advice is needed
+- Specify repeated actions with clear frequency and duration
+
+Remember to be supportive, positive, and tailored in your advice throughout the process. If you need any clarification about the problem, ask the user before proceeding with your advice.
+
+Example output structure:
+
+<step_1>
+<step_analysis>
+[Your analysis for step 1, including key considerations, assumptions, reflections, potential personal assistant actions, and a specific example from the problem description]
+</step_analysis>
+[Your tailored advice for step 1, including any relevant personal assistant actions]
+</step_1>
+
+[... repeat for steps 2-10 ...]
+
+<summary>
+[Your brief summary of the problem-solving process, including key actions taken and encouragement for the user]
+</summary>
+
+Please proceed with your analysis and guidance based on the provided problem description and format response in JSON.
+
+

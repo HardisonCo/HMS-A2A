@@ -1,0 +1,124 @@
+{
+  "theorems": [
+    {
+      "theorem_id": "E-01",
+      "natural_language": "WAR score is bounded between -100 and 100",
+      "formal_expression": "-100 ≤ warScore weights impacts drps ∧ warScore weights impacts drps ≤ 100",
+      "context": {
+        "domain": "economic_policy",
+        "model": "moneyball_buffett"
+      },
+      "assumptions": [
+        "∀ (i : Fin n), weights i > 0",
+        "(∑ i, weights i) = 1",
+        "∀ (i : Fin n), -100 ≤ impacts i ∧ impacts i ≤ 100",
+        "∀ (i : Fin n), drps i ≥ 0"
+      ],
+      "variables": {
+        "weights": "Fin n → ℝ",
+        "impacts": "Fin n → ℝ",
+        "drps": "Fin n → ℝ",
+        "n": "Nat"
+      },
+      "source_module": "EconomicFoundations.MoneyballTheorems",
+      "source_function": "war_score_bounded",
+      "priority": "P0"
+    },
+    {
+      "theorem_id": "E-02",
+      "natural_language": "DRP is a conservative estimate compared to raw sum of policy effects",
+      "formal_expression": "deficitReductionPotential baselineDeficit policyEffects buffettMargin ≥ baselineDeficit - rawReduction",
+      "context": {
+        "domain": "economic_policy",
+        "model": "moneyball_buffett"
+      },
+      "assumptions": [
+        "0 < buffettMargin ∧ buffettMargin ≤ 1",
+        "rawReduction := (∑ pe in policyEffects, pe.impact * pe.confidence * pe.implementation)"
+      ],
+      "variables": {
+        "baselineDeficit": "ℝ",
+        "policyEffects": "List PolicyEffect",
+        "buffettMargin": "ℝ",
+        "rawReduction": "ℝ"
+      },
+      "source_module": "EconomicFoundations.MoneyballTheorems",
+      "source_function": "drp_conservative",
+      "priority": "P0"
+    },
+    {
+      "theorem_id": "E-03",
+      "natural_language": "SPS is bounded between 0 and 100",
+      "formal_expression": "0 ≤ sectorPrioritizationScore deficitImpact jobCreation growthPotential implementationEase ∧ sectorPrioritizationScore deficitImpact jobCreation growthPotential implementationEase ≤ 100",
+      "context": {
+        "domain": "economic_policy",
+        "model": "moneyball_buffett"
+      },
+      "assumptions": [
+        "0 ≤ deficitImpact ∧ deficitImpact ≤ 100",
+        "0 ≤ jobCreation ∧ jobCreation ≤ 100",
+        "0 ≤ growthPotential ∧ growthPotential ≤ 100",
+        "0 ≤ implementationEase ∧ implementationEase ≤ 100"
+      ],
+      "variables": {
+        "deficitImpact": "ℝ",
+        "jobCreation": "ℝ",
+        "growthPotential": "ℝ",
+        "implementationEase": "ℝ"
+      },
+      "source_module": "EconomicFoundations.MoneyballTheorems",
+      "source_function": "sps_bounded",
+      "priority": "P1"
+    },
+    {
+      "theorem_id": "E-04",
+      "natural_language": "The weights in the SPS formula sum to 1.0",
+      "formal_expression": "0.4 + 0.3 + 0.2 + 0.1 = 1",
+      "context": {
+        "domain": "economic_policy",
+        "model": "moneyball_buffett"
+      },
+      "assumptions": [],
+      "variables": {},
+      "source_module": "EconomicFoundations.MoneyballTheorems",
+      "source_function": "sps_weights_sum_to_one",
+      "priority": "P3"
+    },
+    {
+      "theorem_id": "U-01",
+      "natural_language": "Utility represents preference if and only if a is weakly preferred to b precisely when the utility of a is ≥ the utility of b",
+      "formal_expression": "PreferenceRepresentedByUtility p u ↔ ∀ a b, p.weakPrefers a b ↔ u.value a ≥ u.value b",
+      "context": {
+        "domain": "utility_theory",
+        "model": "preference_representation"
+      },
+      "assumptions": [],
+      "variables": {
+        "α": "Type",
+        "p": "Preference α",
+        "u": "Utility α"
+      },
+      "source_module": "EconomicFoundations.UtilityTheory",
+      "source_function": "utility_represents_preference",
+      "priority": "P1"
+    },
+    {
+      "theorem_id": "M-02",
+      "natural_language": "Market clearing price results in zero excess demand and supply",
+      "formal_expression": "MarketClearingPrice s d p ↔ ExcessDemand s d p = 0",
+      "context": {
+        "domain": "market_equilibrium",
+        "model": "price_discovery"
+      },
+      "assumptions": [],
+      "variables": {
+        "s": "SupplyFunction",
+        "d": "DemandFunction",
+        "p": "ℝ"
+      },
+      "source_module": "EconomicFoundations.MarketEquilibrium",
+      "source_function": "market_clearing_zero_excess",
+      "priority": "P1"
+    }
+  ]
+}

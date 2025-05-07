@@ -1,0 +1,458 @@
+[
+  {
+    "id": 5,
+    "name": "Food",
+    "icon": "fas fa-utensils",
+    "description": "Food systems encompass the entire supply chain from agricultural production to consumer delivery, integrating traditional practices with digital innovations to ensure food safety, nutritional quality, and traceability. They support sustainability, responsible sourcing, and regulatory compliance while adapting to market trends and environmental challenges.",
+    "fullDescription": "Food systems manage the interplay between producers, processors, distributors, and consumers to provide safe, nutritious, and sustainable food. They address challenges such as climate change, supply chain disruptions, and population growth by adopting best practices in farming, processing, and distribution. Modern food systems incorporate advanced technologies like IoT sensors, blockchain traceability, and data analytics to reduce waste, enhance resource efficiency, and maintain safety standards (e.g., HACCP, ISO 22000). With growing consumer awareness of health and sustainability, these systems emphasize transparent sourcing, nutritional content, and eco-friendly practices. Collaboration among policymakers, industry leaders, and NGOs streamlines regulations and promotes equitable access to affordable, quality food—integral to public health and social equity.",
+    "statistics": [
+      {
+        "value": "33% food loss/waste",
+        "description": "An estimated one-third of all food produced is lost or wasted globally."
+      },
+      {
+        "value": "820 million undernourished",
+        "description": "Over 820 million people worldwide suffer from hunger or insufficient nutrition."
+      },
+      {
+        "value": "25% GHG from food sector",
+        "description": "Food production, processing, and transport account for roughly a quarter of global greenhouse gas emissions."
+      }
+    ],
+    "targets": [
+      "Improve agricultural productivity and sustainability while reducing resource inputs",
+      "Ensure universal access to safe, nutritious food through equitable distribution",
+      "Minimize food loss and waste across production, distribution, and consumption",
+      "Promote climate-smart farming and enhance resource efficiency",
+      "Foster responsible consumption and support ethical food systems"
+    ],
+    "standards": [
+      {
+        "name": "HACCP",
+        "organization": "Codex Alimentarius Commission",
+        "description": "A systematic preventive approach to food safety from biological, chemical, and physical hazards.",
+        "url": "https://www.fao.org/fao-who-codexalimentarius/en/",
+        "relevance": "Critical for maintaining food safety and public health throughout the supply chain.",
+        "implementation": "Integrated into processing protocols with regular audits and staff training.",
+        "benefits": "Reduces contamination risks and improves consumer trust.",
+        "challenges": "Requires consistent monitoring and can be resource-intensive for small producers."
+      },
+      {
+        "name": "ISO 22000",
+        "organization": "International Organization for Standardization",
+        "description": "Sets out the requirements for a food safety management system.",
+        "url": "https://www.iso.org/iso-22000-food-safety-management.html",
+        "relevance": "Helps organizations ensure food safety at every stage of production.",
+        "implementation": "Adopted by integrating food safety software, continuous monitoring, and regular audits.",
+        "benefits": "Standardizes safety practices and facilitates international trade.",
+        "challenges": "High implementation costs and complex certification processes."
+      },
+      {
+        "name": "GLOBALG.A.P.",
+        "organization": "Global Good Agricultural Practices",
+        "description": "Standard ensuring safe and sustainable agricultural production worldwide.",
+        "url": "https://www.globalgap.org/",
+        "relevance": "Ensures responsible on-farm practices for crops, livestock, and aquaculture.",
+        "implementation": "Implemented through farm audits and adherence to strict production protocols.",
+        "benefits": "Enhances market access and consumer confidence in sustainably produced food.",
+        "challenges": "Compliance costs and the need for regular re-certification can be burdensome."
+      },
+      {
+        "name": "BRC Global Standard for Food Safety",
+        "organization": "British Retail Consortium",
+        "description": "A leading standard that outlines best practices in food safety, quality, and operational performance.",
+        "url": "https://www.brcgs.com/standards/food/",
+        "relevance": "Widely recognized for ensuring food safety and quality in global supply chains.",
+        "implementation": "Adopted by integrating comprehensive food safety audits and continuous improvement measures.",
+        "benefits": "Enhances product quality and mitigates risks of foodborne illnesses.",
+        "challenges": "Requires significant investment in training, monitoring, and documentation."
+      },
+      {
+        "name": "IFS Food",
+        "organization": "International Featured Standards",
+        "description": "Provides criteria for food safety, quality, and legality in food production and distribution.",
+        "url": "https://www.ifs-certification.com/",
+        "relevance": "Helps ensure that food products meet global safety and quality standards.",
+        "implementation": "Implemented through rigorous internal audits and third-party certifications.",
+        "benefits": "Improves supply chain transparency and enhances consumer trust.",
+        "challenges": "Complex audit processes and high certification costs may impact small businesses."
+      }
+    ],
+    "workflows": [
+      {
+        "name": "Sourcing & Procurement",
+        "description": "Select quality suppliers and raw materials with robust traceability measures.",
+        "steps": [
+          "Supplier Evaluation: Assess suppliers based on quality, sustainability, and reliability.",
+          "Raw Material Verification: Test for compliance with safety and quality standards.",
+          "Contract Negotiation: Establish terms that ensure traceability and timely delivery."
+        ]
+      },
+      {
+        "name": "Processing & Production",
+        "description": "Implement quality controls in processing facilities to maintain safety and nutritional standards.",
+        "steps": [
+          "Pre-Processing Inspection: Verify quality and safety of raw inputs.",
+          "Processing Controls: Monitor critical control points (HACCP, ISO 22000) during production.",
+          "Post-Processing Verification: Test finished products for compliance with safety standards."
+        ]
+      },
+      {
+        "name": "Distribution",
+        "description": "Manage logistics and cold chain operations to preserve product freshness and ensure timely delivery.",
+        "steps": [
+          "Logistics Planning: Map distribution routes and establish cold chain protocols.",
+          "Inventory Management: Monitor stock levels and optimize storage conditions.",
+          "Delivery Coordination: Schedule and track shipments to ensure product integrity."
+        ]
+      },
+      {
+        "name": "Quality Assurance",
+        "description": "Conduct audits, lab testing, and compliance inspections to maintain food safety and quality.",
+        "steps": [
+          "Regular Audits: Schedule periodic inspections of production and distribution facilities.",
+          "Lab Testing: Perform microbiological and chemical tests on products.",
+          "Compliance Reporting: Document and report findings to regulatory bodies."
+        ]
+      },
+      {
+        "name": "Feedback & Improvement",
+        "description": "Analyze consumer feedback and performance data to enhance product quality and reduce waste.",
+        "steps": [
+          "Customer Surveys: Collect feedback on taste, nutrition, and overall satisfaction.",
+          "Data Analysis: Identify trends and areas for improvement.",
+          "Process Optimization: Implement changes to improve quality and reduce losses."
+        ]
+      },
+      {
+        "name": "Product Innovation & R&D",
+        "description": "Develop new food products and reformulate existing ones to improve nutrition, sustainability, and consumer appeal.",
+        "steps": [
+          "Market Research: Identify emerging trends and consumer needs.",
+          "Prototype Development: Create and test new product formulations.",
+          "Pilot Testing: Conduct small-scale trials and gather consumer feedback."
+        ]
+      },
+      {
+        "name": "Sustainability Certification",
+        "description": "Obtain certifications that validate sustainable and ethical practices in food production.",
+        "steps": [
+          "Assess Current Practices: Review production methods and supply chain sustainability.",
+          "Prepare Documentation: Gather necessary records and implement required changes.",
+          "Undergo Certification Audits: Work with third-party certifiers to validate practices."
+        ]
+      },
+      {
+        "name": "Consumer Engagement & Marketing",
+        "description": "Utilize digital platforms and social media to educate consumers, promote product transparency, and drive sales.",
+        "steps": [
+          "Develop Digital Content: Create educational materials and promotional campaigns.",
+          "Engage via Social Media: Use platforms to interact with consumers and gather feedback.",
+          "Monitor Brand Perception: Track consumer sentiment and adjust strategies accordingly."
+        ]
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Resource Use Efficiency",
+        "definition": "Ratio of food output to resource inputs such as water, land, and energy.",
+        "measurementExample": "Calculate crop yield per unit of water or fertilizer used."
+      },
+      {
+        "name": "Environmental Footprint",
+        "definition": "Measurement of the ecological impact of food production, including greenhouse gas emissions and biodiversity effects.",
+        "measurementExample": "Assess emissions and habitat disruption per unit of food produced."
+      },
+      {
+        "name": "Dietary Diversity Score",
+        "definition": "A measure of the variety and nutritional adequacy of diets among consumers.",
+        "measurementExample": "Survey consumption patterns across multiple food groups and essential nutrients."
+      },
+      {
+        "name": "Food Waste Rate",
+        "definition": "Proportion of food lost at various stages of the supply chain, from production to household consumption.",
+        "measurementExample": "Analyze waste data from production, retail, and consumer surveys."
+      },
+      {
+        "name": "Traceability Compliance Rate",
+        "definition": "Percentage of products with complete traceability from farm to fork.",
+        "measurementExample": "Audit supply chain records to determine the percentage of traceable items."
+      }
+    ],
+    "processFlows": [
+      {
+        "name": "Farm-to-Fork Process",
+        "steps": [
+          "Farm Production: Grow crops or raise livestock using sustainable practices.",
+          "Harvest/Slaughter: Collect produce or process livestock while ensuring hygiene and proper storage.",
+          "Processing & Packaging: Convert raw materials into consumer-ready products with safety measures.",
+          "Distribution Network: Transport products using cold chains or ambient logistics and monitor inventory.",
+          "Retail & Consumption: Deliver goods to consumers and gather feedback for continuous improvement."
+        ]
+      },
+      {
+        "name": "Food Safety Management Process",
+        "steps": [
+          "Hazard Analysis: Identify potential hazards in production and processing.",
+          "Critical Control Points: Establish monitoring points for temperature, pH, and contamination.",
+          "Preventive Measures: Define thresholds and corrective actions for safety breaches.",
+          "Documentation: Maintain records of safety checks and corrective measures.",
+          "Verification: Conduct regular audits and laboratory tests on final products."
+        ]
+      },
+      {
+        "name": "Nutrition Security Process",
+        "steps": [
+          "Population Assessment: Identify nutritional deficiencies and vulnerable groups.",
+          "Policy Development: Formulate guidelines and fortification programs.",
+          "Program Implementation: Distribute nutrient-rich or fortified foods via partnerships.",
+          "Monitoring: Evaluate changes in malnutrition rates and dietary diversity.",
+          "Scaling: Expand successful interventions regionally or nationally."
+        ]
+      }
+    ],
+    "regulatoryFrameworks": [
+      {
+        "name": "Food Safety Modernization Act (FSMA)",
+        "jurisdiction": "United States",
+        "description": "Shifts focus from responding to contamination to preventing it in the U.S. food supply.",
+        "requirements": "Mandates hazard analysis, preventive controls, and stricter import oversight."
+      },
+      {
+        "name": "EU General Food Law",
+        "jurisdiction": "European Union",
+        "description": "Establishes principles for food safety, traceability, and rapid alert systems in the EU.",
+        "requirements": "Mandates risk analysis, recalls for unsafe products, and enhanced consumer protection measures."
+      },
+      {
+        "name": "Codex Alimentarius",
+        "jurisdiction": "Global (FAO/WHO framework)",
+        "description": "A collection of internationally recognized standards and guidelines for food production and safety.",
+        "requirements": "Provides science-based recommendations for food labeling, additives, contaminants, and hygiene practices."
+      }
+    ],
+    "environmentalImpact": {
+      "emissions": {
+        "greenhouseGases": "Methane from livestock, nitrous oxide from fertilizers, and CO2 from transportation and processing.",
+        "airPollutants": "Particulates from biomass burning, ammonia from manure, and volatile organic compounds.",
+        "mitigationStrategies": "Adopt precision agriculture, improve livestock feed efficiency, and shift to renewable energy in processing."
+      },
+      "landUse": {
+        "footprint": "Conversion of forests or grasslands to agricultural land, leading to habitat loss and soil degradation.",
+        "habitatEffects": "Monoculture practices reduce biodiversity and can cause soil erosion and reduced ecosystem services.",
+        "mitigationStrategies": "Implement agroforestry, crop rotation, conservation tillage, and sustainable land management practices."
+      },
+      "waterImpacts": {
+        "consumption": "High irrigation demands and water usage in processing can strain local water resources.",
+        "thermalPollution": "Some processing plants may discharge heated water, affecting aquatic ecosystems.",
+        "mitigationStrategies": "Use drip irrigation, recycle process water, and treat wastewater before discharge."
+      }
+    },
+    "monitoringAndAnalytics": {
+      "operationalMetrics": [
+        "Yield Gap Analysis: Compare actual harvests with potential yields under optimal conditions.",
+        "Supply Chain Loss Rates: Measure food loss at each stage of the supply chain.",
+        "Nutrient Density Tracking: Monitor changes in micronutrient levels in food products over time.",
+        "Food Safety Incident Frequency: Track occurrences of contamination or product recalls."
+      ],
+      "advancedAnalytics": [
+        "Precision Farming Platforms: Use satellite and drone imagery for optimizing resource use and detecting crop health issues.",
+        "AI-based Nutritional Analysis: Optimize product formulations to enhance nutritional value and taste.",
+        "Shelf-Life Prediction Models: Forecast spoilage to improve inventory management and reduce waste.",
+        "Blockchain Traceability: Ensure secure, transparent tracking of food products from production to retail."
+      ]
+    },
+    "sampleDeals": [
+      {
+        "dealId": "FOOD-Deal1",
+        "dealTitle": "Food Waste Reduction Campaign",
+        "dealSteps": {
+          "step1_defineProblem": "High levels of food waste across production, distribution, and consumer stages lead to significant resource loss and increased GHG emissions.",
+          "step2_codifySolution": "Launch a multi-stakeholder initiative to optimize inventory management, implement smart refrigeration, and develop food recovery networks.",
+          "step3_setupProgram": {
+            "stakeholders": [
+              "Retail chains (inventory optimization, donation initiatives)",
+              "Restaurants (portion control, waste tracking)",
+              "NGOs (food banks, awareness campaigns)",
+              "Government agencies (policy support, incentives)"
+            ],
+            "financing": "Combination of government grants, corporate CSR funds, and philanthropic investments.",
+            "milestones": "Reduce overall food waste by 30% in pilot regions within 2 years, as measured by baseline comparisons and digital tracking systems."
+          },
+          "step4_executeProgram": "Deploy smart inventory systems, improve cold chain infrastructure, and run consumer education programs on waste reduction.",
+          "step5_verifyOutcomeAndDistributeFunds": "Monitor waste metrics through digital platforms, publish results, and scale successful strategies to additional regions."
+        }
+      }
+    ],
+    "relatedContent": [
+      {
+        "type": "blog",
+        "title": "Innovations in Climate-Smart Farming",
+        "link": "/blog/climate-smart-farming"
+      },
+      {
+        "type": "story",
+        "title": "Feeding the Future: A Zero Hunger Mission",
+        "link": "/stories/zero-hunger-mission"
+      }
+    ],
+    "usAgencyContributions": {
+      "relevantAgencies": [
+        "Department of Agriculture (USDA)",
+        "Food and Drug Administration (FDA)",
+        "United States Agency for International Development (USAID)",
+        "Environmental Protection Agency (EPA)",
+        "Congress (Agriculture Committees)"
+      ],
+      "explanation": "USDA manages farming programs and nutritional assistance; FDA sets food safety standards; USAID supports global food security initiatives; EPA regulates environmental impacts; and Congress authorizes funding and policy reforms through the Farm Bill."
+    },
+    "agencyServices": [
+      {
+        "agencyDomain": "usda.us.gov-ai.co",
+        "services": [
+          {
+            "name": "Farm Service Agency",
+            "desc": "Provides loans, disaster assistance, and conservation programs to support sustainable farming.",
+            "status": 1,
+            "url": "https://fsfa.usda.us.gov-ai.co"
+          }
+        ]
+      },
+      {
+        "agencyDomain": "fda.us.gov-ai.co",
+        "services": [
+          {
+            "name": "Food Safety & Inspection",
+            "desc": "Oversees compliance with food safety standards and conducts inspections of food processing facilities.",
+            "status": 2,
+            "url": "https://foodsafety.fda.us.gov-ai.co"
+          }
+        ]
+      }
+    ],
+    "resources": {
+      "pdfWhyItMatters": "/goal_food/food_Why-It-Matters.pdf",
+      "gifMakeEveryDayCount": "/goal_food/food_SDG_MakeEveryDayCount_Gifs.gif",
+      "gifIcon": "/goal_food/food_GIF_Icon.gif",
+      "actionCardSquare": "/goal_food/food_action_card_square.jpg",
+      "actionCardTwitter": "/goal_food/food_action_card_twitter.jpg",
+      "webInverted": "/goal_food/food_WEB_INVERTED.png",
+      "printFile": "/goal_food/food_PRINT.jpg",
+      "printInvertedFile": "/goal_food/food_PRINT_INVERTED.jpg",
+      "webImage": "/goal_food/food_WEB.png",
+      "infographics": "/goal_food/food_infographics.pdf",
+      "elyxImage": "/goal_food/food_Elyx.png",
+      "languagesImage": "/goal_food/food_Languages.png"
+    },
+    "items": [
+      {
+        "id": "food-1",
+        "name": "Sustainable Food Production",
+        "description": "Implement agricultural and food processing methods that maintain ecosystem health while meeting current and future food demands.",
+        "implementation": "Deployed through the integration of regenerative farming practices, precision agriculture, and advanced food processing technologies. Challenges include resource constraints and adapting traditional methods to modern standards; benefits include increased yields, reduced environmental impact, and improved product quality.",
+        "kpis": [
+          {
+            "name": "Resource Use Efficiency",
+            "definition": "Ratio of food output to resource inputs such as water, land, and energy.",
+            "measurementExample": "Calculate crop yield per unit of water or fertilizer used."
+          },
+          {
+            "name": "Environmental Footprint",
+            "definition": "Measurement of the ecological impact of food production including emissions, water usage, and biodiversity effects.",
+            "measurementExample": "Assess greenhouse gas emissions and habitat impact per unit of food produced."
+          },
+          {
+            "name": "Production Yield Improvement",
+            "definition": "Percentage increase in yield due to improved farming practices and technology adoption.",
+            "measurementExample": "Compare baseline yields to yields after implementing sustainable practices."
+          }
+        ],
+        "targets": [
+          "Increase agricultural productivity by 40% while reducing water and fertilizer use",
+          "Convert 30% of conventional farms to regenerative practices within 5 years",
+          "Reduce food production-related carbon emissions by 25% by 2030"
+        ]
+      },
+      {
+        "id": "food-2",
+        "name": "Nutrition Security Enhancement",
+        "description": "Ensure widespread access to safe, nutritious, and sufficient food to support healthy diets for all populations.",
+        "implementation": "Achieved through policy interventions, community nutrition programs, and fortified food initiatives. Challenges include addressing regional disparities and ensuring consistent quality; benefits include improved public health and reduced malnutrition rates.",
+        "kpis": [
+          {
+            "name": "Dietary Diversity Score",
+            "definition": "A measure of the variety and nutritional adequacy in the diets of a population.",
+            "measurementExample": "Survey consumption patterns across different food groups and assess micronutrient intake."
+          },
+          {
+            "name": "Malnutrition Prevalence",
+            "definition": "Incidence rate of undernourishment and micronutrient deficiencies within a population.",
+            "measurementExample": "Analyze national health data and conduct community nutritional assessments."
+          },
+          {
+            "name": "Food Accessibility Index",
+            "definition": "Measure of the proportion of the population with reliable access to affordable, nutritious food.",
+            "measurementExample": "Survey food deserts and analyze pricing data relative to income levels."
+          }
+        ],
+        "targets": [
+          "Eliminate severe malnutrition in all regions within 10 years",
+          "Increase fruit and vegetable consumption by 50% over the next 5 years",
+          "Reduce sodium, sugar, and unhealthy fat content in processed foods by 30% within 3 years"
+        ]
+      },
+      {
+        "id": "food-3",
+        "name": "Food Waste Reduction",
+        "description": "Minimize food loss and waste throughout production, distribution, retail, and consumption stages to optimize resource utilization and reduce environmental impact.",
+        "implementation": "Implemented via smart logistics, enhanced inventory management, and consumer awareness campaigns. Challenges include coordination across the supply chain and data tracking; benefits include reduced resource waste, lower GHG emissions, and cost savings.",
+        "kpis": [
+          {
+            "name": "Food Loss Percentage",
+            "definition": "The proportion of food produced that is lost post-harvest or during processing.",
+            "measurementExample": "Compare production volumes with market-ready outputs to determine loss rates."
+          },
+          {
+            "name": "Consumer Waste Rate",
+            "definition": "The amount of food discarded at retail and household levels.",
+            "measurementExample": "Analyze waste composition studies and track household disposal data."
+          },
+          {
+            "name": "Waste Recovery Efficiency",
+            "definition": "The percentage of food waste effectively diverted to recovery or recycling programs.",
+            "measurementExample": "Calculate recovered food volume versus total waste generated."
+          }
+        ],
+        "targets": [
+          "Reduce overall food waste by 50% by 2030",
+          "Implement comprehensive cold chain systems in 90% of distribution networks within 5 years",
+          "Establish food recovery and donation networks in all major urban centers within 3 years"
+        ]
+      }
+    ],
+    "industry_interactions": {
+      "Energy": "Food systems collaborate with the Energy sector to optimize bioenergy production and sustainable fuel alternatives from agricultural residues.",
+      "Treasury": "Work with treasury departments to secure funding for agricultural innovations and support green financing initiatives in food production.",
+      "Commerce": "Integrate with commerce platforms to streamline supply chains, enhance market access, and support fair trade practices.",
+      "Environment": "Partner with environmental agencies to monitor resource usage, reduce waste, and promote sustainable farming practices.",
+      "Food": "Directly manage the supply chain from farm to fork, ensuring food safety, quality, and traceability.",
+      "Jobs": "Create employment opportunities across agriculture, processing, logistics, and retail sectors.",
+      "Health": "Collaborate with health organizations to improve nutritional standards and promote public health through better food quality.",
+      "Education": "Work with educational institutions to develop curricula on sustainable agriculture, nutrition, and food safety.",
+      "Transportation": "Optimize logistics and cold chain operations to ensure efficient, timely delivery of perishable goods.",
+      "Finance": "Leverage financial tools for risk management, cost control, and investment in sustainable food technologies.",
+      "Justice": "Ensure compliance with food safety regulations and ethical sourcing through strict legal frameworks.",
+      "Technology": "Adopt advanced technologies such as IoT, blockchain, and AI to enhance traceability, quality control, and innovation in food production.",
+      "Telecom": "Support digital infrastructure for real-time monitoring and communication across food supply chains.",
+      "Retail": "Enhance consumer engagement and drive sales through omni-channel retail strategies and e-commerce platforms.",
+      "Manufacturing": "Integrate advanced processing technologies and automation to improve food production efficiency.",
+      "Mining": "Collaborate on sustainable resource extraction practices that minimize environmental impacts on agriculture.",
+      "Utilities": "Coordinate with utility providers to ensure reliable water and energy supplies for food production and processing.",
+      "Media": "Promote transparency and consumer awareness through digital media and advertising campaigns.",
+      "Defense": "Ensure strategic food reserves and secure supply chains to support national security objectives.",
+      "Sports": "Support sports nutrition and wellness programs through the provision of high-quality, nutritious food products.",
+      "Tourism": "Enhance agrotourism and culinary tourism by promoting local food cultures and sustainable practices.",
+      "Innovation": "Drive research and development in sustainable agriculture, food technology, and innovative supply chain solutions."
+    }
+  }
+]

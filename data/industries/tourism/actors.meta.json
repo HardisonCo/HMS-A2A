@@ -1,0 +1,70 @@
+{
+    "domainName": "Tourism",
+    "roles": [
+      {
+        "id": "tourism-role-1",
+        "name": "Tour Guide",
+        "description": "Conducts guided experiences, sharing knowledge about local culture, history, or nature, and ensures visitor engagement and safety.",
+        "meta": {
+          "typicalBackground": "Local expertise, language skills, strong storytelling and interpersonal abilities",
+          "keyTools": ["Guide scripts, route planning, interpretive materials, first-aid kit"],
+          "challenges": ["Managing diverse groups, ensuring accurate info, seasonality of tourism flows"]
+        },
+        "sampleUseCase": {
+          "scenario": "A tour guide leads a heritage walk in an ancient city, weaving in local legends and vantage points for photography, receiving high traveler ratings on review sites."
+        }
+      },
+      {
+        "id": "tourism-role-2",
+        "name": "Hotel Manager",
+        "description": "Oversees accommodation operations, managing staff, reservations, guest experiences, and budget performance.",
+        "meta": {
+          "typicalBackground": "Hospitality management education, strong leadership, revenue management skills",
+          "keyTools": ["Property management system (PMS)", "Booking engine integrations", "Guest feedback platforms"],
+          "challenges": ["Competition from peer-to-peer rentals, maintaining consistent service, reviews impacting reputation"]
+        },
+        "sampleUseCase": {
+          "scenario": "A manager implements yield management software and upsells room upgrades, raising average daily rate (ADR) by 10% during the peak travel season."
+        }
+      },
+      {
+        "id": "tourism-role-3",
+        "name": "Travel Agent",
+        "description": "Advises and arranges travel packages, flights, accommodations, and experiences for individuals or groups, tailoring itineraries to client preferences.",
+        "meta": {
+          "typicalBackground": "Travel/tourism diploma, knowledge of GDS (Global Distribution Systems), strong sales approach",
+          "keyTools": ["Amadeus, Sabre, or Galileo GDS", "CRM for client records", "Itinerary building platforms"],
+          "challenges": ["Online competition (OTAs), visa/travel restrictions, last-minute client changes or cancellations"]
+        },
+        "sampleUseCase": {
+          "scenario": "A travel agent organizes a custom honeymoon package across multiple islands, ensuring smooth ferry connections and exclusive resort deals, receiving glowing client testimonials."
+        }
+      },
+      {
+        "id": "tourism-role-4",
+        "name": "Destination Marketer",
+        "description": "Promotes a region or country to potential visitors, highlighting attractions, cultural events, and unique experiences through campaigns and partnerships.",
+        "meta": {
+          "typicalBackground": "Marketing or tourism background, knowledge of digital campaigns, influencer marketing, brand building",
+          "keyTools": ["Social media ads, destination websites, travel expo presentations"],
+          "challenges": ["Competition from other destinations, limited marketing budgets, measuring campaign ROI in tourism flows"]
+        },
+        "sampleUseCase": {
+          "scenario": "The marketer collaborates with popular travel bloggers and organizes a virtual press trip, spiking destination interest and bookings by 25% during off-peak months."
+        }
+      },
+      {
+        "id": "tourism-role-5",
+        "name": "Sustainable Tourism Advisor",
+        "description": "Guides tourism businesses or governments on eco-friendly, community-oriented practices, balancing visitor growth with minimal environmental impact.",
+        "meta": {
+          "typicalBackground": "Sustainable development or environmental management, knowledge of GSTC criteria, local community engagement",
+          "keyTools": ["Impact assessment metrics", "Carbon offset programs, biodiversity conservation plans"],
+          "challenges": ["Overcoming overtourism, implementing waste/water management, ensuring local benefit sharing"]
+        },
+        "sampleUseCase": {
+          "scenario": "An advisor helps a coastal resort adopt a reef protection plan, limiting visitor boat traffic, promoting coral-friendly sunscreens, and financing local reef restoration projects."
+        }
+      }
+    ]
+  }

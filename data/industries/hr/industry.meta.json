@@ -1,0 +1,449 @@
+[
+  {
+    "id": 6,
+    "name": "Jobs",
+    "icon": "fas fa-briefcase",
+    "description": "Jobs systems facilitate employment processes, human resource management, and labor market analytics by integrating advanced digital platforms, AI-driven matching, and data-driven decision-making. They streamline recruitment, performance management, and workforce planning to optimize talent acquisition and retention.",
+    "fullDescription": "Jobs systems bolster labor markets by matching skills to vacancies, overseeing workforce training, and formulating policies that support fair wages and working conditions. Digitally enabled HR platforms streamline recruitment, onboarding, performance reviews, and employee engagement. Integrated predictive analytics and AI-based matching refine job placement and career guidance services, while labor market data helps policymakers identify skill gaps, forecast future job trends, and design targeted reskilling programs. Inclusive employment initiatives ensure underrepresented groups have equitable access to opportunities, thereby strengthening economic resilience, reducing unemployment, and enhancing overall productivity.",
+    "statistics": [
+      {
+        "value": "5.8% global unemployment",
+        "description": "Unemployment hovers around 5.8% globally, with higher rates in youth and marginalized communities."
+      },
+      {
+        "value": "70 million new roles",
+        "description": "Estimates suggest up to 70 million new tech-enabled jobs may emerge worldwide by 2030 due to digital transformation."
+      },
+      {
+        "value": "470 million job gap",
+        "description": "A shortage of 470 million new jobs is projected by 2030 to accommodate population growth and labor market shifts."
+      }
+    ],
+    "targets": [
+      "Reduce unemployment, particularly among youth and vulnerable groups",
+      "Strengthen labor protections, fair wages, and safe working conditions",
+      "Promote work-based learning and continuous upskilling/reskilling initiatives",
+      "Support entrepreneurship and small business development",
+      "Prepare the workforce for rapid technological and societal changes"
+    ],
+    "standards": [
+      {
+        "name": "ISO 30414",
+        "organization": "International Organization for Standardization",
+        "description": "Provides guidelines for human capital reporting and workforce analytics.",
+        "url": "https://www.iso.org/standard/65977.html",
+        "relevance": "Improves transparency and efficiency in HR management.",
+        "implementation": "Implemented through structured HR data collection and standardized reporting frameworks.",
+        "benefits": "Enhances decision-making with reliable workforce metrics.",
+        "challenges": "Requires consistent data governance and periodic audits."
+      },
+      {
+        "name": "ILO Core Conventions",
+        "organization": "International Labour Organization",
+        "description": "International labor standards on forced labor, child labor, freedom of association, and discrimination.",
+        "url": "https://www.ilo.org/global/standards/lang--en/index.htm",
+        "relevance": "Ensures basic workers' rights and humane working conditions worldwide.",
+        "implementation": "Adopted by nations through legislative and policy reforms, enforced via labor inspections.",
+        "benefits": "Promotes fair employment practices and social justice.",
+        "challenges": "Enforcement varies by country and may require substantial policy changes."
+      },
+      {
+        "name": "ISO 45001",
+        "organization": "International Organization for Standardization",
+        "description": "Specifies requirements for an occupational health and safety (OH&S) management system.",
+        "url": "https://www.iso.org/iso-45001-occupational-health-and-safety.html",
+        "relevance": "Enhances worker safety and reduces workplace incidents.",
+        "implementation": "Adopted via comprehensive risk assessments, safety audits, and employee training programs.",
+        "benefits": "Improves workplace safety, reduces injury-related costs, and boosts employee morale.",
+        "challenges": "Implementation can be resource-intensive and may require cultural change within organizations."
+      },
+      {
+        "name": "SA8000",
+        "organization": "Social Accountability International",
+        "description": "A social certification standard for decent working conditions, including child labor, forced labor, health and safety, and fair wages.",
+        "url": "https://sa-intl.org/programs/sa8000/",
+        "relevance": "Ensures ethical and responsible employment practices in organizations.",
+        "implementation": "Adopted through rigorous audits, compliance training, and continuous improvement initiatives.",
+        "benefits": "Enhances corporate reputation and supports sustainable workforce development.",
+        "challenges": "Certification and maintenance can be costly for small to medium enterprises."
+      }
+    ],
+    "workflows": [
+      {
+        "name": "Recruitment",
+        "description": "Source, screen, and onboard talent using digital platforms and analytics.",
+        "steps": [
+          "Job Analysis: Define role requirements and necessary skills",
+          "Job Posting: Advertise vacancies on multiple platforms",
+          "Candidate Screening: Utilize AI-driven tools to shortlist candidates",
+          "Interviews: Conduct structured interviews and assessments",
+          "Onboarding: Integrate new hires into the organization through training and orientation"
+        ]
+      },
+      {
+        "name": "Performance Management",
+        "description": "Set targets, evaluate outcomes, and provide continuous feedback to employees.",
+        "steps": [
+          "Objective Setting: Align individual and team goals with organizational strategy",
+          "Regular Reviews: Conduct performance appraisals and peer reviews",
+          "Feedback Sessions: Provide constructive feedback and development advice",
+          "Performance Improvement Plans: Develop targeted plans for underperforming employees"
+        ]
+      },
+      {
+        "name": "Training & Development",
+        "description": "Identify skill gaps and deliver tailored training or upskilling pathways.",
+        "steps": [
+          "Needs Assessment: Evaluate current skills and future requirements",
+          "Program Design: Develop training modules and reskilling courses",
+          "Delivery: Implement training via online platforms and in-person workshops",
+          "Evaluation: Assess training effectiveness through tests and performance metrics"
+        ]
+      },
+      {
+        "name": "Data Analytics",
+        "description": "Monitor workforce metrics to inform strategic HR decisions.",
+        "steps": [
+          "Data Collection: Gather employee and performance data from multiple sources",
+          "Analysis: Use analytics tools to identify trends and gaps",
+          "Reporting: Generate dashboards and reports for decision-makers",
+          "Review: Continuously update analytics based on emerging trends"
+        ]
+      },
+      {
+        "name": "Retention Strategies",
+        "description": "Implement initiatives to enhance employee satisfaction and retention.",
+        "steps": [
+          "Survey Employee Satisfaction: Collect feedback on workplace environment",
+          "Career Development: Provide pathways for advancement and professional growth",
+          "Benefits Optimization: Review and enhance compensation, benefits, and work-life balance initiatives"
+        ]
+      },
+      {
+        "name": "Onboarding & Offboarding",
+        "description": "Manage the integration of new employees and the smooth exit of departing staff.",
+        "steps": [
+          "Pre-Onboarding: Prepare welcome materials and set up workstations",
+          "Orientation: Conduct introductory sessions and training",
+          "Exit Interviews: Gather feedback to improve retention strategies",
+          "Knowledge Transfer: Ensure smooth transition of responsibilities"
+        ]
+      },
+      {
+        "name": "Employee Engagement",
+        "description": "Foster a positive workplace culture and maintain high levels of employee morale.",
+        "steps": [
+          "Engagement Surveys: Regularly assess employee satisfaction",
+          "Team Building: Organize events and collaborative projects",
+          "Recognition Programs: Reward outstanding performance and contributions"
+        ]
+      },
+      {
+        "name": "Compensation & Benefits Management",
+        "description": "Design and manage competitive compensation structures and benefit programs.",
+        "steps": [
+          "Market Analysis: Benchmark salaries and benefits against industry standards",
+          "Policy Formulation: Develop compensation strategies that attract and retain talent",
+          "Administration: Implement payroll systems and benefits distribution",
+          "Review: Regularly update compensation policies based on performance and market trends"
+        ]
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Skills Gap Reduction",
+        "definition": "Decrease in mismatch between workforce capabilities and job requirements.",
+        "measurementExample": "Compare job vacancy duration and difficulty-to-fill metrics over time."
+      },
+      {
+        "name": "Training Effectiveness",
+        "definition": "Impact of skills development programs on employment outcomes and productivity.",
+        "measurementExample": "Track post-training employment rates, wage growth, and performance improvements."
+      },
+      {
+        "name": "Workforce Diversity Metrics",
+        "definition": "Representation of various demographic groups across job levels and sectors.",
+        "measurementExample": "Analyze employment statistics by gender, race, disability status, age, etc."
+      },
+      {
+        "name": "Underemployment Rate",
+        "definition": "Proportion of workers in involuntary part-time roles or roles below their qualification level.",
+        "measurementExample": "Use labor force surveys to identify mismatches between qualifications and current job roles."
+      },
+      {
+        "name": "Job Placement Rate",
+        "definition": "Percentage of job seekers successfully placed in employment relative to total applicants.",
+        "measurementExample": "Track the ratio of placed candidates to total job seekers over a defined period."
+      }
+    ],
+    "processFlows": [
+      {
+        "name": "End-to-End Recruitment Process",
+        "steps": [
+          "Job Analysis: Define roles and responsibilities; identify essential skills.",
+          "Job Posting: Publish vacancies on digital job boards and internal portals.",
+          "Applicant Tracking: Collect applications; rank candidates; schedule interviews.",
+          "Candidate Evaluation: Conduct interviews, skill tests, and background checks.",
+          "Offer & Onboarding: Extend offers, finalize contracts, and integrate new hires into the organization."
+        ]
+      },
+      {
+        "name": "Workforce Planning Process",
+        "steps": [
+          "Demand Forecasting: Predict future staffing needs based on business strategy and market trends.",
+          "Supply Analysis: Assess current employee skill sets and potential retirements.",
+          "Gap Analysis: Identify surpluses or deficits in specific skill areas.",
+          "Action Planning: Decide on recruitment, upskilling, or restructuring strategies.",
+          "Implementation & Review: Execute plans and monitor labor market metrics for adjustments."
+        ]
+      },
+      {
+        "name": "Performance & Talent Management Process",
+        "steps": [
+          "Objective Setting: Align individual performance targets with organizational goals.",
+          "Continuous Feedback: Provide regular performance reviews and peer feedback.",
+          "Appraisal & Rewards: Evaluate performance and deliver incentives such as bonuses or promotions.",
+          "Personal Development: Create tailored development plans and training opportunities.",
+          "Succession Planning: Identify high-potential employees for leadership roles."
+        ]
+      }
+    ],
+    "regulatoryFrameworks": [
+      {
+        "name": "National Labor Laws",
+        "jurisdiction": "Country-specific (e.g., Fair Labor Standards Act in the US)",
+        "description": "Governs minimum wage, overtime, working hours, and recordkeeping requirements.",
+        "requirements": "Ensures basic worker rights and compensation standards."
+      },
+      {
+        "name": "EU Employment Directives",
+        "jurisdiction": "European Union",
+        "description": "Harmonizes labor standards such as working time, equal treatment, and health/safety across member states.",
+        "requirements": "Mandates minimum employment conditions and anti-discrimination measures."
+      },
+      {
+        "name": "Occupational Safety and Health Act (OSHA)",
+        "jurisdiction": "United States",
+        "description": "Regulates workplace safety and health conditions to protect employees.",
+        "requirements": "Employers must provide safe working environments and adhere to safety protocols."
+      }
+    ],
+    "environmentalImpact": {
+      "emissions": {
+        "greenhouseGases": "Indirect impacts from employee commuting and business travel can contribute to CO2 emissions.",
+        "airPollutants": "Urban office locations may increase local air pollution due to transportation emissions.",
+        "mitigationStrategies": "Promote remote work, carpooling, and use of public transit; implement green commuting initiatives."
+      },
+      "landUse": {
+        "footprint": "Large office buildings and industrial workspaces can lead to urban sprawl and increased energy use.",
+        "habitatEffects": "Expansion of job centers may impact local green spaces and urban ecosystems.",
+        "mitigationStrategies": "Encourage use of existing infrastructures and promote mixed-use developments near transit hubs."
+      },
+      "waterImpacts": {
+        "consumption": "Commercial facilities and offices require water for operations and sanitation.",
+        "thermalPollution": "Certain industrial workplaces may discharge heated water affecting local water systems.",
+        "mitigationStrategies": "Adopt water-efficient practices and ensure proper treatment of wastewater."
+      }
+    },
+    "monitoringAndAnalytics": {
+      "operationalMetrics": [
+        "Unemployment Rate: Percentage of the labor force actively seeking work.",
+        "Job Vacancy Duration: Average time to fill a job opening.",
+        "Turnover Rate: Frequency of employee departures relative to total workforce.",
+        "Employee Satisfaction Scores: Results from engagement and satisfaction surveys."
+      ],
+      "advancedAnalytics": [
+        "AI Talent Matching: Use machine learning to match candidate profiles with job requirements.",
+        "Predictive Turnover Modeling: Forecast employee attrition based on historical data.",
+        "Skills Gap Analysis: Identify emerging skill needs and mismatches in the labor market.",
+        "Labor Market Simulation: Model the impact of policy changes on employment dynamics."
+      ]
+    },
+    "sampleDeals": [
+      {
+        "dealId": "JB-Deal1",
+        "dealTitle": "Workforce Development Accelerator",
+        "dealSteps": {
+          "step1_defineProblem": "Skill shortages in advanced manufacturing and digital technologies hinder economic growth and leave many job seekers underemployed.",
+          "step2_codifySolution": "Establish regional training hubs partnering with local industries to offer targeted, intensive training programs and apprenticeships.",
+          "step3_setupProgram": {
+            "stakeholders": [
+              "Local industries (provide curriculum input and hiring commitments)",
+              "Community colleges (offer training infrastructure and accreditation)",
+              "Workforce agencies (provide funding and policy support)"
+            ],
+            "financing": "Funded through a mix of workforce development grants, employer co-funding, and philanthropic scholarships.",
+            "milestones": "Upskill 5,000 workers within 2 years; monitor job placement rates, wage growth, and employer satisfaction."
+          },
+          "step4_executeProgram": "Deploy targeted training modules, establish mentorship programs, and organize career fairs connecting graduates with employers.",
+          "step5_verifyOutcomeAndDistributeFunds": "Collect job placement data and income improvements; if targets are met, expand the program to additional regions."
+        }
+      }
+    ],
+    "relatedContent": [
+      {
+        "type": "story",
+        "title": "Crafting a Career Comeback",
+        "link": "/stories/career-comeback"
+      },
+      {
+        "type": "blog",
+        "title": "Addressing Youth Unemployment with New Tech Skills",
+        "link": "/blog/youth-employment-tech-skills"
+      }
+    ],
+    "usAgencyContributions": {
+      "relevantAgencies": [
+        "Department of Labor (DOL)",
+        "Small Business Administration (SBA)",
+        "Department of Education (ED)",
+        "Equal Employment Opportunity Commission (EEOC)",
+        "Congress (Labor & Education Committees)"
+      ],
+      "explanation": "DOL enforces labor laws and funds job training initiatives; SBA supports entrepreneurship and small business development; ED aligns educational curricula with workforce needs; EEOC ensures anti-discrimination in hiring; Congress legislates labor standards and allocates funding for workforce development."
+    },
+    "agencyServices": [
+      {
+        "agencyDomain": "dol.us.gov-ai.co",
+        "services": [
+          {
+            "name": "Workforce Innovation",
+            "desc": "Supports local job centers, training grants, and apprenticeship programs to boost employment.",
+            "status": 2,
+            "url": "https://workforce.dol.us.gov-ai.co"
+          }
+        ]
+      }
+    ],
+    "resources": {
+      "pdfWhyItMatters": "/goal_jobs/jobs_Why-It-Matters.pdf",
+      "gifMakeEveryDayCount": "/goal_jobs/jobs_SDG_MakeEveryDayCount_Gifs.gif",
+      "gifIcon": "/goal_jobs/jobs_GIF_Icon.gif",
+      "actionCardSquare": "/goal_jobs/jobs_action_card_square.jpg",
+      "actionCardTwitter": "/goal_jobs/jobs_action_card_twitter.jpg",
+      "webInverted": "/goal_jobs/jobs_WEB_INVERTED.png",
+      "printFile": "/goal_jobs/jobs_PRINT.jpg",
+      "printInvertedFile": "/goal_jobs/jobs_PRINT_INVERTED.jpg",
+      "webImage": "/goal_jobs/jobs_WEB.png",
+      "infographics": "/goal_jobs/jobs_infographics.pdf",
+      "elyxImage": "/goal_jobs/jobs_Elyx.png",
+      "languagesImage": "/goal_jobs/jobs_Languages.png"
+    },
+    "items": [
+      {
+        "id": "jobs-1",
+        "name": "Workforce Development",
+        "description": "Build skills, capabilities, and career pathways that meet current and future labor market demands, enabling individuals to advance economically.",
+        "implementation": "Implemented through targeted training programs, partnerships with educational institutions, and government-supported upskilling initiatives. Challenges include addressing diverse skill gaps and ensuring equitable access; benefits include improved job placement and higher productivity.",
+        "kpis": [
+          {
+            "name": "Skills Gap Reduction",
+            "definition": "Decrease in the mismatch between workforce capabilities and job requirements.",
+            "measurementExample": "Compare average time to fill vacancies and difficulty-to-fill metrics over time."
+          },
+          {
+            "name": "Training Effectiveness",
+            "definition": "Impact of skills development programs on employment outcomes and productivity.",
+            "measurementExample": "Track post-training employment rates, wage growth, and performance improvements."
+          },
+          {
+            "name": "Job Placement Rate",
+            "definition": "Percentage of program participants who secure employment within a specified period after training.",
+            "measurementExample": "Calculate the ratio of employed participants to total program graduates over a quarterly period."
+          }
+        ],
+        "targets": [
+          "Upskill or reskill 25% of the workforce for emerging technologies within 3 years",
+          "Establish competency-based qualification frameworks across key industries by 2026",
+          "Increase apprenticeship and work-based learning opportunities by 40% over the next 5 years",
+          "Achieve a job placement rate of at least 85% for training program graduates",
+          "Reduce skills gap duration by 20% compared to current benchmarks"
+        ]
+      },
+      {
+        "id": "jobs-2",
+        "name": "Inclusive Employment",
+        "description": "Create equitable access to quality job opportunities for all demographic groups, addressing systemic barriers faced by underrepresented populations.",
+        "implementation": "Achieved through policy reforms, targeted recruitment strategies, and diversity training programs. Challenges include overcoming institutional biases and ensuring broad outreach; benefits include a more diverse workforce and improved organizational performance.",
+        "kpis": [
+          {
+            "name": "Workforce Diversity Metrics",
+            "definition": "Representation of various demographic groups across all levels and sectors within organizations.",
+            "measurementExample": "Analyze employment data by gender, race, disability, and age."
+          },
+          {
+            "name": "Pay Equity Indicators",
+            "definition": "Measures comparing compensation levels across demographic groups for similar roles.",
+            "measurementExample": "Conduct regular pay gap analyses controlling for job level and experience."
+          },
+          {
+            "name": "Inclusive Hiring Rate",
+            "definition": "Percentage of hires from underrepresented groups relative to total hires.",
+            "measurementExample": "Track recruitment data and analyze trends in diversity for each hiring cycle."
+          }
+        ],
+        "targets": [
+          "Achieve representative workforce diversity at all organizational levels within 5 years",
+          "Eliminate gender and racial pay gaps through transparent compensation practices by 2028",
+          "Increase employment rates for persons with disabilities by 30% within 3 years",
+          "Reach an inclusive hiring rate of at least 40% for all new positions",
+          "Implement diversity training programs across 100% of organizations in the sector"
+        ]
+      },
+      {
+        "id": "jobs-3",
+        "name": "Future of Work Preparation",
+        "description": "Adapt labor policies, workplace practices, and social protection systems to address technological disruption and evolving work arrangements.",
+        "implementation": "Implemented by developing flexible work policies, reskilling initiatives, and social safety nets to support non-traditional employment. Challenges include balancing automation with job creation and updating outdated policies; benefits include enhanced adaptability and sustained workforce productivity.",
+        "kpis": [
+          {
+            "name": "Technology Adaptation Rate",
+            "definition": "Speed and effectiveness of the workforce's transition in response to technological changes.",
+            "measurementExample": "Monitor job displacement and reemployment rates during periods of automation."
+          },
+          {
+            "name": "Gig Economy Protection Index",
+            "definition": "Measure of the adequacy of benefits and security provided to non-traditional workers.",
+            "measurementExample": "Assess coverage and satisfaction levels among freelancers and contract workers."
+          },
+          {
+            "name": "Workforce Flexibility Score",
+            "definition": "Assessment of an organization’s ability to adapt to changing work arrangements and skill requirements.",
+            "measurementExample": "Evaluate the percentage of roles with flexible work options and ongoing reskilling initiatives."
+          }
+        ],
+        "targets": [
+          "Implement portable benefits systems for all work arrangements within 4 years",
+          "Establish worker training accounts with lifetime learning credits by 2027",
+          "Create predictive labor market intelligence systems to anticipate skill needs with 90% accuracy",
+          "Reduce job displacement due to automation by 20% through effective retraining programs",
+          "Achieve a workforce flexibility score increase of 25% over current levels within 5 years"
+        ]
+      }
+    ],
+    "industry_interactions": {
+      "Energy": "Jobs systems collaborate with the Energy sector to recruit skilled workers for renewable energy projects and sustainable infrastructure, ensuring that the workforce meets evolving technological demands.",
+      "Treasury": "They partner with treasury and finance departments to secure funding for job training programs and employment initiatives, and to manage labor market investments.",
+      "Commerce": "Jobs systems interface with commerce platforms to align workforce supply with industry demand, enhancing talent mobility and economic growth.",
+      "Environment": "Collaboration with environmental agencies promotes green jobs and sustainability-focused training programs to support eco-friendly industries.",
+      "Food": "They support the food sector by ensuring a steady supply of trained personnel in agriculture, food processing, and retail management.",
+      "Jobs": "Internally, jobs systems drive workforce development, skill matching, and career progression, ensuring a dynamic labor market.",
+      "Health": "They coordinate with healthcare providers to fill critical roles in medical services and public health, addressing both immediate and long-term care needs.",
+      "Education": "Jobs systems work with educational institutions to align curricula with labor market demands and support lifelong learning initiatives.",
+      "Transportation": "They partner with transportation companies to manage logistics staffing and improve workforce mobility solutions.",
+      "Finance": "Jobs systems integrate with financial services to design compensation structures, manage payroll, and secure investments in human capital development.",
+      "Justice": "They ensure that employment practices comply with labor laws and anti-discrimination policies, protecting workers' rights.",
+      "Technology": "Collaboration with tech firms drives digital transformation in HR, including AI-based talent matching and predictive analytics.",
+      "Telecom": "Jobs systems support telecom by recruiting technical talent and managing workforce requirements in rapidly evolving communication networks.",
+      "Retail": "They facilitate talent acquisition in retail sectors, enhancing customer service and operational efficiency through skilled labor.",
+      "Manufacturing": "Jobs systems ensure that the manufacturing sector has access to a skilled workforce, vital for maintaining production efficiency and innovation.",
+      "Mining": "They address specialized labor needs in mining, promoting safe and efficient extraction practices through targeted training.",
+      "Utilities": "Jobs systems support utilities by recruiting and training technical staff essential for the maintenance and modernization of infrastructure.",
+      "Media": "They help the media industry source creative and technical talent, fostering innovation in digital content and broadcasting.",
+      "Defense": "Jobs systems collaborate with defense agencies to recruit skilled personnel for military and security roles, ensuring operational readiness.",
+      "Sports": "They facilitate employment in sports management, coaching, and athletic training, supporting both professional and grassroots initiatives.",
+      "Tourism": "Jobs systems work with the tourism sector to attract talent in hospitality, event management, and customer service, boosting regional economies.",
+      "Innovation": "They drive workforce innovation by supporting startups and tech incubators, fostering an agile and forward-thinking labor market."
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+    "domainName": "Technology",
+    "roles": [
+      {
+        "id": "technology-role-1",
+        "name": "Software Developer",
+        "description": "Designs, writes, and tests code for applications, systems, or user-facing platforms.",
+        "meta": {
+          "typicalBackground": "Computer science or related field, proficiency in programming languages, debugging, and version control",
+          "keyTools": ["IDE (Visual Studio, IntelliJ)", "Git repositories", "Agile/scrum boards"],
+          "challenges": ["Rapid technology changes, cross-team coordination, ensuring code security and performance"]
+        },
+        "sampleUseCase": {
+          "scenario": "A developer implements a microservices architecture for a fintech startup, enabling feature updates without disrupting other modules and speeding up deployment cycles."
+        }
+      },
+      {
+        "id": "technology-role-2",
+        "name": "Systems Architect",
+        "description": "Designs the overarching structure of IT solutions, ensuring scalability, security, and alignment with business goals.",
+        "meta": {
+          "typicalBackground": "Computer science, extensive systems integration experience, knowledge of cloud/hybrid environments",
+          "keyTools": ["Architecture diagrams (UML), cloud platform management, containerization orchestration (Kubernetes)"],
+          "challenges": ["Legacy system integration, data privacy concerns, balancing cost vs. performance"]
+        },
+        "sampleUseCase": {
+          "scenario": "A systems architect designs a hybrid cloud environment connecting on-prem HR data to a secure AWS instance, improving data availability and disaster recovery while meeting compliance."
+        }
+      },
+      {
+        "id": "technology-role-3",
+        "name": "Data Scientist",
+        "description": "Extracts insights from complex data sets using machine learning, statistical analysis, and domain knowledge.",
+        "meta": {
+          "typicalBackground": "Math, statistics, or CS background, strong Python/R, ML frameworks, data storytelling skills",
+          "keyTools": ["Python data libraries (pandas, scikit-learn)", "SQL/NoSQL databases", "Big data ecosystems (Spark, Hadoop)"],
+          "challenges": ["Ensuring data quality, scaling ML models, bridging business context with algorithmic results"]
+        },
+        "sampleUseCase": {
+          "scenario": "A data scientist predicts customer churn for a subscription service using random forest models, enabling targeted retention campaigns that reduce churn by 10%."
+        }
+      },
+      {
+        "id": "technology-role-4",
+        "name": "Cybersecurity Specialist",
+        "description": "Protects networks, systems, and data from cyber threats. Conducts risk assessments, implements security protocols, and leads incident response.",
+        "meta": {
+          "typicalBackground": "IT security certifications (CISSP, CEH), knowledge of threat intelligence, encryption, and compliance standards",
+          "keyTools": ["SIEM platforms", "Penetration testing suites", "Firewall/IDS/IPS systems"],
+          "challenges": ["Constantly evolving threat landscape, internal user vulnerabilities, budget prioritization"]
+        },
+        "sampleUseCase": {
+          "scenario": "A cybersecurity specialist detects unusual login attempts from a foreign IP. They quarantine the affected user account, run a forensic check, and patch a discovered vulnerability."
+        }
+      },
+      {
+        "id": "technology-role-5",
+        "name": "DevOps Engineer",
+        "description": "Bridges development and operations, automating build, test, and deployment pipelines to streamline software delivery.",
+        "meta": {
+          "typicalBackground": "Software engineering background with system admin/ops experience, knowledge of CI/CD best practices",
+          "keyTools": ["Docker, Kubernetes, Jenkins pipelines, AWS or Azure DevOps platforms"],
+          "challenges": ["Cultural shift to agile/DevOps, ensuring environment consistency, complex multi-cloud or on-prem setups"]
+        },
+        "sampleUseCase": {
+          "scenario": "A DevOps engineer implements container orchestration with Kubernetes, drastically reducing deployment errors and enabling canary releases for safer feature rollouts."
+        }
+      }
+    ]
+  }

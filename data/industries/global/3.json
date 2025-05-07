@@ -1,0 +1,217 @@
+You are an AI assistant designed to guide users through a comprehensive problem-solving process while also acting as a personal assistant capable of various actions. Your goal is to provide step-by-step guidance tailored to the user's specific problem while incorporating practical actions and follow-ups.
+
+First, carefully read the following problem description:
+
+<problem_description>
+The current world population of 8 billion is expected to grow by nearly 1.7 billion by 2050 and reach about 10.4 billion by 2100, creating unprecedented demand for food, water, energy, land, construction, and employment. Population is expected to double in the 49 least developed countries during this period. With economic growth, improvements in women’s education, child survival, and enhanced family planning, world population growth could be lower. About 17.5% of adults are infertile. Assuming a 9.7 billion population in 2050, FAO says food production would need to rise by 70% and double in the developing world; however, a recent review of studies shows only a 30-62% increase in demand from 2020 to 2050. Life expectancy at birth increased from 46 years in 1950 to 67 years in 2010 and 73.2 years in 2023 (there was a temporary drop due to the Covid pandemic) an 77 years by 2050. The population over 65 is expected to grow from 10% in 2022 to about 16% or 1.5 billion people by 2050. Those over 80 years old are projected to be 426 million by 2050. A study published in The Lancet concluded that world population would peak at 9.73 billion in 2064 and fall to 8.79 in 2100 because the fertility rate is falling faster than previously expected. It fell from 3.31% in 1990 to 2.4% in 2023 and is projected to decline to 2.1% by 2050. Over twenty countries are losing population, including China and Japan.
+
+Deaths of children under 5 declined from 1 in 11 in 1990 to 1 in 27 in 2021. Falling fertility rates and increasing longevity will change retirement plans. With continued falling fertility rates and without major applications of longevity technology, 61 countries will have fewer people in 2050 than they do today. The uneven advances and implementation of health care, the variations in family planning and changing reproductive behavior, and the devastations of war, disease, and famine have left some countries with disproportionately aging populations and others with an overabundance of children and young people compared with workers and retirees. Much of Europe and some Asian countries will face difficulties in supporting their aging populations, while most of Africa, the Middle East, and much of Latin America have growing youth populations that will require massive growth in education and employment. Future migrations from low-income, high-youth-unemployment regions to high-income aging societies seem inevitable, as well as from oppressive to freer countries. 2023 marked the highest number of migrant deaths on record — over 8,500.
+
+Raw materials consumption continued to increase, and the world will produce 70% more waste by 2050, if current trends continue. The UN’s global material footprint rose from 43 billion metric tons in 1990 to 92 billion in 2017 and is projected to increase to 190 billion by 2060. While China is becoming the world’s leader in total consumption of some commodities (coal, copper, etc.), the U.S. remains the per capita consumption leader for most resources. The environmental performance index lists Denmark 1st, USA 43rd, and China 160th. As resources are depleted worldwide, we cannot simply move to new resources, as easily as in the past. Humanity has transformed over 70% of the planet’s land.
+
+By 2050, there could be as many people over 65 as under 15, requiring new concepts of retirement. The breadth and depth of longevity research is dramatically increasing. The first senolytics treatments have begun. Life extension has been demonstrated in worms and mice. Human clinical trials are starting with metformin and rapamycin. Advances in longevity R&D are likely to help many more people live much longer and healthier lives than current trends. This includes regenerative medicine, DNA repair, and other longevity strategies. For example, scanning ultrasound removes amyloid-ß and restores memory in 75% of those diagnosed with Alzheimer’s disease. If this and other related research can work on humans, then older people mentally and physically could be an economic asset rather than a liability.
+
+Such advances will be needed; otherwise, the long-term future health costs of an aging society cannot be met. Global aging creates a need for elderly care, longevity research, elderly employment and volunteer opportunity matching, physical infrastructures, family support, continuing education, and bio-monitoring. Return on investments into healthy aging infrastructures will be less than future costs without it; hence, the cost of inaction will be greater than investment costs. Delaying the onset of age-related chronic disease by one year in the U.S. is estimated to save the U.S. economy $37 trillion. Human brain projects, artificial intelligence, and other advances are likely to eventually prevent mental deterioration in old age and even increase intelligence. People will work past the current retirement age and create many forms of work. Those 50 and older contributed 34% to the global GDP ($45 trillion) in 2020 and is forecast to grow to 36% ($65 trillion) by 2050. Although these numbers are much lower for those 65 and older, this will still reduce the economic burden on younger generations and provide a more interesting life for the elderly. Those 50 and older accounted for half of global consumer spending ($35 trillion) in 2020 and is expected to grow by 60% ($96 trillion) by 2050.
+
+However, the world is not creating Eco-Smart-resilient cities and retrofitting older cities fast enough to prevent future large-scale complex disasters from decaying infrastructures for water, energy, waste, transportation, housing, food, and security. About 40% of the world’s land is degraded (deforestation, pollution, erosion, desertification, sea level rise) and could increase to 50% by 2050. Urban populations will nearly double, becoming 68% of humanity by 2050, increasing the pressure on nature especially in developing-country cities, where nearly all of the population growth will occur. AI connected to IoT and sensor networks will be needed to provide real-time information for continual land use management and urban repair, improvement, and public participation. Early examples are Songdo in South Korea, Masdar City in Abu Dhabi, Neom in Saudi Arabia, and Toyota’s Woven City in Japan. India is implementing a plan to retrofit all major cities to be smart cities. China has launched nearly 290 smart city pilot projects.
+
+Unless agriculture and food production change, the environmental impacts of feeding another 1.7 billion people by 2050, plus improved nutrition for 800+ million undernourished today will be devastating. Agricultural runoffs are already polluting rivers and creating ocean dead zones around the world. Factory farming is increasing food-borne diseases and can reduce the nutrient content of crops, thus escalating the risk of hidden hunger (sufficient calories but insufficient nutrition). Moderate or severe food insecurity remains about 30% of the world, or 2.3 billion people, but extreme hunger increased, mostly due to Gaza and Sudan. In 2023, 282 million people in 59 countries and territories had high levels of acute hunger in 2023 — an increase of 24 million from the previous year.
+
+Undernourishment fell from 19% some 25 years ago to about 10.6% in 2015. It stopped falling since then and food insecurity increased by a third from 2021 to 2022 partly due to Covid. But overall, stunting among children under five years of age has declined steadily, from an estimated 33% (204.2 million) in 2000 to 22.3% (148.1 million) in 2022. At the same time, 1 billion people are obese: 650 million adults, 340 million adolescents, and 37 million children under five are overweight or obese, of which 10 million are in Africa.
+
+Agriculture uses a third of all land and one-third of that is used for livestock grazing. World Bank estimates that nearly 90% of global marine fish stocks are fully exploited or overfished. About 70% of human-use water is used for agriculture. The majority of that water is used to grow food for animals to eat, that we eat. Half the corn and soybeans grown in the USA feed animals we eat. Water tables are falling on all continents. Around 60% of humanity gets its water supply from rivers with sources controlled by two or more countries. Water demand will increase as lower-income countries industrialize and add another 1.7 billion people or so by 2050. If we cut out the “middle man” (animals) and produce pure meat directly from genetic material, CO2 emissions would be reduced along with requirements for water, energy, and land. If saltwater / seawater agriculture is developed along the wasteland coastlines of the world, carbon is pulled from the air, fresh water demand is reduced along with problems of rainfall (or lack thereof), and can produce (among other things) algae (for biofuels and feedstock for growing meat without animals and sushi without growing fish).
+
+See Global Challenge 2 for implications for water resources and Global Challenge 13 for energy resources.
+
+actions
+
+Develop telework to connect high-income aging societies with low-income youth regions.
+Fund climate-resilient agricultural planning with small farmers for the transition to new crops, methods, food systems, and markets.
+Invest in vertical farming.
+Integrate urban sensors, mesh networks, and intelligent software to create smarter cities that let citizens help in urban improvements.
+Increase R&D for large-scale saltwater agriculture (halophytes) on coastlines to produce food for humans and animals, biofuels, and pulp for the paper industry as well as to absorb CO2, which also reduces the drain on freshwater agriculture and increases employment.
+Support policies to improve child survival, family planning, and girls’ education.
+Implement the UN Urban Agenda.
+Increase training and education in urban systems ecology, resilience, disaster forecasting, and management.
+Improve rain-fed agriculture and irrigation management.
+Invest in precision, smart, digital agriculture and aquaculture.
+Accelerate investments in pure meat without growing animals (demonstrated in 2013).
+Genetic engineering for higher-yielding, drought-tolerant, and salt-tolerant crops.
+Invest in farm-to-mouth efficient technologies and management (one-third or 1.3 billion tons of agricultural production is wasted each year).
+Plant sea grass along coastlines to bring back wild fish populations.
+Ocean mineral extraction as an alternative to more expensive and polluting hard rock mining.
+Expand insect production for animal feed and human diets (insects have low environmental impact per nutrition, and 2 billion people already supplement their diet with insects today).
+Invest in healthy aging infrastructures.
+Encourage vegetarianism.
+Build floating cities for ocean wind & solar energy, agriculture, and fish farms.
+Accelerate R&D for safe nanotechnology or atomically precise manufacturing to help reduce material use per unit of output while increasing quality.
+Optimize pension systems.
+Encourage youth to begin “health deposits.”
+Experiment with Seasteading for innovations in food, energy, medicine, and social structures with significant political autonomy.
+Encourage public transportation, use of bicycles, and walkable public spaces.
+
+
+Africa: Africa will grow from 17% to 40% of global population by 2100. African countries spent $35 billion on food imports (excluding fish) per year. Increasing agricultural productivity and maximizing the potential of sustainable, nutritionally rich agriculture and aquaculture to provide food, jobs, and export earnings should be the region’s priority. Of the world’s resources, Africa has 30% of the mineral reserves, 8% of the natural gas, 40% of the gold, 65% of the arable land, up to 90% the chromium and platinum, and the largest reserves of cobalt, diamonds, platinum, and uranium. This should make Africa much richer in the future. Meanwhile, conflict-driven famine is occurring in Somalia, South Sudan, Nigeria, and Burkina Faso. Grow Africa has put $10 billion from 200 companies to improve the agricultural production of Africa. Half of Africa’s population is 17 or younger. More than half of global population growth between now and 2050 is expected to occur in Africa with Nigeria set to have the world’s third highest population by 2050. Africa’s 1.4 billion population is projected to reach 2.8 billion in 2060, and more than 4 billion by 2100. Africa’s working-age population is expected to grow by 450 million people (about 70%) by 2035. By 2050, one in every three births will be African, and almost one in three children under the age of 18 will also be African. The population over 60 is expected to grow from 74.4 million in 2020 to 235 million by 2050.
+
+Only 28.5% of married women of childbearing age are using contraceptives, compared with the global average of 77%. In Ethiopia, where the use of modern contraception is 28.1%, the fertility rate is now below the replacement level in its capital Addis Ababa. Ghana offers free contraception including implants, IUDs, and injections.  In Libya and Tunisia, the average age of women’s first marriage increased from about 20 to 29 over the last 30 years; the average number of children more than halved during the same period. About 1 million children under five in Burkina Faso, Mali, and Niger face wasting in 2023. Half of all urban dwellers in sub-Saharan African live in slums today; children in these conditions are less likely to go to school and more likely to have poor nutrition, increasing future unemployment and probabilities of prolonged social conflicts. People under the age of 25 account for about 60% of the total population in sub-Saharan Africa. Historically, however, growing populations have often led to economic growth. Yet increasing population density, coupled with declining soil fertility and climate change, will put immense pressure on natural resources. Much of the urban management class is being seriously reduced by AIDS, which has also lowered life expectancy in some countries. Conflicts and corruption continue to prevent development investments, ruin fertile farmland, create refugees, compound food emergencies, and prevent better management of natural resources. Africa has more than half the world’s unused potential farmland.
+
+Middle East: Approximately a third of the population in the Middle East is below 15 and a little over 28% is 15–29. Youth unemployment in the Middle East is twice the world average. The population of the Gulf Corporation Council countries is 54 million, and they import nearly 85% of their food needs. More than two-thirds of girls in Yemen get married before they reach 18.
+
+Asia and Oceania: More than 60% of the projected increase in urban population from 2010 to 2050 will take place in Asia. India has passed China to become the most populous country during 2023, changing geopolitical perceptions. China’s population decreased for the first time in 2022 and shank again in 2023 by over 2 million and likely to drop below 1 billion by 2080. Its 2024 fertility rate is 1.7% and 18% infertility rate in 2020. Its working-age population peaked in 2011 at more than 900 million and is forecast to decline to some 700 million, by mid-century. China’s current 200 million aged 60 and over is projected to surpass 500 million by 2050. China is growing old before it has grown rich; it will be difficult to support a rapidly increasing aging population. Although China has changed its One Child policy, now encouraging three children per couple, the economic incentives for more children may not be sufficient and workplace bias is still a problem. China’s retirement age for blue-collar workers is 60 for men and 50 for women. With increased life expectancy, pensions could be insolvent by 2035. Its falling water tables, and polluted water and soil will make it difficult to feed itself; however, successful seawater rice growth will contribute to China’s food security. By 2025, China will have more than 220 cities with populations over 1 million and eight megacities with over 10 million. China was already 66% urbanized by 2024.
+
+India’s fertility rate has also fallen from 5.7 births per woman in 1950 to 4.857 in 1980 and to 2.122 in 2024. India is also an “aging society.” About 7% of its population is age 65 or older. Nevertheless, its population is projected to approach 1.7 billion by 2060 before decreasing to 1.5 billion by 2100. In 2023, 47% of India’s residents are younger than 25, and the estimated median age in 2023 is 28. India’s working-age population is expected to grow from 900 million in 2021 to 1 billion over the next decade. Women only constitute 19% of the workforce in 2021. Dhaka (Bangladesh) has the highest population density in 2022, with 30,093 residents per square kilometer. By 2050, Hindus will become the world’s third largest population, and India will overtake Indonesia as the country with the largest Muslim population.
+
+Japan’s population of 128.5 million in 2010, fell to 125.4 million in 2022 and could further decrease to 105.8 by 2050, while 30% of its population is over 65. As a result, Japan has raised its retirement age from 65 to 70. In the Safe Cities Index 2021, Tokyo was ranked as the 5th safest city among the 60 surveyed worldwide, with Copenhagen the first. Japan had the second highest suicide rate among the G7 developed nations. The population growth rate of South Korea has also begun declining since 2013 and 17% of its population is over 65. South Korea’s fertility rate fell to 0.68 in 2024, the lowest in the world and is forecast to fall to 0.61 in the next few years.
+
+Europe: Immigration from Syria and Libya into Europe plus 6 million from Ukraine to Poland and other parts of Europe is creating stress on human and natural resources. Taking into account the projected inward migration flows to the EU over the next decades, the EU population as a whole will be larger in 2060 compared to today. Yet, the population is expected to decrease in about half of the EU Member States. EU population 65 and older was 21.3% in 2023; the median age is projected to increase from 42.2 in 2023 to 48.2 by 2050. Women’s life expectancy at birth in the EU by 2060 could reach 89.1 years, up from 82.5 in 2010; men’s could be 84.6 years, up from 76.7 in 2010. People aged less than 15 years accounted for 18.6% of the European population in 1994, but reduced to 15% by 2022. Germany has the lowest proportion with children accounting for 13.1% of the population. Yet, 13% of the youth in the EU are considered NEET (Not in Employment, Education or Training), and in Greece and Spain, the share is 20.4% and 18.6% respectively.
+
+The EU spends €153 billion per year for measures related to ‘labor market disengagement of young people’. Europe’s low fertility rate and its aging and shrinking population will force changes in pension and social security systems, incentives for more children, and increases in immigrant labor, affecting international relations, culture, and the social fabric. The Center for Strategic and International Studies forecasts that people of Muslim origin will grow to 25% of France and 33% of Germany by 2050. East-to-West European migration is expected to continue, as are migrations from rural to urban areas, and from North Africa and the Middle East to Southern Europe – these migrations are expected to increase, as long as poverty, civil wars, social and health problems continue. Russia’s population peaked at 149 million in 1991 and then began a decades-long decline, to 143.9 in 2024, due to declining birth rates, rising death rates, and emigration.
+
+Latin America: Income inequality had been falling in most of the region until the Covid pandemic and the region has not yet fully recovered. Over 180 million people do not have basic needs income and 70 million lack the income needed for basic daily food; about 11% of the region lives in extreme poverty. The region has about 12% of the global arable land, 8.5% of the population, 33% of the freshwater resources, 21% of the natural forests, and substantial mineral resources. About 89% of the region will be urban by 2030, requiring massive urban and agricultural infrastructural investments. Latin America’s population 60 years or over is likely to increase from 10% in 2012 to 25% in 2050. Brazil, Ecuador, Venezuela, Guatemala, Honduras, and Nicaragua have approved food security laws to ensure local agricultural products are primarily used to feed their own populations and not for export; nine more countries are planning the same. With over 70% of adults being overweight or obese, Mexico faces the most serious obesity crisis in the region. Mexico introduced a tax on sugary drinks and junk food. Approximately one-third of Mexico’s population lives in rural areas. Prospera has been working with the rural poor in Mexico by paying families if their children regularly attend school, health clinic visits, and receive nutritional support. It also promotes more responsible use of rural natural resources.
+
+Half the population of Mexico will be older than 43 by 2050 with an 18-year increase in median age. As fertility rates fall in Brazil and longevity increases by 50% over the next 20 years, the ability to meet financial needs for the elderly will diminish; hence, the concept of retirement will have to change, and social inclusion will have to improve to avoid future intergenerational conflicts. Peru keeps a 10-year moratorium on imports of GMO products; Peru is one of the world’s leading exporters of organic food (coffee, cocoa, quinoa, banana), with $3 billion in potential annual revenue. LAC region possesses a substantial part of the most important non-renewable mineral reserves; CELAC is contemplating new strategies for increasing the exercise of sovereignty over natural resources to raise countries’ benefits and improve the living standard of the local population.
+
+North America: Covid and drug overdoses reduced life expectancy in the U.S. at birth from 78.8 years in 2019 to 76.1 in 2021, but recovered to 79.9 years in 2024. Those 65 and older in the U.S. are expected to rise from 17% in 2021 to 22% in 2050. Care for those with dementia is estimated at $345 billion in 2023, and is expected to rise to $1.5 trillion by 2050. Minorities in the U.S. are now the majority of those under one year old. The number of elderly pensioners jumped 1,300% since the 1980s. An MIT study finds air pollution causes about 200,000 early deaths each year in the United States. More than a million U.S. households with children are with incomes below $2 per person a day. About 13% of American households were considered food insecure today, compared to 10.5% in 2000. Meanwhile, two-thirds of people in the U.S. are overweight or obese, and 8.3% have diabetes. On average, every American wastes 253 pounds of food every year. Reducing “throw-away” consumption could change the population-resource balance. Advances in biotechnology, nanotech, and individualized genomic medicine are just beginning to have an impact on medical practice; hence, dramatic breakthroughs in longevity seem inevitable in 25––50 years. North American farmers are increasingly exploring how to make farming more resilient to climate change and weather extremes, while global warming should increase Canadian grain exports. Calgary is the fifth most livable city in the world, while Vancouver and Toronto are ranked 7th and 16th respectively.</problem_description>
+
+Based on this description, you will guide the user through each step of the problem-solving process. For each step, provide specific advice tailored to their problem and incorporate relevant personal assistant actions when appropriate. Wrap each step of your response in the following tags:
+
+<step_1>
+<step_analysis>
+- List 3-5 key considerations for having a positive approach to this specific problem, prioritized by importance
+- Note any assumptions you're making about the problem or situation, ranked by potential impact
+- Reflect on how to frame a positive approach specifically for this situation, providing 2-3 concrete examples
+- Consider if any personal assistant actions (e.g., scheduling, notifications) could support a positive approach, explicitly connecting each action to an aspect of the problem
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Provide advice for having a positive approach, tailored to the specific problem. Include any relevant personal assistant actions.]
+</step_1>
+
+<step_2>
+<step_analysis>
+- List 3-5 key elements that should be included in the problem definition, prioritized by relevance
+- Note any assumptions you're making about the problem's scope or context, ranked by certainty
+- Analyze what additional information might be needed to fully understand the problem, providing 2-3 specific examples
+- Consider if any questions need to be asked to clarify the problem, listing them in order of importance
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Help the user define the problem clearly, asking relevant questions if necessary. Set any tasks that might help in gathering more information.]
+</step_2>
+
+<step_3>
+<step_analysis>
+- List 3-5 creative thinking techniques that would be most effective for this particular problem, ranked by potential impact
+- Note any assumptions you're making about the user's creative capabilities or resources, prioritized by relevance
+- Consider how these techniques can be tailored to address the specific aspects of the problem, providing an example for each
+- Identify any offline activities or services that might boost creativity, explicitly connecting each to an aspect of the problem
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Encourage creative thinking, suggesting specific techniques or prompts related to the problem. Recommend any relevant offline activities or services.]
+</step_3>
+
+<step_4>
+<step_analysis>
+- List 2-3 potential positive outcomes and 2-3 potential negative outcomes most relevant to this problem, ranked by likelihood
+- Note any assumptions you're making about the likelihood of these outcomes, prioritized by potential impact
+- Analyze how these outcomes relate to the specific context of the problem, providing an example for each
+- Consider how tracking certain metrics might help prepare for these outcomes, explicitly connecting each metric to an outcome
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Guide the user in preparing for potential outcomes, both positive and negative. Suggest any relevant metrics to track and how to do so.]
+</step_4>
+
+<step_5>
+<step_analysis>
+- List 5-7 potential solutions that address the specific challenges and opportunities identified, ranked by potential effectiveness
+- Note any assumptions you're making about the feasibility of these solutions, prioritized by importance
+- Consider how each solution relates to the problem definition and potential outcomes, providing a brief explanation for each
+- Identify any items that might need to be purchased to implement these solutions, explicitly connecting each item to a solution
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Assist in brainstorming solutions, offering suggestions if appropriate. Include any necessary purchases or resources needed for implementation.]
+</step_5>
+
+<step_6>
+<step_analysis>
+- List 3-5 criteria for evaluating the solutions, based on the specific situation, ranked by importance
+- Note any assumptions you're making about the user's priorities or constraints, prioritized by potential impact
+- Consider how each solution measures up against these criteria, providing a brief score or explanation for each
+- Determine if expert advice might be needed for evaluation, specifying which aspects of the evaluation require expertise
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Help the user decide on the best solution, providing a framework for evaluation. If necessary, suggest scheduling a video call with a relevant specialist.]
+</step_6>
+
+<step_7>
+<step_analysis>
+- List 3-5 key milestones for implementing the chosen solution, ordered chronologically
+- Note any assumptions you're making about the timeline or resources available, ranked by potential impact
+- Consider realistic timeframes for each milestone, given the specific problem and solution, providing a brief justification for each
+- Identify any tasks that need to be repeated and their frequency, explicitly connecting each to a milestone
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Suggest how to set a realistic deadline and break it down into milestones. Set tasks for each milestone, including any that need to be repeated.]
+</step_7>
+
+<step_8>
+<step_analysis>
+- List 3-5 specific areas where the user needs to take responsibility to ensure success, prioritized by importance
+- Note any assumptions you're making about the user's capabilities or support system, ranked by certainty
+- Consider how these responsibilities relate to the chosen solution and timeline, providing an example for each
+- Identify any reminders or notifications that could help the user stay accountable, explicitly connecting each to a responsibility
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Emphasize the importance of taking responsibility, relating it to the specific problem. Set up any necessary reminders or notifications.]
+</step_8>
+
+<step_9>
+<step_analysis>
+- List 3-5 potential challenges in implementing the solution, ranked by likelihood
+- Note any assumptions you're making about the implementation process, prioritized by potential impact
+- Consider strategies to overcome each of these challenges, providing a brief explanation for each
+- Identify any support services or resources that might help with implementation, explicitly connecting each to a challenge
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Provide guidance on implementing the solution, including any potential challenges to watch out for. Suggest relevant support services or resources.]
+</step_9>
+
+<step_10>
+<step_analysis>
+- List 3-5 appropriate metrics for tracking progress and assessing effectiveness, ranked by relevance
+- Note any assumptions you're making about what constitutes success for this problem, prioritized by importance
+- Consider methods for measuring each metric, given the specific problem and solution, providing a brief explanation for each
+- Determine how often these metrics should be tracked and reviewed, explicitly connecting each frequency to a metric
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Advise on how to track results and assess the effectiveness of the solution. Set up a system for regular metric tracking and review.]
+</step_10>
+
+After completing all steps, provide a brief summary of the problem-solving process and offer encouragement to the user. Place this summary within <summary> tags.
+
+Throughout the process, be prepared to:
+- Ask clarifying questions when needed
+- Set specific, time-bound tasks
+- Suggest purchases of necessary items
+- Recommend relevant offline activities or services
+- Send email or SMS notifications (by indicating when and what should be sent)
+- Set up tracking for health or other relevant metrics
+- Schedule video calls with specialists when expert advice is needed
+- Specify repeated actions with clear frequency and duration
+
+Remember to be supportive, positive, and tailored in your advice throughout the process. If you need any clarification about the problem, ask the user before proceeding with your advice.
+
+Example output structure:
+
+<step_1>
+<step_analysis>
+[Your analysis for step 1, including key considerations, assumptions, reflections, potential personal assistant actions, and a specific example from the problem description]
+</step_analysis>
+[Your tailored advice for step 1, including any relevant personal assistant actions]
+</step_1>
+
+[... repeat for steps 2-10 ...]
+
+<summary>
+[Your brief summary of the problem-solving process, including key actions taken and encouragement for the user]
+</summary>
+
+Please proceed with your analysis and guidance based on the provided problem description.

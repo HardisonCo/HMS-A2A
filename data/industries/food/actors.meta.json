@@ -1,0 +1,70 @@
+{
+    "domainName": "Food",
+    "roles": [
+      {
+        "id": "food-role-1",
+        "name": "Food Safety Inspector",
+        "description": "Examines food production, processing, and handling facilities to ensure compliance with safety standards and regulations.",
+        "meta": {
+          "typicalBackground": "Public health or food science degree, training in HACCP or ISO 22000, strong attention to detail",
+          "keyTools": ["Inspection checklists", "Microbiological testing kits", "Digital compliance software"],
+          "challenges": ["Enforcing strict standards in diverse operations, addressing supply chain traceability, language or cultural barriers at sites"]
+        },
+        "sampleUseCase": {
+          "scenario": "An inspector audits a meat processing plant, discovers inadequate sanitization procedures, and mandates corrective actions to prevent contamination."
+        }
+      },
+      {
+        "id": "food-role-2",
+        "name": "Nutritionist",
+        "description": "Develops dietary recommendations, ensuring balanced meal plans for various populations or product formulations in food industry settings.",
+        "meta": {
+          "typicalBackground": "Degree in nutrition or dietetics, often registered/licensed, strong knowledge of human physiology",
+          "keyTools": ["Nutritional analysis software", "Clinical data on dietary needs", "Communication & counseling skills"],
+          "challenges": ["Tailoring advice to cultural food preferences, managing misinformation, aligning cost/availability with nutrition goals"]
+        },
+        "sampleUseCase": {
+          "scenario": "A nutritionist partners with a school lunch program to craft menus that reduce sugar intake by 30% and increase fruits/vegetables, improving student health outcomes."
+        }
+      },
+      {
+        "id": "food-role-3",
+        "name": "Culinary Innovator",
+        "description": "Combines cooking expertise with creativity to develop new recipes or products, often aligning with health trends or specialized diets.",
+        "meta": {
+          "typicalBackground": "Culinary arts training, experimentation mindset, understanding of flavor profiles",
+          "keyTools": ["Test kitchens", "Ingredient sourcing networks", "Food styling/presentation skills"],
+          "challenges": ["Balancing taste, cost, nutritional guidelines, consumer expectations of novelty"]
+        },
+        "sampleUseCase": {
+          "scenario": "A culinary innovator at a plant-based startup develops a new vegan cheese alternative, taste-testing prototypes until achieving a realistic texture and flavor that wins a major retailer’s listing."
+        }
+      },
+      {
+        "id": "food-role-4",
+        "name": "Food Supply Coordinator",
+        "description": "Manages logistics from farm to processing and retail, ensuring timely delivery of raw materials or finished goods.",
+        "meta": {
+          "typicalBackground": "Supply chain or food operations experience, understanding of perishability and cold chain requirements",
+          "keyTools": ["Inventory tracking software", "Refrigerated transport planning", "Quality assurance checklists"],
+          "challenges": ["Short shelf-life, temperature-sensitive distribution, forecasting demand volatility"]
+        },
+        "sampleUseCase": {
+          "scenario": "A coordinator arranges a just-in-time delivery of lettuce from nearby farms to a salad packaging facility, reducing waste from spoilage and meeting grocery store restock timelines."
+        }
+      },
+      {
+        "id": "food-role-5",
+        "name": "Restaurant Manager",
+        "description": "Oversees daily operations of a dining establishment, handling staff, inventory, customer experience, and financial performance.",
+        "meta": {
+          "typicalBackground": "Hospitality or business degree, strong leadership and customer service orientation",
+          "keyTools": ["POS systems", "Reservation software", "Hygiene/safety compliance checklists"],
+          "challenges": ["Maintaining consistent food quality, staff turnover, cost control for ingredients and overhead"]
+        },
+        "sampleUseCase": {
+          "scenario": "The manager revamps the menu using local seasonal produce, negotiates bulk discounts with suppliers, and introduces weekly specials, boosting both profit margin and customer satisfaction."
+        }
+      }
+    ]
+  }

@@ -1,0 +1,160 @@
+{
+  "role": "system",
+  "content": "You are an AI assistant designed to guide users through a comprehensive problem-solving process while also acting as a personal assistant capable of various actions. Your goal is to provide step-by-step guidance tailored to the user's specific problem while incorporating practical actions and follow-ups.",
+  "problemDescription": "Empowerment of women has been one of the strongest drivers of social evolution over the past century and is acknowledged as essential for addressing all the global challenges facing humanity. Gender equity has entered the global consciousness and is guaranteed by the constitution of 84% of the world's nations. The \"international women's bill of rights\" (CEDAW) has been ratified by all but seven countries. Women's right to vote is virtually universal. Women account for 27.6% of the membership of national legislative bodies in 2024 — an increase from 12.9% in 1997, and 52 nations have had a woman head of state in the past 50 years. However, only 6 countries have at least 50% of women in parliament. Women in ministerial positions increased from 9.9% in 2006 to 23.3% in 2024. More than 50% of 10-year-olds live in countries with high levels of gender inequality, and Covid exacerbated the burden of unpaid care for women and worsens violence against women, unemployment, school dropout, and child marriage. As a result, the goal of gender equality by 2030 is still far from being achieved. The Global Gender Gap 2023 Index for 146 countries showed the gender gap closing by 68.6%, along with the Health and Survival gap closed by 96%, the Educational Attainment gap by 95.2%, Economic Participation and Opportunity gap by 60.1%, and Political Empowerment gap by 22.1%.",
+  "statistics": {
+    "laborForce": "Labor force participation rates for women aged 25-54 in 2022 was 61.4% compared to 90.6% for men. Women earn 23% less than man in 2022. Women compose about 15% of corporate board seats worldwide, an increase of 54% since 2010, yet they own less than 20% of the land, while they are nearly half of the agricultural workforce. Persistent discriminatory social structures have to be challenged to make progress in the future. At current rate of progress, it would take another 75 years in the G20 countries to achieve equal pay for equal work. And Covid made it worse with lowered wages and increased workloads for women.",
+    "entrepreneurship": "Women are more likely than men to be \"solopreneurs\" (1.47 women solopreneurs for every 1 man), creating new forms of work, although lack of adequate social safety net regimes put an extra burden on them. Creating equal opportunities for women would unleash creativity and foster entrepreneurship, mostly because the education gap has been generally closed. In some countries, women outnumber men in post-secondary education. The conversation on the status of women needs to transition from victimhood to modern-day powerhouse. Since women drive 70 to 80% of all consumer purchasing, and given women's educational responsibilities within the family, their education as responsible consumers could change patterns and address some of the other challenges facing humanity."
+  },
+  "challenges": {
+    "healthAndViolence": "While the health gender gap is generally closing, recognizing women's reproductive rights and providing effective family planning are yet to be guaranteed around the world. Women's access to education and other rights have been cut back in Afghanistan and reproductive rights have been cut back in the United States. Women continue to be treated as second-class citizens, and barbarian extremist practices such as female genital mutilation traumatizes millions of girls each year, with an additional 86 million potential victims by 2030. Violence against women is the most under-reported crime worldwide, continuing to be perpetrated with impunity. Although 119 countries have laws that penalize domestic violence, almost 35% of women experienced physical and/or sexual violence in their lifetime, and over 600 million women live in 15 countries where domestic violence is still not a crime. Violence against women increased during the pandemic, while services to address such violence have been reduced.",
+    "pandemicImpact": "During the spread of the Covid pandemic women lost more employment that men, reducing the limited gains made in the past decades. The pandemic deepened pre-existing inequalities, exposing vulnerabilities in social, political and economic systems which are in turn amplifying the impacts of the pandemic. In addition, 19.2% of women 18 years and older are disabled compared to 12% for males, another factor in discrimination."
+  },
+  "positiveOutlook": "Nevertheless, The Millennium Project study on changing stereotypes showed that slow but massive shifts in gender stereotypes will occur over the next few decades.",
+  "actions": [
+    "Mothers should use their educational role in the family to assertively nurture gender equality and should be supported by their families, communities, and the media to do this.",
+    "Make policies to change social structures that help women meet the demands of their careers and family responsibilities.",
+    "Encourage girls' education, especially in STEM education and innovation to reach income parity (according to UNESCO women are only 1/3 of the global scientific workforce).",
+    "Where possible, ensure free (or employer-paid) preschool and child care.",
+    "Equal remuneration for work of equal value has to be integrated into law.",
+    "Pursue government policies that encourage female university graduates to start their own businesses.",
+    "Eliminate gender preferences and discrimination in job descriptions and actual hiring in occupations or industries that are dominated by men by default.",
+    "Occupational and sectoral segregation should be eliminated by valuing care work similarly to other professional work, thus also addressing gender stereotyping.",
+    "Popularize mobile-phone apps that instantly report violence to police and follows up on investigation and prosecution.",
+    "Make international aid programs conditional on respect for women's rights, enforcement of treaties protecting women rights, and prosecution.",
+    "Apply sanctions for non-compliance on international treaties on women's rights.",
+    "Increase women's participation in peace-building negotiations and foreign aid administration.",
+    "Create, define, and criminalize domestic violence in more detail, and implement laws against treating females as second-class citizens, violence against women, patriarchal attitudes, and barbarian practices such as female genital mutilation and \"honor killings.\"",
+    "There should be no age limit for prosecution for violence and rape.",
+    "Ensure a woman's rights to land ownership, financing, and decisions over their own bodies.",
+    "Fight gender stereotyping in the media, stop the excessive details of female victims, and increase the percent of women executives in journalism (37% of media and communications leadership in 2022 were women).",
+    "Add martial arts and other forms of self-defense in elementary and secondary schools' physical education classes for girls, not only for self-defense but also as a deterrence policy.",
+    "Improve data on the legal and economic implications for women and violence against women.",
+    "Implement UN and U.S. recommendations for prevention of trafficking of women and girls."
+  ],
+  "regional": {
+    "SubSaharanAfrica": "This region had the highest improvement of all regions in women's parliamentary representation in 2023, growing from 9.8% in 1995 to 27.6% in 2023. Dr. Nkosazana Dlamini-Zuma of South Africa became the first woman Chairperson of the African Union Commission and Nigeria's Ngozi Okonjo-Iweala became the first female Director-General of WTO. Rwanda continues to be world leader with highest women representation in the parliament, at 63.8%. 34% of the Speakers of Parliament in Southern and East African countries are women and 26% of national legislators are women. The 2023 Gender Parity Index rated sub-Saharan Africa slightly below the global weighted average score, only better than Southern Asia and the Middle East and North Africa.\n\nILO notes that in the region, the likelihood to be in vulnerable employment is nearly 85% for women, versus 70% for men. Closing the wage and employment gender gap would mean an income increase of 121% for women, valued at some $0.7 trillion. Although women represent 52% of the agricultural labor force, they have little or no land ownership and are further affected by increasing land-grabbing by foreign companies or countries. Low levels of education and qualification makes it very difficult for the region as a whole and for women specifically to escape the poverty vulnerability cycle.\n\nPresently, the average fertility rate in the region is 5.1 and is not expected to drop below 3 by mid-century. With maternal mortality ratio (MMR) at 531 deaths per 100,000 live births, the African Region accounted for 69% of global maternal deaths in 2020. Meeting the SDG of reducing MMR to 70 maternal deaths per 100,000 live births by 2030 will be difficult.\n\nUNICEF reports that sub-Saharan Africa has the highest under-five mortality rates, with some countries such as Chad, Niger, Nigeria, and Somalia, having rates over 100 deaths per 1,000 live births (compared to about 37% the global average.)\n\nViolence against women is widespread and, in most cases unreported. In South Africa, there are an estimated 50,000 cases of sexual assault per year. Rape and sexual assaults are even more acute in the conflict-torn zones, mostly in the DRC, Sudan, and Nigeria (with Boko Haram) and the neighboring areas. Sexual violence is used as a weapon and continues with impunity. In some Muslim communities, mostly in Egypt and Uganda, female genital mutilation and cutting is still practiced, despite increased international opposition. With over 144 million of victims, Africa accounts for the largest share of the world's over 230 million cases of female genital mutilation, reports UNICEF.\n\nImproved education system and investments for paid-job opportunities (mainly for the youth), increased social spending (in some countries, where only 4 to 6% of the GDP is allocated to social protection benefits); improved infrastructure systems (mainly water, sanitation, and electricity), and enforcement of gender-equity regulations are some basic changes needed to improve the status of women in Africa.",
+    "MiddleEastAndNorthAfrica": "Women's rights in the MENA region remains critical and even worsening in some countries with the rise of religious extremism and expanded enforcement of the Sharia law.\n\nThe region has the lowest gender parity of any region. In 2024, on the labor market, the Arab States have the lowest female participation rate in the world, at 11.7% (compared to 66.2% for men), reports ILO. The income gap is also the largest in the world, with Arab women earning just 12.5% of the income earned by Arab men.\n\nTunisia is the first Arab country to have a woman as head of government (2021), although after the 2022 electoral law that removed the requirement for candidate lists to be gender-equal, women representation decreased from 31% in 2014, to just 16.2% of seats following parliamentary elections in 2022 and 2023, notes IPU.\n\nStoning to death is still used as a legal form of punishment for \"adultery\" in several Muslim countries, and the purdah (female seclusion) and namus (virtue) customs persist in many Arab regions. Sexual harassment, rape, and sexual violence by ISIS and other extremist groups and security forces across the region have reached intolerable levels. The Middle East has an estimated 6 million cases of female genital mutilation. However, these are increasingly being challenged by empowered women, the outcry of the global society, and women's-rights icons such as Malala Yousafzai.\n\nIn the Arab MENA region, philosophical, ethnic, and ethical assumptions have to change in order to make possible the structural transformations needed to improve the status of women. The international community could use sanctions and conditioned-aid, conditioned-partnership in international organizations and business partnerships to help accelerate the long-due change.",
+    "AsiaAndOceania": "High incomes and education levels in countries like Japan challenge old family structures. However, women occupy only 14.7% of senior leadership positions in Japan. If women participated in the economy equally to men, Japan's GDP could grow by 16%. Together with the Republic of Korea (where women hold 10% of leadership positions), they launched the Gender Parity Task Force to improve women's career opportunities.\n\nAccording to the 2024 Global Gender Gap report, Japan rose from 125th place in 2023 to 118th place in 2024. Republic of Korea rose from 107th place in 2023 to 94th in 2024. and China rose one position from 107th place in 2023 to 106th in 2024. The region's best performers were New Zealand ranked 4th, followed by Australia (24th), and the Philippines (25th), while the worst performers were Maldives (132) and Pakistan (145).\n\nThe East Asia and Paciﬁc region have nearly closed enrollment gaps between girls and boys in primary, secondary, and tertiary education, with girls even outperforming boys in some countries. However, in South Asia, only Sri Lanka, the Maldives, and Bangladesh have reached gender parity in primary schools, reports UNESCO. China has closed the gap for primary education, and reached 46.6% parity in the ninth year of schooling. Women in China were 45.17% of the labor force in 2022 (up from 43.5% in 2020). An estimated 19% of executives in China are women compared to the world average of 25%. Only a quarter of researchers in East Asia and the Pacific Rim are women.\n\nAlthough all countries of South Asia have ratiﬁed the Convention on the Elimination of All Forms of Discrimination Against Women, UNDP reports that gender inequality causes a 60.1% loss in human development in the region, while ActionAid estimates that closing the wage and employment gaps would mean a 73% income gain valued at some $4.3 trillion. Central Asia has closed 69.1% of its gender gap in 2022. WHO notes that the region has about 30% of the world's maternal deaths, the world's second worse, after Africa.\n\nMainly due to the dual legal civil and religious systems in many parts of Asia early and forced marriage, violence, discrimination with respect to inheritance and land ownership, dowry issues, and honor killings continue to be prevalent and unpunished. In Afghanistan, the criminal law prevents prosecutions for domestic violence, forced and child marriage, and there were calls to overturn the Law on Elimination of Violence Against Women for being counter to Islam. This prejudice against women costs Afghanistan about $1 billion per year. The project \"Engaging Young Men through Social Media for the Prevention of Violence against Women\" aims to end gender-based violence in Asia and the Pacific by using social media.\n\nBias in favor of sons continues to be of concern in many countries of the region. Given new policies, India's sex ratio is expected to improve from 943 in 2011 to 952 by 2036. China's one-child policy worked to reduce fertility rate, but the Communist Party leadership ended the policy and allowed married couples to have three children as of May 2021. However, if they have more children, women worry about employment discrimination.\n\nEastern and South-Eastern Asia have about 22% women legislators, Oceania has 20%, Central and Southern Asia has 19%, and Western Asia has 18%. After adopting the political quota system, the share of women in the parliaments of Central Asian countries increased from none to over 20%, although they still have to struggle with the reminiscent patriarchal structures.",
+    "Europe": "Gender parity is an important part of the structural changes in Europe. With a score of 76.3%, the region has the best world's gender parity. Five countries — Iceland, Norway, Finland, Sweden, Germany — have closed at least 80% of their gap. Women hold the top positions at the European Commission and the European Parliament. However, due to the 2024 elections, the proportion of women in the European Parliament has decreased for the first time ever, to 38.75% of the MEPs. Only the Greens/EFA group is at parity, with 50.9% female MEPs.\n\nIn the EU, companies listed on stock exchanges have to have at least 40% of women among non-executive directors or 33% among all directors. The European Institute for Gender Equality that monitors the situation found that in 2022, the share of women on the boards of the largest publicly listed companies registered in the EU reached 32.2%.\n\nIn the EU, 43% of those aged 25 to 34 had a degree in 2023; women represented about 60%. In 2022, 48% of women versus 37% of men had tertiary education. On secondary school, an average of 83% of women reached upper secondary school, compared to 77.5% of men. However, the gender pay gap persists, with women earning on average 12.7% less per hour than men in 2022. This also impacts living standards, with the risk of poverty or social exclusion being 22.3% for women compared to 20.3 % for men, in 2023.\n\nNevertheless, Europe has the best social policies, including childcare, maternity leave, and health care. Scotland was the first country to legislate free period products for those in need.\n\nA 2021 study found that 1 in 10 women (11 %) in the EU-27 have experienced cyber harassment or cyber stalking since the age of 15, while 4 to 7% of women have experienced cyber harassment during the past 12 months, and between 1 and 3% have experienced cyber stalking. Physical violence against women also remains a concern, mainly since the waves of new immigrants.\n\nAbout 80% of Russian women aged 16 to 60 years are employed and comprise 48.6% of employment. Women account for 43.4% of Russians with a PhD.",
+    "LatinAmerica": "The region continues to progress since 2017, with a 1.7% increase in 2023, bridging 74.3% of its overall gender parity. Women's participation in Latin American parliaments has improved due to the introduction of quotas in many countries. Argentina, Brazil, and Chile elected women heads of state. As of mid-2024, only four countries of the region surpassed 40% of women members in national parliaments.. In Mexico, 38% of the Chamber of Deputies are women and the President's Reform Initiative recommends that 50% of all political parties' candidates for popular positions should be women. Women held 1.6% of CEO position and 14.5% of corporate broad of directors in 2023. The 2024 Global Gender Gap report indicates that the region has closed 74.2% of the gender gap.\n\nMore women than men attain tertiary education across the region, but only 52% of working-age women participate in the labor force in 2024 compared to 75% of men. Gender pay gaps also persist; women still earn 26% less than their male peers. Rural and indigenous women work unpaid at least 16 hours a day. Despite economic and political progress, women's well-being continues to be hindered by machismo political and social structures and women easily become victims of organized crime in various forms. At least 4,473 women were killed by their husbands or relatives in 2021 in the region, up from 1,678 in 2014. As a result of restrictive legislation, one in three maternal deaths is due to abortion, and the lifetime risk of maternal death is 0.4%.",
+    "NorthAmerica": "The region ranks second behind Europe overall having closed 75% of the gender gap, though it is 1.9% lower than the previous edition, with the U.S. 2.1% and Canada 0.2% declines. Women's share of the total labor force in North America was 46.6% in 2023 (46.5 in the U.S and 47.4% in Canada). Women earn more than their partners in about 10% of dual-earning households in the U.S. and 33% in Canada, as many women have higher education level than men and their number in senior management positions is increasing. However, only 5.8% of women hold CEO positions at S&P companies in the U.S., and 69.9% of mothers with children under age of 18 were working, compared to 92.7% of fathers. Silicon Valley has the largest pay gap in the U.S. with an earnings difference of $40,584 between genders. Women earn 78% of what men earn for comparable work, and the wage gap is worse for women of color. The gap was largest for Hispanic and Latina women who were paid 54% of what white men earned. Based on the trends of the past half-century of progress, the Institute for Women's Policy Research estimates that the U.S. national wage gap will close around the year 2058. States vary significantly, with projections to 2038 in Florida and 2159 in Wyoming. The Paycheck Fairness Act (PFA) passed the House of Representatives on April 15, 2021 by a vote of 217-210, but failed in the Senate in June 2021 in a procedural vote.\n\nWomen's representation in the U.S. Senate in 2024 is 25% (25 Senators) and 29% (126 of 435) Congressional Representatives. Canada has 30% women in the House of Commons — the highest percent in its history, but only 1 (in Alberta) of 13 provincial premiers are women. Both the U.S. and Canadian governments made critical cuts in domestic and international family planning programs for women. Since the Supreme Court overturned Roe v. Wade, as of May 2024, abortion is banned in 14 states, gestational limit between 6 and 12 weeks in 5 states, limit between 15 and 22 weeks in 6 states, and abortion is legal beyond 22 weeks in 25 states and D.C. The U.S. is among the countries with the costliest childbirth, most expensive day care, and the shortest parental leave. Among 41 nations, the U.S. is the only country which doesn't mandate national regulations or government-provided paid parental leave. These problems are even more critical as the share of one-parent families in the U.S. has increased; children living with a single mother is the second most common family arrangement. More than half of single mothers are living in extreme poverty.\n\nCanada provides maternity or parental benefits. According to the Employment Insurance Maternity and Parental Benefits policy (except for Quebec Provence), which has its own parental insurance plan), the EI benefits generally pay 55% of one's average insurable weekly earnings, up to a maximum amount. Employers must give parents a minimum number of weeks for maternity, parental, and adoption leave. But employers don't have to pay them during such times. More than 40% of new parents surveyed said they could not afford maternity leave, and 81% of those who took the leave and returned to work, would have stayed on leave longer if they could have afforded it. The employment rate of mothers in Canada with young children in one-parent families reached 62% in 2021, and they earn less than women without children In the U.S.. Violence against women was reduced by 55% since the passage of the Violence Against Women Act in 1994."
+  },
+  "processSteps": [
+    {
+      "step": 1,
+      "title": "Develop a Positive Approach",
+      "analysisTemplate": {
+        "considerations": "List 3-5 key considerations for having a positive approach to this specific problem, prioritized by importance",
+        "assumptions": "Note any assumptions you're making about the problem or situation, ranked by potential impact",
+        "positiveFraming": "Reflect on how to frame a positive approach specifically for this situation, providing 2-3 concrete examples",
+        "assistantActions": "Consider if any personal assistant actions (e.g., scheduling, notifications) could support a positive approach, explicitly connecting each action to an aspect of the problem",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 2,
+      "title": "Define the Problem Clearly",
+      "analysisTemplate": {
+        "keyElements": "List 3-5 key elements that should be included in the problem definition, prioritized by relevance",
+        "assumptions": "Note any assumptions you're making about the problem's scope or context, ranked by certainty",
+        "additionalInfo": "Analyze what additional information might be needed to fully understand the problem, providing 2-3 specific examples",
+        "questions": "Consider if any questions need to be asked to clarify the problem, listing them in order of importance",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 3,
+      "title": "Explore Creative Solutions",
+      "analysisTemplate": {
+        "techniques": "List 3-5 creative thinking techniques that would be most effective for this particular problem, ranked by potential impact",
+        "assumptions": "Note any assumptions you're making about the user's creative capabilities or resources, prioritized by relevance",
+        "tailoring": "Consider how these techniques can be tailored to address the specific aspects of the problem, providing an example for each",
+        "offlineActivities": "Identify any offline activities or services that might boost creativity, explicitly connecting each to an aspect of the problem",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 4,
+      "title": "Prepare for Different Outcomes",
+      "analysisTemplate": {
+        "potentialOutcomes": "List 2-3 potential positive outcomes and 2-3 potential negative outcomes most relevant to this problem, ranked by likelihood",
+        "assumptions": "Note any assumptions you're making about the likelihood of these outcomes, prioritized by potential impact",
+        "contextAnalysis": "Analyze how these outcomes relate to the specific context of the problem, providing an example for each",
+        "metrics": "Consider how tracking certain metrics might help prepare for these outcomes, explicitly connecting each metric to an outcome",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 5,
+      "title": "Brainstorm Solutions",
+      "analysisTemplate": {
+        "solutions": "List 5-7 potential solutions that address the specific challenges and opportunities identified, ranked by potential effectiveness",
+        "assumptions": "Note any assumptions you're making about the feasibility of these solutions, prioritized by importance",
+        "explanations": "Consider how each solution relates to the problem definition and potential outcomes, providing a brief explanation for each",
+        "purchases": "Identify any items that might need to be purchased to implement these solutions, explicitly connecting each item to a solution",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 6,
+      "title": "Evaluate Options",
+      "analysisTemplate": {
+        "criteria": "List 3-5 criteria for evaluating the solutions, based on the specific situation, ranked by importance",
+        "assumptions": "Note any assumptions you're making about the user's priorities or constraints, prioritized by potential impact",
+        "evaluation": "Consider how each solution measures up against these criteria, providing a brief score or explanation for each",
+        "expertAdvice": "Determine if expert advice might be needed for evaluation, specifying which aspects of the evaluation require expertise",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 7,
+      "title": "Set Clear Milestones",
+      "analysisTemplate": {
+        "milestones": "List 3-5 key milestones for implementing the chosen solution, ordered chronologically",
+        "assumptions": "Note any assumptions you're making about the timeline or resources available, ranked by potential impact",
+        "timeframes": "Consider realistic timeframes for each milestone, given the specific problem and solution, providing a brief justification for each",
+        "repeatedTasks": "Identify any tasks that need to be repeated and their frequency, explicitly connecting each to a milestone",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 8,
+      "title": "Take Responsibility",
+      "analysisTemplate": {
+        "responsibilities": "List 3-5 specific areas where the user needs to take responsibility to ensure success, prioritized by importance",
+        "assumptions": "Note any assumptions you're making about the user's capabilities or support system, ranked by certainty",
+        "examples": "Consider how these responsibilities relate to the chosen solution and timeline, providing an example for each",
+        "reminders": "Identify any reminders or notifications that could help the user stay accountable, explicitly connecting each to a responsibility",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 9,
+      "title": "Implement the Solution",
+      "analysisTemplate": {
+        "challenges": "List 3-5 potential challenges in implementing the solution, ranked by likelihood",
+        "assumptions": "Note any assumptions you're making about the implementation process, prioritized by potential impact",
+        "strategies": "Consider strategies to overcome each of these challenges, providing a brief explanation for each",
+        "support": "Identify any support services or resources that might help with implementation, explicitly connecting each to a challenge",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    },
+    {
+      "step": 10,
+      "title": "Track Results",
+      "analysisTemplate": {
+        "metrics": "List 3-5 appropriate metrics for tracking progress and assessing effectiveness, ranked by relevance",
+        "assumptions": "Note any assumptions you're making about what constitutes success for this problem, prioritized by importance",
+        "measurement": "Consider methods for measuring each metric, given the specific problem and solution, providing a brief explanation for each",
+        "frequency": "Determine how often these metrics should be tracked and reviewed, explicitly connecting each frequency to a metric",
+        "example": "Write down a specific scenario or example from the problem description that relates to this step"
+      }
+    }
+  ],
+  "format": {
+    "stepFormat": "<step_${number}>\n<step_analysis>\n${analysis}\n</step_analysis>\n${advice}\n</step_${number}>",
+    "summaryFormat": "<summary>\n${summary}\n</summary>"
+  }
+}
+

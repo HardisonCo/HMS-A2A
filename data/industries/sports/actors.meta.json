@@ -1,0 +1,70 @@
+{
+    "domainName": "Sports",
+    "roles": [
+      {
+        "id": "sports-role-1",
+        "name": "Coach",
+        "description": "Trains athletes or teams, devising strategies, planning practice sessions, and providing feedback to maximize performance.",
+        "meta": {
+          "typicalBackground": "Sports science, competition experience, leadership and motivational skills",
+          "keyTools": ["Video analysis software", "Fitness testing protocols", "Training periodization plans"],
+          "challenges": ["Balancing individual skill development with team tactics, preventing injuries, psychological pressure"]
+        },
+        "sampleUseCase": {
+          "scenario": "A soccer coach introduces specialized drills focusing on defensive shape, reducing conceded goals by 40% in the next tournament."
+        }
+      },
+      {
+        "id": "sports-role-2",
+        "name": "Sports Agent",
+        "description": "Represents athletes’ professional interests, negotiates contracts, handles endorsements, and manages public profiles.",
+        "meta": {
+          "typicalBackground": "Law or business degree, strong negotiation skills, sports industry network",
+          "keyTools": ["Contract drafting, brand partnership strategies, market salary benchmarks"],
+          "challenges": ["Maintaining athlete's public image, ensuring fair deals, competition from rival agencies"]
+        },
+        "sampleUseCase": {
+          "scenario": "An agent secures a multi-year endorsement deal for a rising basketball star, leveraging social media analytics to prove the athlete’s marketing value."
+        }
+      },
+      {
+        "id": "sports-role-3",
+        "name": "Event Organizer",
+        "description": "Plans and executes sports events—from local competitions to large-scale tournaments—coordinating venues, scheduling, sponsorship, and logistics.",
+        "meta": {
+          "typicalBackground": "Event management or sports administration, budgeting, vendor coordination, crowd control measures",
+          "keyTools": ["Project management software", "Ticketing platforms", "Sponsor activation frameworks"],
+          "challenges": ["Securing adequate facilities, ensuring safety (emergency services), unpredictability of weather for outdoor events"]
+        },
+        "sampleUseCase": {
+          "scenario": "An organizer sets up a city marathon, working with law enforcement for road closures, recruiting sponsors for prizes, and implementing real-time runner tracking for spectators."
+        }
+      },
+      {
+        "id": "sports-role-4",
+        "name": "Sports Medicine Specialist",
+        "description": "Provides medical support to athletes, diagnosing and treating injuries, developing rehabilitation programs, ensuring safe return to play.",
+        "meta": {
+          "typicalBackground": "Medical degree or physiotherapy, specialized sports medicine training, knowledge of athletic injury prevention",
+          "keyTools": ["Rehabilitation equipment, imaging (MRI, X-ray), concussion protocols"],
+          "challenges": ["Pressure to return athletes quickly, balancing performance vs. risk of re-injury, doping or painkiller misuse issues"]
+        },
+        "sampleUseCase": {
+          "scenario": "A sports physician detects early signs of ACL strain in a soccer player, prescribes targeted exercises and modifies training load, preventing a major knee injury."
+        }
+      },
+      {
+        "id": "sports-role-5",
+        "name": "Performance Analyst",
+        "description": "Collects and interprets performance data (GPS, video, stats) to provide strategic insights for coaches and athletes.",
+        "meta": {
+          "typicalBackground": "Sports science or data analytics, ability to interpret metrics in context of specific sports tactics",
+          "keyTools": ["GPS trackers, motion capture, video breakdown software, analytics dashboards"],
+          "challenges": ["Filtering data overload, ensuring real-time feedback, aligning with coaching philosophy"]
+        },
+        "sampleUseCase": {
+          "scenario": "A performance analyst discovers inefficiencies in a basketball team's defensive rotations using video breakdown. They highlight these in training sessions, boosting the team’s defensive rating."
+        }
+      }
+    ]
+  }

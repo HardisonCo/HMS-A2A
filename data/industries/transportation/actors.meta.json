@@ -1,0 +1,70 @@
+{
+    "domainName": "Transportation",
+    "roles": [
+      {
+        "id": "transportation-role-1",
+        "name": "Urban Planner",
+        "description": "Designs efficient transport networks within cities, balancing pedestrian, cycling, public transit, and road systems for sustainable mobility.",
+        "meta": {
+          "typicalBackground": "Urban planning or civil engineering degree, GIS proficiency, stakeholder engagement skills",
+          "keyTools": ["GIS mapping", "Traffic simulation models", "Public consultation processes"],
+          "challenges": ["Budget constraints, political approval, balancing diverse commuter preferences"]
+        },
+        "sampleUseCase": {
+          "scenario": "The planner proposes a bus rapid transit (BRT) corridor with dedicated lanes and integrated fare systems, cutting average commute times by 25% in a congested urban district."
+        }
+      },
+      {
+        "id": "transportation-role-2",
+        "name": "Logistics Coordinator",
+        "description": "Organizes freight movement, managing schedules, routes, and shipping modes to minimize costs and delays.",
+        "meta": {
+          "typicalBackground": "Logistics or supply chain diploma/degree, strong organization and real-time problem-solving",
+          "keyTools": ["Freight management software", "Warehouse/distribution center coordination", "Vehicle tracking devices"],
+          "challenges": ["Fuel price volatility, custom clearance, last-mile delivery complexities in urban areas"]
+        },
+        "sampleUseCase": {
+          "scenario": "A coordinator employs route optimization algorithms to consolidate deliveries and reduce truck mileage, saving fuel and cutting CO2 emissions by 10% monthly."
+        }
+      },
+      {
+        "id": "transportation-role-3",
+        "name": "Public Transit Operator",
+        "description": "Operates buses, trains, or trams, adhering to schedules, safety standards, and passenger service protocols.",
+        "meta": {
+          "typicalBackground": "Commercial driving license, training in traffic rules, strong safety orientation",
+          "keyTools": ["Vehicle telematics", "Ticketing systems", "Real-time location apps for passengers"],
+          "challenges": ["Traffic congestion, unpredictable passenger volumes, ensuring on-time performance in adverse weather"]
+        },
+        "sampleUseCase": {
+          "scenario": "A bus operator adjusts headways during peak hours based on real-time passenger load data, reducing overcrowding and improving user satisfaction."
+        }
+      },
+      {
+        "id": "transportation-role-4",
+        "name": "Traffic Engineer",
+        "description": "Analyzes flow patterns, designs intersection layouts, traffic signals, and control systems to reduce congestion and accidents.",
+        "meta": {
+          "typicalBackground": "Civil engineering with specialization in traffic/transport, strong modeling and data analysis skills",
+          "keyTools": ["Traffic flow simulation software", "Sensors for vehicle/pedestrian counts", "Signal timing optimization"],
+          "challenges": ["Limited road space, driver behavior unpredictability, political/institutional constraints on big infrastructure changes"]
+        },
+        "sampleUseCase": {
+          "scenario": "The engineer reconfigures a busy junction with adaptive signal control and protected left turns, cutting average intersection wait times by 35% and improving safety for cyclists."
+        }
+      },
+      {
+        "id": "transportation-role-5",
+        "name": "Freight Forwarder",
+        "description": "Manages the import/export logistics on behalf of shippers, handling customs clearance, shipping documents, and carrier selection.",
+        "meta": {
+          "typicalBackground": "International trade/logistics experience, knowledge of INCOTERMS, customs regulations",
+          "keyTools": ["Freight booking platforms", "Customs e-declaration systems", "Shipping line schedules"],
+          "challenges": ["Paperwork errors causing delays, currency shifts, unpredictable port congestion"]
+        },
+        "sampleUseCase": {
+          "scenario": "A forwarder consolidates shipments from multiple SMEs, negotiating a better rate with the ocean carrier and smoothing out customs processes at the destination port."
+        }
+      }
+    ]
+  }

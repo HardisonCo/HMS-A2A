@@ -1,0 +1,70 @@
+{
+    "domainName": "Treasury",
+    "roles": [
+      {
+        "id": "treasury-role-1",
+        "name": "Budget Analyst",
+        "description": "Develops and monitors government or corporate budgets, ensuring alignment with financial policies and strategic goals.",
+        "meta": {
+          "typicalBackground": "Finance or accounting degree, strong quantitative analysis, knowledge of public sector frameworks",
+          "keyTools": ["Spreadsheet software", "Budget planning platforms", "Forecasting models"],
+          "challenges": ["Competing departmental priorities", "Revenue shortfalls", "Timely budget approvals"]
+        },
+        "sampleUseCase": {
+          "scenario": "A budget analyst reconciles mid-year spending data, identifies a potential shortfall in capital projects, and recommends transferring funds from underspent lines to maintain timely project completion."
+        }
+      },
+      {
+        "id": "treasury-role-2",
+        "name": "Debt Manager",
+        "description": "Oversees debt issuance and repayment strategies, managing interest rates and maturities to optimize financial obligations.",
+        "meta": {
+          "typicalBackground": "Economics, finance, or public administration, knowledge of bond markets and macroeconomics",
+          "keyTools": ["Bond issuance calendars", "Yield curve analyses", "Credit rating agency interactions"],
+          "challenges": ["Market volatility", "Maintaining sovereign credit rating", "Refinancing legacy debts cost-effectively"]
+        },
+        "sampleUseCase": {
+          "scenario": "A debt manager sees favorable market conditions for a 10-year bond issuance to refinance an older, higher-interest note. The move saves millions in annual interest for the treasury."
+        }
+      },
+      {
+        "id": "treasury-role-3",
+        "name": "Cash Flow Specialist",
+        "description": "Manages day-to-day liquidity, ensuring sufficient cash to cover payroll, invoices, and other short-term obligations.",
+        "meta": {
+          "typicalBackground": "Accounting or corporate finance background, strong forecasting and liquidity management skills",
+          "keyTools": ["Cash flow projections", "Bank reconciliation software", "Short-term investment strategies"],
+          "challenges": ["Unpredictable incoming revenue streams", "High payables due periods", "Maintaining minimum reserve levels"]
+        },
+        "sampleUseCase": {
+          "scenario": "Noticing a temporary dip in incoming tax receipts, the specialist arranges a short-term line of credit to cover a large payroll outflow, avoiding overdraft penalties."
+        }
+      },
+      {
+        "id": "treasury-role-4",
+        "name": "Investment Officer",
+        "description": "Allocates surplus or reserve funds into securities and other assets, balancing risk and return per treasury policy.",
+        "meta": {
+          "typicalBackground": "Finance degree, portfolio management experience, knowledge of interest rates and risk metrics",
+          "keyTools": ["Bloomberg terminals", "Yield optimization models", "Credit risk assessments"],
+          "challenges": ["Market swings, currency fluctuations, ensuring liquidity for short-term needs"]
+        },
+        "sampleUseCase": {
+          "scenario": "An investment officer invests a portion of treasury reserves in diversified municipal bonds and high-grade corporate notes, ensuring stable yields while preserving liquidity for future obligations."
+        }
+      },
+      {
+        "id": "treasury-role-5",
+        "name": "Compliance Officer",
+        "description": "Ensures treasury operations adhere to legal and regulatory requirements, including anti-money laundering and transparent reporting.",
+        "meta": {
+          "typicalBackground": "Law or finance compliance training, familiarity with AML/KYC protocols, thorough knowledge of relevant statutes",
+          "keyTools": ["Audit logs", "Transaction monitoring software", "Reporting frameworks (IFRS, GAAP)"],
+          "challenges": ["Keeping up with changing regulations", "Investigating suspicious transactions", "Mitigating reputational risks"]
+        },
+        "sampleUseCase": {
+          "scenario": "A compliance officer detects unusual repeated transfers to an offshore account, flags them for deeper AML investigation, and coordinates with legal to rectify potential wrongdoing."
+        }
+      }
+    ]
+  }

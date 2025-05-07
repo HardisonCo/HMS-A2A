@@ -1,0 +1,242 @@
+[
+  {
+    "id": 7,
+    "name": "Health",
+    "icon": "fas fa-heartbeat",
+    "description": "Health systems coordinate medical services, patient care, and public health initiatives by integrating clinical workflows, advanced healthcare data management, and preventive health measures. They leverage digital innovations, real-time analytics, and interoperability standards to improve population health outcomes and enhance decision-making.",
+    "fullDescription": "Health systems protect and promote public well-being by delivering coordinated medical services and supporting preventive care initiatives. Modern health systems integrate electronic health records (EHRs), telemedicine, AI-driven diagnostics, and data analytics to streamline clinical workflows and facilitate evidence-based decision-making. They support the entire spectrum of care from acute treatment to long-term wellness programs, and emphasize patient safety, privacy, and efficiency. Collaborative efforts among healthcare providers, technology vendors, policymakers, and research institutions drive continuous improvements in care quality, accessibility, and cost management. These systems are crucial for managing chronic conditions, responding to epidemics, and ensuring that quality care is available to all segments of the population.",
+    "standards": [
+      {
+        "name": "HL7 FHIR",
+        "organization": "Health Level Seven International",
+        "description": "A standard for healthcare data exchange that enables interoperability between different healthcare systems.",
+        "url": "https://www.hl7.org/fhir/",
+        "relevance": "Facilitates seamless exchange of electronic health records and medical information.",
+        "implementation": "Integrated into EHR systems to enable secure and standardized data sharing across platforms.",
+        "benefits": "Enhances clinical collaboration, reduces errors, and improves care coordination.",
+        "challenges": "Requires ongoing updates and cross-system compatibility testing."
+      },
+      {
+        "name": "HIPAA",
+        "organization": "U.S. Department of Health & Human Services",
+        "description": "Regulations that protect the privacy and security of certain health information.",
+        "url": "https://www.hhs.gov/hipaa/",
+        "relevance": "Ensures patient data privacy and security in healthcare operations.",
+        "implementation": "Adopted through strict data governance policies, encryption protocols, and staff training.",
+        "benefits": "Protects sensitive patient information and builds trust.",
+        "challenges": "Compliance can be costly and complex, especially for smaller providers."
+      },
+      {
+        "name": "DICOM",
+        "organization": "National Electrical Manufacturers Association (NEMA)",
+        "description": "A standard for handling, storing, and transmitting medical imaging information.",
+        "url": "https://www.dicomstandard.org/",
+        "relevance": "Ensures compatibility and interoperability of imaging devices and systems.",
+        "implementation": "Embedded in imaging equipment and integrated with hospital information systems.",
+        "benefits": "Improves diagnostic accuracy and streamlines imaging workflows.",
+        "challenges": "Requires specialized expertise for implementation and continuous updates with evolving imaging technology."
+      },
+      {
+        "name": "ICD-10",
+        "organization": "World Health Organization (WHO)",
+        "description": "International Classification of Diseases, 10th Revision, used for diagnosis coding and health management.",
+        "url": "https://www.who.int/classifications/icd/en/",
+        "relevance": "Facilitates standardized diagnosis reporting and epidemiological research.",
+        "implementation": "Implemented in clinical and billing systems to support accurate health statistics and reimbursement processes.",
+        "benefits": "Enhances the quality of health data and supports global health comparisons.",
+        "challenges": "Requires regular updates and can be complex to adopt across diverse health systems."
+      }
+    ],
+    "workflows": [
+      {
+        "name": "Patient Registration",
+        "description": "Collect demographic, insurance, and consent information to establish a patient record.",
+        "steps": [
+          "Verify patient identity and gather demographic data",
+          "Collect insurance and payment information",
+          "Obtain consent for data sharing and treatment"
+        ]
+      },
+      {
+        "name": "Clinical Assessment",
+        "description": "Document patient symptoms, medical history, diagnoses, and treatment plans.",
+        "steps": [
+          "Record patient history and current symptoms",
+          "Conduct physical examinations and order diagnostic tests",
+          "Document diagnosis and develop treatment plans"
+        ]
+      },
+      {
+        "name": "Care Delivery",
+        "description": "Provide medical services and monitor patient progress throughout treatment.",
+        "steps": [
+          "Administer treatment and medications",
+          "Monitor patient responses and adjust care plans",
+          "Record clinical outcomes and update patient records"
+        ]
+      },
+      {
+        "name": "Claims Processing",
+        "description": "Submit and manage insurance claims to secure reimbursement for provided services.",
+        "steps": [
+          "Generate electronic claims based on services rendered",
+          "Validate claim data against patient records and insurance policies",
+          "Submit claims and resolve discrepancies with payers"
+        ]
+      },
+      {
+        "name": "Population Health Management",
+        "description": "Analyze health trends, monitor epidemiological data, and implement preventive measures.",
+        "steps": [
+          "Aggregate and analyze population health data",
+          "Identify high-risk groups and trends in chronic diseases",
+          "Implement targeted preventive programs and monitor outcomes"
+        ]
+      },
+      {
+        "name": "Telehealth Implementation",
+        "description": "Deploy remote healthcare services to extend access to care and reduce system burden.",
+        "steps": [
+          "Set up secure telehealth platforms and train staff",
+          "Integrate telemedicine tools with EHR systems",
+          "Monitor patient outcomes and satisfaction with virtual visits"
+        ]
+      },
+      {
+        "name": "Clinical Decision Support",
+        "description": "Utilize AI and data analytics to support clinical decision-making and improve patient outcomes.",
+        "steps": [
+          "Integrate clinical guidelines and patient data into decision support tools",
+          "Provide real-time alerts and recommendations to clinicians",
+          "Continuously update algorithms based on new evidence and feedback"
+        ]
+      },
+      {
+        "name": "Patient Follow-Up & Discharge Planning",
+        "description": "Ensure smooth transitions from inpatient to outpatient care and monitor post-discharge progress.",
+        "steps": [
+          "Schedule follow-up appointments and post-discharge consultations",
+          "Coordinate with community care providers for continuity",
+          "Collect post-discharge data to evaluate recovery and readmission rates"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "health-1",
+        "name": "Universal Health Coverage",
+        "description": "Ensure all individuals have access to essential health services without financial hardship, covering preventive, curative, rehabilitative, and palliative care.",
+        "implementation": "Achieved through public policy, subsidized healthcare programs, and comprehensive insurance schemes. Challenges include funding constraints and equitable distribution of resources; benefits include improved health outcomes and reduced financial barriers.",
+        "kpis": [
+          {
+            "name": "Service Coverage Index",
+            "definition": "Composite measure of essential health service availability across the population.",
+            "measurementExample": "Track coverage levels for maternal care, immunizations, infectious and non-communicable disease management."
+          },
+          {
+            "name": "Financial Protection Indicator",
+            "definition": "Extent to which health spending does not cause financial hardship for households.",
+            "measurementExample": "Calculate the percentage of households facing catastrophic health expenditures."
+          },
+          {
+            "name": "Access Equity Ratio",
+            "definition": "Degree of uniform access to health services across different socioeconomic and geographic groups.",
+            "measurementExample": "Compare service availability and utilization rates between urban and rural areas."
+          }
+        ],
+        "targets": [
+          "Achieve 90% coverage of essential health services nationwide",
+          "Reduce out-of-pocket health expenses to less than 15% of total health spending",
+          "Establish primary care facilities within a 5km radius for 95% of the population",
+          "Improve access equity ratio by 20% in underserved regions",
+          "Increase preventive care service uptake by 30% over the next 5 years"
+        ]
+      },
+      {
+        "id": "health-2",
+        "name": "Digital Health Transformation",
+        "description": "Leverage information technologies to improve healthcare delivery, monitoring, and decision-making through telehealth, electronic health records, and advanced analytics.",
+        "implementation": "Implemented by integrating interoperable EHR systems, telemedicine platforms, and AI-powered diagnostic tools. Challenges include interoperability issues, cybersecurity risks, and technology adoption among staff; benefits include enhanced patient outcomes, efficiency, and cost savings.",
+        "kpis": [
+          {
+            "name": "EHR Adoption Rate",
+            "definition": "Extent of electronic health record implementation and meaningful use across healthcare providers.",
+            "measurementExample": "Survey providers to assess EHR system adoption and usage metrics."
+          },
+          {
+            "name": "Telehealth Utilization",
+            "definition": "Frequency and effectiveness of remote healthcare delivery compared to traditional visits.",
+            "measurementExample": "Measure the volume of virtual consultations and analyze patient outcome data."
+          },
+          {
+            "name": "Digital Engagement Index",
+            "definition": "Composite metric assessing patient and provider engagement with digital health tools.",
+            "measurementExample": "Analyze usage statistics, login frequencies, and user satisfaction surveys."
+          }
+        ],
+        "targets": [
+          "Implement interoperable EHR systems across 95% of healthcare providers within 3 years",
+          "Establish telehealth services for at least 40% of suitable clinical encounters",
+          "Achieve a 50% increase in digital engagement index within 2 years",
+          "Deploy AI-assisted decision support tools in 30% of high-priority clinical areas",
+          "Enhance cybersecurity measures to achieve zero data breaches over the next 5 years"
+        ]
+      },
+      {
+        "id": "health-3",
+        "name": "Population Health Improvement",
+        "description": "Implement preventive and public health measures addressing social determinants of health and promoting wellness at community levels.",
+        "implementation": "Achieved through community outreach programs, integrated public health campaigns, and partnerships with local organizations. Challenges include diverse population needs and resource allocation; benefits include reduced disease burden and improved quality of life.",
+        "kpis": [
+          {
+            "name": "Preventable Disease Burden",
+            "definition": "Incidence and prevalence of conditions that can be prevented through public health measures.",
+            "measurementExample": "Track rates of vaccine-preventable diseases, obesity, and tobacco-related illnesses."
+          },
+          {
+            "name": "Health Equity Measures",
+            "definition": "Assessment of disparities in health outcomes across different demographic groups.",
+            "measurementExample": "Analyze life expectancy and quality-adjusted life years by socioeconomic status and region."
+          },
+          {
+            "name": "Preventive Care Uptake",
+            "definition": "Percentage of the target population engaging in preventive health services such as screenings and immunizations.",
+            "measurementExample": "Monitor participation rates in community health programs and preventive care initiatives."
+          }
+        ],
+        "targets": [
+          "Reduce preventable chronic disease mortality by 30% within 5 years",
+          "Eliminate disparities in maternal and infant health outcomes across regions",
+          "Achieve a 40% increase in preventive care uptake among at-risk populations",
+          "Expand mental health screening and support services to 90% of communities",
+          "Improve overall health equity measures by 25% over the next decade"
+        ]
+      }
+    ],
+    "industry_interactions": {
+      "Energy": "Health systems collaborate with the Energy sector to ensure reliable power for healthcare facilities, promote research in energy-efficient medical technologies, and support emergency response during power outages.",
+      "Treasury": "They work with treasury departments to secure funding for health initiatives, manage healthcare budgets, and implement cost-control strategies in public health spending.",
+      "Commerce": "Health systems interface with commerce platforms to streamline procurement of medical supplies, manage pharmaceutical supply chains, and support telemedicine services.",
+      "Environment": "Collaboration with environmental agencies ensures that healthcare facilities adopt sustainable practices and minimize their ecological footprint.",
+      "Food": "They coordinate with the food industry to address nutritional health, food safety, and public health campaigns related to diet and lifestyle.",
+      "Jobs": "Health systems drive job creation in medical services, research, and allied industries, while also supporting workforce training and continuing education.",
+      "Health": "Internally, health systems integrate clinical care, public health initiatives, and research to improve patient outcomes and overall community well-being.",
+      "Education": "They partner with academic institutions to develop medical curricula, support research programs, and offer training for healthcare professionals.",
+      "Transportation": "Health systems rely on efficient transportation networks for emergency services, patient transfers, and the delivery of critical supplies.",
+      "Finance": "They collaborate with financial institutions to secure investments, manage healthcare costs, and develop innovative payment and insurance models.",
+      "Justice": "Health systems work with legal entities to ensure patient rights, enforce medical regulations, and address healthcare-related litigations.",
+      "Technology": "They integrate cutting-edge technologies like AI, machine learning, and telehealth to enhance diagnostics, treatment, and data management.",
+      "Telecom": "Robust communication networks support telemedicine, remote monitoring, and emergency response coordination.",
+      "Retail": "Health systems partner with retail pharmacies and medical supply stores to improve access to medications and healthcare products.",
+      "Manufacturing": "They collaborate with medical device manufacturers to develop and deploy advanced diagnostic and treatment equipment.",
+      "Mining": "Health systems address occupational health and safety issues in mining and support research on environmental exposures.",
+      "Utilities": "They coordinate with utility providers to ensure uninterrupted services in hospitals and clinics, especially during emergencies.",
+      "Media": "Health systems use media to disseminate public health information, raise awareness, and educate communities on health issues.",
+      "Defense": "They work with defense agencies to manage medical logistics, support military healthcare services, and develop strategies for mass casualty events.",
+      "Sports": "Health systems support sports medicine, injury prevention, and rehabilitation programs for athletes.",
+      "Tourism": "They collaborate with the tourism industry to promote health and wellness travel, including medical tourism initiatives.",
+      "Innovation": "Health systems drive innovation through research partnerships, startup incubators, and development of new medical technologies."
+    }
+  }
+  ]
+  

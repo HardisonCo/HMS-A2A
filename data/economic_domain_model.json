@@ -1,0 +1,517 @@
+{
+  "version": "1.0.0",
+  "model_name": "Moneyball-Buffett Trade Economics Model",
+  "description": "Domain model capturing the core concepts and relationships in the HMS Trade System based on Moneyball statistical analysis and Warren Buffett's investment philosophy",
+  "primary_focus": "International trade deficit reduction with data-driven, quantitative approaches",
+  "core_concepts": {
+    "WAR_Score": {
+      "name": "Weighted Agreement Return Score",
+      "description": "A composite metric that quantitatively evaluates trade agreements and policies",
+      "components": {
+        "market_access": {
+          "weight": 0.30,
+          "description": "Measures expansion of market access and trade opportunities",
+          "scale": "0-5"
+        },
+        "tariff_reduction": {
+          "weight": 0.25,
+          "description": "Measures impact of tariff reductions on trade flows",
+          "scale": "0-5"
+        },
+        "non_tariff_barrier": {
+          "weight": 0.25, 
+          "description": "Measures removal or reduction of non-tariff barriers",
+          "scale": "0-5"
+        },
+        "regulatory_alignment": {
+          "weight": 0.20,
+          "description": "Measures harmonization of regulations and standards",
+          "scale": "0-5"
+        }
+      },
+      "calculation": "Sum of (component_score × weight) for all components",
+      "interpretation": {
+        "baseline": 2.1,
+        "target": 3.5,
+        "meaning": "Higher scores indicate more effective trade agreements"
+      }
+    },
+    "DRP": {
+      "name": "Deficit Reduction Potential",
+      "description": "Projected impact of policy interventions on trade deficit over time",
+      "formula": "Baseline Deficit × (1 - (1 - Annual Improvement Rate)^Years)",
+      "components": {
+        "annual_improvement_rate": {
+          "formula": "(Tariff Effect + Non-Tariff Effect + Market Access Effect) / Baseline Deficit",
+          "description": "Annual percentage reduction in deficit due to policy interventions"
+        },
+        "projection_years": {
+          "description": "Time horizon for deficit reduction projections",
+          "typical_range": "1-10 years"
+        }
+      }
+    },
+    "SPS": {
+      "name": "Sector Prioritization Score",
+      "description": "Metric for ranking sectors by deficit reduction opportunity",
+      "formula": "(Sector Deficit Contribution / Total Deficit) × (Potential Improvement / Implementation Difficulty) × (U.S. Competitive Advantage Score)",
+      "components": {
+        "sector_deficit_contribution": {
+          "description": "Sector's percentage contribution to overall trade deficit",
+          "data_source": "Trade statistics by sector"
+        },
+        "potential_improvement": {
+          "description": "Estimated percentage reduction possible in sector deficit",
+          "scale": "0-1"
+        },
+        "implementation_difficulty": {
+          "description": "Estimated difficulty of implementing policy changes",
+          "scale": "1-5 (higher = more difficult)"
+        },
+        "competitive_advantage_score": {
+          "description": "Measure of country's competitive strength in the sector",
+          "scale": "0-5"
+        }
+      },
+      "usage": "Sectors with highest SPS scores should receive priority intervention"
+    },
+    "BuffettMoS": {
+      "name": "Buffett Margin of Safety",
+      "description": "Conservative adjustment to projections following Buffett's investment principle",
+      "implementation": "Multiply base projections by 0.7 to create 30% safety buffer",
+      "rationale": "Builds resilience against model uncertainties and economic shocks"
+    }
+  },
+  "analytical_frameworks": {
+    "sector_analysis": {
+      "description": "Framework for analyzing trade data by sector to identify deficit contributors",
+      "key_metrics": [
+        "Deficit contribution absolute ($)",
+        "Deficit contribution percentage (%)",
+        "Export growth potential ($)",
+        "Import substitution potential ($)",
+        "Competitive advantage score"
+      ],
+      "priority_calculation": "contribution_percentage × (export_growth_potential + import_substitution_potential) / 100"
+    },
+    "deficit_impact_projection": {
+      "description": "Framework for modeling deficit impact over time",
+      "factors": {
+        "tariff_effects": {
+          "description": "Impact of tariff changes on trade flows",
+          "compound_factor": 1.2
+        },
+        "non_tariff_effects": {
+          "description": "Impact of non-tariff barrier removal",
+          "compound_factor": 1.1
+        },
+        "regulatory_effects": {
+          "description": "Impact of regulatory alignment efforts",
+          "compound_factor": 1.15
+        }
+      },
+      "timeframes": {
+        "short_term": "1-2 years",
+        "medium_term": "3-5 years",
+        "long_term": "6-10 years"
+      }
+    },
+    "trade_policy_matrix": {
+      "description": "Visualization framework for policy options",
+      "axes": {
+        "x_axis": "Potential Improvement (Low → High)",
+        "y_axis": "Competitive Advantage (Low → High)"
+      },
+      "quadrants": {
+        "q1": {
+          "name": "Monitor",
+          "description": "High competitive advantage but low potential improvement"
+        },
+        "q2": {
+          "name": "Long-term Development",
+          "description": "High potential improvement but low competitive advantage"
+        },
+        "q3": {
+          "name": "Low Priority",
+          "description": "Low competitive advantage and low potential improvement"
+        },
+        "q4": {
+          "name": "Strategic Priority",
+          "description": "High competitive advantage and high potential improvement"
+        }
+      }
+    }
+  },
+  "data_sources": {
+    "trade_statistics": {
+      "sources": [
+        "U.S. Trade Representative (USTR)",
+        "U.S. Census Bureau",
+        "Bureau of Economic Analysis",
+        "International Trade Commission"
+      ],
+      "key_metrics": [
+        "Bilateral trade volumes",
+        "Trade deficit by country",
+        "Trade deficit by sector"
+      ]
+    },
+    "sector_data": {
+      "sources": [
+        "Industry associations",
+        "Department of Commerce",
+        "Economic research institutions"
+      ],
+      "key_metrics": [
+        "Production capacity",
+        "Comparative advantage indices",
+        "Employment statistics",
+        "Technology adoption rates"
+      ]
+    },
+    "policy_data": {
+      "sources": [
+        "Regulatory agencies",
+        "Trade agreements",
+        "International standards organizations"
+      ],
+      "key_metrics": [
+        "Tariff schedules",
+        "Non-tariff barrier indices",
+        "Regulatory concordance measures"
+      ]
+    }
+  },
+  "implementation_phases": {
+    "phase1": {
+      "name": "Foundation",
+      "timeframe": "Year 1",
+      "activities": [
+        "Establish measurement frameworks",
+        "Implement data collection systems",
+        "Identify quick wins with high SPS scores"
+      ]
+    },
+    "phase2": {
+      "name": "Acceleration",
+      "timeframe": "Years 2-3",
+      "activities": [
+        "Launch sector-specific programs",
+        "Begin regulatory alignment negotiations",
+        "Implement export promotion initiatives"
+      ]
+    },
+    "phase3": {
+      "name": "Scaling",
+      "timeframe": "Years 4-5",
+      "activities": [
+        "Expand successful programs",
+        "Address second-tier opportunities",
+        "Adjust based on outcome data"
+      ]
+    },
+    "phase4": {
+      "name": "Institutionalization",
+      "timeframe": "Years 6-10",
+      "activities": [
+        "Integrate successful approaches into permanent trade architecture",
+        "Develop adaptive policies for changing economic conditions",
+        "Establish ongoing monitoring systems"
+      ]
+    }
+  },
+  "models_and_systems": {
+    "war_score_system": {
+      "implementation": "Calculate Weighted Agreement Return score for trade deals",
+      "inputs": [
+        "Market access provisions",
+        "Tariff schedules",
+        "Non-tariff measure reductions",
+        "Regulatory harmonization measures"
+      ],
+      "outputs": [
+        "Composite WAR score (0-5)",
+        "Component scores with contribution analysis"
+      ],
+      "related_HMS_components": ["HMS-ESR", "HMS-NFO", "HMS-CDF"]
+    },
+    "moneyball_dashboard": {
+      "implementation": "Interactive dashboard for data-driven trade policy analysis",
+      "key_features": [
+        "WAR Score visualization with component breakdown",
+        "Sector performance comparison charts",
+        "Tariff and non-tariff barrier analysis",
+        "Risk scenarios with sensitivity analysis",
+        "Actionable recommendations with projected impact"
+      ],
+      "integration_points": [
+        "USTDA (U.S. Trade and Development Agency)",
+        "USITC (U.S. International Trade Commission)"
+      ],
+      "related_HMS_components": ["HMS-AGX", "HMS-MKT", "HMS-ESR"]
+    },
+    "trade_deficit_model": {
+      "implementation": "Predictive model for trade deficit scenarios",
+      "key_metrics": [
+        "Baseline deficit",
+        "Projected deficit reduction",
+        "Annual improvement rate",
+        "Buffett margin of safety adjustment"
+      ],
+      "data_sources": [
+        "Historical trade data",
+        "Policy intervention simulations",
+        "Economic growth projections"
+      ],
+      "related_HMS_components": ["HMS-ESR", "HMS-NFO", "HMS-MKT"]
+    }
+  },
+  "integration_with_HMS": {
+    "primary_components": {
+      "HMS-ESR": {
+        "name": "Economic System Representation",
+        "role": "Primary component for economic modeling and simulation",
+        "integration": "Provides core models for trade deficit analysis and projection"
+      },
+      "HMS-NFO": {
+        "name": "National Financial Organizations",
+        "role": "Management of financial organization data",
+        "integration": "Supplies institutional data for financial and trade modeling"
+      },
+      "HMS-MKT": {
+        "name": "Market Analytics",
+        "role": "Market analysis and business intelligence",
+        "integration": "Provides competitive analysis and market opportunity identification"
+      }
+    },
+    "secondary_components": {
+      "HMS-AGX": {
+        "name": "Advanced Graph Experience",
+        "role": "Graph-based reasoning and visualization",
+        "integration": "Visualizes trade relationships and identifies non-obvious opportunities"
+      },
+      "HMS-CDF": {
+        "name": "Collaborative Decision Framework",
+        "role": "Framework for policy formalization and implementation",
+        "integration": "Supports stakeholder engagement in trade policy development"
+      },
+      "HMS-ETL": {
+        "name": "Extract, Transform, Load",
+        "role": "Data pipeline and transformation system",
+        "integration": "Processes and normalizes trade data from multiple sources"
+      }
+    },
+    "data_flows": [
+      {
+        "source": "HMS-NFO",
+        "destination": "HMS-ESR",
+        "data_type": "Financial institution data, regulatory information",
+        "description": "Provides institutional context for economic models"
+      },
+      {
+        "source": "HMS-ETL",
+        "destination": "HMS-ESR",
+        "data_type": "Processed trade statistics, sector data",
+        "description": "Supplies cleaned and normalized data for economic modeling"
+      },
+      {
+        "source": "HMS-ESR",
+        "destination": "HMS-MKT",
+        "data_type": "Economic models, deficit projections",
+        "description": "Feeds economic analysis into market opportunity identification"
+      },
+      {
+        "source": "HMS-MKT",
+        "destination": "HMS-AGX",
+        "data_type": "Market data, competitive analysis",
+        "description": "Provides data for visualization and relationship mapping"
+      },
+      {
+        "source": "HMS-AGX",
+        "destination": "HMS-CDF",
+        "data_type": "Relationship graphs, visual analytics",
+        "description": "Supplies insights for policy development and stakeholder engagement"
+      },
+      {
+        "source": "HMS-CDF",
+        "destination": "HMS-ESR",
+        "data_type": "Policy frameworks, stakeholder input",
+        "description": "Provides implementation context for economic modeling"
+      }
+    ]
+  },
+  "case_studies": {
+    "us_china_trade": {
+      "baseline_data": {
+        "total_bilateral_deficit": "$279.1 billion",
+        "key_sectors": {
+          "electronics_telecommunications": {
+            "deficit": "$93.8B",
+            "percentage": "33.6%"
+          },
+          "manufacturing_industrial_equipment": {
+            "deficit": "$68.4B",
+            "percentage": "24.5%"
+          },
+          "consumer_goods": {
+            "deficit": "$55.3B",
+            "percentage": "19.8%"
+          },
+          "chemicals_pharmaceuticals": {
+            "deficit": "$21.7B",
+            "percentage": "7.8%"
+          },
+          "others": {
+            "deficit": "$39.9B",
+            "percentage": "14.3%"
+          }
+        }
+      },
+      "analysis_results": {
+        "war_score": {
+          "current": 2.1,
+          "target": 3.5,
+          "gap": 1.4
+        },
+        "top_opportunity_sectors": [
+          {
+            "name": "Semiconductor Manufacturing",
+            "deficit_contribution": "$13.2B",
+            "competitive_advantage": 4.2,
+            "implementation_difficulty": 2.8,
+            "sps_score": 3.8
+          },
+          {
+            "name": "Advanced Materials",
+            "deficit_contribution": "$8.7B",
+            "competitive_advantage": 4.0,
+            "implementation_difficulty": 2.3,
+            "sps_score": 3.7
+          }
+        ],
+        "non_tariff_opportunities": [
+          {
+            "area": "Intellectual property protection improvements",
+            "potential": "$14.2B"
+          },
+          {
+            "area": "Standards alignment in high-tech sectors",
+            "potential": "$8.7B"
+          },
+          {
+            "area": "Regulatory approvals streamlining",
+            "potential": "$6.3B"
+          }
+        ]
+      },
+      "projections": {
+        "standard_model": {
+          "year_1": {
+            "deficit": "$275.2B",
+            "reduction": "-1.4%"
+          },
+          "year_3": {
+            "deficit": "$260.1B",
+            "reduction": "-6.8%"
+          },
+          "year_5": {
+            "deficit": "$234.6B",
+            "reduction": "-15.9%"
+          },
+          "year_10": {
+            "deficit": "$178.9B",
+            "reduction": "-35.9%"
+          }
+        },
+        "buffett_model": {
+          "year_1": {
+            "deficit": "$276.7B",
+            "reduction": "-0.9%"
+          },
+          "year_3": {
+            "deficit": "$266.2B",
+            "reduction": "-4.6%"
+          },
+          "year_5": {
+            "deficit": "$250.5B",
+            "reduction": "-10.2%"
+          },
+          "year_10": {
+            "deficit": "$210.6B",
+            "reduction": "-24.5%"
+          }
+        }
+      },
+      "policy_recommendations": [
+        {
+          "type": "Targeted Sector Interventions",
+          "actions": [
+            "Develop semiconductor manufacturing investment program with 5-year timeline",
+            "Create export facilitation program for advanced materials with streamlined approval process",
+            "Establish innovation partnerships in clean energy technologies"
+          ]
+        },
+        {
+          "type": "Non-Tariff Barrier Focus",
+          "actions": [
+            "Prioritize IP protection enforcement with specific compliance metrics",
+            "Negotiate standards alignment in medical devices and telecommunications",
+            "Streamline export control processes for non-sensitive technologies"
+          ]
+        },
+        {
+          "type": "Regulatory Optimization",
+          "actions": [
+            "Implement risk-based approval process for technology exports",
+            "Develop reciprocal certification programs in key sectors",
+            "Create regulatory coordination offices for exporters"
+          ]
+        },
+        {
+          "type": "Long-term Strategic Positioning",
+          "actions": [
+            "Invest in workforce development programs aligned with high-potential export sectors",
+            "Develop supply chain resilience in critical technologies",
+            "Create innovation clusters around export-oriented industries"
+          ]
+        }
+      ]
+    }
+  },
+  "moneyball_principles": {
+    "data_over_intuition": {
+      "description": "Replacing conventional trade wisdom with evidence-based statistical analysis",
+      "implementation": "Rely on quantitative metrics (WAR, SPS) rather than traditional political considerations"
+    },
+    "undervalued_opportunities": {
+      "description": "Identifying high-impact interventions that are not receiving adequate attention",
+      "implementation": "Focus on sectors with high SPS scores but low current policy focus"
+    },
+    "statistical_identification": {
+      "description": "Using data analysis to find specific areas where small changes yield large returns",
+      "implementation": "Analyze trade data to identify non-obvious leverage points"
+    },
+    "targeting_inefficiencies": {
+      "description": "Identifying policy inefficiencies with high-impact remedies",
+      "implementation": "Focus on non-tariff barriers and regulatory alignment with high ROI"
+    }
+  },
+  "buffett_principles": {
+    "long_term_perspective": {
+      "description": "Prioritizing sustainable deficit reduction over quick fixes",
+      "implementation": "10-year implementation horizons with phased approach"
+    },
+    "margin_of_safety": {
+      "description": "Building in protection against uncertainty",
+      "implementation": "30% safety buffer on all projections (multiply by 0.7)"
+    },
+    "circle_of_competence": {
+      "description": "Focusing on areas of competitive advantage",
+      "implementation": "Prioritize sectors with high competitive advantage scores"
+    },
+    "compound_returns": {
+      "description": "Small advantages multiplied over time",
+      "implementation": "Model compound effects of policy interventions over multi-year periods"
+    }
+  }
+}

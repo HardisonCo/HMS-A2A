@@ -1,0 +1,15 @@
+[package]
+name = "prover-orchestrator"
+version = "0.1.0"
+edition = "2021"
+authors = ["HMS-A2A Team"]
+
+[dependencies]
+clap = { version = "4.2.5", features = ["derive"] }
+tokio = { version = "1.28.1", features = ["full"] }
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+anyhow = "1.0"
+serde_yaml = "0.9"
+async-trait = "0.1" 

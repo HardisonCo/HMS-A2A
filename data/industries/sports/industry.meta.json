@@ -1,0 +1,251 @@
+{
+    "id": 21,
+    "name": "Sports",
+    "icon": "fas fa-trophy",
+    "description": "Sports systems support athletic competitions, training programs, and venue management. They integrate player development, event operations, and performance analytics to enhance both participation and spectator experiences.",
+    "fullDescription": "Sports encourage physical fitness, foster social cohesion, and often serve as a cornerstone of cultural identity. Elite competitions like the Olympics or the FIFA World Cup captivate global audiences, while grassroots programs encourage youth and community well-being. Modern sports management blends performance science, sports medicine, marketing, and digital engagement—through live broadcasts, esports, or interactive fan platforms. Hosting major events requires large-scale logistics, venue infrastructure, and security planning, with a growing push for sustainability (green stadiums, reduced carbon footprints). Anti-doping efforts, athlete welfare policies, and fair governance frameworks protect integrity and inclusivity in sport, ensuring competition remains a positive influence on society.",
+    "statistics": [
+      {
+        "value": "$500+ billion global sports market",
+        "description": "Covers event revenues, media rights, sponsorship, fitness, and sports apparel."
+      },
+      {
+        "value": "265 million football players",
+        "description": "FIFA estimates hundreds of millions actively participate in organized soccer alone worldwide."
+      },
+      {
+        "value": "70,000 doping tests",
+        "description": "Major sports organizations collectively conduct tens of thousands of tests to uphold fair play."
+      }
+    ],
+    "targets": [
+      "Promote widespread youth engagement and talent development in sports",
+      "Enhance venue accessibility and sustainability for major competitions",
+      "Uphold anti-doping standards and protect athlete health and safety",
+      "Leverage sports as a vehicle for social inclusion and community empowerment",
+      "Adopt data analytics and technology to improve performance and fan engagement"
+    ],
+    "standards": [
+      {
+        "name": "WADA Code",
+        "organization": "World Anti-Doping Agency",
+        "description": "International standard for anti-doping regulations in sports.",
+        "url": "https://www.wada-ama.org/en/what-we-do/the-code",
+        "relevance": "Ensures fair competition by preventing use of prohibited substances."
+      },
+      {
+        "name": "ISO 20121",
+        "organization": "International Organization for Standardization",
+        "description": "Standard for sustainable event management.",
+        "url": "https://www.iso.org/iso-20121-sustainable-events.html",
+        "relevance": "Helps sports organizations plan and execute environmentally responsible events."
+      },
+      {
+        "name": "Safe Sport International Standards",
+        "organization": "Safe Sport International",
+        "description": "Guidelines to protect athletes from abuse, harassment, or exploitation.",
+        "url": "http://safesportinternational.com/",
+        "relevance": "Ensures athlete welfare across training, competition, and governance structures."
+      }
+    ],
+    "workflows": [
+      "Athlete Development: Identify talent, provide coaching, medical support, psychological training, and competition exposure.",
+      "Competition Planning: Organize tournaments, leagues, or athletic meets; manage scheduling, officiating, and logistics.",
+      "Venue Management: Maintain sports facilities, coordinate event operations (security, ticketing, concessions).",
+      "Performance Analysis: Collect data on athlete metrics (speed, stamina), team strategies, and game statistics.",
+      "Fan Engagement: Develop marketing campaigns, broadcast/stream matches, offer interactive experiences."
+    ],
+    "kpis": [
+      {
+        "name": "Athlete Participation Growth",
+        "definition": "Increase in individuals actively engaged in sports programs at various levels.",
+        "measurementExample": "Track registration data in local clubs, school leagues, professional circuits."
+      },
+      {
+        "name": "Event Attendance or Viewership",
+        "definition": "Number of spectators attending games or tuning in via media platforms.",
+        "measurementExample": "Analyze ticket sales, turnstile counts, broadcast ratings, streaming stats."
+      },
+      {
+        "name": "Injury Rate",
+        "definition": "Frequency and severity of sports-related injuries among participants.",
+        "measurementExample": "Document injuries per 1,000 hours of competition/training, segment by severity."
+      },
+      {
+        "name": "Revenue per Event",
+        "definition": "Income derived from ticket sales, sponsorship, broadcasting, merchandising.",
+        "measurementExample": "Calculate total event earnings divided by matches or competition days."
+      }
+    ],
+    "processFlows": [
+      {
+        "name": "Youth Sports Development",
+        "steps": [
+          "Grassroots Campaigns: Introduce sports in schools, community centers.",
+          "Coaching Certification: Train local coaches on fundamentals, safety, ethics.",
+          "Talent Identification: Use tryouts, scouting at junior championships for advanced pathways.",
+          "Scholarship & Sponsorship: Offer financial support for promising athletes, link them with clubs or academies.",
+          "Progress Monitoring: Track skill improvements, competition results, ensure academic-sport balance."
+        ]
+      },
+      {
+        "name": "Sports Event Operations",
+        "steps": [
+          "Budget & Venue Selection: Secure financing, choose suitable stadium or track for the event.",
+          "Logistics & Infrastructure: Set up stands, scoreboard, lighting, security protocols, doping control stations.",
+          "Ticketing & Promotions: Advertise event, manage ticket sales platforms, coordinate sponsors or fan zones.",
+          "Competition Management: Schedule matches/heats, track officiating, ensure real-time results systems.",
+          "Post-Event Wrap-up: Conduct doping tests, deliver final results, handle financial settlements, gather feedback."
+        ]
+      },
+      {
+        "name": "Professional League Management",
+        "steps": [
+          "Team Licensing: Approve clubs’ financial and operational readiness to join the league.",
+          "Season Scheduling: Allocate match fixtures, broadcast times, handle fixture congestion or tournaments overlap.",
+          "Refereeing & Fair Play: Train match officials, standardize rules, enforce disciplinary measures for infractions.",
+          "Broadcasting & Digital Platforms: Negotiate media rights deals, enable global streaming, social media coverage.",
+          "Revenue Sharing & Governance: Distribute league revenues, maintain transparent management structures, track compliance."
+        ]
+      }
+    ],
+    "regulatoryFrameworks": [
+      {
+        "name": "Olympic Charter",
+        "jurisdiction": "International Olympic Committee",
+        "description": "Sets principles and statutes guiding the Olympic Movement, athlete eligibility, and anti-discrimination rules.",
+        "requirements": "National Olympic Committees, International Federations must comply with doping controls, code of conduct."
+      },
+      {
+        "name": "FIFA Regulations",
+        "jurisdiction": "Global (Fédération Internationale de Football Association)",
+        "description": "Rules for player transfers, competitions, disciplinary actions, doping.",
+        "requirements": "Member associations adhere to uniform laws of the game, doping tests, fair play codes."
+      },
+      {
+        "name": "National Sports Acts",
+        "jurisdiction": "Country-specific",
+        "description": "Frameworks for funding, governance, athlete rights, and management of sports institutions.",
+        "requirements": "Sets eligibility rules for government grants, imposes accountability on sports federations."
+      }
+    ],
+    "environmentalImpact": {
+      "emissions": {
+        "greenhouseGases": "Major events cause travel emissions for athletes/fans, power usage at stadiums, broadcasting production.",
+        "airPollutants": "Large crowds, vehicle congestion near venues, fireworks or stadium infrastructure usage.",
+        "mitigationStrategies": "Encourage public transit, carpooling, build energy-efficient stadiums, offset event footprints with carbon credits."
+      },
+      "landUse": {
+        "footprint": "Stadiums, training complexes, parking areas, potential sprawl around sports mega-events.",
+        "habitatEffects": "Construction can disrupt local ecosystems if poorly planned, ephemeral usage of large venues can cause urban white elephants.",
+        "mitigationStrategies": "Adaptive venue designs, community multi-use after major events, brownfield redevelopment, local content in building materials."
+      },
+      "waterImpacts": {
+        "consumption": "Irrigating grass pitches, maintaining aquatic centers or ice rinks, providing water to large crowds.",
+        "thermalPollution": "Minimized unless there are significant aquatic center discharges or large-scale refrigeration systems.",
+        "mitigationStrategies": "Rainwater harvesting, drip irrigation for fields, water recycling for bathrooms, employing advanced pool filtration systems."
+      }
+    ],
+    "monitoringAndAnalytics": {
+      "operationalMetrics": [
+        "Average Attendance: Fans per match or event session, used to gauge popularity or marketing success.",
+        "Sponsorship Activation: ROI on sponsor deals, in-venue branding, marketing campaigns.",
+        "Merchandise Sales: Revenue from team apparel, licensed products at official stores or online.",
+        "Athlete Performance Indicators: Speed, endurance, skill-based metrics collected via wearable devices."
+      ],
+      "advancedAnalytics": [
+        "Biomechanics & Motion Capture: Detailed athlete movement analysis to refine technique, prevent injuries.",
+        "Fan Sentiment Analysis: Social media, chat forums used to gauge real-time audience reactions.",
+        "Predictive Ticketing Models: AI-based forecasting of seat demand, dynamic pricing strategies.",
+        "eSports Data Platforms: Real-time stats, overlays for competitive gaming broadcasts and fan engagement."
+      ]
+    ],
+    "sampleDeals": [
+      {
+        "dealId": "SPT-Deal1",
+        "dealTitle": "Smart Stadium Deployment",
+        "dealSteps": {
+          "step1_defineProblem": "Traditional stadium experiences are static, with long queues, poor connectivity, limited data insights.",
+          "step2_codifySolution": "Modernize venue with high-speed Wi-Fi, real-time analytics for crowd management, digital ticketing, and personalized fan services.",
+          "step3_setupProgram": {
+            "stakeholders": [
+              "Stadium owners/operators (infrastructure investment)",
+              "IT & telecom partners (network design, software)",
+              "Sports teams/league (content rights, branding opportunities)",
+              "Security agencies (crowd monitoring, emergency protocols)"
+            ],
+            "financing": "Private capital, public subsidies if municipal stadium, sponsor deals for naming/advertising.",
+            "milestones": "Deploy full coverage Wi-Fi, integrate mobile ticketing, reduce queue times by 40%, launch loyalty apps within 12 months."
+          },
+          "step4_executeProgram": "Install routers, sensors, set up command center for traffic flow, develop stadium app with seat upgrades, concession ordering.",
+          "step5_verifyOutcomeAndDistributeFunds": "Track fan satisfaction, data usage, operational cost savings. If successful, expand or replicate in sister venues."
+        }
+      }
+    ],
+    "relatedContent": [
+      {
+        "type": "story",
+        "title": "Green sporting events: Cutting carbon at the marathon",
+        "link": "/stories/green-marathon-events"
+      },
+      {
+        "type": "publication",
+        "title": "Global Sports Market Analysis",
+        "link": "/publications/sports-market-analysis"
+      }
+    ],
+    "usAgencyContributions": {
+      "relevantAgencies": [
+        "U.S. Olympic & Paralympic Committee (USOPC)",
+        "Department of Education (school athletics programs)",
+        "Department of Health & Human Services (promoting physical fitness)",
+        "Federal Trade Commission (advertising, endorsements)",
+        "United States Congress (Sports-related legislation, doping laws, NCAA oversight)"
+      ],
+      "explanation": "USOPC develops Olympic athletes, fosters nationwide sports programs. Education dept. funds or sets guidelines for K-12/college sports. HHS advocates active lifestyles to reduce healthcare costs. FTC monitors fair endorsements, doping claims in advertising. Congress passes laws on doping enforcement, Title IX for gender equality in school sports, and can investigate major sports governance issues."
+    },
+    "agencyServices": [
+      {
+        "agencyDomain": "usopc.us.gov-ai.co",
+        "services": [
+          {
+            "name": "Athlete Programs",
+            "desc": "Training scholarships, coaching support, sports science integration",
+            "status": 1,
+            "url": "https://athleteprograms.usopc.us.gov-ai.co"
+          }
+        ]
+      }
+    ],
+    "resources": {
+      "pdfWhyItMatters": "/goal_sports/sports_Why-It-Matters.pdf",
+      "gifMakeEveryDayCount": "/goal_sports/sports_SDG_MakeEveryDayCount_Gifs.gif",
+      "gifIcon": "/goal_sports/sports_GIF_Icon.gif",
+      "actionCardSquare": "/goal_sports/sports_action_card_square.jpg",
+      "actionCardTwitter": "/goal_sports/sports_action_card_twitter.jpg",
+      "webInverted": "/goal_sports/sports_WEB_INVERTED.png",
+      "printFile": "/goal_sports/sports_PRINT.jpg",
+      "printInvertedFile": "/goal_sports/sports_PRINT_INVERTED.jpg",
+      "webImage": "/goal_sports/sports_WEB.png",
+      "infographics": "/goal_sports/sports_infographics.pdf",
+      "elyxImage": "/goal_sports/sports_Elyx.png",
+      "languagesImage": "/goal_sports/sports_Languages.png"
+    },
+    "items": [
+      {
+        "id": "sports-1",
+        "name": "Youth & Grassroots Programs",
+        "description": "Cultivate wide participation, nurture future talent, and promote healthful lifestyles in communities."
+      },
+      {
+        "id": "sports-2",
+        "name": "Professional League & Events",
+        "description": "Manage elite competitions, optimize broadcasting rights, ensure fair play and robust governance."
+      },
+      {
+        "id": "sports-3",
+        "name": "Sustainable Venues & Mega-Events",
+        "description": "Design eco-friendly stadiums, responsibly host major tournaments, leave positive community legacies."
+      }
+    ]
+  }

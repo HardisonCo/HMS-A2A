@@ -1,0 +1,70 @@
+{
+    "domainName": "Telecom",
+    "roles": [
+      {
+        "id": "telecom-role-1",
+        "name": "Network Engineer",
+        "description": "Designs, implements, and maintains communication networks (cellular, fiber, satellite) ensuring coverage and performance.",
+        "meta": {
+          "typicalBackground": "Telecommunications or network engineering degree, RF design knowledge, routing protocols",
+          "keyTools": ["Spectrum analyzers", "Network simulation tools", "Base station monitoring systems"],
+          "challenges": ["Spectrum constraints, licensing, varying terrain coverage, capacity demands from data-hungry users"]
+        },
+        "sampleUseCase": {
+          "scenario": "A network engineer upgrades a city's LTE infrastructure to 5G small cells, drastically increasing data throughput in dense urban areas."
+        }
+      },
+      {
+        "id": "telecom-role-2",
+        "name": "Spectrum Policy Manager",
+        "description": "Develops and enforces rules for radio frequency allocation and usage, balancing commercial, government, and public interests.",
+        "meta": {
+          "typicalBackground": "Regulatory/policy background, technical understanding of RF, stakeholder negotiation",
+          "keyTools": ["Spectrum licensing frameworks", "Interference studies", "Legal mandates (FCC, ITU)"],
+          "challenges": ["Competing claims from defense, commercial operators, unlicensed usage, emerging 5G/6G standards"]
+        },
+        "sampleUseCase": {
+          "scenario": "A policy manager auctions vacant mid-band frequencies, ensuring fair conditions for multiple telecom operators while preserving emergency service channels."
+        }
+      },
+      {
+        "id": "telecom-role-3",
+        "name": "Telecom Sales Representative",
+        "description": "Markets and sells telecommunication services (mobile plans, broadband, enterprise solutions) to individual or corporate customers.",
+        "meta": {
+          "typicalBackground": "Sales or marketing background, product knowledge of telecom services, good communication skills",
+          "keyTools": ["CRM systems", "Pricing calculators", "Competitor comparisons"],
+          "challenges": ["Fierce price competition, churn management, aligning product features with customer needs"]
+        },
+        "sampleUseCase": {
+          "scenario": "A rep offers a custom enterprise data plan with guaranteed service levels to a growing IT startup, securing a 2-year contract for dedicated bandwidth."
+        }
+      },
+      {
+        "id": "telecom-role-4",
+        "name": "5G Infrastructure Specialist",
+        "description": "Deploys and optimizes 5G networks, ensuring low latency, high throughput, and capacity for modern digital services.",
+        "meta": {
+          "typicalBackground": "Wireless engineering, understanding of mmWave frequencies, small cell deployments, advanced modulations",
+          "keyTools": ["5G NR design software", "Beamforming analysis", "Edge computing integration"],
+          "challenges": ["Signal obstruction in dense areas, cost of densification, ensuring backward compatibility with 4G/LTE"]
+        },
+        "sampleUseCase": {
+          "scenario": "A specialist performs site surveys, installs small cells, and calibrates advanced beamforming features in a stadium, delivering lag-free streaming to tens of thousands of fans."
+        }
+      },
+      {
+        "id": "telecom-role-5",
+        "name": "Customer Support Lead",
+        "description": "Heads the team resolving technical or billing issues, ensuring high service quality and user satisfaction.",
+        "meta": {
+          "typicalBackground": "Customer service experience in telecom or IT, knowledge of troubleshooting common network/device issues",
+          "keyTools": ["Call center ticketing systems", "Diagnostic scripts", "Service-level agreements (SLAs)"],
+          "challenges": ["Handling escalated complaints, large call volumes, training support agents on new technologies"]
+        },
+        "sampleUseCase": {
+          "scenario": "During a regional network outage, the support lead quickly dispatches a crisis response, notifies affected customers, and coordinates with engineering to restore service, reducing negative social media sentiment."
+        }
+      }
+    ]
+  }

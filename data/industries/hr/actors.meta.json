@@ -1,0 +1,70 @@
+{
+    "domainName": "Jobs",
+    "roles": [
+      {
+        "id": "jobs-role-1",
+        "name": "Recruitment Specialist",
+        "description": "Sources and screens candidates, manages hiring processes, and aligns workforce needs with organizational strategy.",
+        "meta": {
+          "typicalBackground": "HR or psychology background, networking skills, proficient in applicant tracking systems",
+          "keyTools": ["Applicant tracking software", "Interview frameworks", "Online job portals/social recruiting"],
+          "challenges": ["Competition for top talent, unconscious bias, ensuring legal compliance (EEO)"]
+        },
+        "sampleUseCase": {
+          "scenario": "A recruiter uses social media campaigns and skill-based testing to fill critical software engineering roles in half the usual timeframe."
+        }
+      },
+      {
+        "id": "jobs-role-2",
+        "name": "Career Counselor",
+        "description": "Guides individuals on career paths, skill development, and job search strategies, often in educational or workforce development contexts.",
+        "meta": {
+          "typicalBackground": "Counseling or psychology degree, certified in career guidance, strong interpersonal skills",
+          "keyTools": ["Aptitude/interest assessments", "Career resource databases", "Workshops/seminars"],
+          "challenges": ["Varying job market conditions, personal constraints of clients (family, finances), balancing aspirations vs. realism"]
+        },
+        "sampleUseCase": {
+          "scenario": "A counselor helps a mid-career individual transition from manufacturing to logistics by identifying transferable skills, recommending short certifications, and connecting them with potential employers."
+        }
+      },
+      {
+        "id": "jobs-role-3",
+        "name": "Workforce Developer",
+        "description": "Implements community or regional programs to upskill, reskill, and place jobseekers into growth industries.",
+        "meta": {
+          "typicalBackground": "Public administration, vocational education, or labor economics, strong stakeholder networking",
+          "keyTools": ["Grant writing", "Labor market analysis", "Training curricula partnerships"],
+          "challenges": ["Funding continuity, employer engagement, measuring long-term job retention or wage growth"]
+        },
+        "sampleUseCase": {
+          "scenario": "A workforce developer partners with local tech companies and a community college to set up a coding bootcamp, resulting in a 75% placement rate for graduates in entry-level IT roles."
+        }
+      },
+      {
+        "id": "jobs-role-4",
+        "name": "HR Policy Advisor",
+        "description": "Advises on labor regulations, organizational policies (compensation, diversity, welfare) ensuring fair and legal practices.",
+        "meta": {
+          "typicalBackground": "Human resources or legal expertise, knowledge of labor law, negotiation skills",
+          "keyTools": ["Policy manuals", "Compliance checklists", "Benchmarking salary data"],
+          "challenges": ["Navigating complex federal/state laws, union negotiations, ensuring equitable pay structures"]
+        },
+        "sampleUseCase": {
+          "scenario": "The advisor updates HR guidelines to accommodate remote work arrangements post-COVID, ensuring compliance with labor codes and equitable treatment for all employees."
+        }
+      },
+      {
+        "id": "jobs-role-5",
+        "name": "Labor Market Analyst",
+        "description": "Studies employment trends, wage data, and industry growth to forecast job demand and inform policymakers or employers.",
+        "meta": {
+          "typicalBackground": "Economics or labor studies, strong statistical methods, data interpretation",
+          "keyTools": ["BLS data sets", "Economic modeling software", "Survey instruments"],
+          "challenges": ["Rapid market shifts, incomplete data from gig/informal sectors, macroeconomic uncertainties"]
+        },
+        "sampleUseCase": {
+          "scenario": "A labor market analyst analyzes local job postings and wage data, advising a city to invest in advanced manufacturing training programs where growth is predicted to outpace supply."
+        }
+      }
+    ]
+  }

@@ -1,0 +1,70 @@
+{
+    "domainName": "Retail",
+    "roles": [
+      {
+        "id": "retail-role-1",
+        "name": "Store Manager",
+        "description": "Oversees daily operations of a retail outlet, manages staff, inventory, and customer satisfaction to meet sales targets.",
+        "meta": {
+          "typicalBackground": "Business management or hospitality background, leadership skills, strong customer service ethos",
+          "keyTools": ["POS and inventory systems", "Sales performance dashboards", "Staff scheduling apps"],
+          "challenges": ["High staff turnover, unpredictable foot traffic, online competition forcing adaptation"]
+        },
+        "sampleUseCase": {
+          "scenario": "A store manager notices certain promotional displays are underperforming, reorganizes store layout, and trains staff on cross-selling, resulting in a 10% sales uptick."
+        }
+      },
+      {
+        "id": "retail-role-2",
+        "name": "Inventory Planner",
+        "description": "Forecasts product demand, manages stock levels to minimize overstock or stockouts, and aligns supply with store needs.",
+        "meta": {
+          "typicalBackground": "Supply chain or retail operations, strong data analysis, knowledge of category management",
+          "keyTools": ["Replenishment algorithms", "Demand forecasting software", "Vendor lead time tracking"],
+          "challenges": ["Seasonal spikes, promotional forecasting errors, shelf-life constraints for perishables"]
+        },
+        "sampleUseCase": {
+          "scenario": "An inventory planner adjusts orders for winter coats after unseasonably warm weather forecasts, preventing surplus stock and markdown losses."
+        }
+      },
+      {
+        "id": "retail-role-3",
+        "name": "Visual Merchandiser",
+        "description": "Creates in-store displays and product presentations that engage customers and boost sales conversions.",
+        "meta": {
+          "typicalBackground": "Design or marketing background, creativity, knowledge of consumer psychology",
+          "keyTools": ["Planograms", "POS data to evaluate display performance", "Window dressing techniques"],
+          "challenges": ["Frequent promotional changes, limited floor space, brand consistency across multiple locations"]
+        },
+        "sampleUseCase": {
+          "scenario": "A visual merchandiser sets up a thematic display for a new product launch, coordinating signage, lighting, and color schemes, resulting in a 25% uplift in product trials."
+        }
+      },
+      {
+        "id": "retail-role-4",
+        "name": "Online Marketplace Coordinator",
+        "description": "Manages e-commerce listings, pricing strategies, and fulfillment processes across digital retail channels.",
+        "meta": {
+          "typicalBackground": "E-commerce or digital marketing background, familiarity with marketplace algorithms (Amazon, eBay)",
+          "keyTools": ["Product listing optimization, SEO for product pages, order management systems"],
+          "challenges": ["Competitive pricing wars, shipping cost optimization, preventing negative reviews from shipping delays"]
+        },
+        "sampleUseCase": {
+          "scenario": "The coordinator optimizes product titles and descriptions on Amazon, secures a 'Best Seller' badge for a tech gadget, boosting daily sales significantly."
+        }
+      },
+      {
+        "id": "retail-role-5",
+        "name": "Customer Experience Manager",
+        "description": "Focuses on shopper satisfaction across all touchpoints—store ambiance, online interactions, and after-sales support.",
+        "meta": {
+          "typicalBackground": "Marketing or service design, strong empathy, process improvement for user journeys",
+          "keyTools": ["Customer feedback surveys", "Mystery shopper programs", "Net Promoter Score (NPS) tracking"],
+          "challenges": ["Aligning brand promise with actual experience, bridging online-offline synergy, quick resolution of complaints"]
+        },
+        "sampleUseCase": {
+          "scenario": "A CX manager implements a unified loyalty app that offers personalized rewards and store navigation, boosting NPS by 20 points."
+        }
+      }
+    ]
+  }

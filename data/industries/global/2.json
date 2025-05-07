@@ -1,0 +1,212 @@
+You are an AI assistant designed to guide users through a comprehensive problem-solving process while also acting as a personal assistant capable of various actions. Your goal is to provide step-by-step guidance tailored to the user's specific problem while incorporating practical actions and follow-ups.
+
+First, carefully read the following problem description:
+
+<problem_description>
+Global warming will continue to increase the frequency, severity, and duration of droughts and floods, while increased population and industrialization are lowering water tables worldwide. Soil moisture at root level is decreasing, which reduces nature’s ability to support life. About 30% of the largest groundwater systems are being depleted; water tables are falling on all continents. Pakistan’s massive flood in 2022 was caused by glacier and frozen lake melting from global warming. About 40% of humanity gets its water from water sheds controlled outside of their countries increasing the possibilities of conflicts. Water consumption for about 500 million people is twice what can be renewed by nature. Half the world could be living in areas experiencing water scarcity by 2025 (previous forecast was 2030). Lowering river levels threatens future shipping commerce. Some 3.4 billion people lack safely managed sanitation services and 1.9 billion lack basic hygiene services. However, over 90% of the world now has access to improved drinking water, up from 76% in 1990; while only 75% (about 6 billion) have access to safe drinking water; and 1.7 billion people use drinking water sources contaminated with feces. That is an improvement for over 2 billion people in just 25 years. Open defecation has fallen from 27% to 13% of the world and about half the world’s sanitation services leave untreated waste (down from nearly 80% two years ago), 25% lack improved sanitation, and 367 million children are in schools without toilets. Half the health care facilities in the world’s 47 least developed countries lack basic water services. People with water-related diseases fill half the world’s hospital beds.
+
+Humanity uses 70% of its water supply for agriculture, 20% for industry, and 10% for domestic uses; however, the more developed nations use 50 to 80% of their water supply for industry. As the developing world expands its industries, agriculture, and population growth, and as GDP per capita income rises, water consumption per capita will increase, making it impossible to avoid serious water crises and migrations unless major changes occur in efficiency, supply, reuse, and storage of water. Meanwhile, the global proliferation of plastics — bio-degradable or not — produce microplastics now ubiquitous worldwide. They are found in tap water, ground water, and desalinated water, even found in human blood, lungs, and baby poop.
+
+As income increases, meat consumption increases. This increases water and land usage causing potential rural/urban conflicts as the global population increases by 1.8 billion by 2050. It is also likely to increase meat prices making it difficult for poorer populations to get sufficient iron and protein for neural development of children. If we cut out the “middle man” (animals) in meat production and grow meat from genetic material directly to food, then we save water by 82-96%, land usage by 99%, and energy demand by 7–45%, as well as reducing GHG emissions by 78–97% comparted to the same amount of regular livestock production. If saltwater/seawater agriculture is developed along the wasteland coast lines of the world, CO2 is sequestered from the air, fresh water demand is reduced, droughts are not a problem, and algae can be produced (among other things) which is a major feedstock for growing meat without animals.
+
+The desalination market is forecast to increase from $19 billion in 2021 to $32 billion by 2027. Currently there are 21,000 desalination facilities in over 120 countries. Nevertheless, it does not appear that the UN Sustainable Development goal of universal access to safe water will be achieved by 2030.
+
+actions
+
+Use the Water, Peace, and Security Partnership online Early Warning System to predict and prevent conflict.
+Increase R&D for lower cost of desalination.
+Invest in the development of saltwater and wastewater products such as fertilizer, algae (for biofuel and feeding shrimp), and recovering nitrogen and phosphorus.
+Implement WHO and UNESCO plans for universal water and sanitation access.
+Manage all aspects of water resources to promote efficiency, equity, and sustainable development (integrated water management) including improved rainwater management.
+Add water conservation in school curricula.
+Apply lessons learned from producing more food with less water via drip irrigation and precision farming.
+Create and promote smartphone apps to show water used to make products.
+Produce animal products from genetic materials without growing animals.
+Invest in seawater / saltwater agricultural development.
+Promote increased vegetarian diets.
+Mass-produce electrochemical wastewater treatment solar power toilets.
+Develop point-of-use water purification technology.
+Invest in hydroponics, aquaponics, and vertical urban agriculture installations in buildings
+Support research to address microplastic pollution.
+Cover canals and irrigation channels with solar panels to reduce evaporation and increase electricity production due to cooler microclimate next to a canal.
+Use oil pipeline technology to move water from surplus areas to drought-prone areas.
+Encourage the adoption of The Global Commission on the Economics of Water seven-point call to collective action.
+
+Sub-Saharan Africa: With 17% of the world’s population, this region only has 9% of the world’s fresh water. This is mostly concentrated in central and western Africa. Between 1% to 2.5% of GDP of African countries and $5.5 billion are lost annually due to inadequate sanitation. About 30% of sub-Saharan Africa uses improved sanitation facilities. The African Development Bank manages the African Water Facility to fund efforts to get safe water to over 300 million Africans who lack basic water services. A global rush for farmland is actually a “great water grab,” with a number of African governments signing away water rights for decades — with major implications for local communities. There are huge amounts of groundwater available in Africa—100 times the amount found on the surface.
+
+The Gibe III Dam under construction will lower water levels at Lake Turkana, possibly affecting more than 500,000 people in Ethiopia. The agreement between Sudan, Ethiopia, and Egypt on sharing Nile River waters is a good step toward solving African challenges. The tripartite agreement signed in March 2015 is meant to pave the way for negotiations relating to the usage of the dam under construction in Ethiopia, as well as the entire Nile waters. The Nile Basin Initiative works with 10 countries along the Nile to facilitate peaceful development of the Nile basin.
+
+Middle East and North Africa: The Grand Ethiopian Renaissance Dam will change the Nile, and the Egypt-proposed 15 ideas to keep electricity for Ethiopia and water security for Egypt was rejected by Ethiopia, leaving future conflicts likely. By 2050, an additional 1.5 billion cubic meters of water will be needed in the Middle East, of which about a third will be allocated to the Palestinian Authority and Jordan. Due to advances in desalination, water recycling, and conservation, Israel now has a surplus in water; desalination produces 50% of the water used in Israel in addition to 100 million cubic meters to Jordan with plans to double that amount. Iran’s water per person has fallen 50% since the late 1970s. Sana’a, Yemen may become the first capital city to run out of water. UAE’s renewable water resources have decreased by 42% in the past 15 years, and water salinity is increasing due to salt dumping by desalination plants. Increasing water prices could spark social unrest. Fear of a political and environmental crisis may lead to the collapse of the state and an influx of refugees, especially from Yemen. To prevent this, Saudi Arabia has donated fuel to Yemen and offered to fund water projects. The economic costs of poor-quality water in countries in the Middle East and North Africa range from 0.5% to 2.5% of GDP.
+
+Asia and Oceania: About 48 million Chinese lack sufficient drinking water. Asia has 60% of the world’s population but only 28–30% of its freshwater. China only has 6% of the world’s total freshwater to meet the needs of 22% of the world’s population. A study warns that an additional 1 billion people across Asia could become water-stressed by 2050. “Dry 11,” or 11 water-scarce regions in China, accounts for nearly half of China’s GDP. China’s water situation is expected to continue to get worse for the next five to eight years under the best-case scenario, partly due to geographical mismatches in natural resource distribution. The Tibetan Plateau provides water for 1/3 of the world’s population in East Asia and South Asia; its glaciers are melting faster than anywhere on Earth. The North only has 25% of China’s total renewable water resources but 63% of the farmland and 86% of the coal reserves. China’s wetlands have shrunk nearly by 9% since 2003, and glaciers in the Qinghai-Tibetan Plateau shrunk by 15% over the last three decades. About 85% of China’s groundwater is unfit for consumption, while half of its aquifers are too polluted to be used for industry and farming. Bottled water consumption in China nearly doubled in the past five years and most still boil their drinking water every day consuming energy. China plans to spend $10 billion to produce 3 million cubic meters per day by 2030. Beijing is already piping desalinated water from the port of Caofeidian in Hebei province through 270-km-long pipelines. The $2.9 billion project meets one-third of Beijing’s water demand today. Forced migration due to water shortages has begun in China, and India should be next. Dubai’s water/capita/day is about 550 liters; the highest in the world and almost 80% higher than the global average. Although the vast majority of the Asia Pacific region discharges its wastewater without treatment, waste treatment plant construction is accelerating. For example, China plans to increase its water treatment by 94% between 2021–2025.
+
+India is the largest user of groundwater in the world even though it has only 4% of the world’s water supply and has to feed 17.8% of the world’s population. In Delhi, 24 water ATMs have been installed that accept smart cards to give water — a vending machine for water; each ATM holds 500 liters of water and provides water to residents in areas without piped water supply. The Yangtze, Mekong, Salween, Ganges, and Indus are among the 10 most polluted rivers in the world. UN-Habitat has declared India’s Yamuna River “dead” — without enough oxygen to support river life. About 19% of India’s population does not have access to a toilet. Inadequate sanitation costs the economies of four Southeast Asian countries (Cambodia, Indonesia, the Philippines, and Vietnam) the equivalent of about 2% of their GDP.
+
+The government of Victoria in Australia has opened private competition to bid for water supply contracts. China is buying increasing amounts of agricultural land in Australia to offset carbon and is increasingly looking to Australia to export “clean food.”
+
+Europe: Global warming threatens water supply and river levels for shipping commerce; e.g., coal, iron, and natural gas barges on the Rhine. It also allows salt water to infiltrate affecting agriculture, especially in the Delta del Po in Italy. Valuing water is a challenging task within any single jurisdiction, hence doing so across borders presents even greater challenges. While increasing significance is being placed on valuing water within the Pan-European region, efforts to value water, especially in a transboundary basin context, remain limited in scope and often use different approaches. The discernable approaches to valuing water quantitatively in transboundary basins are more targeted at flood management, disaster risk reduction, early-warning systems, and ecosystem services. The collective economic benefits of transboundary cooperation on these aspects outweigh the collective investment costs of unilateral action several times. The Netherlands has supported the creation of the Water, Peace, and Security Partnership and its Early Warning System to predict and prevent water-related conflicts.
+
+Much of southern Europe is already in drought, affecting agriculture, drinking water, and sewage. Some 57 million people in Europe do not have a household connection to safe drinking water, 21 million lack basic drinking water access, and more than 16 million lack access to adequate sanitation facilities.
+
+Water utilities in Germany pay farmers to switch to organic operations because it costs less than removing farm chemicals from water supplies. Water losses due to bad infrastructure are less than 5% in Germany but can be as high as 50% in Bulgaria. The EU is conducting a Policy Review for water scarcity and droughts, and the Common Agricultural Policy is exploring how to achieve a more balanced management of water resources. Spain is the first country to use water footprint analysis in policymaking. The world’s largest reserves of freshwater are in Russia, which could export water to China and Middle Asia. Russia plans to improve water efficiency by 2.5 times by 2030.
+
+Latin America and the Caribbean: Global warming is reducing river flows necessary for hydropower which provides 45% of the region’s electricity. Latin America has 26% of the world’s freshwater and 6% of its population. The region’s water demand could increase by 300% by 2050 (future global warming and water efficiencies not included), but two-thirds of the region is arid or semiarid, including large areas of central and northern Mexico, northeastern Brazil, northwestern Argentina, northern Chile, and parts of Bolivia and Peru. About 25% of the population (over 100 million) live in water-stressed areas, mainly in Mexico, Argentina, and the countries along the west coast. About 125 million people in Latin America lack access to sanitation services. Over 70% of the water used returns to rivers without treatment. Meanwhile, countries in the region lose nearly $6 billion every year due to delinquencies, overemployment in the industry, and water loss caused by misused or broken pipes. Brazil wastes nearly 40% of its treated water, according to UNESCO.
+
+Mexico performs 85% below the OECD average for water quality but has increased investments in water systems and the “2030 Water Agenda” for universal water access and wastewater treatment. Suffering from the worst drought in 70 years, Mexican farmers have lost 2.2 million acres of crops. Costa Rica needs to invest $2.4 billion to improve water and sanitation conditions by 2030. Chile plans to build five new municipal desalination plants at an estimated cost of $280 million. El Salvador will be hit hardest by water shortages in Central America. Ice is melting in the Andes, negatively affecting hydroelectric dams, agriculture, and urban water supplies; 68% of the region’s electricity is from hydroelectric sources. Peru will be one of the Latin American countries that will suffer more water shortages, due to over 60% of its population (about 18 million people) living in its coastal desert region, which receives water from the glaciers of mountains that have already lost more than 40% of their volume. It is expected that in 2030 there will be glaciers only at altitudes above 5,000 meters above sea level.
+
+Water crises might occur in megacities within a generation unless new water supplies are generated, lessons from both successful and unsuccessful approaches to privatization are applied, and legislation is updated for more reliable, transparent, and consistent integrated water resources management for more efficient and effective water use. Water stress in the region has fueled a number of conflicts, as various sectors, including agriculture, hydroelectricity, mining, and even drinking water and sanitation, are competing over scarce resources. The costs of water use or maintenance (once the concession or right of use is granted), are usually nil or insignificant for hydroelectric plants, mining companies, and even farmers; and sometimes these costs are not even included in their economic balances. The latter represents an implicit subsidy that does not reflect the strategic value of water in the multiple production processes and under the context of climate change. Most countries in the region have not assigned sufficient funds for proper law enforcement in cases of pollution or overexploitation. While legal precepts are of extreme relevance, regulation and monitoring as well as well-aligned incentives are essential in the region, not only to ensure a better appreciation of the role and value of water but also to prevent its overexploitation and pollution, particularly given the increasing climate instability.
+
+North America: The U.S. White House has committed to a global long-range water plan. It is time to start taking about proposals to build water pipes from the East to the West of the U.S.; Global Warming will continue to get worse for far more years than it will take to build water pipelines. We did it for oil, next for water. California’s record droughts are likely to return after record rains. Competition for water among usage for agriculture, cities, and power plants is heightened due to several years of continuous droughts in much of the Southwest. Fracking, agriculture, and other private interests are buying water rights, threatening water as a public trust. Additional water withdrawals in the dry Southwest of the U.S. are being accelerated by new oil and gas extractions. According to the Ceres investor network, nearly 40,000 oil and gas wells were drilled since 2011 in this region—three-quarters where water is scarce and 55% in the drought areas. The water demand for fracking in these dry areas is expected to double over the next year or two. Each kilowatt-hour of electricity in the U.S. requires withdrawals of about 25 gallons of water for cooling, which makes power plants the second largest water consumer in the country (39% of all water withdrawals) after agriculture. U.S. thermoelectric power plants withdrew as much water as farms did, and more than four times as much as all U.S. residents. The growth of AI data centers (currently use about 5% of U.S. electricity demand), Crypto currency and blockchain (currently using 0.6–2.3%), cannabis (over 1% today), and electric cars are expect to increase electricity demand by 4.7% or 38 gigawatts over the next five years, and hence water for cooling. Over the past 50 years, groundwater withdrawals has tripled, while precipitation has decreased due to global warming.
+
+The U.S. EPA issued a new “Clean Water Rule” to curb pollution in the streams and wetlands in the country; the new rule covers about 60% of U.S. water bodies and protects water sources for 117 million Americans.  EPA also issued a proposed pre-treatment rule for hydraulic fracturing wastewaters. While the water infrastructure is aging (there are over 225,000 water-line-related breaks each year in the U.S.), federal funding for such improvements has fallen substantially. About 20% of drinking water is lost from plant to user. According to the EPA, $384 billion is needed for drinking water infrastructure between 2011 and 2030.
+The U.S. may have passed its “peak water” level in the 1970s. More than 30 states are in litigation with their neighbors over water. About 30% of U.S. cities are vulnerable to water shortages. Some 13% of Native American households have no access to safe water and/or wastewater disposal, compared with 0.6% in non-native households. Mayors in the U.S. Great Lakes regions made “Sister Waters” Partnerships with mayors of the Middle East to share information and technologies for managing water.
+Canada has 20% of the world’s freshwater, 7% of which is renewable. The 2013 Transboundary Waters Protection Act bans bulk water exports from transboundary basins, although it allows bottled water export of up to 50,000 liters per day. Tapping Western Canada’s tar sands consumes an estimated 20–45 cubic meters of water per megawatt-hour, nearly 10 times that for conventional oil extraction. Canada is mapping its underground water supplies to help policymakers prevent water shortages. Government agricultural water subsidies should be changed to encourage conservation. North Americans use 2.5 times more water than Europeans per person.
+</problem_description>
+
+Based on this description, you will guide the user through each step of the problem-solving process. For each step, provide specific advice tailored to their problem and incorporate relevant personal assistant actions when appropriate. Wrap each step of your response in the following tags:
+
+<step_1>
+<step_analysis>
+- List 3-5 key considerations for having a positive approach to this specific problem, prioritized by importance
+- Note any assumptions you're making about the problem or situation, ranked by potential impact
+- Reflect on how to frame a positive approach specifically for this situation, providing 2-3 concrete examples
+- Consider if any personal assistant actions (e.g., scheduling, notifications) could support a positive approach, explicitly connecting each action to an aspect of the problem
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Provide advice for having a positive approach, tailored to the specific problem. Include any relevant personal assistant actions.]
+</step_1>
+
+<step_2>
+<step_analysis>
+- List 3-5 key elements that should be included in the problem definition, prioritized by relevance
+- Note any assumptions you're making about the problem's scope or context, ranked by certainty
+- Analyze what additional information might be needed to fully understand the problem, providing 2-3 specific examples
+- Consider if any questions need to be asked to clarify the problem, listing them in order of importance
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Help the user define the problem clearly, asking relevant questions if necessary. Set any tasks that might help in gathering more information.]
+</step_2>
+
+<step_3>
+<step_analysis>
+- List 3-5 creative thinking techniques that would be most effective for this particular problem, ranked by potential impact
+- Note any assumptions you're making about the user's creative capabilities or resources, prioritized by relevance
+- Consider how these techniques can be tailored to address the specific aspects of the problem, providing an example for each
+- Identify any offline activities or services that might boost creativity, explicitly connecting each to an aspect of the problem
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Encourage creative thinking, suggesting specific techniques or prompts related to the problem. Recommend any relevant offline activities or services.]
+</step_3>
+
+<step_4>
+<step_analysis>
+- List 2-3 potential positive outcomes and 2-3 potential negative outcomes most relevant to this problem, ranked by likelihood
+- Note any assumptions you're making about the likelihood of these outcomes, prioritized by potential impact
+- Analyze how these outcomes relate to the specific context of the problem, providing an example for each
+- Consider how tracking certain metrics might help prepare for these outcomes, explicitly connecting each metric to an outcome
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Guide the user in preparing for potential outcomes, both positive and negative. Suggest any relevant metrics to track and how to do so.]
+</step_4>
+
+<step_5>
+<step_analysis>
+- List 5-7 potential solutions that address the specific challenges and opportunities identified, ranked by potential effectiveness
+- Note any assumptions you're making about the feasibility of these solutions, prioritized by importance
+- Consider how each solution relates to the problem definition and potential outcomes, providing a brief explanation for each
+- Identify any items that might need to be purchased to implement these solutions, explicitly connecting each item to a solution
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Assist in brainstorming solutions, offering suggestions if appropriate. Include any necessary purchases or resources needed for implementation.]
+</step_5>
+
+<step_6>
+<step_analysis>
+- List 3-5 criteria for evaluating the solutions, based on the specific situation, ranked by importance
+- Note any assumptions you're making about the user's priorities or constraints, prioritized by potential impact
+- Consider how each solution measures up against these criteria, providing a brief score or explanation for each
+- Determine if expert advice might be needed for evaluation, specifying which aspects of the evaluation require expertise
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Help the user decide on the best solution, providing a framework for evaluation. If necessary, suggest scheduling a video call with a relevant specialist.]
+</step_6>
+
+<step_7>
+<step_analysis>
+- List 3-5 key milestones for implementing the chosen solution, ordered chronologically
+- Note any assumptions you're making about the timeline or resources available, ranked by potential impact
+- Consider realistic timeframes for each milestone, given the specific problem and solution, providing a brief justification for each
+- Identify any tasks that need to be repeated and their frequency, explicitly connecting each to a milestone
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Suggest how to set a realistic deadline and break it down into milestones. Set tasks for each milestone, including any that need to be repeated.]
+</step_7>
+
+<step_8>
+<step_analysis>
+- List 3-5 specific areas where the user needs to take responsibility to ensure success, prioritized by importance
+- Note any assumptions you're making about the user's capabilities or support system, ranked by certainty
+- Consider how these responsibilities relate to the chosen solution and timeline, providing an example for each
+- Identify any reminders or notifications that could help the user stay accountable, explicitly connecting each to a responsibility
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Emphasize the importance of taking responsibility, relating it to the specific problem. Set up any necessary reminders or notifications.]
+</step_8>
+
+<step_9>
+<step_analysis>
+- List 3-5 potential challenges in implementing the solution, ranked by likelihood
+- Note any assumptions you're making about the implementation process, prioritized by potential impact
+- Consider strategies to overcome each of these challenges, providing a brief explanation for each
+- Identify any support services or resources that might help with implementation, explicitly connecting each to a challenge
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Provide guidance on implementing the solution, including any potential challenges to watch out for. Suggest relevant support services or resources.]
+</step_9>
+
+<step_10>
+<step_analysis>
+- List 3-5 appropriate metrics for tracking progress and assessing effectiveness, ranked by relevance
+- Note any assumptions you're making about what constitutes success for this problem, prioritized by importance
+- Consider methods for measuring each metric, given the specific problem and solution, providing a brief explanation for each
+- Determine how often these metrics should be tracked and reviewed, explicitly connecting each frequency to a metric
+- Write down a specific scenario or example from the problem description that relates to this step
+</step_analysis>
+[Advise on how to track results and assess the effectiveness of the solution. Set up a system for regular metric tracking and review.]
+</step_10>
+
+After completing all steps, provide a brief summary of the problem-solving process and offer encouragement to the user. Place this summary within <summary> tags.
+
+Throughout the process, be prepared to:
+- Ask clarifying questions when needed
+- Set specific, time-bound tasks
+- Suggest purchases of necessary items
+- Recommend relevant offline activities or services
+- Send email or SMS notifications (by indicating when and what should be sent)
+- Set up tracking for health or other relevant metrics
+- Schedule video calls with specialists when expert advice is needed
+- Specify repeated actions with clear frequency and duration
+
+Remember to be supportive, positive, and tailored in your advice throughout the process. If you need any clarification about the problem, ask the user before proceeding with your advice.
+
+Example output structure:
+
+<step_1>
+<step_analysis>
+[Your analysis for step 1, including key considerations, assumptions, reflections, potential personal assistant actions, and a specific example from the problem description]
+</step_analysis>
+[Your tailored advice for step 1, including any relevant personal assistant actions]
+</step_1>
+
+[... repeat for steps 2-10 ...]
+
+<summary>
+[Your brief summary of the problem-solving process, including key actions taken and encouragement for the user]
+</summary>
+
+Please proceed with your analysis and guidance based on the provided problem description and format response in JSON.
+
+
+
+
+
