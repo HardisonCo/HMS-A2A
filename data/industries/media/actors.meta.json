@@ -1,0 +1,70 @@
+{
+    "domainName": "Media",
+    "roles": [
+      {
+        "id": "media-role-1",
+        "name": "Content Producer",
+        "description": "Oversees content creation from scripting to final delivery, coordinating teams (writers, camera, editors) to produce shows, documentaries, or news segments.",
+        "meta": {
+          "typicalBackground": "Broadcasting, journalism, or film production, strong project management, creative vision",
+          "keyTools": ["Production scheduling software", "Editing suites (Premiere, Final Cut)", "Collaboration tools"],
+          "challenges": ["Budget constraints, tight deadlines, balancing editorial standards with audience appeal"]
+        },
+        "sampleUseCase": {
+          "scenario": "A producer spearheads a mini-series on climate solutions, assembling experts, hosting field shoots, and delivering episodes across multiple digital channels."
+        }
+      },
+      {
+        "id": "media-role-2",
+        "name": "Broadcast Engineer",
+        "description": "Maintains and optimizes technical systems for radio/TV stations, ensuring signal quality and minimal downtime.",
+        "meta": {
+          "typicalBackground": "Electronics or broadcast engineering, knowledge of transmission protocols (IP-based or traditional)",
+          "keyTools": ["Audio consoles, satellite uplinks, RF spectrum analyzers", "Video encoding systems"],
+          "challenges": ["Equipment failures, compliance with broadcast standards (SMPTE, ATSC), bridging legacy infrastructure with digital systems"]
+        },
+        "sampleUseCase": {
+          "scenario": "A broadcast engineer migrates a TV station from SDI cabling to an IP-based system, improving flexibility for remote production and reducing overall maintenance costs."
+        }
+      },
+      {
+        "id": "media-role-3",
+        "name": "Social Media Manager",
+        "description": "Curates and schedules content for media brand’s social channels, engaging audiences, driving traffic, and analyzing campaign success.",
+        "meta": {
+          "typicalBackground": "Marketing or communications, strong writing skills, knowledge of social media algorithms",
+          "keyTools": ["Content scheduling platforms (Hootsuite, Sprout Social)", "Social listening tools", "Analytics dashboards"],
+          "challenges": ["Algorithm changes, crisis response to negative feedback, short content life-cycle in fast feeds"]
+        },
+        "sampleUseCase": {
+          "scenario": "The manager launches a hashtag challenge for a new show, generating user-generated content that trends locally and boosts channel subscriptions."
+        }
+      },
+      {
+        "id": "media-role-4",
+        "name": "Investigative Journalist",
+        "description": "Researches and uncovers in-depth stories on public interest issues, analyzing documents, interviewing sources, and presenting findings with integrity.",
+        "meta": {
+          "typicalBackground": "Journalism or communication degree, investigative methods, strong ethics, legal awareness (libel, FOIA)",
+          "keyTools": ["Public records databases", "Source management software", "Data analysis for large document sets"],
+          "challenges": ["Threat of legal action, hidden or resistant sources, verifying authenticity of leaked documents"]
+        },
+        "sampleUseCase": {
+          "scenario": "An investigative journalist exposes financial irregularities in a local government contract by analyzing procurement data and interviewing whistleblowers, prompting official inquiries."
+        }
+      },
+      {
+        "id": "media-role-5",
+        "name": "Media Planner",
+        "description": "Develops and implements advertising and content distribution strategies, selecting channels and schedules to maximize reach or ROI.",
+        "meta": {
+          "typicalBackground": "Advertising or marketing background, data-driven approach to media buying",
+          "keyTools": ["Audience measurement tools (Nielsen, Comscore)", "Demographic analytics", "Budget allocation software"],
+          "challenges": ["Fragmented audiences across digital platforms, rising ad costs, ensuring brand alignment"]
+        },
+        "sampleUseCase": {
+          "scenario": "A media planner allocates a beverage brand’s ad spend across prime-time TV, YouTube pre-roll, and sponsored social posts, optimizing for each platform’s demographic insights."
+        }
+      }
+    ]
+  }

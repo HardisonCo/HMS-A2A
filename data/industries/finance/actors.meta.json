@@ -1,0 +1,70 @@
+{
+    "domainName": "Finance",
+    "roles": [
+      {
+        "id": "finance-role-1",
+        "name": "Investment Banker",
+        "description": "Advises corporations on mergers, acquisitions, and capital raising. Structures complex financial deals to meet strategic objectives.",
+        "meta": {
+          "typicalBackground": "Finance or business degree, strong analytical and negotiation skills, high-pressure client interactions",
+          "keyTools": ["Financial modeling (DCF, LBO)", "Deal management software", "Market data terminals"],
+          "challenges": ["Market volatility, aligning interests of multiple stakeholders, intense competition from rival banks"]
+        },
+        "sampleUseCase": {
+          "scenario": "An investment banker structures a cross-border M&A deal, ensuring regulatory compliance and synergy valuations that attract a foreign investor group."
+        }
+      },
+      {
+        "id": "finance-role-2",
+        "name": "Financial Analyst",
+        "description": "Evaluates companies, markets, or projects for potential investments, uses financial data to forecast performance and inform decisions.",
+        "meta": {
+          "typicalBackground": "Finance or accounting background, strong Excel or modeling proficiency, can interpret macro/micro trends",
+          "keyTools": ["Financial statements analysis (P&L, balance sheet)", "Ratio analysis", "Bloomberg/Reuters data"],
+          "challenges": ["Ensuring data accuracy, dealing with incomplete disclosures, fast-moving market changes"]
+        },
+        "sampleUseCase": {
+          "scenario": "A financial analyst recommends buying undervalued tech stocks after analyzing Q2 earnings and growth potential, leading to above-average portfolio returns."
+        }
+      },
+      {
+        "id": "finance-role-3",
+        "name": "Portfolio Manager",
+        "description": "Manages investment portfolios (mutual funds, pensions, endowments) balancing risk and return objectives.",
+        "meta": {
+          "typicalBackground": "CFA or similar qualifications, deep understanding of asset allocation, performance metrics",
+          "keyTools": ["Asset management platforms", "Risk models (VaR, beta)", "Portfolio rebalancing strategies"],
+          "challenges": ["Client risk tolerance vs. market realities, global economic uncertainties, competition from passive ETFs"]
+        },
+        "sampleUseCase": {
+          "scenario": "A portfolio manager shifts allocations from cyclical equities to defensive stocks and treasury bonds, anticipating an economic downturn and preserving capital for clients."
+        }
+      },
+      {
+        "id": "finance-role-4",
+        "name": "Compliance Officer",
+        "description": "Ensures financial institutions follow regulations (AML, KYC, securities law), preventing illicit activities and safeguarding consumer rights.",
+        "meta": {
+          "typicalBackground": "Legal or compliance background, thorough knowledge of finance regulations, audit/investigative mindset",
+          "keyTools": ["Transaction monitoring systems", "Compliance reporting frameworks", "Regulatory updates trackers"],
+          "challenges": ["Constant regulatory evolution, cross-border differences, sophisticated financial crimes (fraud, laundering)"]
+        },
+        "sampleUseCase": {
+          "scenario": "A compliance officer uncovers suspicious money flows from shell accounts, flags them for internal investigation, and files a SAR to authorities, preventing large-scale illicit transfers."
+        }
+      },
+      {
+        "id": "finance-role-5",
+        "name": "Credit Risk Manager",
+        "description": "Analyzes borrowers’ creditworthiness, sets lending terms, and mitigates default risks via policies or hedging instruments.",
+        "meta": {
+          "typicalBackground": "Accounting or finance background, strong quantitative analysis, knowledge of credit modeling",
+          "keyTools": ["Credit scoring models (FICO, custom PD/LGD), portfolio stress testing, collateral management systems"],
+          "challenges": ["Economic downturns raising default rates, limited borrower data in emerging markets, balancing growth vs. risk appetite"]
+        },
+        "sampleUseCase": {
+          "scenario": "A risk manager tightens credit criteria for subprime consumer loans after detecting an uptick in delinquencies, preventing further losses in the next quarter."
+        }
+      }
+    ]
+  }

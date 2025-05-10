@@ -1,0 +1,452 @@
+[
+  {
+    "id": 17,
+    "name": "Mining",
+    "icon": "fas fa-hammer",
+    "description": "Mining systems support mineral extraction, processing, and resource management by leveraging advanced exploration technologies, autonomous machinery, real-time data analytics, and integrated safety and environmental monitoring. These systems optimize operational efficiency, enhance regulatory compliance, and promote sustainable resource development.",
+    "fullDescription": "Mining provides vital raw materials—metals, minerals, and fuels—that power industries and shape modern life. Operations range from large-scale open-pit mines to artisanal and small-scale mining. Technological advances such as autonomous vehicles, remote sensing, and advanced geotechnical modeling drive improvements in productivity and worker safety. The industry is also undergoing a digital transformation to reduce environmental footprints, rehabilitate mine sites, and engage responsibly with local communities. Effective governance, transparent reporting, and robust regulatory frameworks balance economic returns with social and ecological stewardship, ensuring that mineral resources contribute to long-term sustainable development. Increased stakeholder engagement and innovative financing models further support modernization in the mining sector.",
+    "statistics": [
+      {
+        "value": "$2.6 trillion",
+        "description": "Global mining industry revenues exceed $2.6 trillion, covering metals, minerals, and coal."
+      },
+      {
+        "value": "28% GHG from energy use",
+        "description": "Mining and associated power consumption contribute significantly to industrial greenhouse gas emissions."
+      },
+      {
+        "value": "40 million artisanal miners",
+        "description": "An estimated 40 million artisanal and small-scale miners globally, highlighting challenges in the informal sector."
+      },
+      {
+        "value": "15% cost reduction from digital transformation",
+        "description": "Adoption of automation and data analytics has led to measurable cost savings in some mining operations."
+      }
+    ],
+    "targets": [
+      "Improve worker safety and minimize occupational hazards in mining operations",
+      "Adopt cleaner technologies to reduce emissions, water usage, and land disruption",
+      "Foster transparent engagement with local communities and indigenous groups",
+      "Implement rigorous tailings management to prevent contamination",
+      "Promote responsible sourcing and traceability of mineral supply chains",
+      "Increase operational efficiency by 20% through digital automation",
+      "Reduce overall environmental impact by 30% within the next 5 years"
+    ],
+    "standards": [
+      {
+        "name": "JORC Code",
+        "organization": "Joint Ore Reserves Committee",
+        "description": "Professional code of practice setting minimum standards for public reporting of mineral exploration results.",
+        "url": "http://www.jorc.org/",
+        "relevance": "Ensures transparency and accuracy in reporting mineral resources and ore reserves.",
+        "implementation": "Adopted through standardized reporting practices and regular audits by independent assessors.",
+        "benefits": "Enhances investor confidence and supports sound decision-making in resource valuation.",
+        "challenges": "Requires rigorous data collection and can be resource-intensive to maintain compliance."
+      },
+      {
+        "name": "ISO 14001",
+        "organization": "International Organization for Standardization",
+        "description": "Environmental management systems standard.",
+        "url": "https://www.iso.org/iso-14001-environmental-management.html",
+        "relevance": "Helps mining operations minimize their environmental impact and comply with regulations.",
+        "implementation": "Implemented via environmental audits, continuous monitoring, and corrective action protocols.",
+        "benefits": "Reduces environmental risks and improves corporate sustainability performance.",
+        "challenges": "Ongoing monitoring and staff training are essential to maintain certification."
+      },
+      {
+        "name": "ICMM Performance Expectations",
+        "organization": "International Council on Mining & Metals",
+        "description": "Framework covering safety, environmental stewardship, and community engagement.",
+        "url": "https://www.icmm.com/",
+        "relevance": "Guides responsible mining practices and corporate accountability.",
+        "implementation": "Integrated into corporate policies with regular performance assessments and public reporting.",
+        "benefits": "Improves operational standards and fosters sustainable development practices.",
+        "challenges": "Requires significant commitment from top management and transparency in reporting."
+      },
+      {
+        "name": "ISO 45001",
+        "organization": "International Organization for Standardization",
+        "description": "Occupational health and safety management systems standard.",
+        "url": "https://www.iso.org/iso-45001-occupational-health-and-safety.html",
+        "relevance": "Helps ensure worker safety and reduce workplace hazards in mining operations.",
+        "implementation": "Adopted through risk assessments, safety training, and continuous improvement in safety protocols.",
+        "benefits": "Reduces incident rates, enhances employee well-being, and supports regulatory compliance.",
+        "challenges": "Requires cultural changes and ongoing investment in safety technology and training."
+      },
+      {
+        "name": "ICMM Sustainability Framework",
+        "organization": "International Council on Mining & Metals",
+        "description": "Guidelines that integrate environmental, social, and governance (ESG) factors into mining practices.",
+        "url": "https://www.icmm.com/en-gb/sustainability",
+        "relevance": "Promotes responsible mining through measurable sustainability targets and community engagement.",
+        "implementation": "Implemented via sustainability reporting, stakeholder consultations, and periodic external reviews.",
+        "benefits": "Improves long-term viability, enhances community trust, and attracts ethical investments.",
+        "challenges": "Balancing economic goals with stringent sustainability targets can be challenging."
+      }
+    ],
+    "workflows": [
+      {
+        "name": "Exploration & Feasibility",
+        "description": "Identify potential mineral deposits via geological surveys, drill sampling, and resource estimation.",
+        "steps": [
+          "Conduct remote sensing and geophysical surveys.",
+          "Perform drill sampling and laboratory analysis.",
+          "Develop resource models and assess economic feasibility."
+        ]
+      },
+      {
+        "name": "Mine Planning & Development",
+        "description": "Design extraction methods, secure permits, and build necessary infrastructure.",
+        "steps": [
+          "Evaluate open-pit vs. underground extraction techniques.",
+          "Design mine layouts and schedule phased development.",
+          "Obtain regulatory permits and secure financing."
+        ]
+      },
+      {
+        "name": "Extraction",
+        "description": "Execute drilling, blasting, loading, and hauling operations to extract ore.",
+        "steps": [
+          "Plan and conduct controlled drilling and blasting operations.",
+          "Load and transport ore using trucks or conveyor systems.",
+          "Monitor extraction rates and adjust operations for efficiency."
+        ]
+      },
+      {
+        "name": "Processing",
+        "description": "Crush, grind, and separate minerals using various methods to obtain concentrated metals.",
+        "steps": [
+          "Operate crushing and grinding machinery.",
+          "Apply flotation, leaching, or smelting techniques.",
+          "Continuously monitor quality and adjust processing parameters."
+        ]
+      },
+      {
+        "name": "Reclamation & Closure",
+        "description": "Restore mined areas, manage tailings, and transition sites for post-mining use.",
+        "steps": [
+          "Develop and implement a mine closure plan.",
+          "Backfill and recontour land to approximate natural landscapes.",
+          "Monitor environmental recovery and engage with local communities."
+        ]
+      },
+      {
+        "name": "Drilling & Blasting Optimization",
+        "description": "Improve efficiency and safety of drilling and blasting operations.",
+        "steps": [
+          "Optimize drilling patterns and explosive charges.",
+          "Utilize remote monitoring for blast performance analysis.",
+          "Adjust parameters based on real-time feedback and geotechnical data."
+        ]
+      },
+      {
+        "name": "Logistics & Transportation",
+        "description": "Manage the movement of ore and waste materials efficiently from the mine to processing facilities.",
+        "steps": [
+          "Plan optimal routes and schedule truck dispatches.",
+          "Implement automated fleet management systems.",
+          "Monitor fuel consumption and maintenance schedules."
+        ]
+      },
+      {
+        "name": "Ventilation & Safety Monitoring",
+        "description": "Ensure proper air quality and safety conditions in underground operations.",
+        "steps": [
+          "Install sensors to continuously monitor air quality and gas levels.",
+          "Automate ventilation controls based on real-time data.",
+          "Conduct regular safety audits and emergency drills."
+        ]
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Ore Recovery Rate",
+        "definition": "Percentage of targeted mineral actually recovered compared to the estimated deposit.",
+        "measurement": "Compare extracted metal content against in-situ resource models and update recovery forecasts."
+      },
+      {
+        "name": "Safety Incident Rate",
+        "definition": "Frequency of lost-time injuries or fatalities per million hours worked.",
+        "measurement": "Analyze reported incidents and track improvements year-over-year."
+      },
+      {
+        "name": "Energy Intensity",
+        "definition": "Amount of energy consumed per unit of ore produced or metal refined.",
+        "measurement": "Monitor kWh or MJ per metric ton processed and benchmark against efficiency targets."
+      },
+      {
+        "name": "Tailings Stability",
+        "definition": "Assessment of tailings dam integrity and risk of failure based on geotechnical indicators.",
+        "measurement": "Utilize sensor data and regular inspections to evaluate dam stability and model potential risks."
+      },
+      {
+        "name": "Equipment Downtime",
+        "definition": "Percentage of scheduled production time lost due to equipment failure or maintenance.",
+        "measurement": "Track downtime hours against total operational hours and analyze trends."
+      }
+    ],
+    "processFlows": [
+      {
+        "name": "Mine Development Process",
+        "steps": [
+          "Resource Modeling: Compile geological data, estimate grade/tonnage, and create 3D models.",
+          "Environmental & Social Impact Assessment: Evaluate biodiversity, community concerns, and propose mitigation measures.",
+          "Permitting & Financing: Obtain government approvals and secure investments or joint venture partnerships.",
+          "Infrastructure Construction: Build access roads, power lines, processing plants, and tailings facilities.",
+          "Commissioning: Test equipment, recruit and train workforce, and commence initial ore extraction."
+        ]
+      },
+      {
+        "name": "Ore Processing & Refining",
+        "steps": [
+          "Crushing & Grinding: Reduce ore to finer particles for optimal liberation of minerals.",
+          "Concentration: Utilize flotation, gravity, or magnetic separation to increase mineral content.",
+          "Extraction/Smelting: Apply leaching or smelting techniques to extract metals.",
+          "Waste Management: Process tailings and recover valuable by-products where feasible.",
+          "Product Shipment: Package and transport refined metals to market or storage facilities."
+        ]
+      },
+      {
+        "name": "Mine Closure & Reclamation",
+        "steps": [
+          "Decommissioning: Safely dismantle equipment and secure hazardous areas.",
+          "Land Recontouring: Reshape and stabilize disturbed land areas.",
+          "Soil Replacement & Revegetation: Apply topsoil and plant native species to restore ecosystems.",
+          "Monitoring: Continuously assess water quality, slope stability, and vegetation recovery.",
+          "Community Transition: Facilitate redevelopment for agriculture, tourism, or conservation purposes."
+        ]
+      },
+      {
+        "name": "Drilling and Blasting Process",
+        "steps": [
+          "Planning: Design drilling patterns based on geological surveys.",
+          "Execution: Carry out drilling and controlled blasting operations with precision.",
+          "Evaluation: Analyze blast outcomes and adjust future operations for improved fragmentation."
+        ]
+      }
+    ],
+    "regulatoryFrameworks": [
+      {
+        "name": "The Mining Code (ISA)",
+        "jurisdiction": "International Seabed Authority",
+        "description": "Rules to manage seabed mineral resources beyond national jurisdictions.",
+        "requirements": "Sets exploration license terms and environmental protection standards for deep-sea mining."
+      },
+      {
+        "name": "Mine Safety & Health Administration (MSHA)",
+        "jurisdiction": "United States",
+        "description": "Sets and enforces safety standards for miners and mining operations.",
+        "requirements": "Mandates training, protective equipment, inspection intervals, and hazard reporting."
+      },
+      {
+        "name": "EITI Standard",
+        "jurisdiction": "Global (Extractive Industries Transparency Initiative)",
+        "description": "Promotes transparency of revenues from oil, gas, and minerals.",
+        "requirements": "Countries must disclose mining-related payments, contracts, and beneficial ownership details."
+      }
+    ],
+    "environmentalImpact": {
+      "emissions": {
+        "greenhouseGases": "Diesel-powered trucks, generators, and ore processing (especially smelting) can produce significant CO2 emissions.",
+        "airPollutants": "Dust from blasting, haul roads, and particulate matter from processing operations contribute to air quality concerns.",
+        "mitigationStrategies": "Transition to electric vehicles, employ dust suppression systems, and adopt energy-efficient processing technologies."
+      },
+      "landUse": {
+        "footprint": "Open pits, waste rock dumps, and tailings ponds may cover extensive areas, altering natural landscapes.",
+        "habitatEffects": "Improper management can lead to deforestation, habitat fragmentation, and biodiversity loss.",
+        "mitigationStrategies": "Implement progressive rehabilitation, backfill open pits, and establish conservation offsets."
+      },
+      "waterImpacts": {
+        "consumption": "Ore processing often requires large volumes of water for slurry transport and mineral separation.",
+        "thermalPollution": "Processing plants may discharge heated water, potentially affecting local aquatic ecosystems.",
+        "mitigationStrategies": "Use closed-loop water circuits, install water treatment facilities, and employ acid neutralization techniques."
+      }
+    },
+    "monitoringAndAnalytics": {
+      "operationalMetrics": [
+        "Drill & Blast Efficiency: Measure fragmentation quality and reduce over-break and dilution.",
+        "Strip Ratio: Monitor the overburden to ore ratio impacting open-pit mining costs.",
+        "Equipment Utilization: Track productive hours versus idle time for key machinery.",
+        "Metal Recovery Rates: Compare final metal outputs to feed grade and input quantities."
+      ],
+      "advancedAnalytics": [
+        "Geospatial Modeling: Create dynamic 3D geological models updated with sensor data.",
+        "Automated Fleet Dispatch: Utilize AI to optimize truck assignments and minimize fuel consumption.",
+        "Predictive Maintenance: Use condition monitoring to foresee equipment failures and schedule repairs.",
+        "Drone-Based Surveying: Employ drones for regular volumetric calculations, slope analysis, and safety inspections."
+      ]
+    },
+    "sampleDeals": [
+      {
+        "dealId": "MNG-Deal1",
+        "dealTitle": "Autonomous Mining Vehicle Implementation",
+        "dealSteps": {
+          "step1_defineProblem": "A large open-pit mine faces high operational costs, safety risks from human-driven vehicles, and frequent downtime.",
+          "step2_codifySolution": "Deploy autonomous haul trucks equipped with advanced navigation, collision avoidance systems, and remote control integration. Centralize fleet management through an AI-powered dispatch system.",
+          "step3_setupProgram": {
+            "stakeholders": [
+              "Mine operator (capital investment, workforce training)",
+              "Equipment OEMs (autonomous trucks, sensors, software)",
+              "Regulators (safety standards, road design guidelines)",
+              "Labor unions (job transition planning, skill upgrades)"
+            ],
+            "financing": "Corporate CAPEX combined with technology pilot grants and ROI from reduced labor and operational costs.",
+            "milestones": "Convert 50% of the haul fleet to autonomous operation within 18 months; achieve a 15% productivity gain and reduce accidents by 30%."
+          },
+          "step4_executeProgram": "Upgrade trucks with LIDAR, GPS, and collision sensors; train remote control operators; establish geofenced routes; and run pilot tests to refine the system.",
+          "step5_verifyOutcomeAndDistributeFunds": "Analyze cost savings, safety improvements, and production metrics. Upon meeting targets, scale the program to additional mine sites."
+        }
+      }
+    ],
+    "relatedContent": [
+      {
+        "type": "story",
+        "title": "From Mine to Green Corridor: A Reclamation Success",
+        "link": "/stories/mine-reclamation-green-corridor"
+      },
+      {
+        "type": "publication",
+        "title": "Sustainable Mining Practices",
+        "link": "/publications/sustainable-mining"
+      }
+    ],
+    "usAgencyContributions": {
+      "relevantAgencies": [
+        "Bureau of Land Management (BLM)",
+        "Environmental Protection Agency (EPA)",
+        "Mine Safety and Health Administration (MSHA)",
+        "United States Geological Survey (USGS)",
+        "United States Congress (Energy & Natural Resources Committees)"
+      ],
+      "explanation": "BLM oversees mineral leasing on federal lands, EPA enforces environmental rules, MSHA ensures mine safety, and USGS conducts resource mapping and geological research. Congress shapes mining regulations, sets royalty frameworks, and funds reclamation initiatives, balancing economic development with environmental and social stewardship."
+    },
+    "agencyServices": [
+      {
+        "agencyDomain": "blm.us.gov-ai.co",
+        "services": [
+          {
+            "name": "Federal Land Minerals Leasing",
+            "desc": "Issues permits and collects royalties for mining operations on public lands.",
+            "status": 1,
+            "url": "https://minerals.blm.us.gov-ai.co"
+          }
+        ]
+      }
+    ],
+    "resources": {
+      "pdfWhyItMatters": "/goal_mining/mining_Why-It-Matters.pdf",
+      "gifMakeEveryDayCount": "/goal_mining/mining_SDG_MakeEveryDayCount_Gifs.gif",
+      "gifIcon": "/goal_mining/mining_GIF_Icon.gif",
+      "actionCardSquare": "/goal_mining/mining_action_card_square.jpg",
+      "actionCardTwitter": "/goal_mining/mining_action_card_twitter.jpg",
+      "webInverted": "/goal_mining/mining_WEB_INVERTED.png",
+      "printFile": "/goal_mining/mining_PRINT.jpg",
+      "printInvertedFile": "/goal_mining/mining_PRINT_INVERTED.jpg",
+      "webImage": "/goal_mining/mining_WEB.png",
+      "infographics": "/goal_mining/mining_infographics.pdf",
+      "elyxImage": "/goal_mining/mining_Elyx.png",
+      "languagesImage": "/goal_mining/mining_Languages.png"
+    },
+    "items": [
+      {
+        "id": "mining-1",
+        "name": "Responsible Mineral Extraction",
+        "description": "Implement advanced technologies and best practices to maximize ore recovery while minimizing environmental impact and fostering social license.",
+        "implementationDetails": "Adopt automated drilling, real-time ore grade monitoring, and precision blasting techniques; integrate with digital twin simulations for process optimization.",
+        "challenges": "High capital expenditure, complexity in integrating legacy systems with new technologies, and managing community expectations.",
+        "benefits": "Enhances resource recovery, reduces waste, and improves stakeholder trust.",
+        "kpis": [
+          {
+            "name": "Ore Recovery Rate",
+            "definition": "The percentage of extractable mineral recovered from the total estimated deposit.",
+            "measurement": "Compare actual metal output with geological reserve estimates over a given period."
+          },
+          {
+            "name": "Cost per Ton of Ore",
+            "definition": "Total operational cost divided by the amount of ore produced, indicating process efficiency.",
+            "measurement": "Calculate production costs per metric ton and benchmark against industry standards."
+          }
+        ],
+        "targets": [
+          "Improve ore recovery rate by 10% within 2 years",
+          "Reduce production cost per ton by 15% through process optimization",
+          "Enhance real-time monitoring capabilities to achieve 95% extraction efficiency"
+        ]
+      },
+      {
+        "id": "mining-2",
+        "name": "Safety & Health Upgrades",
+        "description": "Enhance safety protocols, training, and protective measures to reduce accidents and occupational diseases in mining operations.",
+        "implementationDetails": "Deploy wearable sensors for real-time monitoring, implement AI-driven safety analytics, and upgrade personal protective equipment.",
+        "challenges": "Ensuring high compliance across all shifts, integrating new technologies with existing safety protocols, and managing upfront costs.",
+        "benefits": "Reduces injury rates, improves worker morale, and meets regulatory safety standards.",
+        "kpis": [
+          {
+            "name": "Safety Incident Rate",
+            "definition": "Frequency of lost-time injuries or fatalities per million hours worked.",
+            "measurement": "Track and analyze incident reports to gauge improvements in safety."
+          },
+          {
+            "name": "Training Completion Rate",
+            "definition": "Percentage of workers who complete required safety training on schedule.",
+            "measurement": "Monitor training records and certification renewals."
+          }
+        ],
+        "targets": [
+          "Reduce safety incident rate by 25% within 18 months",
+          "Achieve 100% safety training compliance within 1 year",
+          "Implement real-time monitoring across 90% of operations within 2 years"
+        ]
+      },
+      {
+        "id": "mining-3",
+        "name": "Mine Closure & Reclamation",
+        "description": "Plan and execute the safe closure of mining sites with comprehensive land rehabilitation and environmental restoration.",
+        "implementationDetails": "Develop closure plans early in the project lifecycle, employ sustainable reclamation techniques, and engage local communities in redevelopment plans.",
+        "challenges": "Balancing economic losses with environmental remediation costs, ensuring long-term land stability, and managing post-closure monitoring.",
+        "benefits": "Restores ecosystems, reduces long-term environmental liabilities, and creates new land use opportunities.",
+        "kpis": [
+          {
+            "name": "Reclamation Success Rate",
+            "definition": "The percentage of rehabilitated land that meets predefined ecological and safety standards.",
+            "measurement": "Compare post-closure land assessments with baseline environmental targets."
+          },
+          {
+            "name": "Post-Closure Cost Efficiency",
+            "definition": "Cost incurred per unit area for successful land rehabilitation.",
+            "measurement": "Monitor expenditures related to closure activities relative to land area restored."
+          }
+        ],
+        "targets": [
+          "Achieve a reclamation success rate of 90% within 3 years of closure",
+          "Reduce post-closure rehabilitation costs by 20% through optimized planning",
+          "Engage 100% of local stakeholders in closure planning and redevelopment within 18 months"
+        ]
+      }
+    ],
+    "industry_interactions": {
+      "Energy": "Collaborates with the energy sector to optimize power usage in extraction and processing, and to adopt renewable energy solutions for reducing carbon footprints.",
+      "Treasury": "Works with treasury and financial institutions to secure investments, manage capital expenditure, and optimize cost efficiencies in mining operations.",
+      "Commerce": "Integrates with global trade platforms to streamline mineral export, enhance supply chain transparency, and ensure fair market practices.",
+      "Environment": "Coordinates with environmental agencies to implement sustainable practices, minimize ecological impacts, and ensure compliance with environmental regulations.",
+      "Food": "Supports the production of mineral-based fertilizers and food packaging materials, ensuring responsible sourcing and sustainability.",
+      "Jobs": "Drives job creation and skill development in mining communities through training programs and local employment initiatives.",
+      "Health": "Partners with healthcare providers to monitor worker health, implement safety protocols, and manage occupational health risks.",
+      "Education": "Collaborates with academic institutions to develop mining engineering programs, research initiatives, and community education projects.",
+      "Transportation": "Works with logistics and transportation sectors to streamline ore shipment, reduce transit times, and improve supply chain efficiency.",
+      "Finance": "Leverages financial analytics to monitor operational costs, forecast market trends, and secure funding for technological upgrades.",
+      "Justice": "Ensures compliance with legal frameworks, manages land rights disputes, and supports ethical mining practices.",
+      "Technology": "Integrates cutting-edge technologies such as IoT, AI, and remote sensing to drive operational efficiencies and innovation.",
+      "Telecom": "Utilizes robust communication networks for real-time data transmission, remote monitoring, and enhanced coordination across sites.",
+      "Retail": "Engages with end-user markets for mineral products, ensuring traceability and promoting responsible sourcing.",
+      "Manufacturing": "Supplies raw materials to manufacturing sectors, ensuring quality and consistency through standardized processing.",
+      "Mining": "Continuously improves extraction and processing methodologies through research, innovation, and industry collaboration.",
+      "Utilities": "Coordinates with utility providers to secure reliable power, water, and waste management services for mining operations.",
+      "Media": "Works with media outlets to promote transparency, report on sustainability initiatives, and share industry best practices.",
+      "Defense": "Supplies strategic minerals critical for defense manufacturing and supports secure supply chain management.",
+      "Sports": "Collaborates on sponsorships and community engagement initiatives in mining regions to promote local sports and recreation.",
+      "Tourism": "Supports the development of mining heritage sites and eco-tourism initiatives that highlight successful reclamation and sustainable practices.",
+      "Innovation": "Drives continuous process improvement and technological adoption to maintain competitive advantage and sustainable growth."
+    }
+  }
+]

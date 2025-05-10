@@ -1,0 +1,70 @@
+{
+    "domainName": "Mining",
+    "roles": [
+      {
+        "id": "mining-role-1",
+        "name": "Geologist",
+        "description": "Conducts geological surveys and evaluations to locate mineral resources, analyzing samples and mapping ore deposits.",
+        "meta": {
+          "typicalBackground": "Geology or earth sciences degree, knowledge of exploration techniques, field sampling, mineralogy",
+          "keyTools": ["GIS, remote sensing data, rock core analysis, geophysical surveys"],
+          "challenges": ["Inaccessible terrain, weather extremes, ensuring accurate reserve estimates"]
+        },
+        "sampleUseCase": {
+          "scenario": "A geologist identifies a promising copper deposit using seismic data and rock sampling, justifying a drilling program that confirms large-scale reserves."
+        }
+      },
+      {
+        "id": "mining-role-2",
+        "name": "Mine Supervisor",
+        "description": "Oversees daily site operations—drilling, blasting, hauling—ensuring safety compliance, productivity, and proper resource utilization.",
+        "meta": {
+          "typicalBackground": "Mining engineering or extensive operational experience, leadership, thorough safety knowledge",
+          "keyTools": ["Mine planning software", "Safety checklists", "Shift scheduling systems"],
+          "challenges": ["Strikes or labor issues, equipment breakdowns, variable ore grades, stringent safety regulations"]
+        },
+        "sampleUseCase": {
+          "scenario": "The supervisor reorganizes blasting schedules in an open-pit mine to avoid heat wave hours, reducing safety risks and maintaining production targets."
+        }
+      },
+      {
+        "id": "mining-role-3",
+        "name": "Drilling Operator",
+        "description": "Operates drilling rigs to extract core samples or blast holes, following precise patterns for efficient and safe mining.",
+        "meta": {
+          "typicalBackground": "Skilled manual experience, specialized drilling certifications, knowledge of rig operation/safety",
+          "keyTools": ["Drill rig equipment", "Explosives loading gear (for blast holes)", "Protective gear, real-time communication devices"],
+          "challenges": ["Machine malfunctions, alignment accuracy, harsh environmental conditions in remote sites"]
+        },
+        "sampleUseCase": {
+          "scenario": "A drilling operator uses GPS-guided rigs to create blast holes in a patterned grid, optimizing fragmentation and minimizing rock overbreak."
+        }
+      },
+      {
+        "id": "mining-role-4",
+        "name": "Mineral Processing Engineer",
+        "description": "Designs and optimizes processes to separate valuable minerals from ore, overseeing crushing, grinding, flotation, or smelting steps.",
+        "meta": {
+          "typicalBackground": "Metallurgical or chemical engineering, knowledge of extraction processes, chemical safety",
+          "keyTools": ["Flotation cells, gravity separators, leaching circuits, process simulation software"],
+          "challenges": ["Variable ore composition, chemical hazards, water usage, achieving high recovery rates"]
+        },
+        "sampleUseCase": {
+          "scenario": "An engineer fine-tunes the reagent dosage in a gold flotation circuit, raising recovery rates by 5% and reducing reagent costs."
+        }
+      },
+      {
+        "id": "mining-role-5",
+        "name": "Health & Safety Officer",
+        "description": "Implements occupational health and safety protocols, conducts inspections, and investigates incidents to ensure mine worker wellbeing.",
+        "meta": {
+          "typicalBackground": "Safety management or industrial hygiene background, knowledge of mining hazards and regulatory compliance",
+          "keyTools": ["Safety audits, hazard reporting systems, protective equipment guidelines"],
+          "challenges": ["Dangerous working conditions (cave-ins, explosions), ensuring consistent safety culture, emergency response readiness"]
+        },
+        "sampleUseCase": {
+          "scenario": "A safety officer introduces a real-time gas detection system in an underground mine, training staff on evacuation procedures, thereby preventing injuries from sudden methane build-up."
+        }
+      }
+    ]
+  }

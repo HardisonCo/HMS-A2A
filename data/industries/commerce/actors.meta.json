@@ -1,0 +1,70 @@
+{
+    "domainName": "Commerce",
+    "roles": [
+      {
+        "id": "commerce-role-1",
+        "name": "Supply Chain Manager",
+        "description": "Coordinates the movement of goods from suppliers to end consumers, optimizing cost, time, and quality across the value chain.",
+        "meta": {
+          "typicalBackground": "Operations or logistics degree, strong understanding of inventory management and global trade",
+          "keyTools": ["ERP systems", "Route optimization software", "Warehouse management solutions"],
+          "challenges": ["Disruptions (strikes, weather, customs delays)", "Cost fluctuations in transport", "Ensuring reliable supplier networks"]
+        },
+        "sampleUseCase": {
+          "scenario": "During a sudden port strike, the manager reroutes shipments through an alternative hub, leveraging real-time data to avoid major stockouts."
+        }
+      },
+      {
+        "id": "commerce-role-2",
+        "name": "International Trade Specialist",
+        "description": "Facilitates cross-border transactions, manages customs documentation, and ensures compliance with trade agreements.",
+        "meta": {
+          "typicalBackground": "International business or economics, familiarity with tariffs, INCOTERMS, and export regulations",
+          "keyTools": ["Trade compliance software", "Tariff calculators", "Freight forwarder network"],
+          "challenges": ["Constantly shifting trade policies", "Currency volatility", "Complex documentation for different markets"]
+        },
+        "sampleUseCase": {
+          "scenario": "A trade specialist helps a local electronics firm navigate newly imposed tariffs on key components by restructuring supply contracts and updating shipping routes."
+        }
+      },
+      {
+        "id": "commerce-role-3",
+        "name": "Merchandising Planner",
+        "description": "Analyzes consumer trends, plans product assortments, and coordinates pricing/promotions to maximize retail performance.",
+        "meta": {
+          "typicalBackground": "Marketing or retail management background, strong data analysis and trend forecasting",
+          "keyTools": ["POS analytics", "Planogram software", "Sales forecasting models"],
+          "challenges": ["Fast-changing consumer preferences", "Seasonal demand swings", "Managing overstock/stockouts"]
+        },
+        "sampleUseCase": {
+          "scenario": "Using last year's holiday season sales data, the planner adjusts store layouts and promotional bundles, increasing seasonal revenue by 15%."
+        }
+      },
+      {
+        "id": "commerce-role-4",
+        "name": "Business Development Officer",
+        "description": "Identifies and pursues new opportunities to expand markets, forge partnerships, and boost revenue streams.",
+        "meta": {
+          "typicalBackground": "Business or sales background, strong relationship-building and negotiation skills",
+          "keyTools": ["CRM systems", "Market research platforms", "Networking events"],
+          "challenges": ["Standing out in competitive markets", "Cultural and language barriers in global expansions", "Evaluating ROI on partnership proposals"]
+        },
+        "sampleUseCase": {
+          "scenario": "A business development officer secures a distribution partnership with a major online retailer in Asia, opening a new market channel that doubles the company's international sales."
+        }
+      },
+      {
+        "id": "commerce-role-5",
+        "name": "E-commerce Platform Manager",
+        "description": "Oversees online sales channels, maintains website performance, handles digital marketing and customer experience.",
+        "meta": {
+          "typicalBackground": "Tech-savvy marketing or IT background, knowledge of SEO, UX, and payment gateways",
+          "keyTools": ["E-commerce CMS (Shopify, Magento)", "Analytics dashboards (Google Analytics)", "Marketing automation"],
+          "challenges": ["Site downtime impacts revenue immediately", "Ensuring data security, preventing cart abandonment", "Synchronizing inventory across channels"]
+        },
+        "sampleUseCase": {
+          "scenario": "Noticing high cart abandonment rates, the manager implements a streamlined checkout process and retargeting ads, recovering 30% of lost sales."
+        }
+      }
+    ]
+  }

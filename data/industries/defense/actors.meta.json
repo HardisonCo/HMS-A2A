@@ -1,0 +1,70 @@
+{
+    "domainName": "Defense",
+    "roles": [
+      {
+        "id": "defense-role-1",
+        "name": "Military Officer",
+        "description": "Leads military units, develops strategic/tactical plans, and coordinates missions in various defense scenarios.",
+        "meta": {
+          "typicalBackground": "Military academy or ROTC, leadership training, specialized domain (infantry, navy, air force)",
+          "keyTools": ["Command & control systems", "Tactical maps, secure comm devices", "Military intelligence briefs"],
+          "challenges": ["Maintaining troop morale, threat unpredictability, ethical dilemmas in conflict zones"]
+        },
+        "sampleUseCase": {
+          "scenario": "An officer organizes a peacekeeping patrol in a conflict-prone area, balancing local community engagement, force protection, and mission directives."
+        }
+      },
+      {
+        "id": "defense-role-2",
+        "name": "Defense Acquisition Specialist",
+        "description": "Manages procurement of military equipment and services, negotiating contracts and overseeing lifecycle costs.",
+        "meta": {
+          "typicalBackground": "Logistics or acquisitions background, knowledge of defense procurement regulations, cost-benefit analyses",
+          "keyTools": ["Contract management software", "Project management frameworks", "Supplier evaluation rubrics"],
+          "challenges": ["Long lead times, complex compliance, balancing performance specs vs. budget constraints"]
+        },
+        "sampleUseCase": {
+          "scenario": "A specialist coordinates an RFP for new armored vehicles, ensuring vendor proposals meet ballistic protection standards, then negotiates a multi-year supply contract."
+        }
+      },
+      {
+        "id": "defense-role-3",
+        "name": "Intelligence Analyst",
+        "description": "Collects, synthesizes, and interprets information from multiple sources to inform strategic or tactical decisions.",
+        "meta": {
+          "typicalBackground": "Criminal justice, political science, or international relations plus intelligence training",
+          "keyTools": ["Geospatial analysis, signal intercepts, HUMINT data, classified databases"],
+          "challenges": ["Processing huge data volumes, discerning credible sources, rapidly evolving threats (cyber, terror)"]
+        },
+        "sampleUseCase": {
+          "scenario": "An analyst compiles satellite imagery, intercepted communications, and local insights to predict an imminent insurgent attack, prompting preemptive defense maneuvers."
+        }
+      },
+      {
+        "id": "defense-role-4",
+        "name": "Cyber Warfare Expert",
+        "description": "Develops and executes offensive/defensive cyber strategies, protecting defense networks and targeting adversary systems as authorized.",
+        "meta": {
+          "typicalBackground": "Computer science, cybersecurity certifications, specialized training in network intrusion or cryptography",
+          "keyTools": ["Offensive security tools, advanced encryption systems, zero-day exploit knowledge"],
+          "challenges": ["Attribution complexities, legal/ethical constraints, cat-and-mouse with advanced persistent threats"]
+        },
+        "sampleUseCase": {
+          "scenario": "A cyber warfare unit neutralizes a detected ransomware infiltration by reversing malicious code, shutting down external command servers, and patching vulnerabilities in critical infrastructure systems."
+        }
+      },
+      {
+        "id": "defense-role-5",
+        "name": "Logistics & Supply Officer",
+        "description": "Manages supply chains for military equipment, rations, and resources across bases or deployed units, ensuring operational readiness.",
+        "meta": {
+          "typicalBackground": "Military logistics or supply chain background, familiarity with deployment cycles and strategic transport",
+          "keyTools": ["Inventory tracking systems", "Transport scheduling software", "Collaboration with allied forces' logistics"],
+          "challenges": ["Harsh field conditions, piracy or theft, limited transport capacity, short shelf-life for certain supplies"]
+        },
+        "sampleUseCase": {
+          "scenario": "A logistics officer coordinates an airlift of humanitarian aid and ammunition to a remote forward base, balancing cargo priorities, flight schedules, and risk assessments."
+        }
+      }
+    ]
+  }

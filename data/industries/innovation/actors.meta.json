@@ -1,0 +1,70 @@
+{
+    "domainName": "Innovation",
+    "roles": [
+      {
+        "id": "innovation-role-1",
+        "name": "Innovation Strategist",
+        "description": "Develops organizational innovation roadmaps, identifying growth opportunities, nurturing creative culture, and aligning with long-term goals.",
+        "meta": {
+          "typicalBackground": "Business or engineering background, strategic planning, knowledge of emerging tech and market trends",
+          "keyTools": ["Innovation maturity assessments, trend analysis reports, design thinking frameworks"],
+          "challenges": ["Resistance to change, uncertain ROI on new ventures, balancing incremental vs. disruptive innovation"]
+        },
+        "sampleUseCase": {
+          "scenario": "A strategist leads monthly idea sprints, awarding seed funding to the best proposals. Over a year, two prototypes enter pilot phases that transform the company's product line."
+        }
+      },
+      {
+        "id": "innovation-role-2",
+        "name": "R&D Manager",
+        "description": "Oversees research projects, coordinates interdisciplinary teams, and ensures successful development of new products or technologies.",
+        "meta": {
+          "typicalBackground": "Technical degree (science/engineering), project management expertise, budgeting, IP awareness",
+          "keyTools": ["Research collaboration platforms, lab testing facilities, patent landscaping tools"],
+          "challenges": ["Technical uncertainties, internal competition for resources, bridging science and market realities"]
+        },
+        "sampleUseCase": {
+          "scenario": "The R&D manager coordinates a cross-functional team (chemists, engineers, marketing) to develop a biodegradable plastic alternative, acquiring pilot customers within 9 months."
+        }
+      },
+      {
+        "id": "innovation-role-3",
+        "name": "Startup Founder",
+        "description": "Conceives new business ideas, raises capital, and drives early-stage ventures, pivoting quickly in response to market feedback.",
+        "meta": {
+          "typicalBackground": "Entrepreneurial spirit, industry knowledge, risk tolerance, ability to handle multiple hats (product, marketing, finance)",
+          "keyTools": ["Pitch decks, MVP prototypes, agile iteration, pitch competitions"],
+          "challenges": ["Securing funding, product-market fit uncertainties, scaling operations with limited resources"]
+        },
+        "sampleUseCase": {
+          "scenario": "A founder launches a digital health platform for remote patient monitoring, iterates a quick MVP, attracts seed funding, and partners with a major telemedicine provider for distribution."
+        }
+      },
+      {
+        "id": "innovation-role-4",
+        "name": "Venture Capitalist",
+        "description": "Invests in early to growth-stage companies, providing capital, mentorship, and strategic networks in exchange for equity stakes.",
+        "meta": {
+          "typicalBackground": "Finance or entrepreneurial track record, ability to evaluate market disruption potential, negotiation skills",
+          "keyTools": ["Deal flow pipeline tracking, term sheets, portfolio performance metrics"],
+          "challenges": ["High failure rate of startups, need for diversification, timing exits (IPOs, acquisitions)"]
+        },
+        "sampleUseCase": {
+          "scenario": "A VC partner identifies a promising AI-based robotics startup, invests Series A capital, and helps recruit seasoned executives. The startup’s valuation triples in 18 months."
+        }
+      },
+      {
+        "id": "innovation-role-5",
+        "name": "Design Thinking Facilitator",
+        "description": "Leads workshops and sprints to spark creativity, empathize with user needs, prototype solutions, and refine concepts iteratively.",
+        "meta": {
+          "typicalBackground": "User experience or product design, strong facilitation and group dynamics management",
+          "keyTools": ["Empathy maps, journey mapping, rapid prototyping kits", "Post-its, whiteboards, digital collaboration tools"],
+          "challenges": ["Cultural resistance to open-ended experimentation, bridging intangible user insights to tangible product direction, time constraints in corporate settings"]
+        },
+        "sampleUseCase": {
+          "scenario": "A facilitator runs a week-long design sprint for an insurance company. Cross-functional teams create prototypes of a simpler claims app that significantly reduces user friction, validated by quick user tests."
+        }
+      }
+    ]
+  }

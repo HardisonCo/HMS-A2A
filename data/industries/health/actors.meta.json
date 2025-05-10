@@ -1,0 +1,70 @@
+{
+    "domainName": "Health",
+    "roles": [
+      {
+        "id": "health-role-1",
+        "name": "Primary Care Physician",
+        "description": "Provides frontline medical diagnosis, treatment, and preventive care, coordinating with specialists as needed.",
+        "meta": {
+          "typicalBackground": "Medical degree, residency in family/internal medicine, licensure, strong bedside manner",
+          "keyTools": ["Electronic health records (EHR)", "Diagnostic protocols", "Preventive screening schedules"],
+          "challenges": ["Managing chronic diseases, administrative burdens, short appointment times vs. patient needs"]
+        },
+        "sampleUseCase": {
+          "scenario": "A primary care physician detects early signs of hypertension in a patient, prescribes lifestyle changes and medication, coordinating follow-ups to prevent complications."
+        }
+      },
+      {
+        "id": "health-role-2",
+        "name": "Public Health Official",
+        "description": "Develops and enforces public health policies, investigates disease outbreaks, and leads population-level health initiatives.",
+        "meta": {
+          "typicalBackground": "MPH or epidemiology training, knowledge of health regulations, crisis management",
+          "keyTools": ["Disease surveillance systems", "Vaccination registries", "Community outreach campaigns"],
+          "challenges": ["Vaccine hesitancy, resource constraints, political pressures in health decisions"]
+        },
+        "sampleUseCase": {
+          "scenario": "A public health official organizes mass immunization drives during a measles outbreak, collaborating with local schools and media to raise vaccination rates and halt the spread."
+        }
+      },
+      {
+        "id": "health-role-3",
+        "name": "Hospital Administrator",
+        "description": "Oversees hospital operations—staffing, budgeting, patient flow, facility standards—ensuring quality care and financial viability.",
+        "meta": {
+          "typicalBackground": "Healthcare administration or business management, leadership experience, knowledge of clinical workflows",
+          "keyTools": ["Hospital information systems", "Regulatory compliance frameworks", "Performance dashboards"],
+          "challenges": ["Balancing cost controls, patient satisfaction, staff retention, and regulatory mandates"]
+        },
+        "sampleUseCase": {
+          "scenario": "A hospital administrator introduces a lean management approach that streamlines admissions and discharges, cutting patient wait times by 30% and improving bed availability."
+        }
+      },
+      {
+        "id": "health-role-4",
+        "name": "Pharmacist",
+        "description": "Dispenses medications, counsels patients on drug usage, and ensures compliance with pharmaceutical regulations.",
+        "meta": {
+          "typicalBackground": "Pharmacy degree, licensure, detailed knowledge of pharmacology and drug interactions",
+          "keyTools": ["Prescription processing software", "Inventory management systems", "Clinical guidelines references"],
+          "challenges": ["Medication errors, opioid regulation, insurance reimbursement complexities"]
+        },
+        "sampleUseCase": {
+          "scenario": "A pharmacist notices a potential conflict between a patient’s new prescription and existing medication, contacts the physician to adjust dosage and prevent adverse reactions."
+        }
+      },
+      {
+        "id": "health-role-5",
+        "name": "Mental Health Counselor",
+        "description": "Provides therapy and support for individuals struggling with mental health issues, from anxiety to substance abuse.",
+        "meta": {
+          "typicalBackground": "Counseling or clinical psychology degree, licensure, strong communication and empathetic listening skills",
+          "keyTools": ["Therapeutic frameworks (CBT, DBT)", "Confidential records management", "Outcome assessment scales"],
+          "challenges": ["Stigma around mental health, ensuring continuity of care, insurance coverage limitations"]
+        },
+        "sampleUseCase": {
+          "scenario": "A counselor employs cognitive behavioral techniques for a teenager with anxiety, teaching coping strategies that significantly reduce panic attacks and improve school attendance."
+        }
+      }
+    ]
+  }

@@ -1,0 +1,265 @@
+{
+    "domainName": "Manufacturing",
+    "roles": [
+      {
+        "id": "manufacturing-role-1",
+        "name": "Production Supervisor",
+        "description": "Oversees factory floor operations, coordinating workers, materials, and machinery to meet production targets and quality standards.",
+        "meta": {
+          "typicalBackground": "Engineering or operations management, leadership and problem-solving, knowledge of scheduling",
+          "keyTools": ["Shop floor control systems", "Gantt charts", "Lean manufacturing principles"],
+          "challenges": ["Machine downtime, workforce safety, balancing speed vs. quality"]
+        },
+        "sampleUseCase": {
+          "scenario": "A supervisor rearranges workstation layouts to reduce travel time for components, decreasing assembly cycle time by 15%."
+        }
+      },
+      {
+        "id": "manufacturing-role-2",
+        "name": "Quality Control Engineer",
+        "description": "Implements and monitors QA/QC processes, conducts inspections, and ensures products meet specifications and regulatory requirements.",
+        "meta": {
+          "typicalBackground": "Engineering or quality management degree, understanding of ISO standards or Six Sigma, strong analytical approach",
+          "keyTools": ["Statistical Process Control (SPC)", "Root cause analysis templates", "Testing equipment"],
+          "challenges": ["Detecting substandard materials, ensuring consistent processes, training staff on QA protocols"]
+        },
+        "sampleUseCase": {
+          "scenario": "A QC engineer sets up a real-time defect detection camera on the production line, reducing defective part shipments by 50% in the first quarter."
+        }
+      },
+      {
+        "id": "manufacturing-role-3",
+        "name": "Lean Manufacturing Specialist",
+        "description": "Optimizes workflows, eliminates waste, and streamlines production using lean principles (Just-In-Time, Kanban, 5S).",
+        "meta": {
+          "typicalBackground": "Industrial engineering or operations management, specialized lean/Six Sigma certifications",
+          "keyTools": ["Value stream mapping", "Kaizen events", "Kanban boards"],
+          "challenges": ["Culture change among staff, sustaining continuous improvement, data collection for process metrics"]
+        },
+        "sampleUseCase": {
+          "scenario": "After mapping the value stream, the specialist reorganizes sub-assembly steps and introduces a Kanban system, cutting lead times by 40% with fewer in-process inventory piles."
+        }
+      },
+      {
+        "id": "manufacturing-role-4",
+        "name": "Industrial Designer",
+        "description": "Creates product designs that balance aesthetics, functionality, manufacturability, and cost, often collaborating with engineering.",
+        "meta": {
+          "typicalBackground": "Design or engineering background, mastery of CAD, user-centered design methods",
+          "keyTools": ["CAD software (SolidWorks, AutoCAD)", "Rapid prototyping (3D printing)", "Ergonomic/usability testing"],
+          "challenges": ["Cost constraints, material selection, bridging design vision with engineering feasibility"]
+        },
+        "sampleUseCase": {
+          "scenario": "An industrial designer refines the shape and grip of a new power tool, validating comfort and safety via user feedback and prototypes, leading to higher sales and strong reviews."
+        }
+      },
+      {
+        "id": "manufacturing-role-5",
+        "name": "Maintenance Technician",
+        "description": "Maintains and repairs production machinery, conducting preventive maintenance to minimize downtime and extend equipment life.",
+        "meta": {
+          "typicalBackground": "Technical diploma in mechanics/electronics, familiarity with troubleshooting and safety protocols",
+          "keyTools": ["CMMS (Computerized Maintenance Management System)", "Diagnostic meters", "Parts inventory management"],
+          "challenges": ["Reactive vs. proactive maintenance balance, spare part availability, machine age or obsolescence"]
+        },
+        "sampleUseCase": {
+          "scenario": "A technician introduces a predictive maintenance routine using vibration sensors, detecting early bearing wear. Replacing it before a breakdown saves costly production interruptions."
+        }
+      },
+      {
+        "id": "manufacturing-role-6",
+        "name": "Mechanical Engineer",
+        "description": "Designs and optimizes mechanical systems for manufacturing equipment and processes.",
+        "meta": {
+          "typicalBackground": "Degree in mechanical engineering, with hands-on experience in materials and production processes",
+          "keyTools": ["CAD software", "Simulation tools", "Prototyping equipment"],
+          "challenges": ["Balancing design efficiency with production cost", "Ensuring durability under operational stresses", "Meeting safety and compliance standards"]
+        },
+        "sampleUseCase": {
+          "scenario": "A mechanical engineer redesigns a component in a production line, reducing assembly time by 20% and cutting overall costs."
+        }
+      },
+      {
+        "id": "manufacturing-role-7",
+        "name": "Electrical/Controls Engineer",
+        "description": "Develops and maintains electrical systems and control software for manufacturing machinery.",
+        "meta": {
+          "typicalBackground": "Degree in electrical engineering with expertise in automation and control systems",
+          "keyTools": ["PLC programming tools", "Circuit design software", "Diagnostic instruments"],
+          "challenges": ["Integrating new automation technologies", "Ensuring system reliability and uptime", "Troubleshooting complex electronic issues"]
+        },
+        "sampleUseCase": {
+          "scenario": "An electrical engineer upgrades the control system on a production line, resulting in improved synchronization and reduced energy consumption."
+        }
+      },
+      {
+        "id": "manufacturing-role-8",
+        "name": "Test Engineer",
+        "description": "Evaluates and validates the performance and quality of products and systems during production.",
+        "meta": {
+          "typicalBackground": "Engineering degree with experience in quality assurance and testing methodologies",
+          "keyTools": ["Automated testing equipment", "Data analysis software", "Diagnostic tools"],
+          "challenges": ["Ensuring test accuracy", "Meeting stringent quality standards", "Quickly isolating and resolving faults"]
+        },
+        "sampleUseCase": {
+          "scenario": "A test engineer identifies a critical fault in a product batch, preventing potential failures and ensuring safety before shipment."
+        }
+      },
+      {
+        "id": "manufacturing-role-9",
+        "name": "Manufacturing Engineer",
+        "description": "Focuses on designing efficient production processes, optimizing workflows, and ensuring smooth operations on the factory floor.",
+        "meta": {
+          "typicalBackground": "Degree in industrial or manufacturing engineering, often with lean manufacturing or Six Sigma training",
+          "keyTools": ["Process simulation software", "Lean manufacturing tools", "Statistical process control software"],
+          "challenges": ["Reducing waste and downtime", "Improving throughput", "Adapting processes to new product designs"]
+        },
+        "sampleUseCase": {
+          "scenario": "A manufacturing engineer restructures an assembly line, boosting productivity by 15% while reducing material waste."
+        }
+      },
+      {
+        "id": "manufacturing-role-10",
+        "name": "Software Engineer",
+        "description": "Develops and maintains software systems that control manufacturing equipment and optimize production processes.",
+        "meta": {
+          "typicalBackground": "Degree in computer science or software engineering with experience in industrial automation",
+          "keyTools": ["Programming languages (e.g., C++, Python)", "Industrial IoT platforms", "Version control systems"],
+          "challenges": ["Integrating software with legacy hardware", "Ensuring cybersecurity", "Managing real-time data processing"]
+        },
+        "sampleUseCase": {
+          "scenario": "A software engineer implements a real-time monitoring system that predicts maintenance needs and reduces unexpected downtime."
+        }
+      },
+      {
+        "id": "manufacturing-role-11",
+        "name": "Program Manager",
+        "description": "Oversees new product introductions and ongoing manufacturing programs, managing metrics like cost, quality, and delivery.",
+        "meta": {
+          "typicalBackground": "Experience in project management with a background in engineering or operations",
+          "keyTools": ["Project management software", "Gantt charts", "Performance tracking systems"],
+          "challenges": ["Coordinating cross-functional teams", "Managing tight budgets and deadlines", "Balancing multiple projects"]
+        },
+        "sampleUseCase": {
+          "scenario": "A program manager leads a team through a product launch, ensuring timely execution and adherence to quality standards."
+        }
+      },
+      {
+        "id": "manufacturing-role-12",
+        "name": "Operations Manager",
+        "description": "Manages overall plant efficiency, throughput, and facility layout, often utilizing lean six sigma techniques.",
+        "meta": {
+          "typicalBackground": "Experience in operations management or industrial engineering, with a strong focus on process improvement",
+          "keyTools": ["Lean six sigma methodologies", "Operational dashboards", "Process mapping tools"],
+          "challenges": ["Balancing production speed with quality", "Eliminating bottlenecks", "Optimizing resource allocation"]
+        },
+        "sampleUseCase": {
+          "scenario": "An operations manager restructures the facility layout, significantly reducing production delays and increasing efficiency."
+        }
+      },
+      {
+        "id": "manufacturing-role-13",
+        "name": "Manufacturing Manager",
+        "description": "Schedules and oversees production processes, manages staff, and plans equipment layout to ensure smooth operations.",
+        "meta": {
+          "typicalBackground": "Experience in manufacturing operations with strong leadership and problem-solving skills",
+          "keyTools": ["Production scheduling software", "ERP systems", "Resource planning tools"],
+          "challenges": ["Coordinating shift work", "Managing maintenance schedules", "Balancing labor costs with output demands"]
+        },
+        "sampleUseCase": {
+          "scenario": "A manufacturing manager adjusts production schedules to address a sudden surge in demand while maintaining quality standards."
+        }
+      },
+      {
+        "id": "manufacturing-role-14",
+        "name": "Manufacturing Operator",
+        "description": "Operates machinery, handles mechanical tasks, and performs routine maintenance to keep production running smoothly.",
+        "meta": {
+          "typicalBackground": "Vocational training or high school diploma with specialized on-the-job training",
+          "keyTools": ["Machine controls", "Basic hand tools", "Safety equipment"],
+          "challenges": ["Maintaining consistent machine performance", "Adapting to varied equipment", "Managing physical demands"]
+        },
+        "sampleUseCase": {
+          "scenario": "A manufacturing operator quickly addresses a minor machine fault, preventing a potential production stoppage."
+        }
+      },
+      {
+        "id": "manufacturing-role-15",
+        "name": "Manufacturing Associate",
+        "description": "Assesses assembly line needs and collaborates to improve production processes on the shop floor.",
+        "meta": {
+          "typicalBackground": "Vocational training or associate degree in manufacturing technology",
+          "keyTools": ["Process monitoring systems", "Measurement tools", "Team collaboration software"],
+          "challenges": ["Identifying process inefficiencies", "Balancing speed with quality", "Adapting to dynamic production demands"]
+        },
+        "sampleUseCase": {
+          "scenario": "A manufacturing associate suggests a process tweak that increases throughput and reduces material waste."
+        }
+      },
+      {
+        "id": "manufacturing-role-16",
+        "name": "Manufacturing Technician",
+        "description": "Inspects and tests products, sets up and maintains machinery to ensure optimal production quality.",
+        "meta": {
+          "typicalBackground": "Technical training in electronics or mechanical systems with hands-on diagnostic experience",
+          "keyTools": ["Inspection instruments", "Calibration tools", "Maintenance software"],
+          "challenges": ["Detecting subtle defects", "Keeping pace with evolving equipment", "Managing multiple maintenance tasks simultaneously"]
+        },
+        "sampleUseCase": {
+          "scenario": "A manufacturing technician routinely tests outputs from the production line, ensuring each product meets stringent quality criteria."
+        }
+      },
+      {
+        "id": "manufacturing-role-17",
+        "name": "Quality Control Specialist",
+        "description": "Ensures products meet quality standards and specifications through rigorous inspection and testing.",
+        "meta": {
+          "typicalBackground": "Background in quality management or engineering with knowledge of industry standards",
+          "keyTools": ["Quality management software", "Inspection and testing tools", "Data analytics platforms"],
+          "challenges": ["Maintaining consistent quality", "Identifying intermittent defects", "Adhering to regulatory requirements"]
+        },
+        "sampleUseCase": {
+          "scenario": "A quality control specialist identifies a defect in a production batch and implements corrective measures to ensure compliance."
+        }
+      },
+      {
+        "id": "manufacturing-role-18",
+        "name": "Supply Chain Manager",
+        "description": "Coordinates with vendors and suppliers to manage the procurement and delivery of raw materials for production.",
+        "meta": {
+          "typicalBackground": "Experience in supply chain management or logistics, often with strong negotiation skills",
+          "keyTools": ["Inventory management software", "Logistics tracking systems", "Procurement platforms"],
+          "challenges": ["Mitigating supply disruptions", "Forecasting demand accurately", "Managing supplier relationships"]
+        },
+        "sampleUseCase": {
+          "scenario": "A supply chain manager negotiates contracts with multiple suppliers to secure cost-effective raw materials for production."
+        }
+      },
+      {
+        "id": "manufacturing-role-19",
+        "name": "R&D Engineer",
+        "description": "Innovates new products and enhances existing ones through dedicated research and development efforts.",
+        "meta": {
+          "typicalBackground": "Degree in engineering or a related field, with a strong focus on innovation and product development",
+          "keyTools": ["Research laboratories", "Prototyping equipment", "Analytical software"],
+          "challenges": ["Balancing innovation with manufacturability", "Managing iterative testing cycles", "Aligning R&D with market demands"]
+        },
+        "sampleUseCase": {
+          "scenario": "An R&D engineer develops a breakthrough production technique that significantly improves product durability and efficiency."
+        }
+      },
+      {
+        "id": "manufacturing-role-20",
+        "name": "Sales Representative",
+        "description": "Builds relationships with clients, distributors, and retailers to drive product market penetration and revenue growth.",
+        "meta": {
+          "typicalBackground": "Background in sales, marketing, or business with strong communication skills",
+          "keyTools": ["CRM systems", "Market analysis tools", "Sales presentation software"],
+          "challenges": ["Aligning customer needs with production capabilities", "Staying competitive in a crowded market", "Meeting sales targets consistently"]
+        },
+        "sampleUseCase": {
+          "scenario": "A sales representative secures a contract with a major retailer, expanding the company’s market reach and boosting revenue."
+        }
+      }
+    ]
+  }

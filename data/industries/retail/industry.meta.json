@@ -1,0 +1,341 @@
+[
+  {
+    "id": 14,
+    "name": "Retail",
+    "icon": "fas fa-shopping-cart",
+    "description": "Retail systems support merchandise sales, customer service operations, and integrated payment processing. They combine inventory management, point-of-sale solutions, digital payment processing, and customer relationship tools to optimize the shopping experience, streamline business efficiency, and provide real-time financial insights.",
+    "standards": [
+      {
+        "name": "ISO 8583",
+        "organization": "International Organization for Standardization",
+        "description": "Standard for financial transaction card originated messages.",
+        "url": "https://www.iso.org/standard/31628.html",
+        "relevance": "Enables secure and standardized processing of card payment transactions in retail environments.",
+        "implementation": "Adopted by payment processors and retail POS systems to ensure interoperability across financial networks.",
+        "benefits": "Enhances transaction security and reduces fraud, ensuring smooth payment flows.",
+        "challenges": "Requires continuous updates to meet evolving security threats and integration with diverse banking systems."
+      },
+      {
+        "name": "RFID Standards",
+        "organization": "GS1 EPCglobal",
+        "description": "Standards for Radio Frequency Identification in retail and supply chain.",
+        "url": "https://www.gs1.org/standards/epc-rfid",
+        "relevance": "Facilitates inventory tracking and supply chain visibility in retail operations.",
+        "implementation": "Integrated into inventory management systems for real-time tracking of products.",
+        "benefits": "Improves stock accuracy, reduces theft, and enhances supply chain efficiency.",
+        "challenges": "High initial implementation costs and the need for standardization across suppliers."
+      },
+      {
+        "name": "PCI DSS",
+        "organization": "Payment Card Industry Security Standards Council",
+        "description": "Security standards to protect cardholder data during financial transactions.",
+        "url": "https://www.pcisecuritystandards.org/",
+        "relevance": "Ensures that retail systems processing card payments maintain high levels of data security.",
+        "implementation": "Implemented through regular audits, secure network architectures, and stringent access controls.",
+        "benefits": "Reduces the risk of data breaches and builds customer trust.",
+        "challenges": "Requires continuous monitoring, compliance updates, and can be resource-intensive for smaller retailers."
+      },
+      {
+        "name": "EMV",
+        "organization": "Europay, MasterCard, and Visa",
+        "description": "Standards for secure payment card transactions using chip technology.",
+        "url": "https://www.emvco.com/",
+        "relevance": "Improves security in retail transactions by reducing fraud compared to magnetic stripe cards.",
+        "implementation": "Adopted by financial institutions and retailers to upgrade POS terminals to chip-enabled devices.",
+        "benefits": "Enhances transaction security and reduces counterfeit fraud.",
+        "challenges": "Requires significant hardware upgrades and customer adaptation."
+      }
+    ],
+    "workflows": [
+      "Merchandising: Select, price, and display products for sale.",
+      "Inventory Management: Track stock levels, automate reordering, and coordinate replenishment.",
+      "Sales Processing: Complete customer transactions, integrate digital payment gateways, and record sales data.",
+      "Customer Service: Address inquiries, manage returns/exchanges, and process refunds.",
+      "Analytics & Planning: Analyze sales patterns, monitor cash flows, and adjust business strategies based on real-time data."
+    ],
+    "detailedWorkflows": [
+      {
+        "name": "Merchandising",
+        "description": "Develop strategies for product selection, pricing, and visual presentation.",
+        "steps": [
+          "Conduct market research and trend analysis.",
+          "Set competitive pricing strategies based on cost and demand.",
+          "Design attractive in-store and online displays."
+        ]
+      },
+      {
+        "name": "Inventory Management",
+        "description": "Automate inventory tracking and coordinate efficient stock replenishment.",
+        "steps": [
+          "Implement RFID or barcode scanning for real-time stock monitoring.",
+          "Establish automated reorder points.",
+          "Integrate supplier data for seamless replenishment."
+        ]
+      },
+      {
+        "name": "Sales Processing",
+        "description": "Streamline transaction completion and integrate secure payment methods.",
+        "steps": [
+          "Process digital and card payments through secure gateways.",
+          "Verify transaction data and update sales records in real-time.",
+          "Generate digital receipts and reports."
+        ]
+      },
+      {
+        "name": "Customer Service",
+        "description": "Manage post-sale interactions including returns, exchanges, and support.",
+        "steps": [
+          "Track customer inquiries and resolve issues promptly.",
+          "Process returns and exchanges through integrated systems.",
+          "Gather feedback to improve service quality."
+        ]
+      },
+      {
+        "name": "Payment Processing",
+        "description": "Handle all financial transactions with enhanced security and efficiency.",
+        "steps": [
+          "Authorize transactions via PCI-compliant systems.",
+          "Integrate fraud detection algorithms.",
+          "Reconcile daily sales with bank deposits."
+        ]
+      },
+      {
+        "name": "Loyalty & Rewards Management",
+        "description": "Develop and manage customer loyalty programs to boost repeat business.",
+        "steps": [
+          "Track customer purchases and reward points.",
+          "Offer personalized discounts and promotions.",
+          "Analyze program effectiveness and adjust strategies."
+        ]
+      },
+      {
+        "name": "Returns & Refunds Processing",
+        "description": "Streamline the returns process while ensuring customer satisfaction.",
+        "steps": [
+          "Verify product return conditions and eligibility.",
+          "Process refunds or exchanges promptly.",
+          "Update inventory and financial records accordingly."
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "retail-1",
+        "name": "Omnichannel Payment Integration",
+        "description": "Implement a unified payment system that supports in-store, online, and mobile transactions with secure processing and real-time reconciliation.",
+        "implementationDetails": "Integrate POS systems with e-commerce platforms, mobile apps, and digital wallets; deploy secure gateways and fraud detection tools.",
+        "challenges": "Ensuring seamless integration across various channels and maintaining data security.",
+        "benefits": "Enhances customer convenience, streamlines financial reporting, and improves cash flow management.",
+        "kpis": [
+          {
+            "name": "Transaction Success Rate",
+            "definition": "Percentage of payment transactions processed successfully without errors.",
+            "measurement": "Monitor transaction logs and calculate the ratio of successful to total attempted transactions."
+          }
+        ],
+        "targets": [
+          "Achieve a 99.5% transaction success rate within 12 months",
+          "Reduce payment processing times by 30% within 1 year",
+          "Integrate at least 3 new digital wallet options within 6 months"
+        ]
+      },
+      {
+        "id": "retail-2",
+        "name": "Customer Loyalty & Engagement Platform",
+        "description": "Develop a platform that tracks customer interactions, rewards repeat business, and provides personalized marketing offers.",
+        "implementationDetails": "Leverage CRM systems, data analytics, and mobile app integrations to manage loyalty programs.",
+        "challenges": "Integrating diverse customer data sources and ensuring data privacy.",
+        "benefits": "Boosts customer retention, increases average spend, and enhances brand loyalty.",
+        "kpis": [
+          {
+            "name": "Loyalty Program Participation Rate",
+            "definition": "Percentage of customers enrolled in the loyalty program relative to total customers.",
+            "measurement": "Analyze enrollment data and customer activity reports."
+          }
+        ],
+        "targets": [
+          "Increase loyalty program membership by 25% within the next year",
+          "Boost repeat purchase rate by 20% within 12 months",
+          "Achieve a 30% increase in average transaction value among loyalty members"
+        ]
+      }
+    ],
+    "industry_interactions": {
+      "Energy": "Integrates with energy providers to optimize store lighting, HVAC, and digital signage costs.",
+      "Treasury": "Coordinates with treasury functions to manage cash flow, capital expenditure on technology upgrades, and transaction reconciliations.",
+      "Commerce": "Collaborates with e-commerce platforms and logistics providers to ensure seamless multi-channel retail operations.",
+      "Environment": "Adopts sustainable practices in packaging, store operations, and waste management to reduce environmental impact.",
+      "Food": "Works with food suppliers and grocery chains to streamline supply chain logistics and inventory control.",
+      "Jobs": "Generates employment through retail operations, customer service, and technology support roles.",
+      "Health": "Implements health and safety protocols in stores and ensures employee well-being.",
+      "Education": "Partners with educational institutions for workforce training and digital transformation initiatives.",
+      "Transportation": "Coordinates with logistics providers to manage last-mile delivery and optimize distribution networks.",
+      "Finance": "Leverages financial analytics for cost control, revenue forecasting, and secure payment processing.",
+      "Justice": "Ensures compliance with consumer protection laws, data privacy regulations, and ethical marketing practices.",
+      "Technology": "Integrates cutting-edge digital tools, AI analytics, and mobile platforms to enhance the shopping experience.",
+      "Telecom": "Utilizes robust communication networks to support POS systems, online transactions, and customer connectivity.",
+      "Retail": "Aligns with industry best practices in merchandising, customer engagement, and omni-channel integration.",
+      "Manufacturing": "Coordinates with manufacturers to manage product quality, supply chain transparency, and inventory flow.",
+      "Mining": "Ensures traceability and ethical sourcing of raw materials for retail products.",
+      "Utilities": "Optimizes energy consumption and operational costs through efficient utility management.",
+      "Media": "Leverages media partnerships for advertising, promotions, and brand storytelling.",
+      "Defense": "Maintains secure transactions and protects sensitive customer data from cyber threats.",
+      "Sports": "Engages with sports brands for merchandise collaborations and co-branded promotions.",
+      "Tourism": "Collaborates with travel and tourism businesses for retail partnerships and destination marketing.",
+      "Innovation": "Adopts emerging technologies to drive retail transformation and enhance customer experiences."
+    }
+  },
+  {
+    "id": 15,
+    "name": "Manufacturing",
+    "icon": "fas fa-industry",
+    "description": "Manufacturing systems coordinate production processes, resource allocation, and quality control by integrating advanced automation, digital twin technologies, and real-time analytics. These systems streamline supply chain management, production planning, and operational execution to maximize efficiency, product quality, and cost-effectiveness.",
+    "standards": [
+      {
+        "name": "ISO 9001",
+        "organization": "International Organization for Standardization",
+        "description": "Quality management systems standard for organizations of any size.",
+        "url": "https://www.iso.org/iso-9001-quality-management.html",
+        "relevance": "Provides a framework for ensuring consistent quality in manufacturing processes and products.",
+        "implementation": "Adopted through rigorous quality audits, continuous improvement programs, and staff training.",
+        "benefits": "Enhances product consistency, customer satisfaction, and operational efficiency.",
+        "challenges": "Requires ongoing commitment to quality improvements and periodic re-certification."
+      },
+      {
+        "name": "ISA-95",
+        "organization": "International Society of Automation",
+        "description": "International standard for developing automated interfaces between enterprise and control systems.",
+        "url": "https://www.isa.org/isa95",
+        "relevance": "Facilitates integration of business systems with manufacturing operations systems.",
+        "implementation": "Implemented using middleware solutions that connect ERP systems with shop floor controls.",
+        "benefits": "Enables seamless data exchange and enhances production transparency.",
+        "challenges": "Integrating legacy systems and ensuring interoperability can be complex."
+      },
+      {
+        "name": "ISO 50001",
+        "organization": "International Organization for Standardization",
+        "description": "Energy management systems standard for optimizing energy performance.",
+        "url": "https://www.iso.org/iso-50001-energy-management.html",
+        "relevance": "Helps manufacturing facilities reduce energy consumption and lower operational costs.",
+        "implementation": "Adopted through energy audits, continuous monitoring, and process optimization.",
+        "benefits": "Lowers energy costs, reduces environmental impact, and supports sustainability goals.",
+        "challenges": "Requires detailed energy tracking and frequent process evaluations."
+      },
+      {
+        "name": "Lean Six Sigma",
+        "organization": "Various",
+        "description": "Methodology for process improvement and waste reduction in manufacturing.",
+        "url": "https://asq.org/quality-resources/six-sigma",
+        "relevance": "Improves production efficiency and product quality by minimizing defects and variability.",
+        "implementation": "Implemented via training programs, process mapping, and continuous improvement projects.",
+        "benefits": "Reduces waste, lowers costs, and enhances customer satisfaction.",
+        "challenges": "Requires cultural change and sustained commitment to process improvement."
+      }
+    ],
+    "workflows": [
+      "Production Planning: Schedule manufacturing activities and allocate resources effectively.",
+      "Material Management: Source, receive, and track raw materials and components.",
+      "Production Execution: Operate machinery and assembly lines to produce goods.",
+      "Quality Control: Inspect products and ensure adherence to specifications.",
+      "Maintenance & Optimization: Service equipment and continuously improve production processes."
+    ],
+    "detailedWorkflows": [
+      {
+        "name": "Production Planning",
+        "description": "Develop comprehensive production schedules and resource allocation strategies.",
+        "steps": [
+          "Forecast demand and plan production runs.",
+          "Allocate machinery, labor, and raw materials based on capacity.",
+          "Continuously adjust schedules in response to market changes."
+        ]
+      },
+      {
+        "name": "Material Management",
+        "description": "Ensure timely sourcing and efficient handling of raw materials.",
+        "steps": [
+          "Establish supplier partnerships and quality agreements.",
+          "Automate inventory tracking and reorder processes.",
+          "Integrate material requirements planning (MRP) with production schedules."
+        ]
+      },
+      {
+        "name": "Production Execution",
+        "description": "Oversee the actual manufacturing process and ensure operational efficiency.",
+        "steps": [
+          "Launch production runs according to schedule.",
+          "Monitor machinery performance and adjust parameters in real-time.",
+          "Document production metrics and address bottlenecks."
+        ]
+      },
+      {
+        "name": "Supply Chain Integration",
+        "description": "Coordinate with suppliers and distributors to optimize the flow of goods.",
+        "steps": [
+          "Integrate ERP systems with supplier networks.",
+          "Monitor supply chain performance using real-time analytics.",
+          "Adjust procurement strategies based on demand fluctuations."
+        ]
+      },
+      {
+        "name": "Process Innovation",
+        "description": "Continuously improve manufacturing processes through technological adoption and process re-engineering.",
+        "steps": [
+          "Conduct regular process reviews and benchmark performance.",
+          "Pilot new technologies and production techniques.",
+          "Scale successful innovations across the production line."
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "manufacturing-1",
+        "name": "Smart Factory Implementation",
+        "description": "Transform traditional manufacturing facilities into connected, intelligent production environments using IoT, digital twins, and AI-driven analytics.",
+        "implementationDetails": "Deploy sensors, integrate production control systems with ERP, and use digital twin simulations to optimize workflows.",
+        "challenges": "High capital investment, integration with legacy systems, and the need for workforce training on new technologies.",
+        "benefits": "Improves production efficiency, reduces downtime, and enhances quality control.",
+        "kpis": [
+          {
+            "name": "Overall Equipment Effectiveness",
+            "definition": "Composite measure of equipment availability, performance, and quality.",
+            "measurement": "Calculate the ratio of productive time to planned production time, factoring in quality metrics."
+          },
+          {
+            "name": "Production Downtime",
+            "definition": "Percentage of scheduled production time lost due to equipment failures or maintenance.",
+            "measurement": "Track downtime hours and compare against total operational hours to identify areas for improvement."
+          }
+        ],
+        "targets": [
+          "Achieve a 25% improvement in overall equipment effectiveness within 18 months",
+          "Reduce production downtime by 20% within 1 year",
+          "Increase production output by 15% while maintaining quality standards"
+        ]
+      }
+    ],
+    "industry_interactions": {
+      "Energy": "Collaborates with energy providers to optimize power consumption, implement renewable energy solutions, and reduce operational costs.",
+      "Treasury": "Coordinates with treasury functions to manage capital investments in technology upgrades and streamline cost management.",
+      "Commerce": "Works with supply chain and distribution networks to ensure timely delivery and align production with market demand.",
+      "Environment": "Implements sustainable manufacturing practices, reduces waste and emissions, and complies with environmental regulations.",
+      "Food": "Supplies raw materials for food production and packaging industries, ensuring quality and traceability.",
+      "Jobs": "Drives workforce development through training programs and supports job creation in advanced manufacturing roles.",
+      "Health": "Ensures adherence to occupational health and safety standards and promotes employee well-being in production environments.",
+      "Education": "Partners with academic institutions to develop technical training programs and research initiatives in manufacturing innovation.",
+      "Transportation": "Collaborates with logistics companies to optimize supply chain routes and reduce transit times for raw materials and finished products.",
+      "Finance": "Leverages financial analytics for cost control, budgeting, and ROI analysis on technology investments.",
+      "Justice": "Ensures compliance with labor laws, safety regulations, and ethical manufacturing practices.",
+      "Technology": "Integrates cutting-edge technologies such as IoT, AI, and digital twins to enhance production processes and product quality.",
+      "Telecom": "Utilizes robust communication networks to support real-time data exchange and remote monitoring of production systems.",
+      "Retail": "Coordinates with retail partners to match production output with market demand and customize products based on consumer trends.",
+      "Manufacturing": "Shares best practices and collaborates on industry-wide initiatives to drive efficiency and innovation.",
+      "Mining": "Secures high-quality raw materials through ethical sourcing and sustainable extraction practices.",
+      "Utilities": "Works with utility providers to ensure reliable and cost-effective energy, water, and waste management services.",
+      "Media": "Leverages media channels to promote manufacturing achievements and share success stories.",
+      "Defense": "Supplies high-quality components for defense manufacturing and adheres to stringent quality and security standards.",
+      "Sports": "Partners with sports brands for the production of performance-enhancing equipment and merchandise.",
+      "Tourism": "Collaborates on the development of manufacturing hubs that support regional economic growth and tourism initiatives.",
+      "Innovation": "Drives continuous improvement through research and development, and adopts emerging technologies to stay competitive."
+    }
+  }
+]

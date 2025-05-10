@@ -1,0 +1,70 @@
+{
+    "domainName": "Energy",
+    "roles": [
+      {
+        "id": "energy-role-1",
+        "name": "Power Plant Operator",
+        "description": "Oversees daily operations of power generation facilities (fossil fuel, nuclear, or renewables), maintaining output and equipment safety.",
+        "meta": {
+          "typicalBackground": "Technical training in mechanical/electrical systems, strong safety culture",
+          "keyTools": ["Turbine controls", "SCADA systems", "Protective relays"],
+          "challenges": ["Equipment breakdowns", "Regulatory compliance", "Load fluctuations"]
+        },
+        "sampleUseCase": {
+          "scenario": "A plant operator spots an abnormal turbine vibration reading via SCADA. They isolate the unit for inspection, preventing a major breakdown and ensuring grid stability."
+        }
+      },
+      {
+        "id": "energy-role-2",
+        "name": "Renewable Energy Engineer",
+        "description": "Designs and deploys clean energy systems (solar, wind, hydro) to optimize resource use and reduce carbon footprints.",
+        "meta": {
+          "typicalBackground": "Engineering degree in electrical/mechanical/renewable energy, project management skills",
+          "keyTools": ["CAD software", "Wind flow modeling", "PV system simulation", "Battery storage tech"],
+          "challenges": ["Grid integration constraints", "Financing new technologies", "Resource variability"]
+        },
+        "sampleUseCase": {
+          "scenario": "A renewable energy engineer uses wind data mapping to determine optimal turbine placement, increasing annual energy production by 15% while minimizing environmental impact."
+        }
+      },
+      {
+        "id": "energy-role-3",
+        "name": "Grid Systems Analyst",
+        "description": "Monitors electricity transmission and distribution networks, balancing supply, demand, and system reliability.",
+        "meta": {
+          "typicalBackground": "Background in electrical engineering or energy systems, adept at real-time analytics",
+          "keyTools": ["Load forecasting models", "Grid simulators", "Voltage/frequency monitoring dashboards"],
+          "challenges": ["Unpredictable load spikes", "Managing distributed generation", "Maintaining power quality"]
+        },
+        "sampleUseCase": {
+          "scenario": "The analyst notices a steep load increase on a hot afternoon. They schedule additional generation dispatch and implement demand response signals to large consumers, preventing brownouts."
+        }
+      },
+      {
+        "id": "energy-role-4",
+        "name": "Energy Trader",
+        "description": "Buys and sells electricity, gas, or environmental credits on wholesale markets, optimizing profits and ensuring adequate supply.",
+        "meta": {
+          "typicalBackground": "Finance/engineering background, strong quantitative and market analysis skills",
+          "keyTools": ["Market forecasting software", "Weather data feeds", "Real-time trading platforms"],
+          "challenges": ["Price volatility", "Regulatory changes (carbon taxes, renewable obligations)", "Transmission bottlenecks"]
+        },
+        "sampleUseCase": {
+          "scenario": "An energy trader monitors short-term weather forecasts predicting high wind output. They purchase cheaper wind-based contracts ahead of time, securing a profitable margin when the supply surges."
+        }
+      },
+      {
+        "id": "energy-role-5",
+        "name": "Energy Efficiency Consultant",
+        "description": "Advises businesses and households on reducing energy consumption via audits, retrofits, and behavioral changes.",
+        "meta": {
+          "typicalBackground": "Engineering or sustainability degree, audit certifications (e.g., CEM), strong client-facing skills",
+          "keyTools": ["Energy modeling software", "Thermal cameras", "HVAC diagnostics equipment"],
+          "challenges": ["Cost-benefit justification", "Client readiness for changes", "Tracking real savings post-implementation"]
+        },
+        "sampleUseCase": {
+          "scenario": "A consultant performs an energy audit at a manufacturing plant, recommending LED lighting, updated insulation, and optimized HVAC schedules. The facility cuts monthly power bills by 20% and improves worker comfort."
+        }
+      }
+    ]
+  }

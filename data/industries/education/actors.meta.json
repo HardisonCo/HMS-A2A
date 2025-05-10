@@ -1,0 +1,70 @@
+{
+    "domainName": "Education",
+    "roles": [
+      {
+        "id": "education-role-1",
+        "name": "Teacher / Instructor",
+        "description": "Delivers instructional content, assesses student learning, and fosters skill development across various subjects or grade levels.",
+        "meta": {
+          "typicalBackground": "Education degree, subject matter expertise, teaching certification, strong communication skills",
+          "keyTools": ["Curriculum resources", "Learning management systems (LMS)", "Assessment rubrics"],
+          "challenges": ["Classroom management, diverse learning needs, technology access disparities"]
+        },
+        "sampleUseCase": {
+          "scenario": "A high school science teacher implements hands-on labs and virtual simulations, increasing student engagement and test scores by illustrating real-world applications."
+        }
+      },
+      {
+        "id": "education-role-2",
+        "name": "Curriculum Developer",
+        "description": "Designs and updates educational materials, aligning content with standards and student learning objectives.",
+        "meta": {
+          "typicalBackground": "Educational research or subject matter expertise, familiarity with pedagogical best practices",
+          "keyTools": ["Curriculum mapping software", "Standards (Common Core, IB, local frameworks)", "Pilot testing feedback"],
+          "challenges": ["Balancing academic rigor with practical relevance, ensuring inclusivity, iterative updates"]
+        },
+        "sampleUseCase": {
+          "scenario": "A curriculum developer creates a STEM module for middle schoolers, integrating project-based lessons around renewable energy. This approach leads to higher interest in science fairs and club enrollments."
+        }
+      },
+      {
+        "id": "education-role-3",
+        "name": "Educational Technologist",
+        "description": "Implements and manages digital tools for learning, advises on tech integration strategies, and trains educators in digital pedagogy.",
+        "meta": {
+          "typicalBackground": "IT or education technology degree, knowledge of e-learning platforms, data privacy requirements",
+          "keyTools": ["LMS administration", "Interactive whiteboards", "Adaptive learning apps"],
+          "challenges": ["Teacher adoption resistance, digital equity (device/internet access), ongoing tech support demands"]
+        },
+        "sampleUseCase": {
+          "scenario": "An educational technologist introduces a blended learning model using tablets and an online math tutorial system. They provide teacher training, track usage stats, and improve student math scores by 15% overall."
+        }
+      },
+      {
+        "id": "education-role-4",
+        "name": "School Administrator",
+        "description": "Oversees school operations, manages budgets, hires staff, ensures compliance with educational standards, and fosters a positive learning environment.",
+        "meta": {
+          "typicalBackground": "Experience in teaching and/or leadership, advanced degree in education administration",
+          "keyTools": ["Scheduling and enrollment systems", "Budgeting software", "Stakeholder communication platforms"],
+          "challenges": ["Resource allocation constraints, staff retention, meeting varied student needs, parental/community expectations"]
+        },
+        "sampleUseCase": {
+          "scenario": "A principal introduces a mentorship program pairing new teachers with experienced ones, reducing turnover by 40% and improving overall teaching quality."
+        }
+      },
+      {
+        "id": "education-role-5",
+        "name": "Student Advisor",
+        "description": "Guides students academically and personally, helping them set goals, choose courses, and navigate career/college pathways.",
+        "meta": {
+          "typicalBackground": "Counseling or education degree, knowledge of college admissions, scholarships, or career counseling",
+          "keyTools": ["Student records systems", "Assessment tests", "Advisory frameworks for personal development"],
+          "challenges": ["Large student caseloads, family involvement, addressing emotional or socio-economic barriers"]
+        },
+        "sampleUseCase": {
+          "scenario": "A student advisor helps a first-generation college applicant compile a strong scholarship application by aligning extracurriculars, academic achievements, and personal essays."
+        }
+      }
+    ]
+  }

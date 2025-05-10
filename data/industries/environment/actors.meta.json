@@ -1,0 +1,70 @@
+{
+    "domainName": "Environment",
+    "roles": [
+      {
+        "id": "environment-role-1",
+        "name": "Environmental Scientist",
+        "description": "Conducts research and field studies on ecosystems, pollution, or climate impacts, informing policy and conservation.",
+        "meta": {
+          "typicalBackground": "Degree in environmental science, ecology, or related field, proficiency in lab/field techniques",
+          "keyTools": ["Sampling equipment", "GIS software", "Statistical analysis packages"],
+          "challenges": ["Limited funding for research", "Balancing field vs. lab work", "Data gaps in remote or sensitive areas"]
+        },
+        "sampleUseCase": {
+          "scenario": "A scientist collects water samples along a river impacted by industrial runoff, analyzing pollutant levels to recommend stricter discharge permits."
+        }
+      },
+      {
+        "id": "environment-role-2",
+        "name": "Conservation Officer",
+        "description": "Implements measures to protect natural habitats and wildlife, enforcing environmental regulations and managing protected areas.",
+        "meta": {
+          "typicalBackground": "Background in wildlife management, forestry, or environmental policy, field-based enforcement experience",
+          "keyTools": ["Patrol vehicles", "GPS devices", "Satellite imagery", "Anti-poaching or anti-logging strategies"],
+          "challenges": ["Illegal hunting/logging, human-wildlife conflicts, limited manpower across large territories"]
+        },
+        "sampleUseCase": {
+          "scenario": "A conservation officer partners with local communities to establish a buffer zone around a nature reserve, offering alternative livelihood programs that reduce poaching."
+        }
+      },
+      {
+        "id": "environment-role-3",
+        "name": "Climate Policy Analyst",
+        "description": "Examines climate data, models mitigation/adaptation strategies, and advises policymakers on emissions reduction and resilience planning.",
+        "meta": {
+          "typicalBackground": "Climate science or public policy degree, strong data interpretation and policy drafting skills",
+          "keyTools": ["Climate models (IPCC scenarios)", "GHG inventories", "Cost-benefit analysis frameworks"],
+          "challenges": ["Political resistance to climate measures", "Complex interplay of global emission responsibilities", "Long-term projections with uncertainties"]
+        },
+        "sampleUseCase": {
+          "scenario": "A policy analyst drafts a city-level climate action plan that sets a net-zero emissions target by 2040, incorporating renewable energy mandates and flood defense investments."
+        }
+      },
+      {
+        "id": "environment-role-4",
+        "name": "Environmental Impact Assessor",
+        "description": "Evaluates proposed projects (infrastructure, industrial) for ecological and social consequences, recommending mitigation measures.",
+        "meta": {
+          "typicalBackground": "Expertise in environmental law, ecology, or engineering; recognized certification for EIA processes",
+          "keyTools": ["Impact assessment frameworks", "Site visits, stakeholder consultations", "Risk mapping software"],
+          "challenges": ["Balancing economic development with conservation", "Predicting long-term effects, ensuring enforceable follow-up"]
+        },
+        "sampleUseCase": {
+          "scenario": "Before constructing a major highway, the assessor studies wildlife migration patterns, urging the inclusion of wildlife corridors and noise barriers to preserve local fauna."
+        }
+      },
+      {
+        "id": "environment-role-5",
+        "name": "Sustainability Coordinator",
+        "description": "Implements and monitors sustainability initiatives within organizations, reducing waste, energy use, and carbon footprints.",
+        "meta": {
+          "typicalBackground": "Environmental or sustainability degree, project management, cross-departmental collaboration",
+          "keyTools": ["Greenhouse gas calculators", "Corporate social responsibility (CSR) platforms", "Employee engagement programs"],
+          "challenges": ["Securing budget from management, measuring intangible benefits, changing staff behaviors"]
+        },
+        "sampleUseCase": {
+          "scenario": "A coordinator launches a company-wide recycling and composting program, cutting landfill waste by 40% and saving disposal costs over the fiscal year."
+        }
+      }
+    ]
+  }

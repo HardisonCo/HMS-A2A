@@ -1,0 +1,200 @@
+{
+  "standards": {
+    "GAAP": {
+      "name": "Generally Accepted Accounting Principles",
+      "description": "Framework of accounting standards, rules, and procedures defined by professional accounting standards bodies",
+      "domains": ["accounting", "financial_reporting"],
+      "validations": {
+        "revenue_recognition": {
+          "description": "Revenue must be recognized when earned and realized or realizable",
+          "severity": "high"
+        },
+        "expense_matching": {
+          "description": "Expenses must be matched with revenues in the appropriate period",
+          "severity": "high"
+        },
+        "asset_valuation": {
+          "description": "Assets must be valued at cost or fair market value based on applicable rules",
+          "severity": "medium"
+        }
+      }
+    },
+    "IFRS": {
+      "name": "International Financial Reporting Standards",
+      "description": "Set of accounting standards developed by the International Accounting Standards Board",
+      "domains": ["accounting", "financial_reporting", "international"],
+      "validations": {
+        "fair_value_measurement": {
+          "description": "Assets and liabilities must be measured at fair value when required",
+          "severity": "high"
+        },
+        "consolidated_reporting": {
+          "description": "Financial statements must consolidate all controlled entities",
+          "severity": "high"
+        }
+      }
+    },
+    "HIPAA": {
+      "name": "Health Insurance Portability and Accountability Act",
+      "description": "US legislation that provides data privacy and security provisions for safeguarding medical information",
+      "domains": ["healthcare", "data_privacy"],
+      "validations": {
+        "phi_protection": {
+          "description": "Protected Health Information must be secured in transit and at rest",
+          "severity": "critical"
+        },
+        "minimum_necessary": {
+          "description": "Only minimum necessary information should be disclosed for a stated purpose",
+          "severity": "high"
+        },
+        "patient_rights": {
+          "description": "Patients have rights to access, amend, and receive accounting of disclosures",
+          "severity": "medium"
+        }
+      }
+    },
+    "GDPR": {
+      "name": "General Data Protection Regulation",
+      "description": "Legal framework for personal data protection in the EU",
+      "domains": ["data_privacy", "international"],
+      "validations": {
+        "consent": {
+          "description": "Valid consent must be obtained for data processing",
+          "severity": "high"
+        },
+        "data_minimization": {
+          "description": "Data collection limited to what is necessary for specified purposes",
+          "severity": "medium"
+        },
+        "right_to_be_forgotten": {
+          "description": "Individuals can request erasure of personal data",
+          "severity": "high"
+        }
+      }
+    },
+    "ISO9001": {
+      "name": "ISO 9001 Quality Management",
+      "description": "International standard for quality management systems",
+      "domains": ["quality_management", "manufacturing"],
+      "validations": {
+        "process_documentation": {
+          "description": "Key processes must be documented with clear procedures",
+          "severity": "medium"
+        },
+        "continual_improvement": {
+          "description": "Evidence of ongoing improvement in processes required",
+          "severity": "medium"
+        }
+      }
+    },
+    "AgFS": {
+      "name": "Agricultural Food Standards",
+      "description": "Standards for agricultural food production, safety, and labeling",
+      "domains": ["agriculture", "food_safety"],
+      "validations": {
+        "contaminant_limits": {
+          "description": "Food products must not exceed maximum contaminant levels",
+          "severity": "critical"
+        },
+        "organic_certification": {
+          "description": "Products labeled as organic must meet certification requirements",
+          "severity": "high"
+        },
+        "sustainability_practices": {
+          "description": "Evidence of sustainable farming practices required for sustainability claims",
+          "severity": "medium"
+        }
+      }
+    },
+    "USGovOps": {
+      "name": "US Government Operations Standards",
+      "description": "Standards for operations and communications in US government contexts",
+      "domains": ["government", "public_administration"],
+      "validations": {
+        "federal_compliance": {
+          "description": "Operations must comply with federal regulations and executive orders",
+          "severity": "high"
+        },
+        "transparency_reporting": {
+          "description": "Public reporting must meet transparency requirements",
+          "severity": "medium"
+        },
+        "accessibility": {
+          "description": "Public communications must meet accessibility standards",
+          "severity": "high"
+        }
+      }
+    },
+    "DealFramework": {
+      "name": "Agent Deal Collaboration Framework",
+      "description": "Standards for structured agent collaboration using deal frameworks",
+      "domains": ["agent_collaboration", "deal_making"],
+      "validations": {
+        "problem_definition": {
+          "description": "Problems must be clearly defined with constraints and success criteria",
+          "severity": "high"
+        },
+        "solution_validation": {
+          "description": "Solutions must be validated against problem constraints",
+          "severity": "high"
+        },
+        "transaction_completion": {
+          "description": "Transactions must include all required participants and complete successfully",
+          "severity": "medium"
+        },
+        "human_review": {
+          "description": "High-stakes deals require human review before finalization",
+          "severity": "critical"
+        }
+      }
+    }
+  },
+  "domains": {
+    "accounting": {
+      "description": "Financial record-keeping, reporting, and analysis",
+      "primary_standards": ["GAAP", "IFRS"]
+    },
+    "healthcare": {
+      "description": "Medical services, health information, and patient care",
+      "primary_standards": ["HIPAA"]
+    },
+    "agriculture": {
+      "description": "Farming, crop production, and agricultural processing",
+      "primary_standards": ["AgFS"]
+    },
+    "government": {
+      "description": "Public administration and government operations",
+      "primary_standards": ["USGovOps"]
+    },
+    "agent_collaboration": {
+      "description": "Structured collaboration between specialized agents",
+      "primary_standards": ["DealFramework"]
+    },
+    "data_privacy": {
+      "description": "Protection of personal and sensitive information",
+      "primary_standards": ["HIPAA", "GDPR"]
+    }
+  },
+  "validation_severity": {
+    "critical": {
+      "description": "Violations may cause significant harm or legal consequences",
+      "requires_human_review": true,
+      "blocks_execution": true
+    },
+    "high": {
+      "description": "Serious violations that should be addressed promptly",
+      "requires_human_review": true,
+      "blocks_execution": false
+    },
+    "medium": {
+      "description": "Notable issues that should be flagged for attention",
+      "requires_human_review": false,
+      "blocks_execution": false
+    },
+    "low": {
+      "description": "Minor issues that represent opportunities for improvement",
+      "requires_human_review": false,
+      "blocks_execution": false
+    }
+  }
+}

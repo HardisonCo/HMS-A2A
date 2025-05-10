@@ -1,0 +1,439 @@
+[
+  {
+    "id": 18,
+    "name": "Utilities",
+    "icon": "fas fa-lightbulb",
+    "description": "Utility systems manage essential services like water, gas, and electricity by integrating advanced digital monitoring, smart metering, and predictive maintenance. They ensure reliable and efficient provision of services through robust infrastructure management, automated service delivery, and proactive maintenance operations.",
+    "fullDescription": "Utility services—electricity, natural gas, water, and sanitation—are the backbone of modern living, underpinning public health, economic productivity, and quality of life. Infrastructure includes pipelines, power lines, treatment plants, and reservoirs, maintained by public agencies or private operators under strict regulatory oversight. With growing populations and the challenges posed by climate change, utilities are increasingly adopting smart metering, grid modernization, digital twin simulations, and advanced analytics to optimize distribution, reduce losses, and improve resilience. Investments in renewable energy integration, leak detection, and demand-side management are critical for reducing environmental impacts. Ensuring universal access to safe, affordable services remains a core policy goal, supported by targeted tariffs, subsidies, and transparent performance metrics.",
+    "statistics": [
+      {
+        "value": "2.2 billion lacking safe water",
+        "description": "An estimated 2.2 billion people worldwide do not have safely managed drinking water in their homes."
+      },
+      {
+        "value": "$90+ billion annual water losses",
+        "description": "Global water utilities lose billions each year due to leakage, theft, and metering inaccuracies."
+      },
+      {
+        "value": "15% distribution losses (electric)",
+        "description": "Electric grids in many regions see up to 15% transmission and distribution losses, impacting efficiency."
+      },
+      {
+        "value": "20% increase in smart grid adoption",
+        "description": "Growing adoption of smart grid technologies is enhancing operational efficiency and reliability."
+      }
+    ],
+    "targets": [
+      "Expand and upgrade utility infrastructure to reach unserved and underserved areas",
+      "Improve system resilience against extreme weather and cyber threats",
+      "Implement smart grid and metering technologies for efficient resource management",
+      "Enhance water quality standards and wastewater treatment capacity",
+      "Promote fair tariffs, customer service, and consumer protection",
+      "Reduce non-revenue water losses by 25% within 3 years",
+      "Integrate renewable energy sources to supply at least 30% of total power by 2030"
+    ],
+    "standards": [
+      {
+        "name": "ANSI C12",
+        "organization": "American National Standards Institute",
+        "description": "Standards for electricity metering equipment and systems.",
+        "url": "https://webstore.ansi.org/",
+        "relevance": "Ensures accurate measurement and billing of electricity consumption.",
+        "implementation": "Adopted by utilities to calibrate and standardize metering devices across the network.",
+        "benefits": "Improves billing accuracy and reduces revenue losses.",
+        "challenges": "Requires regular maintenance and calibration to remain effective."
+      },
+      {
+        "name": "AWWA Standards",
+        "organization": "American Water Works Association",
+        "description": "Standards for water utilities covering operations, management, and treatment.",
+        "url": "https://www.awwa.org/Publications/Standards",
+        "relevance": "Provides guidelines for safe and efficient water utility operations.",
+        "implementation": "Integrated into water treatment and distribution processes with periodic reviews.",
+        "benefits": "Enhances water quality and operational efficiency.",
+        "challenges": "Adapting standards to local water sources and regulatory environments can be complex."
+      },
+      {
+        "name": "ISO 50001",
+        "organization": "International Organization for Standardization",
+        "description": "Energy management systems standard to improve energy performance.",
+        "url": "https://www.iso.org/iso-50001-energy-management.html",
+        "relevance": "Helps utilities reduce operational energy use, boosting sustainability and cost savings.",
+        "implementation": "Adopted through energy audits, performance monitoring, and process optimization.",
+        "benefits": "Lowers energy costs and reduces environmental impact.",
+        "challenges": "Requires detailed energy tracking and continuous process evaluations."
+      },
+      {
+        "name": "IEEE 2030",
+        "organization": "Institute of Electrical and Electronics Engineers",
+        "description": "Standards for smart grid interoperability and communication protocols.",
+        "url": "https://standards.ieee.org/standard/2030.html",
+        "relevance": "Ensures reliable integration of digital technologies in utility networks.",
+        "implementation": "Utilized in developing interoperable smart grid components and communication interfaces.",
+        "benefits": "Enhances grid stability, improves data exchange, and supports advanced control systems.",
+        "challenges": "High initial deployment costs and the need for cross-vendor compatibility."
+      },
+      {
+        "name": "ISO 55000",
+        "organization": "International Organization for Standardization",
+        "description": "Asset management standards that guide effective management of physical assets.",
+        "url": "https://www.iso.org/iso-55000-asset-management.html",
+        "relevance": "Helps utilities manage their infrastructure assets efficiently, ensuring reliability and longevity.",
+        "implementation": "Integrated through asset lifecycle management practices and maintenance scheduling.",
+        "benefits": "Optimizes asset performance and reduces lifecycle costs.",
+        "challenges": "Requires comprehensive data collection and regular performance reviews."
+      }
+    ],
+    "workflows": [
+      "Infrastructure Planning: Design, upgrade, and maintain utility networks while forecasting demand growth.",
+      "Service Connection: Register customers, install smart meters, and enable supply lines for new areas.",
+      "Distribution Management: Monitor utility flows, manage real-time load balancing, and optimize resource allocation.",
+      "Maintenance & Repair: Schedule preventive maintenance, respond to outages or leaks, and replace aging components.",
+      "Metering & Billing: Measure consumption accurately, manage billing cycles, and facilitate customer payments and inquiries."
+    ],
+    "detailedWorkflows": [
+      {
+        "name": "Infrastructure Planning",
+        "description": "Design and develop utility infrastructure based on current demand and future growth projections.",
+        "steps": [
+          "Conduct geographic and demographic studies to determine service areas.",
+          "Model future demand using statistical and simulation tools.",
+          "Secure permits and funding for infrastructure projects."
+        ]
+      },
+      {
+        "name": "Service Connection",
+        "description": "Enable new connections by registering customers and installing smart metering systems.",
+        "steps": [
+          "Verify customer eligibility and complete service applications.",
+          "Schedule and install advanced metering infrastructure (AMI).",
+          "Test connections and integrate with billing systems."
+        ]
+      },
+      {
+        "name": "Distribution Management",
+        "description": "Monitor and control the distribution of utilities to ensure efficiency and reliability.",
+        "steps": [
+          "Use SCADA and IoT sensors to monitor flow and pressure.",
+          "Implement dynamic load balancing algorithms.",
+          "Detect and respond to anomalies or system faults in real-time."
+        ]
+      },
+      {
+        "name": "Maintenance & Repair",
+        "description": "Perform regular maintenance and urgent repairs to minimize service disruptions.",
+        "steps": [
+          "Schedule routine maintenance based on asset lifecycle data.",
+          "Deploy mobile repair teams for rapid incident response.",
+          "Use predictive analytics to preemptively address potential failures."
+        ]
+      },
+      {
+        "name": "Digital Transformation in Utilities",
+        "description": "Integrate digital tools to automate processes and improve operational efficiency.",
+        "steps": [
+          "Implement ERP and asset management systems.",
+          "Adopt blockchain for secure transaction records.",
+          "Utilize digital twin simulations to optimize maintenance schedules."
+        ]
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Distribution Loss Rate",
+        "definition": "Percentage of water or electricity lost in transit before reaching customers.",
+        "measurementExample": "Compare the total volume distributed versus metered consumption over a specific period."
+      },
+      {
+        "name": "SAIDI (System Average Interruption Duration Index)",
+        "definition": "Total duration of outages per customer over a specified period, indicating reliability.",
+        "measurementExample": "Aggregate outage durations and normalize by the number of customers."
+      },
+      {
+        "name": "Water Quality Compliance",
+        "definition": "Adherence to regulatory water quality standards for potable water or treated wastewater.",
+        "measurementExample": "Monitor contaminant levels and compare against permissible thresholds."
+      },
+      {
+        "name": "Customer Satisfaction Index",
+        "definition": "A survey-based metric reflecting consumer satisfaction with utility services.",
+        "measurementExample": "Aggregate customer feedback scores from surveys and service ratings."
+      },
+      {
+        "name": "Operational Cost Reduction",
+        "definition": "Percentage decrease in operational costs due to process improvements and digital transformation.",
+        "measurementExample": "Analyze cost data before and after implementing smart utility technologies."
+      }
+    ],
+    "processFlows": [
+      {
+        "name": "Electric Grid Management",
+        "steps": [
+          "Load Forecasting: Predict demand using historical data, weather patterns, and economic indicators.",
+          "Dispatch & Control: Coordinate generation and distribution to match real-time demand.",
+          "Outage Detection: Utilize SCADA and smart meters to detect faults and isolate affected areas.",
+          "Power Restoration: Dispatch repair crews and reroute power to minimize downtime.",
+          "Grid Modernization: Upgrade infrastructure with advanced metering and automation."
+        ]
+      },
+      {
+        "name": "Water Treatment & Distribution",
+        "steps": [
+          "Source Intake: Collect raw water from natural sources.",
+          "Treatment Process: Remove impurities via filtration, disinfection, and chemical treatment.",
+          "Storage: Maintain reservoirs or tanks to buffer supply.",
+          "Distribution Network: Pump water through pipelines ensuring pressure and minimal leakage.",
+          "Quality Monitoring: Continuously test water quality at multiple points in the network."
+        ]
+      },
+      {
+        "name": "Gas Utility Operations",
+        "steps": [
+          "Procurement & Transport: Secure natural gas supplies and transport via high-pressure pipelines.",
+          "Pressure Regulation: Step down gas pressure at distribution points.",
+          "Local Distribution: Manage pipeline networks to deliver gas safely to end users.",
+          "Metering & Safety Checks: Monitor consumption, detect leaks, and inspect pipeline integrity.",
+          "Emergency Response: Rapidly address incidents and coordinate with safety agencies."
+        ]
+      },
+      {
+        "name": "Renewable Integration Process",
+        "steps": [
+          "Assess Renewable Potential: Identify areas suitable for solar, wind, or hydro installations.",
+          "Grid Integration: Develop strategies to integrate intermittent renewable sources into the grid.",
+          "Performance Monitoring: Use real-time analytics to optimize renewable generation output.",
+          "Incentive Management: Coordinate with regulators for subsidies or incentives for renewable projects."
+        ]
+      }
+    ],
+    "regulatoryFrameworks": [
+      {
+        "name": "Clean Water Act",
+        "jurisdiction": "United States",
+        "description": "Regulates discharges to U.S. waters and sets wastewater treatment standards.",
+        "requirements": "Utilities must treat wastewater to specified limits before discharge or reuse."
+      },
+      {
+        "name": "EU Water Framework Directive",
+        "jurisdiction": "European Union",
+        "description": "Seeks to protect and enhance aquatic ecosystems and ensure sustainable water use.",
+        "requirements": "Member states must develop basin management plans to achieve high water quality."
+      },
+      {
+        "name": "Public Utility Commission (PUC) Rules",
+        "jurisdiction": "State/Regional",
+        "description": "Oversight regulations for rate-setting, service obligations, and reliability standards in utility services.",
+        "requirements": "Utilities must justify costs, adhere to service benchmarks, and manage consumer complaints."
+      }
+    ],
+    "environmentalImpact": {
+      "emissions": {
+        "greenhouseGases": "Fossil-fuel power generation, pumping stations, and gas pipeline leaks contribute significantly to CO2 emissions.",
+        "airPollutants": "Combustion by-products from backup generators and turbines can release NOx and particulate matter.",
+        "mitigationStrategies": "Integrate renewable energy sources, implement leak detection programs, and deploy high-efficiency equipment."
+      },
+      "landUse": {
+        "footprint": "Infrastructure such as pipelines, power lines, and treatment plants can fragment natural habitats and displace land use.",
+        "habitatEffects": "Construction may disrupt wildlife corridors and local ecosystems if not carefully planned.",
+        "mitigationStrategies": "Optimize routing to minimize environmental impact, implement restoration projects, and pursue environmental offsets."
+      },
+      "waterImpacts": {
+        "consumption": "Utilities use water for cooling systems and backwashing filters, affecting local water supplies.",
+        "thermalPollution": "Discharges from power plant cooling systems can raise local water temperatures, impacting aquatic life.",
+        "mitigationStrategies": "Adopt closed-loop cooling systems, use advanced filtration methods, and implement water recycling initiatives."
+      }
+    },
+    "monitoringAndAnalytics": {
+      "operationalMetrics": [
+        "Energy/Water Efficiency: Measure kWh or liters per unit of service delivered.",
+        "Non-Revenue Water: Percentage of water produced that is lost before billing.",
+        "Leak Response Time: Average time taken to address reported leaks or line breaks.",
+        "Grid Load Factor: Ratio of average load to peak load, indicating system utilization."
+      ],
+      "advancedAnalytics": [
+        "AMI Data Analytics: Analyze smart meter data to detect usage patterns and anomalies.",
+        "Predictive Maintenance: Use sensor data to forecast equipment failures and schedule repairs proactively.",
+        "Demand Response Programs: Forecast load spikes and implement incentives for off-peak usage.",
+        "Digital Twin Simulations: Create virtual models of infrastructure for scenario testing and optimization."
+      ]
+    },
+    "sampleDeals": [
+      {
+        "dealId": "UTL-Deal1",
+        "dealTitle": "Smart Meter Rollout",
+        "dealSteps": {
+          "step1_defineProblem": "High water/electricity losses and billing disputes due to outdated manual meters.",
+          "step2_codifySolution": "Deploy advanced metering infrastructure for real-time data capture, remote readings, and automated leak/usage alerts.",
+          "step3_setupProgram": {
+            "stakeholders": [
+              "Utility company (financing, meter procurement)",
+              "Technology vendors (smart meters, communication systems)",
+              "Local regulators (tariff approvals, consumer protection)",
+              "Customers (awareness and acceptance)"
+            ],
+            "financing": "Utilize utility capital budgets, government grants, and vendor financing with partial rate adjustments.",
+            "milestones": "Replace 80% of meters within 2 years; reduce non-revenue water by at least 25%."
+          },
+          "step4_executeProgram": "Install meters by district, establish a centralized data management platform, train staff, and coordinate with customers.",
+          "step5_verifyOutcomeAndDistributeFunds": "Compare baseline and new billing accuracy, analyze consumption data, and if successful, expand the rollout regionally."
+        }
+      }
+    ],
+    "relatedContent": [
+      {
+        "type": "story",
+        "title": "Rural Electrification Boosting Livelihoods",
+        "link": "/stories/rural-electrification-uplift"
+      },
+      {
+        "type": "publication",
+        "title": "Global Utility Infrastructure Outlook",
+        "link": "/publications/global-utility-infra"
+      }
+    ],
+    "usAgencyContributions": {
+      "relevantAgencies": [
+        "Environmental Protection Agency (EPA)",
+        "Department of Energy (DOE)",
+        "Federal Energy Regulatory Commission (FERC)",
+        "Rural Utilities Service (RUS)",
+        "United States Congress (Energy & Environment Committees)"
+      ],
+      "explanation": "The EPA sets environmental standards for utility operations, DOE funds grid modernization and energy efficiency projects, FERC regulates interstate energy transmission, and RUS provides financing for rural utility infrastructure. Congress establishes overall policy, invests in infrastructure, and enacts consumer protection measures."
+    },
+    "agencyServices": [
+      {
+        "agencyDomain": "ruralutilities.us.gov-ai.co",
+        "services": [
+          {
+            "name": "Infrastructure Loans",
+            "desc": "Low-interest financing for rural water, electricity, and waste management projects.",
+            "status": 2,
+            "url": "https://infrastructure.rus.us.gov-ai.co"
+          }
+        ]
+      }
+    ],
+    "resources": {
+      "pdfWhyItMatters": "/goal_utilities/utilities_Why-It-Matters.pdf",
+      "gifMakeEveryDayCount": "/goal_utilities/utilities_SDG_MakeEveryDayCount_Gifs.gif",
+      "gifIcon": "/goal_utilities/utilities_GIF_Icon.gif",
+      "actionCardSquare": "/goal_utilities/utilities_action_card_square.jpg",
+      "actionCardTwitter": "/goal_utilities/utilities_action_card_twitter.jpg",
+      "webInverted": "/goal_utilities/utilities_WEB_INVERTED.png",
+      "printFile": "/goal_utilities/utilities_PRINT.jpg",
+      "printInvertedFile": "/goal_utilities/utilities_PRINT_INVERTED.jpg",
+      "webImage": "/goal_utilities/utilities_WEB.png",
+      "infographics": "/goal_utilities/utilities_infographics.pdf",
+      "elyxImage": "/goal_utilities/utilities_Elyx.png",
+      "languagesImage": "/goal_utilities/utilities_Languages.png"
+    },
+    "items": [
+      {
+        "id": "utilities-1",
+        "name": "Smart Grid & Metering",
+        "description": "Automate monitoring, billing, and data analytics to enhance reliability, detect losses, and manage demand through digital grid technologies.",
+        "implementationDetails": "Deploy smart meters, integrate SCADA systems with IoT sensors, and utilize digital twin models to simulate grid performance.",
+        "challenges": "High initial capital investment, integration with legacy systems, and cybersecurity risks.",
+        "benefits": "Improves service reliability, reduces non-revenue losses, and optimizes energy distribution.",
+        "kpis": [
+          {
+            "name": "Distribution Loss Rate",
+            "definition": "Percentage of utility (water/electricity) lost during transmission before reaching customers.",
+            "measurementExample": "Compare metered consumption with total volume produced."
+          },
+          {
+            "name": "Smart Meter Penetration",
+            "definition": "Percentage of customers using smart meters relative to total customer base.",
+            "measurementExample": "Monitor installation rates across service areas."
+          }
+        ],
+        "targets": [
+          "Reduce non-revenue losses by 25% within 3 years",
+          "Achieve 90% smart meter penetration within 2 years",
+          "Improve grid responsiveness by 15% through digital twin optimization",
+          "Increase customer satisfaction with metering accuracy by 20%",
+          "Reduce outage response time by 30% using advanced analytics"
+        ]
+      },
+      {
+        "id": "utilities-2",
+        "name": "Water & Wastewater Management",
+        "description": "Enhance treatment processes, reduce water losses, and ensure safe effluent disposal with advanced monitoring and automation.",
+        "implementationDetails": "Upgrade treatment plants with real-time quality monitoring, deploy leak detection sensors, and integrate SCADA systems for automated control.",
+        "challenges": "Balancing treatment efficiency with cost constraints and environmental regulations.",
+        "benefits": "Ensures safe water supply, minimizes environmental impact, and reduces operational costs.",
+        "kpis": [
+          {
+            "name": "Water Quality Compliance",
+            "definition": "Degree to which water quality meets regulatory safety standards.",
+            "measurementExample": "Measure contaminant levels against established thresholds."
+          },
+          {
+            "name": "Non-Revenue Water Rate",
+            "definition": "Percentage of water lost before reaching customers due to leaks or theft.",
+            "measurementExample": "Compare total water produced to metered consumption."
+          }
+        ],
+        "targets": [
+          "Improve water quality compliance to 98% within 2 years",
+          "Reduce non-revenue water rate by 20% within 3 years",
+          "Increase treatment plant efficiency by 15% through automation",
+          "Achieve a 10% reduction in energy use in water treatment processes",
+          "Enhance public satisfaction with water services by 25%"
+        ]
+      },
+      {
+        "id": "utilities-3",
+        "name": "Gas Distribution Optimization",
+        "description": "Enhance pipeline integrity, minimize leaks, and adopt advanced metering for accurate billing and improved safety.",
+        "implementationDetails": "Implement remote monitoring with IoT sensors, upgrade pipeline materials, and deploy predictive maintenance tools.",
+        "challenges": "Ensuring safety, managing aging infrastructure, and addressing cybersecurity risks in remote monitoring systems.",
+        "benefits": "Improves operational safety, reduces gas losses, and enhances billing accuracy.",
+        "kpis": [
+          {
+            "name": "Leak Detection Rate",
+            "definition": "Percentage of leaks detected relative to the total number of incidents.",
+            "measurementExample": "Compare detected leaks to historical incident data."
+          },
+          {
+            "name": "Billing Accuracy",
+            "definition": "Rate at which gas consumption is accurately metered and billed.",
+            "measurementExample": "Analyze discrepancies between metered data and revenue collected."
+          }
+        ],
+        "targets": [
+          "Reduce gas leak incidents by 30% within 2 years",
+          "Achieve 95% billing accuracy within 18 months",
+          "Upgrade 50% of aging pipeline infrastructure within 3 years",
+          "Improve remote monitoring response times by 40%",
+          "Reduce operational downtime for gas distribution by 20%"
+        ]
+      }
+    ],
+    "industry_interactions": {
+      "Energy": "Collaborates with energy providers to optimize utility infrastructure, integrate renewable energy, and support smart grid technologies.",
+      "Treasury": "Coordinates with treasury departments to manage capital investments, forecast operational costs, and evaluate return on utility projects.",
+      "Commerce": "Integrates with retail and supply chain sectors to ensure reliable service for business operations and support digital payment systems.",
+      "Environment": "Adopts sustainable practices, minimizes emissions, and implements green technologies to reduce the environmental footprint of utility operations.",
+      "Food": "Supports food processing and distribution by ensuring reliable water and energy supplies, crucial for quality control and operational efficiency.",
+      "Jobs": "Drives employment in infrastructure development, maintenance, and technology integration within the utility sector.",
+      "Health": "Ensures public health by providing clean water, reliable sanitation, and stable electricity, and supports healthcare facility operations.",
+      "Education": "Partners with academic institutions for research, technical training, and workforce development in utility management.",
+      "Transportation": "Supports the development of smart transportation networks through reliable utility services and infrastructure maintenance.",
+      "Finance": "Leverages financial analytics for cost management, capital allocation, and ROI measurement on utility projects.",
+      "Justice": "Ensures compliance with regulatory standards, supports legal frameworks for public utility management, and safeguards consumer rights.",
+      "Technology": "Integrates emerging technologies such as IoT, AI, and digital twins to drive innovation in utility management.",
+      "Telecom": "Coordinates with telecommunications to ensure robust communication networks for remote monitoring and control.",
+      "Retail": "Supports retail operations by ensuring stable energy and water supplies, essential for consumer-facing businesses.",
+      "Manufacturing": "Enables efficient production processes through reliable utility services and energy management solutions.",
+      "Mining": "Facilitates sustainable extraction by providing efficient, safe, and reliable utility infrastructure.",
+      "Utilities": "Promotes collaboration among utility providers to share best practices, innovate, and enhance overall service quality.",
+      "Media": "Supports broadcasting and digital media operations with stable energy supplies and advanced connectivity solutions.",
+      "Defense": "Ensures the reliability and security of utility services critical for national defense and secure operations.",
+      "Sports": "Provides robust energy, water, and gas services to support the infrastructure needs of sports venues and events.",
+      "Tourism": "Enhances tourism experiences through reliable utilities, supporting hotels, attractions, and transportation networks.",
+      "Innovation": "Drives continuous improvement by adopting new technologies, optimizing operations, and fostering public-private partnerships for sustainable growth."
+    }
+  }
+]

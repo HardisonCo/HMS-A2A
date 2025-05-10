@@ -1,0 +1,148 @@
+{
+    "roles": [
+      {
+        "id": "ag-role-1",
+        "name": "Farmer",
+        "description": "Responsible for planting, cultivating, and harvesting crops or raising livestock. Adopts best practices, manages resources, and ensures product quality.",
+        "meta": {
+          "typicalBackground": "Hands-on agricultural experience, knowledge of local climate, soils, markets",
+          "keyTools": ["Tractors", "Irrigation systems", "Precision ag software", "Seeds/livestock"],
+          "challenges": ["Weather variability", "Pest and disease pressure", "Market price fluctuations"]
+        },
+        "sampleUseCase": {
+          "scenario": "A smallholder farmer transitions to a precision irrigation system to save water and increase yields. They receive a government subsidy and technical guidance from an extension officer, leading to a 20% improvement in productivity and reduced water consumption."
+        }
+      },
+      {
+        "id": "ag-role-2",
+        "name": "Agricultural Extension Officer",
+        "description": "Provides technical advice, training, and support to farmers. Bridges research insights and field applications, promoting new techniques and technologies.",
+        "meta": {
+          "typicalBackground": "Formal education in agronomy or related fields, strong communication and demonstration skills",
+          "keyTools": ["Demonstration plots", "Farm visits", "Educational materials", "Mobile advisory apps"],
+          "challenges": ["Reaching remote farmers", "Adapting research to local conditions", "Maintaining trust and credibility"]
+        },
+        "sampleUseCase": {
+          "scenario": "An extension officer hosts a field day showcasing improved seed varieties with higher drought tolerance. They distribute pamphlets, demonstrate proper planting depth, and connect interested farmers to subsidized seeds, raising local yields and reducing crop failure risk."
+        }
+      },
+      {
+        "id": "ag-role-3",
+        "name": "Input Supplier",
+        "description": "Sells agricultural inputs such as seeds, fertilizers, pesticides, and farming equipment. Provides information on product usage and safety.",
+        "meta": {
+          "typicalBackground": "Business or technical sales background, knowledge of agricultural products and regulations",
+          "keyTools": ["Inventory management systems", "Point-of-sale software", "Distribution network"],
+          "challenges": ["Forecasting demand accurately", "Managing stock of perishable or regulated products", "Ensuring product authenticity"]
+        },
+        "sampleUseCase": {
+          "scenario": "An input supplier partners with a local cooperative to offer group discounts on organic fertilizers. By leveraging bulk orders and a simplified payment plan, smallholder farmers can afford higher-quality inputs, boosting their productivity and soil health."
+        }
+      },
+      {
+        "id": "ag-role-4",
+        "name": "Aggregator / Cooperative Manager",
+        "description": "Collects produce from multiple farmers, ensuring consistent quality and quantity. Negotiates with buyers, manages storage or processing facilities, and organizes logistics.",
+        "meta": {
+          "typicalBackground": "Experience in supply chain management, basic financial acumen, leadership to coordinate members",
+          "keyTools": ["Warehouse management systems", "Quality control protocols", "Transportation scheduling"],
+          "challenges": ["Maintaining consistent product standards", "Fair price negotiation with large buyers", "Managing perishable goods efficiently"]
+        },
+        "sampleUseCase": {
+          "scenario": "A cooperative manager pools maize from 50 smallholders, conducts quality checks, and sells in bulk to a regional buyer. The manager secures a better contract price than each farmer could individually, with earnings distributed back to cooperative members."
+        }
+      },
+      {
+        "id": "ag-role-5",
+        "name": "Food Processor",
+        "description": "Transforms raw agricultural products into value-added goods (e.g., milling grains, canning vegetables). Maintains quality, food safety, and packaging standards.",
+        "meta": {
+          "typicalBackground": "Knowledge of food technology, processing methods, and regulatory compliance",
+          "keyTools": ["Processing machinery", "Food safety labs/tests", "Packaging lines"],
+          "challenges": ["Procuring consistent raw material quality", "Meeting health and safety regulations", "Managing storage and shelf life"]
+        },
+        "sampleUseCase": {
+          "scenario": "A local miller sources rice from neighboring farms, mills and fortifies it with essential vitamins, then packages it for sale under a regional brand. Quality checks help maintain a loyal customer base and reduce post-harvest losses."
+        }
+      },
+      {
+        "id": "ag-role-6",
+        "name": "Distributor / Wholesaler",
+        "description": "Buys large volumes of processed or semi-processed goods, handles transport and logistics to move products across regions and markets.",
+        "meta": {
+          "typicalBackground": "Expertise in logistics, market demand forecasting, and warehousing",
+          "keyTools": ["Fleet management systems", "Order fulfillment software", "Cold chain trucks (if perishable)"],
+          "challenges": ["Fluctuating transport costs (fuel), road conditions, meeting delivery timelines"]
+        },
+        "sampleUseCase": {
+          "scenario": "A wholesaler organizes reefer trucks to collect fresh produce from multiple distribution centers and deliver them to urban retail outlets within 24 hours, maximizing shelf life and reducing spoilage."
+        }
+      },
+      {
+        "id": "ag-role-7",
+        "name": "Retailer",
+        "description": "Sells food and agricultural products to end consumers. May be supermarkets, local shops, or e-commerce platforms, focusing on product freshness and customer satisfaction.",
+        "meta": {
+          "typicalBackground": "Retail management, customer service, marketing, inventory control",
+          "keyTools": ["Point-of-sale systems", "Online storefronts", "Inventory replenishment algorithms"],
+          "challenges": ["Managing perishable stock, ensuring competitive prices, responding to consumer trends (organic, local, etc.)"]
+        },
+        "sampleUseCase": {
+          "scenario": "A local grocery chain sources fresh fruits from a regional aggregator, highlights ‘farm-to-shelf’ branding. They use loyalty apps to inform customers about new stock, sales, or seasonal produce, boosting repeat business."
+        }
+      },
+      {
+        "id": "ag-role-8",
+        "name": "Researcher / Agronomist",
+        "description": "Focuses on improving crop varieties, soil health, pest management, and livestock genetics. Conducts experiments, field trials, and publishes findings that inform farming practices.",
+        "meta": {
+          "typicalBackground": "Advanced degrees in plant science, soil science, animal science, or related fields",
+          "keyTools": ["Greenhouses, test plots, laboratory equipment, data analysis software"],
+          "challenges": ["Securing research funding, ensuring real-world applicability, bridging lab-field gap"]
+        },
+        "sampleUseCase": {
+          "scenario": "An agronomist develops a drought-resistant bean variety through hybridization and field trials. After verifying yield benefits and taste quality, seeds are released to local extension officers who train farmers to adopt them."
+        }
+      },
+      {
+        "id": "ag-role-9",
+        "name": "Government / Policy Maker",
+        "description": "Sets agricultural policies, subsidies, and regulations that impact everything from land use to food safety. Supports rural development initiatives and oversees compliance.",
+        "meta": {
+          "typicalBackground": "Public administration, economics, or political science background, knowledge of agricultural policy",
+          "keyTools": ["Policy frameworks, agricultural census data, budget allocations"],
+          "challenges": ["Balancing competing interests (environment, trade, consumer prices), limited public resources"]
+        },
+        "sampleUseCase": {
+          "scenario": "A government official designs a ‘Smart Agriculture’ subsidy program, funding precision irrigation equipment for small farmers. The policy aims to reduce water use while boosting yields, with yearly progress reported in a national agriculture review."
+        }
+      },
+      {
+        "id": "ag-role-10",
+        "name": "NGO / Trade Association",
+        "description": "Advocates for farmers’ interests, provides capacity-building programs, and addresses social or environmental concerns in agricultural communities.",
+        "meta": {
+          "typicalBackground": "Nonprofit management, field experience in development, strong stakeholder engagement",
+          "keyTools": ["Grant funding, training modules, advocacy campaigns"],
+          "challenges": ["Dependence on donor funding, coordinating diverse stakeholder agendas, measuring impact effectively"]
+        },
+        "sampleUseCase": {
+          "scenario": "An NGO organizes workshops on integrated pest management, targeting female-led farms in a region prone to crop losses. They also link participants to micro-lenders offering low-interest capital for purchasing safer pesticides."
+        }
+      },
+      {
+        "id": "ag-role-11",
+        "name": "Financial Services / Micro-lender",
+        "description": "Provides capital or insurance products to farmers, cooperatives, or agri-enterprises. Enables investments in equipment, seeds, or technology, and helps mitigate risks like weather or price volatility.",
+        "meta": {
+          "typicalBackground": "Finance or banking, understanding of agricultural cycles and credit risk assessment",
+          "keyTools": ["Loan management systems", "Crop insurance actuarial data", "Mobile-based payment platforms"],
+          "challenges": ["Assessing creditworthiness in rural contexts, weather-related defaults, high transaction costs in remote areas"]
+        },
+        "sampleUseCase": {
+          "scenario": "A microfinance institution develops a weather-indexed insurance product: if rainfall is below a certain threshold, farmers automatically receive a payout. This secures their loan repayments and prevents catastrophic losses from drought."
+        }
+      }
+    ]
+  }
+  

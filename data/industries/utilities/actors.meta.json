@@ -1,0 +1,70 @@
+{
+    "domainName": "Utilities",
+    "roles": [
+      {
+        "id": "utilities-role-1",
+        "name": "Water Treatment Operator",
+        "description": "Operates and maintains water treatment facilities, ensuring safe drinking water supply by monitoring filtration, disinfection, and chemical dosing.",
+        "meta": {
+          "typicalBackground": "Technical diploma or on-the-job training in water treatment, knowledge of local water regulations",
+          "keyTools": ["SCADA for flow control, water quality testing equipment, pumps/valves monitoring"],
+          "challenges": ["Seasonal water source changes, chemical supply management, dealing with emerging contaminants"]
+        },
+        "sampleUseCase": {
+          "scenario": "When heavy rainfall increases turbidity, the operator adjusts coagulant dosing, preventing water turbidity from exceeding regulatory limits."
+        }
+      },
+      {
+        "id": "utilities-role-2",
+        "name": "Power Distribution Technician",
+        "description": "Maintains and repairs electrical distribution networks, responding to outages and ensuring service continuity for customers.",
+        "meta": {
+          "typicalBackground": "Electrical engineering or technician certification, safety training for live line work",
+          "keyTools": ["Line trucks, insulated tools, fault detection meters, GIS-based outage management software"],
+          "challenges": ["Weather-related damage, risk of electrocution, complex scheduling for line upgrades"]
+        },
+        "sampleUseCase": {
+          "scenario": "A technician locates a blown transformer caused by a lightning strike, replaces it overnight, and restores power to hundreds of households."
+        }
+      },
+      {
+        "id": "utilities-role-3",
+        "name": "Utility Planner",
+        "description": "Forecasts future utility demand, plans new infrastructure, and schedules upgrades to accommodate growing or shifting consumption patterns.",
+        "meta": {
+          "typicalBackground": "Engineering or urban planning, data analytics for consumption modeling, financial acumen for project feasibility",
+          "keyTools": ["Demand forecasting models", "GIS for service area analysis", "Regulatory compliance frameworks"],
+          "challenges": ["Population growth, environmental impact analyses, balancing short-term vs. long-term capacity needs"]
+        },
+        "sampleUseCase": {
+          "scenario": "A planner predicts rising residential electricity use from new housing developments and proposes adding a substation plus feeder lines, preventing future overloads."
+        }
+      },
+      {
+        "id": "utilities-role-4",
+        "name": "Meter Reader / Smart Meter Technician",
+        "description": "Installs, maintains, and reads utility meters (electric, water, gas). With smart meters, handles remote data collection and troubleshooting.",
+        "meta": {
+          "typicalBackground": "Basic electrical or utility training, attention to detail, ability to interface with digital systems",
+          "keyTools": ["Handheld meter reading devices, remote metering software, personal protective equipment"],
+          "challenges": ["Access to customer premises, device malfunctions, ensuring accurate billing data transmissions"]
+        },
+        "sampleUseCase": {
+          "scenario": "A technician upgrades older mechanical meters to smart meters in a suburban neighborhood, enabling real-time consumption tracking and automated billing."
+        }
+      },
+      {
+        "id": "utilities-role-5",
+        "name": "Regulatory Affairs Specialist",
+        "description": "Ensures compliance with utility regulations, manages stakeholder relationships, and prepares rate cases or policy documentation.",
+        "meta": {
+          "typicalBackground": "Legal or public policy background, strong knowledge of utility codes, communication with government agencies",
+          "keyTools": ["Regulatory filing systems", "Policy analysis frameworks", "Tariff design knowledge"],
+          "challenges": ["Negotiating rate increases, consumer advocacy pressures, rapidly evolving environmental standards"]
+        },
+        "sampleUseCase": {
+          "scenario": "A specialist files a cost-of-service rate case with the public utilities commission, presenting evidence for moderate rate hikes to finance grid resilience upgrades."
+        }
+      }
+    ]
+  }
