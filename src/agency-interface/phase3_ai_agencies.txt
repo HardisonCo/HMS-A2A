@@ -1,0 +1,6 @@
+doed.ai (DOE – Department of Education) – Description: AI-supported educational policy planning and program management.
+nslp.ai (NSLP – National School Lunch Program) – Description: AI-assisted program planning and monitoring for school nutrition.
+usich.ai (USICH – U.S. Interagency Council on Homelessness) – Description: AI-powered approach to prevent and end homelessness.
+bsee.ai (BSEE – Bureau of Safety and Environmental Enforcement) – Description: AI-driven environment safety to prevent environmental damage.
+ntsb.ai (NTSB – National Transportation Safety Board) – Description: AI-powered oversight to help prevent transportation accidents.
+ondcp.ai (ONDCP – Office of National Drug Control Policy) – Description: AI-powered Office of National Drug Control Policy to prevent drug abuse.

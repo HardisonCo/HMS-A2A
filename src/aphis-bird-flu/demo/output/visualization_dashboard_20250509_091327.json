@@ -1,0 +1,83 @@
+{
+  "dashboard_id": "dashboard_demo_1",
+  "timestamp": "2025-05-09T09:13:25.283441",
+  "summary": {
+    "cases": {
+      "total": 257,
+      "last_7d": 43,
+      "last_30d": 124,
+      "by_subtype": {
+        "H5N1": 158,
+        "H7N9": 67,
+        "H9N2": 32
+      }
+    },
+    "surveillance": {
+      "total_events": 1245,
+      "last_7d": 112,
+      "positive_rate": 0.086
+    },
+    "prediction": {
+      "high_risk_regions": 3,
+      "moderate_risk_regions": 7
+    }
+  },
+  "charts": {
+    "case_trend": {
+      "image_id": "viz_chart_demo_1",
+      "timestamp": "2025-05-09T09:13:25.283704",
+      "type": "case_trend",
+      "base64_image": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "metadata": {
+        "dimensions": {
+          "width": 800,
+          "height": 500
+        },
+        "data_points": 30
+      }
+    },
+    "subtype_distribution": {
+      "image_id": "viz_chart_demo_1",
+      "timestamp": "2025-05-09T09:13:25.283799",
+      "type": "subtype_distribution",
+      "base64_image": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "metadata": {
+        "dimensions": {
+          "width": 800,
+          "height": 500
+        },
+        "data_points": 30
+      }
+    }
+  },
+  "maps": {
+    "case_map": {
+      "image_id": "viz_map_demo_1",
+      "timestamp": "2025-05-09T09:13:25.283858",
+      "type": "case_map",
+      "base64_image": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "metadata": {
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "regions_shown": 15,
+        "cases_shown": 45
+      }
+    },
+    "risk_map": {
+      "image_id": "viz_map_demo_1",
+      "timestamp": "2025-05-09T09:13:25.283911",
+      "type": "risk_map",
+      "base64_image": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "metadata": {
+        "dimensions": {
+          "width": 1200,
+          "height": 900
+        },
+        "regions_shown": 15,
+        "cases_shown": 45
+      }
+    }
+  }
+}

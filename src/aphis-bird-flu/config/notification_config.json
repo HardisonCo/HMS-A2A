@@ -1,0 +1,62 @@
+{
+    "channels": {
+        "email": {
+            "enabled": true,
+            "smtp_server": "smtp.example.com",
+            "smtp_port": 587,
+            "smtp_user": "aphis-alerts@usda.gov",
+            "smtp_password": "REPLACE_WITH_SECURE_PASSWORD",
+            "from_address": "aphis-alerts@usda.gov",
+            "use_tls": true
+        },
+        "sms": {
+            "enabled": true,
+            "provider": "twilio",
+            "api_key": "REPLACE_WITH_API_KEY",
+            "api_secret": "REPLACE_WITH_API_SECRET",
+            "from_number": "+18001234567"
+        },
+        "webhook": {
+            "enabled": true,
+            "endpoints": [
+                "https://example.com/api/aphis/webhook",
+                "https://backup-server.example.com/aphis/alerts"
+            ],
+            "headers": {
+                "X-API-Key": "REPLACE_WITH_API_KEY",
+                "User-Agent": "APHIS Bird Flu Tracking System"
+            },
+            "auth_type": "bearer",
+            "auth_token": "REPLACE_WITH_AUTH_TOKEN"
+        }
+    },
+    "recipients": {
+        "email": [
+            "avian-flu-team@aphis.usda.gov",
+            "emergency-response@aphis.usda.gov"
+        ],
+        "sms": [
+            "+18005551234",
+            "+18005555678"
+        ]
+    },
+    "notification_levels": {
+        "info": {
+            "channels": ["email", "webhook"]
+        },
+        "warning": {
+            "channels": ["email", "webhook", "sms"]
+        },
+        "urgent": {
+            "channels": ["email", "webhook", "sms"]
+        },
+        "emergency": {
+            "channels": ["email", "webhook", "sms"]
+        }
+    },
+    "rate_limiting": {
+        "enabled": true,
+        "max_notifications_per_hour": 10,
+        "exceptions": ["emergency"]
+    }
+}

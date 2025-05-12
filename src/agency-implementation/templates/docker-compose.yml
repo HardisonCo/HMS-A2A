@@ -1,0 +1,101 @@
+version: '3.8'
+
+services:
+  # Agency API service
+  agency-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - AGENCY_CODE=AGENCY
+      - AGENCY_NAME=Agency Name
+      - HMS_API_URL=http://mock-hms-api:3001
+      - API_KEY=development-api-key
+      - LOG_LEVEL=debug
+      - RUST_BACKTRACE=1
+    depends_on:
+      - mock-hms-api
+    networks:
+      - agency-network
+    volumes:
+      - ./config:/app/config
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+  
+  # Mock HMS API for local development
+  mock-hms-api:
+    image: stoplight/prism:4
+    ports:
+      - "3001:4010"
+    command: mock -h 0.0.0.0 /app/hms-api-spec.yaml
+    volumes:
+      - ./config/hms-api-spec.yaml:/app/hms-api-spec.yaml
+    networks:
+      - agency-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4010/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+  
+  # Database (uncomment and configure as needed)
+  # database:
+  #   image: postgres:14
+  #   ports:
+  #     - "5432:5432"
+  #   environment:
+  #     - POSTGRES_USER=agency
+  #     - POSTGRES_PASSWORD=agency_password
+  #     - POSTGRES_DB=agency_db
+  #   volumes:
+  #     - agency-db-data:/var/lib/postgresql/data
+  #   networks:
+  #     - agency-network
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U agency"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 5
+  
+  # Monitoring (uncomment and configure as needed)
+  # prometheus:
+  #   image: prom/prometheus:v2.37.0
+  #   ports:
+  #     - "9090:9090"
+  #   volumes:
+  #     - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
+  #     - prometheus-data:/prometheus
+  #   networks:
+  #     - agency-network
+  
+  # grafana:
+  #   image: grafana/grafana:9.0.3
+  #   ports:
+  #     - "3002:3000"
+  #   volumes:
+  #     - ./config/grafana/provisioning:/etc/grafana/provisioning
+  #     - grafana-data:/var/lib/grafana
+  #   environment:
+  #     - GF_SECURITY_ADMIN_USER=admin
+  #     - GF_SECURITY_ADMIN_PASSWORD=admin
+  #     - GF_USERS_ALLOW_SIGN_UP=false
+  #   networks:
+  #     - agency-network
+  #   depends_on:
+  #     - prometheus
+
+networks:
+  agency-network:
+    driver: bridge
+
+volumes:
+  # Uncomment as needed
+  # agency-db-data:
+  # prometheus-data:
+  # grafana-data:

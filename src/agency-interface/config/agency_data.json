@@ -1,0 +1,1108 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2023-05-10",
+  "agencies": [
+    {
+      "acronym": "HHS",
+      "name": "Department of Health and Human Services",
+      "tier": 1,
+      "domain": "healthcare",
+      "description": "U.S. Department of Health & Human Services",
+      "sub_agencies": [
+        {
+          "acronym": "CDC",
+          "name": "Centers for Disease Control and Prevention"
+        },
+        {
+          "acronym": "CMS",
+          "name": "Centers for Medicare & Medicaid Services"
+        },
+        {
+          "acronym": "FDA",
+          "name": "Food and Drug Administration"
+        },
+        {
+          "acronym": "NIH",
+          "name": "National Institutes of Health"
+        },
+        {
+          "acronym": "ACF",
+          "name": "Administration for Children and Families"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/HHS-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/HHS-PROGRESS-TRACKING.md",
+      "ascii_template": "hhs_ascii.txt"
+    },
+    {
+      "acronym": "USDA",
+      "name": "Department of Agriculture",
+      "tier": 1,
+      "domain": "agriculture",
+      "description": "U.S. Department of Agriculture",
+      "sub_agencies": [
+        {
+          "acronym": "APHIS",
+          "name": "Animal and Plant Health Inspection Service"
+        },
+        {
+          "acronym": "AMS",
+          "name": "Agricultural Marketing Service"
+        },
+        {
+          "acronym": "FS",
+          "name": "Forest Service"
+        },
+        {
+          "acronym": "FNS",
+          "name": "Food and Nutrition Service"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/USDA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/USDA-PROGRESS-TRACKING.md",
+      "ascii_template": "usda_ascii.txt"
+    },
+    {
+      "acronym": "DOD",
+      "name": "Department of Defense",
+      "tier": 1,
+      "domain": "defense",
+      "description": "U.S. Department of Defense",
+      "sub_agencies": [
+        {
+          "acronym": "ARMY",
+          "name": "U.S. Army"
+        },
+        {
+          "acronym": "NAVY",
+          "name": "U.S. Navy"
+        },
+        {
+          "acronym": "USAF",
+          "name": "U.S. Air Force"
+        },
+        {
+          "acronym": "USMC",
+          "name": "U.S. Marine Corps"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOD-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOD-PROGRESS-TRACKING.md",
+      "ascii_template": "dod_ascii.txt"
+    },
+    {
+      "acronym": "TREAS",
+      "name": "Department of the Treasury",
+      "tier": 1,
+      "domain": "finance",
+      "description": "U.S. Department of the Treasury",
+      "sub_agencies": [
+        {
+          "acronym": "IRS",
+          "name": "Internal Revenue Service"
+        },
+        {
+          "acronym": "MINT",
+          "name": "U.S. Mint"
+        },
+        {
+          "acronym": "BFS",
+          "name": "Bureau of the Fiscal Service"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/TREAS-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/TREAS-PROGRESS-TRACKING.md",
+      "ascii_template": "treas_ascii.txt"
+    },
+    {
+      "acronym": "DOJ",
+      "name": "Department of Justice",
+      "tier": 1,
+      "domain": "justice",
+      "description": "U.S. Department of Justice",
+      "sub_agencies": [
+        {
+          "acronym": "FBI",
+          "name": "Federal Bureau of Investigation"
+        },
+        {
+          "acronym": "DEA",
+          "name": "Drug Enforcement Administration"
+        },
+        {
+          "acronym": "ATF",
+          "name": "Bureau of Alcohol, Tobacco, Firearms and Explosives"
+        },
+        {
+          "acronym": "BOP",
+          "name": "Bureau of Prisons"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOJ-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOJ-PROGRESS-TRACKING.md",
+      "ascii_template": "doj_ascii.txt"
+    },
+    {
+      "acronym": "DHS",
+      "name": "Department of Homeland Security",
+      "tier": 1,
+      "domain": "security",
+      "description": "U.S. Department of Homeland Security",
+      "sub_agencies": [
+        {
+          "acronym": "FEMA",
+          "name": "Federal Emergency Management Agency"
+        },
+        {
+          "acronym": "CBP",
+          "name": "Customs and Border Protection"
+        },
+        {
+          "acronym": "ICE",
+          "name": "Immigration and Customs Enforcement"
+        },
+        {
+          "acronym": "TSA",
+          "name": "Transportation Security Administration"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DHS-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DHS-PROGRESS-TRACKING.md",
+      "ascii_template": "dhs_ascii.txt"
+    },
+    {
+      "acronym": "DOS",
+      "name": "Department of State",
+      "tier": 1,
+      "domain": "diplomacy",
+      "description": "U.S. Department of State",
+      "sub_agencies": [
+        {
+          "acronym": "CA",
+          "name": "Bureau of Consular Affairs"
+        },
+        {
+          "acronym": "DS",
+          "name": "Bureau of Diplomatic Security"
+        },
+        {
+          "acronym": "INL",
+          "name": "Bureau of International Narcotics and Law Enforcement Affairs"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOS-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOS-PROGRESS-TRACKING.md",
+      "ascii_template": "dos_ascii.txt"
+    },
+    {
+      "acronym": "DOE",
+      "name": "Department of Energy",
+      "tier": 1,
+      "domain": "energy",
+      "description": "U.S. Department of Energy",
+      "sub_agencies": [
+        {
+          "acronym": "NNSA",
+          "name": "National Nuclear Security Administration"
+        },
+        {
+          "acronym": "EERE",
+          "name": "Office of Energy Efficiency and Renewable Energy"
+        },
+        {
+          "acronym": "OE",
+          "name": "Office of Electricity"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOE-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOE-PROGRESS-TRACKING.md",
+      "ascii_template": "doe_ascii.txt"
+    },
+    {
+      "acronym": "DOC",
+      "name": "Department of Commerce",
+      "tier": 2,
+      "domain": "commerce",
+      "description": "U.S. Department of Commerce",
+      "sub_agencies": [
+        {
+          "acronym": "NOAA",
+          "name": "National Oceanic and Atmospheric Administration"
+        },
+        {
+          "acronym": "USPTO",
+          "name": "United States Patent and Trademark Office"
+        },
+        {
+          "acronym": "NIST",
+          "name": "National Institute of Standards and Technology"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOC-PROGRESS-TRACKING.md",
+      "ascii_template": "doc_ascii.txt"
+    },
+    {
+      "acronym": "DOL",
+      "name": "Department of Labor",
+      "tier": 2,
+      "domain": "labor",
+      "description": "U.S. Department of Labor",
+      "sub_agencies": [
+        {
+          "acronym": "OSHA",
+          "name": "Occupational Safety and Health Administration"
+        },
+        {
+          "acronym": "BLS",
+          "name": "Bureau of Labor Statistics"
+        },
+        {
+          "acronym": "ETA",
+          "name": "Employment and Training Administration"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOL-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOL-PROGRESS-TRACKING.md",
+      "ascii_template": "dol_ascii.txt"
+    },
+    {
+      "acronym": "HUD",
+      "name": "Department of Housing and Urban Development",
+      "tier": 2,
+      "domain": "housing",
+      "description": "U.S. Department of Housing and Urban Development",
+      "sub_agencies": [
+        {
+          "acronym": "FHA",
+          "name": "Federal Housing Administration"
+        },
+        {
+          "acronym": "CPD",
+          "name": "Community Planning and Development"
+        },
+        {
+          "acronym": "PIH",
+          "name": "Office of Public and Indian Housing"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/HUD-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/HUD-PROGRESS-TRACKING.md",
+      "ascii_template": "hud_ascii.txt"
+    },
+    {
+      "acronym": "DOT",
+      "name": "Department of Transportation",
+      "tier": 2,
+      "domain": "transportation",
+      "description": "U.S. Department of Transportation",
+      "sub_agencies": [
+        {
+          "acronym": "FAA",
+          "name": "Federal Aviation Administration"
+        },
+        {
+          "acronym": "FHWA",
+          "name": "Federal Highway Administration"
+        },
+        {
+          "acronym": "FRA",
+          "name": "Federal Railroad Administration"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOT-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOT-PROGRESS-TRACKING.md",
+      "ascii_template": "dot_ascii.txt"
+    },
+    {
+      "acronym": "ED",
+      "name": "Department of Education",
+      "tier": 2,
+      "domain": "education",
+      "description": "U.S. Department of Education",
+      "sub_agencies": [
+        {
+          "acronym": "FSA",
+          "name": "Federal Student Aid"
+        },
+        {
+          "acronym": "OCR",
+          "name": "Office for Civil Rights"
+        },
+        {
+          "acronym": "IES",
+          "name": "Institute of Education Sciences"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/ED-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/ED-PROGRESS-TRACKING.md",
+      "ascii_template": "ed_ascii.txt"
+    },
+    {
+      "acronym": "VA",
+      "name": "Department of Veterans Affairs",
+      "tier": 2,
+      "domain": "veterans",
+      "description": "U.S. Department of Veterans Affairs",
+      "sub_agencies": [
+        {
+          "acronym": "VHA",
+          "name": "Veterans Health Administration"
+        },
+        {
+          "acronym": "VBA",
+          "name": "Veterans Benefits Administration"
+        },
+        {
+          "acronym": "NCA",
+          "name": "National Cemetery Administration"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/VA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/VA-PROGRESS-TRACKING.md",
+      "ascii_template": "va_ascii.txt"
+    },
+    {
+      "acronym": "DOI",
+      "name": "Department of the Interior",
+      "tier": 2,
+      "domain": "interior",
+      "description": "U.S. Department of the Interior",
+      "sub_agencies": [
+        {
+          "acronym": "NPS",
+          "name": "National Park Service"
+        },
+        {
+          "acronym": "BLM",
+          "name": "Bureau of Land Management"
+        },
+        {
+          "acronym": "FWS",
+          "name": "Fish and Wildlife Service"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOI-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/DOI-PROGRESS-TRACKING.md",
+      "ascii_template": "doi_ascii.txt"
+    },
+    {
+      "acronym": "EPA",
+      "name": "Environmental Protection Agency",
+      "tier": 3,
+      "domain": "environment",
+      "description": "U.S. Environmental Protection Agency",
+      "sub_agencies": [
+        {
+          "acronym": "OAR",
+          "name": "Office of Air and Radiation"
+        },
+        {
+          "acronym": "OW",
+          "name": "Office of Water"
+        },
+        {
+          "acronym": "OCSPP",
+          "name": "Office of Chemical Safety and Pollution Prevention"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/EPA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/EPA-PROGRESS-TRACKING.md",
+      "ascii_template": "epa_ascii.txt"
+    },
+    {
+      "acronym": "SBA",
+      "name": "Small Business Administration",
+      "tier": 3,
+      "domain": "business",
+      "description": "U.S. Small Business Administration",
+      "sub_agencies": [
+        {
+          "acronym": "OCA",
+          "name": "Office of Capital Access"
+        },
+        {
+          "acronym": "OED",
+          "name": "Office of Entrepreneurial Development"
+        },
+        {
+          "acronym": "OGCBD",
+          "name": "Office of Government Contracting and Business Development"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/SBA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/SBA-PROGRESS-TRACKING.md",
+      "ascii_template": "sba_ascii.txt"
+    },
+    {
+      "acronym": "SSA",
+      "name": "Social Security Administration",
+      "tier": 3,
+      "domain": "social",
+      "description": "U.S. Social Security Administration",
+      "sub_agencies": [
+        {
+          "acronym": "ODAR",
+          "name": "Office of Disability Adjudication and Review"
+        },
+        {
+          "acronym": "OO",
+          "name": "Office of Operations"
+        },
+        {
+          "acronym": "OCSO",
+          "name": "Office of Central Security Operations"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/SSA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/SSA-PROGRESS-TRACKING.md",
+      "ascii_template": "ssa_ascii.txt"
+    },
+    {
+      "acronym": "NASA",
+      "name": "National Aeronautics and Space Administration",
+      "tier": 3,
+      "domain": "space",
+      "description": "National Aeronautics and Space Administration",
+      "sub_agencies": [
+        {
+          "acronym": "GSFC",
+          "name": "Goddard Space Flight Center"
+        },
+        {
+          "acronym": "JSC",
+          "name": "Johnson Space Center"
+        },
+        {
+          "acronym": "JPL",
+          "name": "Jet Propulsion Laboratory"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NASA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NASA-PROGRESS-TRACKING.md",
+      "ascii_template": "nasa_ascii.txt"
+    },
+    {
+      "acronym": "NSF",
+      "name": "National Science Foundation",
+      "tier": 3,
+      "domain": "science",
+      "description": "National Science Foundation",
+      "sub_agencies": [
+        {
+          "acronym": "BIO",
+          "name": "Directorate for Biological Sciences"
+        },
+        {
+          "acronym": "CISE",
+          "name": "Directorate for Computer and Information Science and Engineering"
+        },
+        {
+          "acronym": "ENG",
+          "name": "Directorate for Engineering"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NSF-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NSF-PROGRESS-TRACKING.md",
+      "ascii_template": "nsf_ascii.txt"
+    },
+    {
+      "acronym": "USAID",
+      "name": "U.S. Agency for International Development",
+      "tier": 3,
+      "domain": "development",
+      "description": "U.S. Agency for International Development",
+      "sub_agencies": [
+        {
+          "acronym": "GH",
+          "name": "Bureau for Global Health"
+        },
+        {
+          "acronym": "DRG",
+          "name": "Center for Democracy, Human Rights and Governance"
+        },
+        {
+          "acronym": "E3",
+          "name": "Bureau for Economic Growth, Education and Environment"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/USAID-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/USAID-PROGRESS-TRACKING.md",
+      "ascii_template": "usaid_ascii.txt"
+    },
+    {
+      "acronym": "FCC",
+      "name": "Federal Communications Commission",
+      "tier": 3,
+      "domain": "communications",
+      "description": "Federal Communications Commission",
+      "sub_agencies": [
+        {
+          "acronym": "WCB",
+          "name": "Wireline Competition Bureau"
+        },
+        {
+          "acronym": "MB",
+          "name": "Media Bureau"
+        },
+        {
+          "acronym": "WTB",
+          "name": "Wireless Telecommunications Bureau"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/FCC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/FCC-PROGRESS-TRACKING.md",
+      "ascii_template": "fcc_ascii.txt"
+    },
+    {
+      "acronym": "OPM",
+      "name": "Office of Personnel Management",
+      "tier": 3,
+      "domain": "personnel",
+      "description": "U.S. Office of Personnel Management",
+      "sub_agencies": [
+        {
+          "acronym": "NBIB",
+          "name": "National Background Investigations Bureau"
+        },
+        {
+          "acronym": "FEHB",
+          "name": "Federal Employees Health Benefits Program"
+        },
+        {
+          "acronym": "RSM",
+          "name": "Retirement Services Management"
+        }
+      ],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/OPM-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/OPM-PROGRESS-TRACKING.md",
+      "ascii_template": "opm_ascii.txt"
+    },
+    {
+      "acronym": "CFPB",
+      "name": "Consumer Financial Protection Bureau",
+      "tier": 4,
+      "domain": "consumer",
+      "description": "Consumer Financial Protection Bureau",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/CFPB-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/CFPB-PROGRESS-TRACKING.md",
+      "ascii_template": "cfpb_ascii.txt"
+    },
+    {
+      "acronym": "CFTC",
+      "name": "Commodity Futures Trading Commission",
+      "tier": 4,
+      "domain": "commodity",
+      "description": "Commodity Futures Trading Commission",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/CFTC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/CFTC-PROGRESS-TRACKING.md",
+      "ascii_template": "cftc_ascii.txt"
+    },
+    {
+      "acronym": "CPSC",
+      "name": "Consumer Product Safety Commission",
+      "tier": 4,
+      "domain": "consumer_safety",
+      "description": "Consumer Product Safety Commission",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/CPSC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/CPSC-PROGRESS-TRACKING.md",
+      "ascii_template": "cpsc_ascii.txt"
+    },
+    {
+      "acronym": "EEOC",
+      "name": "Equal Employment Opportunity Commission",
+      "tier": 4,
+      "domain": "employment_rights",
+      "description": "Equal Employment Opportunity Commission",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/EEOC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/EEOC-PROGRESS-TRACKING.md",
+      "ascii_template": "eeoc_ascii.txt"
+    },
+    {
+      "acronym": "FTC",
+      "name": "Federal Trade Commission",
+      "tier": 4,
+      "domain": "consumer_protection",
+      "description": "Federal Trade Commission",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/FTC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/FTC-PROGRESS-TRACKING.md",
+      "ascii_template": "ftc_ascii.txt"
+    },
+    {
+      "acronym": "GSA",
+      "name": "General Services Administration",
+      "tier": 4,
+      "domain": "government_services",
+      "description": "General Services Administration",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/GSA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/GSA-PROGRESS-TRACKING.md",
+      "ascii_template": "gsa_ascii.txt"
+    },
+    {
+      "acronym": "NARA",
+      "name": "National Archives and Records Administration",
+      "tier": 4,
+      "domain": "records",
+      "description": "National Archives and Records Administration",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NARA-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NARA-PROGRESS-TRACKING.md",
+      "ascii_template": "nara_ascii.txt"
+    },
+    {
+      "acronym": "NRC",
+      "name": "Nuclear Regulatory Commission",
+      "tier": 4,
+      "domain": "nuclear",
+      "description": "Nuclear Regulatory Commission",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NRC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/NRC-PROGRESS-TRACKING.md",
+      "ascii_template": "nrc_ascii.txt"
+    },
+    {
+      "acronym": "PBGC",
+      "name": "Pension Benefit Guaranty Corporation",
+      "tier": 4,
+      "domain": "pension",
+      "description": "Pension Benefit Guaranty Corporation",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/PBGC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/PBGC-PROGRESS-TRACKING.md",
+      "ascii_template": "pbgc_ascii.txt"
+    },
+    {
+      "acronym": "SEC",
+      "name": "Securities and Exchange Commission",
+      "tier": 4,
+      "domain": "securities",
+      "description": "Securities and Exchange Commission",
+      "sub_agencies": [],
+      "implementation_plan": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/SEC-IMPLEMENTATION-PLAN.md",
+      "progress_tracking": "../../../SYSTEM-COMPONENTS/HMS-DEV/docs/agency-plans/SEC-PROGRESS-TRACKING.md",
+      "ascii_template": "sec_ascii.txt"
+    },
+    {
+      "acronym": "CBER",
+      "name": "Center for Biologics Evaluation and Research",
+      "domain": "biologics",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "cber.ai",
+      "name": "CBER \u2013 Center for Biologics Evaluation and Research",
+      "domain": "biologics",
+      "description": "Center for Biologics Evaluation and Research)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "cder.ai",
+      "name": "CDER \u2013 Center for Drug Evaluation and Research",
+      "domain": "drugs",
+      "description": "Center for Drug Evaluation and Research)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "hrsa.ai",
+      "name": "HRSA \u2013 Health Resources and Services Administration",
+      "domain": "healthcare",
+      "description": "Health Resources and Services Administration)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "aphis.ai",
+      "name": "APHIS \u2013 Animal and Plant Health Inspection Service",
+      "domain": "healthcare",
+      "description": "Animal and Plant Health Inspection Service)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "nhtsa.ai",
+      "name": "NHTSA \u2013 National Highway Traffic Safety Administration",
+      "domain": "safety",
+      "description": "National Highway Traffic Safety Administration)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "cpsc.ai",
+      "name": "CPSC \u2013 Consumer Product Safety Commission",
+      "domain": "safety",
+      "description": "Consumer Product Safety Commission)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "fhfa.ai",
+      "name": "FHFA \u2013 Federal Housing Finance Agency",
+      "domain": "finance",
+      "description": "Federal Housing Finance Agency)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "usitc.ai",
+      "name": "USITC \u2013 U.S. International Trade Commission",
+      "domain": "healthcare",
+      "description": "U.S. International Trade Commission)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "spuhc.ai",
+      "name": "SPUHC \u2013 Specialty Provider Utility Health Care",
+      "domain": "healthcare",
+      "description": "Specialty Provider Utility Health Care)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "cfsan.ai",
+      "name": "CFSAN \u2013 Center for Food Safety and Applied Nutrition",
+      "domain": "food",
+      "description": "Center for Food Safety and Applied Nutrition)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "niddk.ai",
+      "name": "NIDDK \u2013 National Institute of Diabetes and Digestive and Kidney Diseases",
+      "domain": "healthcare",
+      "description": "National Institute of Diabetes and Digestive and Kidney Diseases)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "crohns.ai",
+      "name": "Crohn's Disease Prevention",
+      "domain": "healthcare",
+      "description": "Description: AI solutions to detect, manage, and help prevent Crohn's disease.",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "doed.ai",
+      "name": "DOE \u2013 Department of Education",
+      "domain": "education",
+      "description": "Department of Education)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "nslp.ai",
+      "name": "NSLP \u2013 National School Lunch Program",
+      "domain": "healthcare",
+      "description": "National School Lunch Program)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "usich.ai",
+      "name": "USICH \u2013 U.S. Interagency Council on Homelessness",
+      "domain": "healthcare",
+      "description": "U.S. Interagency Council on Homelessness)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "bsee.ai",
+      "name": "BSEE \u2013 Bureau of Safety and Environmental Enforcement",
+      "domain": "environment",
+      "description": "Bureau of Safety and Environmental Enforcement)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "ntsb.ai",
+      "name": "NTSB \u2013 National Transportation Safety Board",
+      "domain": "safety",
+      "description": "National Transportation Safety Board)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "ondcp.ai",
+      "name": "ONDCP \u2013 Office of National Drug Control Policy",
+      "domain": "drugs",
+      "description": "Office of National Drug Control Policy)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "hsin.ai",
+      "name": "HSIN \u2013 Homeland Security Information Network",
+      "domain": "healthcare",
+      "description": "Homeland Security Information Network)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "csfc.ai",
+      "name": "CSFC \u2013 Cybersecurity & Financial Crimes",
+      "domain": "finance",
+      "description": "Cybersecurity & Financial Crimes)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "tlnt.ai",
+      "name": "TLNT \u2013 Talent Management",
+      "domain": "healthcare",
+      "description": "Talent Management)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "naacp.ai",
+      "name": "NAACP \u2013 National Association for the Advancement of Colored People",
+      "domain": "healthcare",
+      "description": "National Association for the Advancement of Colored People)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "nccih.ai",
+      "name": "NCCIH \u2013 National Center for Complementary and Integrative Health",
+      "domain": "healthcare",
+      "description": "National Center for Complementary and Integrative Health)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "cnpp.ai",
+      "name": "CNPP \u2013 Center for Nutrition Policy and Promotion",
+      "domain": "nutrition",
+      "description": "Center for Nutrition Policy and Promotion)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "oash.ai",
+      "name": "OASH \u2013 Office of the Assistant Secretary for Health",
+      "domain": "healthcare",
+      "description": "Office of the Assistant Secretary for Health)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "ustda.ai",
+      "name": "USTDA \u2013 U.S. Trade and Development Agency",
+      "domain": "healthcare",
+      "description": "U.S. Trade and Development Agency)",
+      "ai_enabled": true
+    },
+    {
+      "acronym": "phm.ai",
+      "name": "PHM \u2013 Population Health Management",
+      "domain": "healthcare",
+      "description": "Population Health Management)",
+      "ai_enabled": true
+    }
+  ],
+  "topics": {
+    "healthcare": [
+      "public health",
+      "medicare",
+      "medicaid",
+      "health insurance",
+      "drug approvals",
+      "medical research"
+    ],
+    "agriculture": [
+      "food safety",
+      "animal health",
+      "plant health",
+      "rural development",
+      "food assistance"
+    ],
+    "defense": [
+      "national security",
+      "military operations",
+      "defense procurement",
+      "veterans affairs"
+    ],
+    "finance": [
+      "federal budget",
+      "taxation",
+      "financial regulation",
+      "economic policy"
+    ],
+    "justice": [
+      "law enforcement",
+      "criminal justice",
+      "civil rights",
+      "legal affairs"
+    ],
+    "security": [
+      "border security",
+      "emergency management",
+      "critical infrastructure",
+      "cybersecurity"
+    ],
+    "diplomacy": [
+      "foreign policy",
+      "diplomatic relations",
+      "international agreements",
+      "consular services"
+    ],
+    "energy": [
+      "energy policy",
+      "nuclear security",
+      "renewable energy",
+      "energy research"
+    ],
+    "commerce": [
+      "economic development",
+      "trade policy",
+      "intellectual property",
+      "standards and technology"
+    ],
+    "labor": [
+      "worker protection",
+      "employment policy",
+      "labor statistics",
+      "workforce development"
+    ],
+    "housing": [
+      "housing policy",
+      "community development",
+      "fair housing",
+      "affordable housing"
+    ],
+    "transportation": [
+      "transportation safety",
+      "infrastructure development",
+      "aviation",
+      "public transit"
+    ],
+    "education": [
+      "education policy",
+      "student aid",
+      "civil rights in education",
+      "education research"
+    ],
+    "veterans": [
+      "veterans health",
+      "veterans benefits",
+      "memorial affairs",
+      "veteran services"
+    ],
+    "interior": [
+      "land management",
+      "national parks",
+      "wildlife conservation",
+      "natural resources"
+    ],
+    "environment": [
+      "air quality",
+      "water quality",
+      "chemical safety",
+      "waste management",
+      "climate change"
+    ],
+    "business": [
+      "small business loans",
+      "entrepreneurship",
+      "business development",
+      "government contracting",
+      "disaster assistance"
+    ],
+    "social": [
+      "retirement benefits",
+      "disability benefits",
+      "survivor benefits",
+      "supplemental security income",
+      "social security cards"
+    ],
+    "space": [
+      "space exploration",
+      "aeronautics research",
+      "satellite operations",
+      "space technology",
+      "earth science"
+    ],
+    "science": [
+      "basic research",
+      "engineering research",
+      "education research",
+      "computer science",
+      "biological science"
+    ],
+    "development": [
+      "international development",
+      "humanitarian assistance",
+      "democracy promotion",
+      "global health",
+      "economic growth"
+    ],
+    "communications": [
+      "telecommunications",
+      "broadcasting",
+      "spectrum management",
+      "internet",
+      "broadband"
+    ],
+    "personnel": [
+      "federal employment",
+      "retirement systems",
+      "health benefits",
+      "background investigations",
+      "workforce management"
+    ],
+    "consumer": [
+      "financial products",
+      "consumer protection",
+      "financial education",
+      "debt collection",
+      "fair lending"
+    ],
+    "commodity": [
+      "futures markets",
+      "swaps markets",
+      "derivatives",
+      "market integrity",
+      "risk management"
+    ],
+    "consumer_safety": [
+      "product safety",
+      "standards development",
+      "recall oversight",
+      "consumer education",
+      "injury prevention"
+    ],
+    "employment_rights": [
+      "discrimination",
+      "harassment",
+      "equal opportunity",
+      "compliance assistance",
+      "enforcement"
+    ],
+    "consumer_protection": [
+      "antitrust",
+      "consumer protection",
+      "competition",
+      "privacy",
+      "identity theft"
+    ],
+    "government_services": [
+      "procurement",
+      "real estate",
+      "technology",
+      "fleet management",
+      "policy"
+    ],
+    "records": [
+      "archives",
+      "records management",
+      "historical preservation",
+      "declassification",
+      "public access"
+    ],
+    "nuclear": [
+      "nuclear safety",
+      "reactor regulation",
+      "materials safety",
+      "waste management",
+      "security"
+    ],
+    "pension": [
+      "pension insurance",
+      "plan termination",
+      "benefit payments",
+      "multiemployer programs",
+      "regulatory compliance"
+    ],
+    "securities": [
+      "securities markets",
+      "investment management",
+      "corporate disclosure",
+      "enforcement",
+      "investor protection"
+    ]
+  }
+}

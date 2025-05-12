@@ -1,0 +1,145 @@
+{
+  "connector": {
+    "version": "1.0.0",
+    "name": "CDF Connector",
+    "description": "Connects HMS-GOV to HMS-CDF via agency interface"
+  },
+  "api": {
+    "base_url": "https://api.cdf.gov",
+    "version": "v1",
+    "timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay_seconds": 2
+  },
+  "domains": {
+    "dnc": {
+      "url": "https://dnc.dev",
+      "api_path": "/api/v1",
+      "auth_type": "bearer",
+      "webhook_secret": "{{ENV:DNC_WEBHOOK_SECRET}}",
+      "features": ["debates", "votes", "protocols", "decisions"]
+    },
+    "rnc": {
+      "url": "https://rnc.dev",
+      "api_path": "/api/v1",
+      "auth_type": "bearer",
+      "webhook_secret": "{{ENV:RNC_WEBHOOK_SECRET}}",
+      "features": ["debates", "votes", "protocols", "decisions"]
+    }
+  },
+  "transformation": {
+    "protocol_format_version": "2.1",
+    "supported_formats": ["hms-api", "cdf", "adaptive-trial"],
+    "default_mappings": {
+      "stage_mappings": {
+        "draft": "STAGE-DRAFT",
+        "review": "STAGE-REVIEW",
+        "debate": "STAGE-DEBATE",
+        "vote": "STAGE-VOTE",
+        "implementation": "STAGE-IMPLEMENT"
+      },
+      "status_mappings": {
+        "published": "Active",
+        "draft": "Draft",
+        "archived": "Completed",
+        "rejected": "Rejected"
+      },
+      "category_mappings": {
+        "adaptive": "mams",
+        "biomarker": "biomarker",
+        "platform": "platform",
+        "basket": "basket",
+        "umbrella": "umbrella",
+        "standard": "standard"
+      }
+    }
+  },
+  "events": {
+    "protocol_update": {
+      "path": "/webhooks/cdf/protocol-update",
+      "method": "POST",
+      "signature_header": "X-CDF-Signature",
+      "signature_algorithm": "sha256"
+    },
+    "decision_event": {
+      "path": "/webhooks/cdf/decision-event",
+      "method": "POST",
+      "signature_header": "X-CDF-Signature",
+      "signature_algorithm": "sha256"
+    },
+    "debate_event": {
+      "path": "/webhooks/cdf/debate-event",
+      "method": "POST",
+      "signature_header": "X-CDF-Signature",
+      "signature_algorithm": "sha256"
+    },
+    "vote_event": {
+      "path": "/webhooks/cdf/vote-event",
+      "method": "POST",
+      "signature_header": "X-CDF-Signature",
+      "signature_algorithm": "sha256"
+    }
+  },
+  "legislative_framework": {
+    "debate_types": [
+      "committee_hearing",
+      "public_forum",
+      "expert_panel",
+      "stakeholder_meeting"
+    ],
+    "vote_types": [
+      "majority",
+      "supermajority",
+      "consensus",
+      "committee_vote"
+    ],
+    "decision_rules": {
+      "majority": {
+        "threshold": 0.51,
+        "description": "Simple majority vote (>50%)"
+      },
+      "supermajority": {
+        "threshold": 0.66,
+        "description": "Supermajority vote (≥66%)"
+      },
+      "consensus": {
+        "threshold": 0.80,
+        "description": "Strong consensus (≥80%)"
+      }
+    },
+    "amendment_process": {
+      "types": ["procedural", "substantive", "technical"],
+      "default_rules": {
+        "approval_threshold": 0.51,
+        "time_limit_hours": 48
+      }
+    }
+  },
+  "integrations": {
+    "verification": {
+      "enabled": true,
+      "providers": ["protocol_verifier", "treatment_safety_verifier"]
+    },
+    "genetic_engine": {
+      "enabled": true,
+      "optimization_types": ["protocol", "treatment", "allocation"]
+    },
+    "event_synchronization": {
+      "enabled": true,
+      "bidirectional": true,
+      "sync_interval_seconds": 60
+    }
+  },
+  "logging": {
+    "level": "info",
+    "file": "cdf_connector.log",
+    "max_size_mb": 10,
+    "max_files": 5,
+    "include_timestamp": true
+  },
+  "cache": {
+    "enabled": true,
+    "ttl_seconds": 3600,
+    "max_size_mb": 100
+  }
+}

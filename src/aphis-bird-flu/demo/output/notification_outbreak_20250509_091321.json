@@ -1,0 +1,12 @@
+{
+  "notification_id": "notify_demo_1",
+  "timestamp": "2025-05-09T09:13:20.260784",
+  "status": "sent",
+  "recipients": {
+    "email": 3,
+    "sms": 2,
+    "webhook": 1
+  },
+  "alert_type": "outbreak_detection",
+  "success": true
+}

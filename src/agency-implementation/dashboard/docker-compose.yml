@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8050:8050"
+    environment:
+      - FEDERATION_API_URL=http://federation:8000/api/v1/federation
+    depends_on:
+      - federation
+    networks:
+      - bird-flu-network
+
+  federation:
+    build: ../federation
+    ports:
+      - "8000:8000"
+    environment:
+      - CDC_API_BASE_URL=http://cdc:8001/api/v1/cdc
+      - EPA_API_BASE_URL=http://epa:8002/api/v1/epa
+      - FEMA_API_BASE_URL=http://fema:8003/api/v1/fema
+    depends_on:
+      - cdc
+      - epa
+      - fema
+    networks:
+      - bird-flu-network
+
+  cdc:
+    build: ../cdc
+    ports:
+      - "8001:8001"
+    networks:
+      - bird-flu-network
+
+  epa:
+    build: ../epa
+    ports:
+      - "8002:8002"
+    networks:
+      - bird-flu-network
+
+  fema:
+    build: ../fema
+    ports:
+      - "8003:8003"
+    networks:
+      - bird-flu-network
+
+networks:
+  bird-flu-network:
+    driver: bridge

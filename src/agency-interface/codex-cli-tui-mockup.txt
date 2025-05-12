@@ -1,0 +1,141 @@
+┌──────────────────────────────────── Codex CLI ────────────────────────────────────┐
+│                                                                                      │
+│ Human: How can I optimize my React application's performance?                        │
+│                                                                                      │
+│ Assistant: I'll help you optimize your React application. Here are some key          │
+│ strategies:                                                                          │
+│                                                                                      │
+│ 1. Use React.memo for component memoization                                         │
+│ 2. Implement useCallback for stable function references                             │
+│ 3. Utilize useMemo for expensive calculations                                       │
+│ 4. Enable virtualization for long lists with react-window                           │
+│                                                                                      │
+│ Let me show you an example of using React.memo:                                      │
+│                                                                                      │
+│ ```jsx                                                                               │
+│ // Without memoization                                                               │
+│ const UserProfile = (props) => {                                                     │
+│   // Component re-renders on every parent render                                     │
+│   return <div>{props.name}</div>;                                                    │
+│ };                                                                                   │
+│                                                                                      │
+│ // With memoization                                                                  │
+│ const UserProfile = React.memo((props) => {                                          │
+│   // Only re-renders when props change                                               │
+│   return <div>{props.name}</div>;                                                    │
+│ });                                                                                  │
+│ ```                                                                                  │
+│                                                                                      │
+│ Would you like me to show examples of the other optimization techniques?             │
+│                                                                                      │
+│ Human: Yes, show me how to use useCallback and useMemo                               │
+│                                                                                      │
+│ [System Health: ● Good | A2A Agents: 4 active | Self-Healing: Enabled]               │
+│                                                                                      │
+│ > █                                                                                  │
+│                                                                                      │
+│ F1:Help | Ctrl+P:Progress | Ctrl+H:Health | Ctrl+A:Agents | Ctrl+D:Quit              │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────── Implementation Progress ───────────────────────────────┐
+│                                                                                    │
+│ Overall Progress: [██████████████████████████·······················] 57.4%        │
+│                                                                                    │
+│ Core Features:     [██████████████████████████████████··············] 72.5%        │
+│ Self-Healing:      [██████████████████████████████································] 50.3%        │
+│ A2A Protocol:      [████████████████████████·····································] 42.5%        │
+│ Genetic Engine:    [███████████████·······································] 30.2%        │
+│ UI Components:     [█████████████████████████████████████················] 65.8%        │
+│ Testing:           [██████████████████████████████████████████···········] 82.1%        │
+│                                                                                    │
+│ Selected: Self-Healing                                                             │
+│ Status: In Progress                                                                │
+│ Next Milestone: Circuit Breaker Implementation (Due: 05/21/2023)                   │
+│ Current Tasks: Implementing recovery strategies, Health monitoring dashboard       │
+│                                                                                    │
+│ Recent Updates:                                                                    │
+│ - Health monitoring service completed (+15.2%)                                     │
+│ - Basic circuit breaker pattern implemented (+8.7%)                                │
+│ - Recovery strategy interface defined (+5.5%)                                      │
+│                                                                                    │
+│ Press ESC to close, ↑↓ to navigate, ENTER for details                              │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────── System Health Dashboard ─────────────────────────────┐
+│                                                                                    │
+│ Overall Health: Good                  Last Incident: 2h 15m ago (auto-resolved)    │
+│                                                                                    │
+│ Component Status:                                                                  │
+│ ● Core System         │ Healthy       │ Response: 42ms    │ Load: 12%              │
+│ ● Network Service     │ Healthy       │ Latency: 87ms     │ Errors: 0.02%          │
+│ ● Storage Service     │ Healthy       │ IOPS: 156         │ Utilization: 34%       │
+│ ● AI Connector        │ Healthy       │ Response: 342ms   │ Tokens/s: 2.5K         │
+│ ● Agent Registry      │ Healthy       │ Agents: 4/4       │ Registration: 100%     │
+│ ▲ File Watcher        │ Degraded      │ Events: 23/s      │ CPU: 78%               │
+│                                                                                    │
+│ Circuit Breakers:                                                                  │
+│ Network API: CLOSED   │ Storage API: CLOSED  │ Agent API: CLOSED  │ AI API: CLOSED │
+│                                                                                    │
+│ Recent Healing Events:                                                             │
+│ [12:42:15] File Watcher CPU spike detected - applied throttling                    │
+│ [10:27:03] Network Service timeout - reset connection pool                         │
+│ [08:15:31] Storage Service slow response - cache refresh performed                 │
+│                                                                                    │
+│ Press ESC to close, ↑↓ to navigate, ENTER for details                              │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────── Agent Communication Hub ─────────────────────────────┐
+│                                                                                   │
+│ Active Agents: 4                     Message Queue: 3                             │
+│                                                                                   │
+│ ┌─ Core Agent ─────────────┐ ┌─ Code Analysis Agent ─┐ ┌─ Search Agent ─────────┐│
+│ │ Status: Active           │ │ Status: Active         │ │ Status: Active         ││
+│ │ Capabilities: 8          │ │ Capabilities: 12       │ │ Capabilities: 6        ││
+│ │ Messages: 2↑ 5↓          │ │ Messages: 8↑ 3↓        │ │ Messages: 4↑ 2↓        ││
+│ │ Last action: 3s ago      │ │ Last action: 12s ago   │ │ Last action: 8s ago    ││
+│ └─────────────────────────┘ └─────────────────────────┘ └───────────────────────┘│
+│                                                                                   │
+│ ┌─ Optimization Agent ────┐                                                       │
+│ │ Status: Active          │      Message Flows:                                   │
+│ │ Capabilities: 10        │      Human → Core → Analysis → Optimization → Human   │
+│ │ Messages: 3↑ 1↓         │                    ↓                                  │
+│ │ Last action: 5s ago     │                  Search                               │
+│ └────────────────────────┘                                                        │
+│                                                                                   │
+│ Recent Messages:                                                                  │
+│ [Core → Analysis] Request code pattern identification                             │
+│ [Analysis → Optimization] Performance bottlenecks detected                        │
+│ [Optimization → Core] Recommended optimization strategies                         │
+│                                                                                   │
+│ Press ESC to close, ↑↓ to navigate, ENTER for details                             │
+└───────────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────── Codex Help ──────────────────────────────────┐
+│                                                                                   │
+│ KEYBOARD SHORTCUTS                                                                │
+│ ──────────────────                                                                │
+│ F1 or ?          Show/hide this help screen                                       │
+│ Ctrl+P           Toggle progress dashboard                                        │
+│ Ctrl+H           Toggle health dashboard                                          │
+│ Ctrl+A           Toggle agent communication hub                                   │
+│ Ctrl+G           Toggle genetic optimization view                                 │
+│ Tab              Switch focus between panels                                      │
+│ ↑↓               Navigate history or scroll current view                          │
+│ Enter            Submit message or select item                                    │
+│ Shift+Enter      Add newline in input                                             │
+│ Ctrl+C           Interrupt current operation                                      │
+│ Ctrl+D or q      Quit Codex CLI                                                   │
+│                                                                                   │
+│ COMMANDS                                                                          │
+│ ────────                                                                          │
+│ !command         Execute shell command                                            │
+│ :help            Show help for a specific topic                                   │
+│ :health          Show system health status                                        │
+│ :agents          Show active agents and their status                              │
+│ :progress        Show implementation progress                                     │
+│ :optimize        Run genetic optimization for a component                         │
+│ :simulate-failure Simulate a component failure (testing only)                     │
+│ :recover         Manually trigger recovery for a component                        │
+│                                                                                   │
+│ Press ESC to close, ↑↓ to scroll                                                  │
+└───────────────────────────────────────────────────────────────────────────────────┘

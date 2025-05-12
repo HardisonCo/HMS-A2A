@@ -1,0 +1,137 @@
+{
+  "agency": {
+    "name": "Centers for Disease Control and Prevention",
+    "abbreviation": "CDC",
+    "domain": "public_health",
+    "website": "https://www.cdc.gov",
+    "description": "The Centers for Disease Control and Prevention works to protect America from health, safety and security threats, both foreign and domestic."
+  },
+  "services": {
+    "disease_surveillance": {
+      "enabled": true,
+      "data_refresh_interval": 3600,
+      "notification_threshold": 0.75,
+      "data_sources": [
+        "state_health_departments",
+        "clinical_lab_reports",
+        "who_global_surveillance"
+      ]
+    },
+    "genomic_analysis": {
+      "enabled": true,
+      "batch_size": 100,
+      "processing_interval": 7200,
+      "supported_pathogens": [
+        "sars_cov_2",
+        "influenza",
+        "escherichia_coli",
+        "salmonella"
+      ]
+    },
+    "epidemiological_modeling": {
+      "enabled": true,
+      "model_update_frequency": 86400,
+      "prediction_horizon_days": 30,
+      "confidence_interval": 0.95
+    },
+    "public_health_dashboard": {
+      "enabled": true,
+      "update_frequency": 3600,
+      "visualization_components": [
+        "choropleth_maps",
+        "trend_graphs",
+        "demographic_breakdowns",
+        "risk_assessments"
+      ]
+    },
+    "alert_distribution": {
+      "enabled": true,
+      "channels": [
+        "email",
+        "sms",
+        "api_webhook",
+        "health_alert_network"
+      ],
+      "urgency_levels": [
+        "info",
+        "advisory",
+        "warning",
+        "emergency"
+      ]
+    }
+  },
+  "extension_points": {
+    "data_sources": {
+      "state_health_api": {
+        "type": "api_based",
+        "config": {
+          "api_url_template": "https://health.{{state}}.gov/api/v1/disease-data",
+          "auth_method": "api_key",
+          "refresh_interval": 3600
+        }
+      },
+      "clinical_lab_database": {
+        "type": "database",
+        "config": {
+          "connection_string_env": "CDC_LAB_DB_CONNECTION",
+          "query_timeout": 30,
+          "batch_size": 1000
+        }
+      },
+      "genetic_sequence_files": {
+        "type": "file_based",
+        "config": {
+          "directory_path": "/data/sequences",
+          "file_pattern": "*.fasta",
+          "processing_interval": 7200
+        }
+      }
+    },
+    "predictive_models": {
+      "disease_spread": {
+        "implementation": "advanced_seir_model",
+        "parameters": {
+          "spatial_resolution": "county",
+          "temporal_resolution": "daily",
+          "include_demographics": true,
+          "include_mobility": true,
+          "include_vaccination": true
+        }
+      }
+    },
+    "notification_channels": {
+      "health_alert_network": {
+        "implementation": "custom_han_adapter",
+        "config": {
+          "api_endpoint": "https://han.cdc.gov/api/alerts",
+          "credentials_env": "CDC_HAN_CREDENTIALS",
+          "retry_attempts": 3
+        }
+      }
+    }
+  },
+  "integrations": {
+    "who_global_surveillance": {
+      "endpoint": "https://gis.who.int/api/surveillance",
+      "auth_method": "oauth2",
+      "data_format": "json",
+      "sync_interval": 21600
+    },
+    "state_health_departments": {
+      "federation_enabled": true,
+      "partner_onboarding_workflow": "automatic",
+      "data_sharing_agreements_required": true,
+      "schema_validation": true
+    },
+    "hms_api": {
+      "enabled": true,
+      "endpoint": "${HMS_API_ENDPOINT}",
+      "auth_token_env": "HMS_API_TOKEN",
+      "services": [
+        "data_exchange",
+        "alert_distribution",
+        "reporting"
+      ]
+    }
+  }
+}

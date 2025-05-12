@@ -1,0 +1,40 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateEventSyncEventsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('event_sync_events', function (Blueprint $table) {
+            $table->string('id')->primary();
+            $table->string('name');
+            $table->json('payload')->nullable();
+            $table->json('options')->nullable();
+            $table->double('timestamp');
+            $table->boolean('processed')->default(false);
+            $table->timestamps();
+            
+            $table->index('name');
+            $table->index('processed');
+            $table->index('timestamp');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('event_sync_events');
+    }
+}

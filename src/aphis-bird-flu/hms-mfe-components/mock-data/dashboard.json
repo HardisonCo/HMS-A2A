@@ -1,0 +1,254 @@
+{
+  "totalCases": 527,
+  "sequencedCases": 214,
+  "affectedRegions": 18,
+  "highRiskCases": 42,
+  "caseTrend": 12.5,
+  "sequenceTrend": 24.3,
+  "regionTrend": 5.2,
+  "riskTrend": 8.7,
+  "recentOutbreaks": [
+    {
+      "id": "OUT-2023-0158",
+      "date": "2023-05-15T00:00:00Z",
+      "location": "Yakima County, WA",
+      "subtype": "H5N1",
+      "severity": "high"
+    },
+    {
+      "id": "OUT-2023-0157",
+      "date": "2023-05-12T00:00:00Z",
+      "location": "Lancaster County, PA",
+      "subtype": "H5N1",
+      "severity": "medium"
+    },
+    {
+      "id": "OUT-2023-0156",
+      "date": "2023-05-10T00:00:00Z",
+      "location": "Fresno County, CA",
+      "subtype": "H5N8",
+      "severity": "medium"
+    },
+    {
+      "id": "OUT-2023-0155",
+      "date": "2023-05-08T00:00:00Z",
+      "location": "Weld County, CO",
+      "subtype": "H5N1",
+      "severity": "high"
+    },
+    {
+      "id": "OUT-2023-0154",
+      "date": "2023-05-05T00:00:00Z",
+      "location": "Wright County, MN",
+      "subtype": "H5N1",
+      "severity": "medium"
+    },
+    {
+      "id": "OUT-2023-0153",
+      "date": "2023-05-01T00:00:00Z",
+      "location": "Knox County, NE",
+      "subtype": "H7N9",
+      "severity": "low"
+    },
+    {
+      "id": "OUT-2023-0152",
+      "date": "2023-04-28T00:00:00Z",
+      "location": "Sonoma County, CA",
+      "subtype": "H5N1",
+      "severity": "medium"
+    },
+    {
+      "id": "OUT-2023-0151",
+      "date": "2023-04-25T00:00:00Z",
+      "location": "Jefferson County, WI",
+      "subtype": "H5N1",
+      "severity": "low"
+    },
+    {
+      "id": "OUT-2023-0150",
+      "date": "2023-04-22T00:00:00Z",
+      "location": "Franklin County, OH",
+      "subtype": "H9N2",
+      "severity": "low"
+    },
+    {
+      "id": "OUT-2023-0149",
+      "date": "2023-04-18T00:00:00Z",
+      "location": "Camden County, NJ",
+      "subtype": "H5N8",
+      "severity": "medium"
+    }
+  ],
+  "outbreakLocations": [
+    {
+      "id": "OUT-2023-0158",
+      "latitude": 46.6021,
+      "longitude": -120.5059,
+      "name": "Yakima County, WA",
+      "subtype": "H5N1",
+      "severity": "high",
+      "cases": 15,
+      "date": "2023-05-15T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0157",
+      "latitude": 40.0379,
+      "longitude": -76.3055,
+      "name": "Lancaster County, PA",
+      "subtype": "H5N1",
+      "severity": "medium",
+      "cases": 8,
+      "date": "2023-05-12T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0156",
+      "latitude": 36.7478,
+      "longitude": -119.7714,
+      "name": "Fresno County, CA",
+      "subtype": "H5N8",
+      "severity": "medium",
+      "cases": 6,
+      "date": "2023-05-10T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0155",
+      "latitude": 40.3926,
+      "longitude": -104.7349,
+      "name": "Weld County, CO",
+      "subtype": "H5N1",
+      "severity": "high",
+      "cases": 12,
+      "date": "2023-05-08T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0154",
+      "latitude": 45.1939,
+      "longitude": -93.9862,
+      "name": "Wright County, MN",
+      "subtype": "H5N1",
+      "severity": "medium",
+      "cases": 7,
+      "date": "2023-05-05T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0153",
+      "latitude": 42.6032,
+      "longitude": -97.8447,
+      "name": "Knox County, NE",
+      "subtype": "H7N9",
+      "severity": "low",
+      "cases": 3,
+      "date": "2023-05-01T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0152",
+      "latitude": 38.5086,
+      "longitude": -122.9454,
+      "name": "Sonoma County, CA",
+      "subtype": "H5N1",
+      "severity": "medium",
+      "cases": 5,
+      "date": "2023-04-28T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0151",
+      "latitude": 43.0048,
+      "longitude": -88.7746,
+      "name": "Jefferson County, WI",
+      "subtype": "H5N1",
+      "severity": "low",
+      "cases": 2,
+      "date": "2023-04-25T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0150",
+      "latitude": 39.9622,
+      "longitude": -83.0007,
+      "name": "Franklin County, OH",
+      "subtype": "H9N2",
+      "severity": "low",
+      "cases": 1,
+      "date": "2023-04-22T00:00:00Z"
+    },
+    {
+      "id": "OUT-2023-0149",
+      "latitude": 39.8272,
+      "longitude": -74.9569,
+      "name": "Camden County, NJ",
+      "subtype": "H5N8",
+      "severity": "medium",
+      "cases": 4,
+      "date": "2023-04-18T00:00:00Z"
+    }
+  ],
+  "trendData": [
+    {
+      "date": "2023-01-01T00:00:00Z",
+      "count": 35
+    },
+    {
+      "date": "2023-02-01T00:00:00Z",
+      "count": 42
+    },
+    {
+      "date": "2023-03-01T00:00:00Z",
+      "count": 58
+    },
+    {
+      "date": "2023-04-01T00:00:00Z",
+      "count": 67
+    },
+    {
+      "date": "2023-05-01T00:00:00Z",
+      "count": 75
+    }
+  ],
+  "subtypeDistribution": [
+    {
+      "subtype": "H5N1",
+      "count": 347
+    },
+    {
+      "subtype": "H7N9",
+      "count": 58
+    },
+    {
+      "subtype": "H9N2",
+      "count": 34
+    },
+    {
+      "subtype": "H5N8",
+      "count": 72
+    },
+    {
+      "subtype": "H5N6",
+      "count": 16
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-2023-0045",
+      "title": "New H5N1 Strain Detected",
+      "description": "A new strain of H5N1 with potential for increased transmissibility has been detected in Washington state.",
+      "date": "2023-05-16T00:00:00Z",
+      "type": "genetic",
+      "severity": "high"
+    },
+    {
+      "id": "ALT-2023-0044",
+      "title": "Rapid Spread in Colorado",
+      "description": "Multiple farms in Weld County, Colorado reporting outbreaks within a 72-hour period.",
+      "date": "2023-05-09T00:00:00Z",
+      "type": "transmission",
+      "severity": "medium"
+    },
+    {
+      "id": "ALT-2023-0043",
+      "title": "Potential Zoonotic Transmission",
+      "description": "Case with mutations associated with mammalian adaptation detected in Lancaster County, PA.",
+      "date": "2023-05-13T00:00:00Z",
+      "type": "zoonotic",
+      "severity": "high"
+    }
+  ]
+}

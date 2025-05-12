@@ -1,0 +1,176 @@
+version: '3.8'
+
+services:
+  # Foundation services
+  foundation-api:
+    build:
+      context: ../foundation/api_framework
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ./config/foundation.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - foundation_data:/var/lib/foundation
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  core-services:
+    build:
+      context: ../foundation/core_services
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ./config/core-services.env
+    depends_on:
+      - foundation-api
+      - postgres
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  # Federation layer
+  federation-gateway:
+    build:
+      context: ../foundation/federation
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ./config/federation.env
+    ports:
+      - "8010:8010"
+    volumes:
+      - federation_data:/var/lib/federation
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  # Agency implementations
+  cdc-implementation:
+    build:
+      context: ../implementations/cdc
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ./config/cdc.env
+    depends_on:
+      - foundation-api
+      - federation-gateway
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  epa-implementation:
+    build:
+      context: ../implementations/epa
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ./config/epa.env
+    depends_on:
+      - foundation-api
+      - federation-gateway
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  fema-implementation:
+    build:
+      context: ../implementations/fema
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ./config/fema.env
+    depends_on:
+      - foundation-api
+      - federation-gateway
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  # Unified dashboard
+  dashboard:
+    build:
+      context: ../dashboard
+      dockerfile: Dockerfile
+    environment:
+      - FLASK_ENV=production
+    env_file:
+      - ./config/dashboard.env
+    ports:
+      - "8080:8080"
+    depends_on:
+      - federation-gateway
+      - cdc-implementation
+      - epa-implementation
+      - fema-implementation
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  # Notification system
+  notification-service:
+    build:
+      context: ../notifications
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ./config/notifications.env
+    depends_on:
+      - federation-gateway
+      - redis
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  # Infrastructure services
+  postgres:
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_USER=agency_admin
+      - POSTGRES_PASSWORD=agency_secure_password
+      - POSTGRES_DB=agency_system
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./config/init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --requirepass ${REDIS_PASSWORD:-redis_secure_password}
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    networks:
+      - agency_network
+
+volumes:
+  postgres_data:
+  redis_data:
+  foundation_data:
+  federation_data:
+
+networks:
+  agency_network:
+    driver: bridge

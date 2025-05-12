@@ -1,0 +1,222 @@
+/* Custom Dashboard Styles */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+/* Stat Blocks */
+.stat-block {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.stat-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stat-block .stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.stat-block .stat-label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+}
+
+/* Status Indicators */
+.status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.status-indicator.bg-success {
+    background-color: #28a745;
+}
+
+.status-indicator.bg-warning {
+    background-color: #ffc107;
+}
+
+.status-indicator.bg-danger {
+    background-color: #dc3545;
+}
+
+/* Chart Containers */
+.chart-container {
+    width: 100%;
+    height: 300px;
+}
+
+.chart-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Data Card Styling */
+.data-card {
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.data-card:hover {
+    transform: translateY(-3px);
+}
+
+.data-card.cdc-card {
+    border-left-color: #007bff;
+}
+
+.data-card.epa-card {
+    border-left-color: #28a745;
+}
+
+.data-card.fema-card {
+    border-left-color: #dc3545;
+}
+
+/* Metrics Display */
+.metrics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.metric-box {
+    flex: 1;
+    min-width: 120px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.metric-box .metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.metric-box .metric-label {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+/* Table Styling */
+.data-table {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.data-table th {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.data-table th, .data-table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+/* Alert Banners */
+.alert-banner {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.alert-banner i {
+    margin-right: 0.5rem;
+}
+
+/* Loading Animation */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* Custom Colors for Agencies */
+.bg-cdc {
+    background-color: #0073b1;
+}
+
+.bg-epa {
+    background-color: #00a651;
+}
+
+.bg-fema {
+    background-color: #c9252c;
+}
+
+.text-cdc {
+    color: #0073b1;
+}
+
+.text-epa {
+    color: #00a651;
+}
+
+.text-fema {
+    color: #c9252c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 1;
+    }
+    
+    .metric-box {
+        min-width: 100%;
+    }
+}
+
+/* Custom Tooltip */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.custom-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}

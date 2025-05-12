@@ -1,0 +1,9 @@
+hsin.ai (HSIN – Homeland Security Information Network) – Description: AI-powered Homeland Security Information Network.
+csfc.ai (CSFC – Cybersecurity & Financial Crimes) – Description: AI-assisted cybersecurity and financial crimes prevention.
+tlnt.ai (TLNT – Talent Management) – Description: AI-enhanced talent management system.
+naacp.ai (NAACP – National Association for the Advancement of Colored People) – Description: AI-supported advocacy for equality and to end race-based discrimination.
+nccih.ai (NCCIH – National Center for Complementary and Integrative Health) – Description: AI-assisted complementary and integrative health research.
+cnpp.ai (CNPP – Center for Nutrition Policy and Promotion) – Description: AI-assisted nutrition policy and promotion development.
+oash.ai (OASH – Office of the Assistant Secretary for Health) – Description: AI-powered public health policy development.
+ustda.ai (USTDA – U.S. Trade and Development Agency) – Description: AI-enhanced trade and development policy implementation.
+phm.ai (PHM – Population Health Management) – Description: AI-powered population health management system.

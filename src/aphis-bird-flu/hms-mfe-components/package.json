@@ -1,0 +1,27 @@
+{
+  "name": "aphis-bird-flu-components",
+  "version": "1.0.0",
+  "description": "APHIS Bird Flu HMS-MFE Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "APHIS",
+    "bird-flu",
+    "HMS-MFE",
+    "components",
+    "visualization"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "axios": "^0.27.0",
+    "mapbox-gl": "^2.9.0",
+    "apexcharts": "^3.36.0",
+    "vue3-apexcharts": "^1.4.1",
+    "force-graph": "^1.42.0",
+    "d3": "^7.6.0"
+  }
+}

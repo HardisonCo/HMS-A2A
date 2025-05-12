@@ -1,0 +1,626 @@
+{
+  "agencies": {
+    "HHS": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "CDC": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "CMS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "FDA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "NIH": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "ACF": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "USDA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "APHIS": {
+      "status": "in_progress",
+      "completion": 33,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": true
+      }
+    },
+    "AMS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "FS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "FNS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DOD": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "ARMY": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "NAVY": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "USAF": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "USMC": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "TREAS": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "IRS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "MINT": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "BFS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DOJ": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "FBI": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DEA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "ATF": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "BOP": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DHS": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "FEMA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "CBP": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "ICE": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "TSA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DOS": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "CA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "INL": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DOE": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "NNSA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "EERE": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "OE": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DOC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "NOAA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "USPTO": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "NIST": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "DOL": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "OSHA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "BLS": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "ETA": {
+      "status": "not_started",
+      "completion": 0,
+      "components": {
+        "issue_finder": false,
+        "research_connector": false,
+        "ascii_art": false
+      }
+    },
+    "HUD": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "DOT": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "ED": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "VA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "DOI": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "EPA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "SBA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "SSA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "NASA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "NSF": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "USAID": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "FCC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "OPM": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "CFPB": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "CFTC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "CPSC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "EEOC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "FTC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "GSA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "NARA": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "NRC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "PBGC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    },
+    "SEC": {
+      "status": "completed",
+      "completion": 100,
+      "components": {
+        "issue_finder": true,
+        "research_connector": true,
+        "ascii_art": true
+      }
+    }
+  },
+  "last_updated": "2025-05-09T10:48:11.684971"
+}

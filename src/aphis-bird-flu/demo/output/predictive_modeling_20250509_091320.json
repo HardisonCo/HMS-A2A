@@ -1,0 +1,180 @@
+{
+  "forecast_id": "forecast_demo_1",
+  "timestamp": "2025-05-09T09:13:20.259714",
+  "days_ahead": 7,
+  "regions": {
+    "region_01": {
+      "risk_score": 0.08,
+      "predicted_cases": 9.1,
+      "confidence_interval": [
+        3.3,
+        13.7
+      ]
+    },
+    "region_02": {
+      "risk_score": 0.24,
+      "predicted_cases": 9.5,
+      "confidence_interval": [
+        5.0,
+        13.3
+      ]
+    },
+    "region_03": {
+      "risk_score": 0.81,
+      "predicted_cases": 1.9,
+      "confidence_interval": [
+        3.8,
+        10.5
+      ]
+    },
+    "region_04": {
+      "risk_score": 0.61,
+      "predicted_cases": 6.2,
+      "confidence_interval": [
+        0.7,
+        13.0
+      ]
+    },
+    "region_05": {
+      "risk_score": 0.54,
+      "predicted_cases": 8.7,
+      "confidence_interval": [
+        1.0,
+        6.3
+      ]
+    },
+    "region_06": {
+      "risk_score": 0.61,
+      "predicted_cases": 1.5,
+      "confidence_interval": [
+        3.0,
+        6.2
+      ]
+    },
+    "region_07": {
+      "risk_score": 0.54,
+      "predicted_cases": 9.7,
+      "confidence_interval": [
+        0.1,
+        14.6
+      ]
+    },
+    "region_08": {
+      "risk_score": 0.33,
+      "predicted_cases": 9.0,
+      "confidence_interval": [
+        2.5,
+        8.4
+      ]
+    },
+    "region_09": {
+      "risk_score": 0.62,
+      "predicted_cases": 1.2,
+      "confidence_interval": [
+        3.1,
+        14.8
+      ]
+    },
+    "region_10": {
+      "risk_score": 0.63,
+      "predicted_cases": 8.9,
+      "confidence_interval": [
+        1.6,
+        9.6
+      ]
+    },
+    "region_11": {
+      "risk_score": 0.87,
+      "predicted_cases": 6.3,
+      "confidence_interval": [
+        1.6,
+        13.7
+      ]
+    },
+    "region_12": {
+      "risk_score": 0.32,
+      "predicted_cases": 4.9,
+      "confidence_interval": [
+        0.6,
+        14.2
+      ]
+    },
+    "region_13": {
+      "risk_score": 0.22,
+      "predicted_cases": 5.4,
+      "confidence_interval": [
+        4.5,
+        6.3
+      ]
+    },
+    "region_14": {
+      "risk_score": 0.74,
+      "predicted_cases": 7.4,
+      "confidence_interval": [
+        0.2,
+        10.8
+      ]
+    },
+    "region_15": {
+      "risk_score": 0.15,
+      "predicted_cases": 1.1,
+      "confidence_interval": [
+        4.8,
+        8.8
+      ]
+    },
+    "region_16": {
+      "risk_score": 0.88,
+      "predicted_cases": 0.1,
+      "confidence_interval": [
+        2.9,
+        11.3
+      ]
+    },
+    "region_17": {
+      "risk_score": 0.82,
+      "predicted_cases": 5.6,
+      "confidence_interval": [
+        4.3,
+        10.9
+      ]
+    },
+    "region_18": {
+      "risk_score": 0.12,
+      "predicted_cases": 7.6,
+      "confidence_interval": [
+        2.7,
+        9.2
+      ]
+    },
+    "region_19": {
+      "risk_score": 0.21,
+      "predicted_cases": 6.8,
+      "confidence_interval": [
+        0.6,
+        14.6
+      ]
+    },
+    "region_20": {
+      "risk_score": 0.46,
+      "predicted_cases": 8.2,
+      "confidence_interval": [
+        2.3,
+        13.7
+      ]
+    }
+  },
+  "high_risk_regions": [
+    "region_05",
+    "region_12",
+    "region_08"
+  ],
+  "model_info": {
+    "model": "ensemble",
+    "components": [
+      "distance_based",
+      "network_based",
+      "gaussian_process"
+    ]
+  }
+}

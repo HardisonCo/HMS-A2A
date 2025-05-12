@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "aphis-bird-flu-mfe.fullname" . }}
+  labels:
+    {{- include "aphis-bird-flu-mfe.labels" . | nindent 4 }}
+  {{- if .Values.monitoring.enabled }}
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/port: "{{ .Values.monitoring.port }}"
+    prometheus.io/path: "{{ .Values.monitoring.path }}"
+  {{- end }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "aphis-bird-flu-mfe.selectorLabels" . | nindent 4 }}

@@ -1,0 +1,141 @@
+name: Build and Package
+
+on:
+  push:
+    branches: [ main, develop ]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build-python-packages:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build twine
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Build package
+      run: |
+        python -m build
+    - name: Check package
+      run: |
+        twine check dist/*
+    - name: Upload distribution artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: python-packages
+        path: dist/
+        retention-days: 7
+    - name: Publish to PyPI
+      if: startsWith(github.ref, 'refs/tags/v')
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        password: ${{ secrets.PYPI_API_TOKEN }}
+        skip_existing: true
+
+  build-npm-packages:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        registry-url: 'https://registry.npmjs.org'
+        cache: 'npm'
+        cache-dependency-path: 'foundation/utilities/package.json'
+    - name: Install dependencies
+      run: |
+        cd foundation/utilities
+        npm ci
+    - name: Build package
+      run: |
+        cd foundation/utilities
+        npm run build
+    - name: Upload distribution artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: npm-packages
+        path: foundation/utilities/dist/
+        retention-days: 7
+    - name: Publish to npm
+      if: startsWith(github.ref, 'refs/tags/v')
+      run: |
+        cd foundation/utilities
+        npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  build-rust-packages:
+    runs-on: ubuntu-latest
+    if: hashFiles('**/*.rs') != ''
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+    - name: Build
+      uses: actions-rs/cargo@v1
+      with:
+        command: build
+        args: --release --all-features
+    - name: Upload Rust artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: rust-binaries
+        path: target/release/
+        retention-days: 7
+    - name: Publish to crates.io
+      if: startsWith(github.ref, 'refs/tags/v')
+      uses: actions-rs/cargo@v1
+      with:
+        command: publish
+        args: --token ${{ secrets.CRATES_IO_TOKEN }}
+
+  build-docker-images:
+    runs-on: ubuntu-latest
+    needs: [build-python-packages, build-npm-packages]
+    if: github.event_name != 'pull_request'
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    - name: Extract metadata for Docker
+      id: meta
+      uses: docker/metadata-action@v4
+      with:
+        images: ghcr.io/${{ github.repository }}/agency-implementation
+        tags: |
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=sha,format=long
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        push: true
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max

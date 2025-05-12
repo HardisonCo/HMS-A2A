@@ -1,0 +1,18 @@
+FROM mcr.microsoft.com/playwright:v1.35.1-focal
+
+WORKDIR /app
+
+# Copy package information
+COPY package.json ./
+
+# Install dependencies
+RUN npm ci
+
+# Install Playwright browsers
+RUN npx playwright install --with-deps chromium firefox webkit
+
+# Copy test files
+COPY . .
+
+# Set default command
+CMD ["npm", "run", "test"]

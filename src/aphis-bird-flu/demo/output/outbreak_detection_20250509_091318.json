@@ -1,0 +1,43 @@
+{
+  "analysis_id": "detect_demo_1",
+  "timestamp": "2025-05-09T09:13:18.256600",
+  "signals": [
+    {
+      "region_id": "region_05",
+      "signal_strength": 0.87,
+      "p_value": 0.003,
+      "detected_by": "group_sequential",
+      "is_significant": true
+    },
+    {
+      "region_id": "region_12",
+      "signal_strength": 0.76,
+      "p_value": 0.012,
+      "detected_by": "sprt",
+      "is_significant": true
+    },
+    {
+      "region_id": "region_08",
+      "signal_strength": 0.65,
+      "p_value": 0.048,
+      "detected_by": "cusum",
+      "is_significant": true
+    }
+  ],
+  "clusters": [
+    {
+      "center": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "radius_km": 50.2,
+      "case_count": 12,
+      "p_value": 0.008,
+      "regions": [
+        "region_05",
+        "region_06",
+        "region_07"
+      ]
+    }
+  ]
+}

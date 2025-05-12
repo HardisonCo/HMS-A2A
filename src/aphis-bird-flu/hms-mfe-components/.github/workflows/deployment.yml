@@ -1,0 +1,257 @@
+name: HMS-MFE APHIS Bird Flu CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'hms-mfe-components/**'
+      - '.github/workflows/deployment.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'hms-mfe-components/**'
+      - '.github/workflows/deployment.yml'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment Environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+
+env:
+  NODE_VERSION: '16'
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}/aphis-bird-flu-mfe
+
+jobs:
+  lint-and-audit:
+    name: Lint and Security Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: 'hms-mfe-components/package-lock.json'
+          
+      - name: Install dependencies
+        run: cd hms-mfe-components && npm ci
+        
+      - name: Run linting
+        run: cd hms-mfe-components && npm run lint
+        
+      - name: Run security audit
+        run: cd hms-mfe-components && npm audit --production --audit-level=moderate
+
+  build:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    needs: lint-and-audit
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: 'hms-mfe-components/package-lock.json'
+          
+      - name: Install dependencies
+        run: cd hms-mfe-components && npm ci
+        
+      - name: Build
+        run: cd hms-mfe-components && npm run build
+        
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: hms-mfe-components/dist
+          retention-days: 14
+
+  integration-tests:
+    name: Integration Tests
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Run integration tests with Docker
+        run: cd hms-mfe-components && ./run-tests.sh --ci
+        
+      - name: Archive test results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results
+          path: hms-mfe-components/test-results
+          retention-days: 14
+
+  container-build:
+    name: Build and Push Container
+    runs-on: ubuntu-latest
+    needs: [build, integration-tests]
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      image-tag: ${{ steps.meta.outputs.tags }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+          path: hms-mfe-components/dist
+        
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+        
+      - name: Log in to the Container registry
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=sha,format=short
+        
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./hms-mfe-components
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy-staging:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    needs: container-build
+    if: github.ref == 'refs/heads/develop' || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'staging')
+    environment:
+      name: staging
+      url: https://staging.aphis-bird-flu.hms-mfe.gov
+    env:
+      IMAGE_TAG: ${{ needs.container-build.outputs.image-tag }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Install Helm
+        uses: azure/setup-helm@v3
+        with:
+          version: 'latest'
+          
+      - name: Configure Kubernetes
+        uses: azure/k8s-set-context@v3
+        with:
+          kubeconfig: ${{ secrets.KUBE_CONFIG_STAGING }}
+          
+      - name: Deploy to Staging
+        run: |
+          helm upgrade --install aphis-bird-flu-mfe ./hms-mfe-components/helm \
+            --namespace hms-mfe-staging \
+            --set image.repository=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }} \
+            --set image.tag=${IMAGE_TAG##*:} \
+            --set ingress.hosts[0].host=staging.aphis-bird-flu.hms-mfe.gov \
+            --set ingress.hosts[0].paths[0].path=/ \
+            --set apiBaseUrl=https://api-staging.aphis-bird-flu.hms-mfe.gov \
+            --set federationHubUrl=https://federation-staging.hms-mfe.gov
+      
+      - name: Run Smoke Tests
+        run: |
+          cd hms-mfe-components/tests
+          npm ci
+          HMS_MFE_URL=https://staging.aphis-bird-flu.hms-mfe.gov \
+          API_URL=https://api-staging.aphis-bird-flu.hms-mfe.gov \
+          FEDERATION_URL=https://federation-staging.hms-mfe.gov \
+          npm run test:smoke
+
+  deploy-production:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    needs: [container-build, deploy-staging]
+    if: github.ref == 'refs/heads/main' || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'production')
+    environment:
+      name: production
+      url: https://aphis-bird-flu.hms-mfe.gov
+    env:
+      IMAGE_TAG: ${{ needs.container-build.outputs.image-tag }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Install Helm
+        uses: azure/setup-helm@v3
+        with:
+          version: 'latest'
+          
+      - name: Configure Kubernetes
+        uses: azure/k8s-set-context@v3
+        with:
+          kubeconfig: ${{ secrets.KUBE_CONFIG_PRODUCTION }}
+          
+      - name: Deploy to Production (Blue/Green)
+        run: |
+          # Get current active deployment color (blue or green)
+          CURRENT_COLOR=$(kubectl get configmap aphis-bird-flu-mfe-config -n hms-mfe-production -o jsonpath='{.data.activeColor}')
+          
+          # Set new color
+          if [ "$CURRENT_COLOR" == "blue" ]; then
+            NEW_COLOR="green"
+          else
+            NEW_COLOR="blue"
+          fi
+          
+          # Deploy to new color
+          helm upgrade --install aphis-bird-flu-mfe-$NEW_COLOR ./hms-mfe-components/helm \
+            --namespace hms-mfe-production \
+            --set image.repository=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }} \
+            --set image.tag=${IMAGE_TAG##*:} \
+            --set nameOverride=aphis-bird-flu-mfe-$NEW_COLOR \
+            --set ingress.enabled=false \
+            --set apiBaseUrl=https://api.aphis-bird-flu.hms-mfe.gov \
+            --set federationHubUrl=https://federation.hms-mfe.gov
+          
+          # Run smoke tests against new deployment (using service DNS)
+          cd hms-mfe-components/tests
+          npm ci
+          HMS_MFE_URL=https://aphis-bird-flu-mfe-$NEW_COLOR.hms-mfe-production.svc.cluster.local \
+          API_URL=https://api.aphis-bird-flu.hms-mfe.gov \
+          FEDERATION_URL=https://federation.hms-mfe.gov \
+          npm run test:smoke
+          
+          # Update ingress to point to new deployment
+          kubectl patch ingress aphis-bird-flu-mfe -n hms-mfe-production --type=json \
+            -p='[{"op": "replace", "path": "/spec/rules/0/http/paths/0/backend/service/name", "value":"aphis-bird-flu-mfe-'$NEW_COLOR'"}]'
+          
+          # Update configmap with new active color
+          kubectl patch configmap aphis-bird-flu-mfe-config -n hms-mfe-production --type=merge \
+            -p='{"data":{"activeColor":"'$NEW_COLOR'"}}'
+          
+          echo "Deployment switched to $NEW_COLOR"

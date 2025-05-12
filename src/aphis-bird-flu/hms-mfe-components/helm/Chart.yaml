@@ -1,0 +1,9 @@
+apiVersion: v2
+name: aphis-bird-flu-mfe
+description: A Helm chart for APHIS Bird Flu HMS-MFE Components
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+maintainers:
+  - name: HMS-MFE Team
+    email: hms-mfe@example.gov

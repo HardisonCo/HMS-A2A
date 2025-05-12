@@ -1,0 +1,6 @@
+fhfa.ai (FHFA – Federal Housing Finance Agency) – Description: AI-powered housing finance to prevent a 2008-style housing crisis.
+usitc.ai (USITC – U.S. International Trade Commission) – Description: AI-assisted trade analysis and tariff investigations.
+spuhc.ai (SPUHC – Specialty Provider Utility Health Care) – Description: AI-powered insurance service to prevent fraud.
+cfsan.ai (CFSAN – Center for Food Safety and Applied Nutrition) – Description: AI-driven approach for food safety to reduce recalls and improve nutrition.
+niddk.ai (NIDDK – National Institute of Diabetes and Digestive and Kidney Diseases) – Description: AI coverage to prevent insurance fraud and improve disease management.
+crohns.ai (Crohn's Disease Prevention) – Description: AI solutions to detect, manage, and help prevent Crohn's disease.

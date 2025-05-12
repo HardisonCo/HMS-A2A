@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "aphis-bird-flu-mfe.fullname" . }}-config
+  labels:
+    {{- include "aphis-bird-flu-mfe.labels" . | nindent 4 }}
+data:
+  config.json: |
+    {
+      "apiBaseUrl": "{{ .Values.apiBaseUrl }}",
+      "federationHubUrl": "{{ .Values.federationHubUrl }}",
+      "environment": "{{ .Values.environment }}",
+      "logLevel": "{{ .Values.logLevel }}",
+      "activeAgencies": ["aphis", "cdc", "epa", "fema"],
+      "features": {
+        "federation": true,
+        "advancedAnalytics": true,
+        "mapVisualization": true
+      }
+    }

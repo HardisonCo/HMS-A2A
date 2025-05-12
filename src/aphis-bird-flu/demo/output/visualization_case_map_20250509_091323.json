@@ -1,0 +1,14 @@
+{
+  "image_id": "viz_map_demo_1",
+  "timestamp": "2025-05-09T09:13:22.269874",
+  "type": "case_map",
+  "base64_image": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "metadata": {
+    "dimensions": {
+      "width": 1200,
+      "height": 900
+    },
+    "regions_shown": 15,
+    "cases_shown": 45
+  }
+}

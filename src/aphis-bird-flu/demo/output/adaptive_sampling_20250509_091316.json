@@ -1,0 +1,31 @@
+{
+  "allocation_id": "alloc_demo_1",
+  "timestamp": "2025-05-09T09:13:16.750542",
+  "sites": {
+    "site_1": 0.95,
+    "site_2": 0.67,
+    "site_3": 0.92,
+    "site_4": 0.95,
+    "site_5": 0.51,
+    "site_6": 0.99,
+    "site_7": 0.28,
+    "site_8": 0.35,
+    "site_9": 0.43,
+    "site_10": 0.65,
+    "site_11": 0.15,
+    "site_12": 0.77,
+    "site_13": 0.69,
+    "site_14": 0.99,
+    "site_15": 0.53,
+    "site_16": 0.81,
+    "site_17": 0.78,
+    "site_18": 0.64,
+    "site_19": 0.82,
+    "site_20": 0.48
+  },
+  "strategy": "response_adaptive",
+  "metadata": {
+    "exploration_rate": 0.2,
+    "recent_positive_weight": 1.5
+  }
+}

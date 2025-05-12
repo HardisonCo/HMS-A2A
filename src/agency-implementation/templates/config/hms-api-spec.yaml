@@ -1,0 +1,462 @@
+openapi: 3.0.3
+info:
+  title: HMS API Specification
+  description: API specification for HMS (Health Management System) API integration
+  version: 1.0.0
+  contact:
+    name: HMS Development Team
+    email: support@hms.example.com
+servers:
+  - url: https://api.hms.example.com
+    description: Production server
+  - url: https://api.staging.hms.example.com
+    description: Staging server
+  - url: http://localhost:3001
+    description: Local development server
+paths:
+  /auth/token:
+    post:
+      summary: Authenticate and get access token
+      operationId: authenticate
+      tags:
+        - Authentication
+      security:
+        - ApiKeyAuth: []
+      responses:
+        '200':
+          description: Authentication successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          description: Unauthorized - invalid API key
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /agencies/register:
+    post:
+      summary: Register a new agency
+      operationId: registerAgency
+      tags:
+        - Agencies
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AgencyRegistration'
+      responses:
+        '201':
+          description: Agency registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+        '400':
+          description: Invalid registration data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /agencies/{agencyCode}/status:
+    put:
+      summary: Update agency status
+      operationId: updateAgencyStatus
+      tags:
+        - Agencies
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: agencyCode
+          in: path
+          description: Unique agency code
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AgencyStatusUpdate'
+      responses:
+        '200':
+          description: Status updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+        '400':
+          description: Invalid status data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Agency not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /discovery/services:
+    get:
+      summary: Discover available HMS services
+      operationId: discoverServices
+      tags:
+        - Discovery
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: List of available services
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceDiscoveryResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /notifications:
+    post:
+      summary: Send a notification
+      operationId: sendNotification
+      tags:
+        - Notifications
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AgencyNotification'
+      responses:
+        '201':
+          description: Notification sent successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+        '400':
+          description: Invalid notification data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /config:
+    get:
+      summary: Fetch system configuration
+      operationId: fetchConfiguration
+      tags:
+        - Configuration
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: System configuration
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfigurationResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /health:
+    get:
+      summary: Health check endpoint
+      operationId: healthCheck
+      tags:
+        - System
+      responses:
+        '200':
+          description: System is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "healthy"
+                  version:
+                    type: string
+                    example: "1.0.0"
+                  timestamp:
+                    type: string
+                    format: date-time
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    AuthResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          properties:
+            access_token:
+              type: string
+              example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+            refresh_token:
+              type: string
+              example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+            expires_in:
+              type: integer
+              example: 3600
+        error:
+          type: string
+          nullable: true
+          example: null
+
+    AgencyRegistration:
+      type: object
+      required:
+        - agency_code
+        - agency_name
+        - contact_email
+        - api_version
+      properties:
+        agency_code:
+          type: string
+          example: "HHS"
+        agency_name:
+          type: string
+          example: "Department of Health and Human Services"
+        contact_email:
+          type: string
+          format: email
+          example: "contact@hhs.gov"
+        api_version:
+          type: string
+          example: "1.0.0"
+        features:
+          type: array
+          items:
+            type: string
+          example: ["basic", "notifications", "self-healing"]
+
+    AgencyStatusUpdate:
+      type: object
+      required:
+        - agency_code
+        - status
+        - timestamp
+      properties:
+        agency_code:
+          type: string
+          example: "HHS"
+        status:
+          type: string
+          example: "active"
+        message:
+          type: string
+          nullable: true
+          example: "Agency services running normally"
+        metrics:
+          type: object
+          nullable: true
+          example:
+            requests: 1000
+            errors: 5
+            response_time_avg: 120
+        timestamp:
+          type: string
+          format: date-time
+          example: "2023-04-15T10:30:00Z"
+
+    AgencyNotification:
+      type: object
+      required:
+        - agency_code
+        - event_type
+        - severity
+        - message
+        - timestamp
+      properties:
+        agency_code:
+          type: string
+          example: "HHS"
+        event_type:
+          type: string
+          example: "policy.update"
+        severity:
+          type: string
+          enum: [info, warning, error, critical]
+          example: "info"
+        message:
+          type: string
+          example: "New policy approved and ready for implementation"
+        data:
+          type: object
+          nullable: true
+          example:
+            policy_id: "POL-12345"
+            policy_name: "Healthcare Data Privacy Policy"
+        timestamp:
+          type: string
+          format: date-time
+          example: "2023-04-15T10:30:00Z"
+
+    ServiceDiscoveryResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          properties:
+            services:
+              type: array
+              items:
+                type: object
+                properties:
+                  name:
+                    type: string
+                    example: "HMS-CDF"
+                  url:
+                    type: string
+                    example: "https://cdf.hms.example.com"
+                  version:
+                    type: string
+                    example: "1.0.0"
+                  status:
+                    type: string
+                    example: "active"
+        error:
+          type: string
+          nullable: true
+          example: null
+
+    ConfigurationResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          example:
+            system_settings:
+              timeout: 30000
+              max_retries: 3
+            feature_flags:
+              enable_self_healing: true
+              enable_metrics: true
+            endpoints:
+              cdf: "https://cdf.hms.example.com"
+              dta: "https://dta.hms.example.com"
+        error:
+          type: string
+          nullable: true
+          example: null
+
+    SuccessResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          nullable: true
+        error:
+          type: string
+          nullable: true
+          example: null
+
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        data:
+          type: object
+          nullable: true
+          example: null
+        error:
+          type: string
+          example: "Invalid request parameters"

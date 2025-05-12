@@ -1,0 +1,152 @@
+version: '3.8'
+
+services:
+  # Federation Hub
+  federation-hub:
+    build:
+      context: ..
+      dockerfile: federation/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - FEDERATION_HUB_HOST=0.0.0.0
+      - FEDERATION_HUB_PORT=8000
+      - CDC_API_BASE_URL=http://cdc-api:8001/api/v1/cdc
+      - EPA_API_BASE_URL=http://epa-api:8002/api/v1/epa
+      - FEMA_API_BASE_URL=http://fema-api:8003/api/v1/fema
+      - DATABASE_URL=postgresql://postgres:postgres@federation-db:5432/federation
+    depends_on:
+      - federation-db
+      - cdc-api
+      - epa-api
+      - fema-api
+    networks:
+      - federation-network
+
+  # Federation Database
+  federation-db:
+    image: postgis/postgis:13-3.1
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=federation
+    volumes:
+      - federation-db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - federation-network
+
+  # CDC API
+  cdc-api:
+    build:
+      context: ..
+      dockerfile: cdc/Dockerfile
+    ports:
+      - "8001:8001"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8001
+      - DATABASE_URL=postgresql://postgres:postgres@cdc-db:5432/cdc
+      - FEDERATION_HUB_URL=http://federation-hub:8000/api/v1/federation
+    depends_on:
+      - cdc-db
+    networks:
+      - federation-network
+
+  # CDC Database
+  cdc-db:
+    image: postgis/postgis:13-3.1
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=cdc
+    volumes:
+      - cdc-db-data:/var/lib/postgresql/data
+    networks:
+      - federation-network
+
+  # EPA API
+  epa-api:
+    build:
+      context: ..
+      dockerfile: epa/Dockerfile
+    ports:
+      - "8002:8002"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8002
+      - DATABASE_URL=postgresql://postgres:postgres@epa-db:5432/epa
+      - FEDERATION_HUB_URL=http://federation-hub:8000/api/v1/federation
+    depends_on:
+      - epa-db
+    networks:
+      - federation-network
+
+  # EPA Database
+  epa-db:
+    image: postgis/postgis:13-3.1
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=epa
+    volumes:
+      - epa-db-data:/var/lib/postgresql/data
+    networks:
+      - federation-network
+
+  # FEMA API
+  fema-api:
+    build:
+      context: ..
+      dockerfile: fema/Dockerfile
+    ports:
+      - "8003:8003"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8003
+      - DATABASE_URL=postgresql://postgres:postgres@fema-db:5432/fema
+      - FEDERATION_HUB_URL=http://federation-hub:8000/api/v1/federation
+    depends_on:
+      - fema-db
+    networks:
+      - federation-network
+
+  # FEMA Database
+  fema-db:
+    image: postgis/postgis:13-3.1
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=fema
+    volumes:
+      - fema-db-data:/var/lib/postgresql/data
+    networks:
+      - federation-network
+
+  # Federation Dashboard
+  federation-dashboard:
+    build:
+      context: ../dashboard
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - FEDERATION_API_URL=http://federation-hub:8000/api/v1/federation
+      - CDC_API_URL=http://cdc-api:8001/api/v1/cdc
+      - EPA_API_URL=http://epa-api:8002/api/v1/epa
+      - FEMA_API_URL=http://fema-api:8003/api/v1/fema
+    depends_on:
+      - federation-hub
+    networks:
+      - federation-network
+
+networks:
+  federation-network:
+    driver: bridge
+
+volumes:
+  federation-db-data:
+  cdc-db-data:
+  epa-db-data:
+  fema-db-data:

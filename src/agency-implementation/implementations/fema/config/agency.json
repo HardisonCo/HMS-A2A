@@ -1,0 +1,252 @@
+{
+  "agency": {
+    "name": "Federal Emergency Management Agency",
+    "abbreviation": "FEMA",
+    "domain": "emergency_management",
+    "website": "https://www.fema.gov",
+    "description": "FEMA's mission is to help people before, during, and after disasters by coordinating the federal government's role in preparing for, preventing, mitigating the effects of, responding to, and recovering from all domestic disasters."
+  },
+  "services": {
+    "disaster_monitoring": {
+      "enabled": true,
+      "data_refresh_interval": 300,
+      "alert_threshold": 0.70,
+      "monitoring_categories": [
+        "weather",
+        "geological",
+        "wildfire",
+        "flood",
+        "infrastructure",
+        "biological",
+        "chemical",
+        "radiological"
+      ],
+      "data_sources": [
+        "national_weather_service",
+        "usgs",
+        "state_emergency_centers",
+        "satellite_imagery",
+        "social_media_feeds"
+      ]
+    },
+    "emergency_response": {
+      "enabled": true,
+      "coordination_levels": [
+        "federal",
+        "state",
+        "local",
+        "tribal",
+        "territorial"
+      ],
+      "resource_types": [
+        "personnel",
+        "equipment",
+        "supplies",
+        "facilities",
+        "funding"
+      ]
+    },
+    "resource_management": {
+      "enabled": true,
+      "inventory_update_frequency": 3600,
+      "allocation_strategies": [
+        "priority_based",
+        "need_based",
+        "equity_based",
+        "hybrid"
+      ],
+      "resource_categories": [
+        "shelter",
+        "food_water",
+        "medical",
+        "transportation",
+        "communication",
+        "power",
+        "search_rescue"
+      ]
+    },
+    "public_alert": {
+      "enabled": true,
+      "channels": [
+        "ipaws",
+        "wea",
+        "eas",
+        "nwr",
+        "email",
+        "sms",
+        "social_media",
+        "app_notification"
+      ],
+      "urgency_levels": [
+        "advisory",
+        "watch",
+        "warning",
+        "emergency"
+      ]
+    },
+    "damage_assessment": {
+      "enabled": true,
+      "assessment_methods": [
+        "field_teams",
+        "aerial_imagery",
+        "satellite_imagery",
+        "social_media_analysis",
+        "self_reporting"
+      ],
+      "assessment_categories": [
+        "residential",
+        "commercial",
+        "infrastructure",
+        "agricultural",
+        "environmental"
+      ]
+    },
+    "recovery_planning": {
+      "enabled": true,
+      "planning_frameworks": [
+        "national_disaster_recovery_framework",
+        "community_recovery",
+        "economic_recovery",
+        "health_social_recovery",
+        "infrastructure_systems",
+        "natural_cultural_resources"
+      ]
+    }
+  },
+  "extension_points": {
+    "data_sources": {
+      "weather_data": {
+        "type": "api_based",
+        "config": {
+          "api_url": "https://api.weather.gov/alerts/active",
+          "auth_method": "none",
+          "refresh_interval": 300
+        }
+      },
+      "usgs_earthquake": {
+        "type": "api_based",
+        "config": {
+          "api_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+          "auth_method": "none",
+          "refresh_interval": 600
+        }
+      },
+      "satellite_imagery": {
+        "type": "api_based",
+        "config": {
+          "api_url": "https://satellite.imagery.gov/api/v2/disaster",
+          "auth_method": "oauth2",
+          "refresh_interval": 1800
+        }
+      },
+      "field_reports": {
+        "type": "database",
+        "config": {
+          "connection_string_env": "FEMA_REPORTS_DB_CONNECTION",
+          "query_timeout": 30,
+          "batch_size": 500
+        }
+      }
+    },
+    "predictive_models": {
+      "flood_prediction": {
+        "implementation": "hydrological_model",
+        "parameters": {
+          "spatial_resolution": "county",
+          "temporal_resolution": "hourly",
+          "include_weather": true,
+          "include_topography": true,
+          "include_infrastructure": true
+        }
+      },
+      "wildfire_spread": {
+        "implementation": "fire_behavior_model",
+        "parameters": {
+          "spatial_resolution": "500m",
+          "temporal_resolution": "hourly",
+          "include_weather": true,
+          "include_vegetation": true,
+          "include_topography": true
+        }
+      },
+      "evacuation_planning": {
+        "implementation": "traffic_flow_model",
+        "parameters": {
+          "road_network_resolution": "high",
+          "population_density": true,
+          "vehicle_ownership": true,
+          "shelter_locations": true
+        }
+      }
+    },
+    "notification_channels": {
+      "ipaws": {
+        "implementation": "ipaws_adapter",
+        "config": {
+          "api_endpoint": "https://apps.fema.gov/ipaws/api",
+          "credentials_env": "FEMA_IPAWS_CREDENTIALS",
+          "certificate_path": "/certs/ipaws.cert",
+          "private_key_path": "/certs/ipaws.key",
+          "message_templates_path": "/templates/ipaws",
+          "retry_attempts": 3
+        }
+      },
+      "emergency_alert_system": {
+        "implementation": "eas_adapter",
+        "config": {
+          "api_endpoint": "https://apps.fema.gov/eas/api",
+          "credentials_env": "FEMA_EAS_CREDENTIALS",
+          "retry_attempts": 3
+        }
+      }
+    },
+    "visualization_components": {
+      "disaster_impact_map": {
+        "implementation": "interactive_impact_map",
+        "parameters": {
+          "map_provider": "arcgis",
+          "default_layers": ["infrastructure", "population", "hazard"],
+          "color_scheme": "impact_severity"
+        }
+      },
+      "resource_allocation_dashboard": {
+        "implementation": "resource_dashboard",
+        "parameters": {
+          "chart_types": ["pie", "bar", "timeline"],
+          "refresh_rate": 300,
+          "grouping_levels": ["category", "location", "priority"]
+        }
+      }
+    }
+  },
+  "integrations": {
+    "state_emergency_agencies": {
+      "federation_enabled": true,
+      "partner_onboarding_workflow": "expedited",
+      "data_sharing_agreements_required": true,
+      "schema_validation": true
+    },
+    "national_weather_service": {
+      "endpoint": "https://api.weather.gov",
+      "auth_method": "none",
+      "data_format": "json",
+      "sync_interval": 300
+    },
+    "usgs_hazards": {
+      "endpoint": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary",
+      "auth_method": "none",
+      "data_format": "geojson",
+      "sync_interval": 600
+    },
+    "hms_api": {
+      "enabled": true,
+      "endpoint": "${HMS_API_ENDPOINT}",
+      "auth_token_env": "HMS_API_TOKEN",
+      "services": [
+        "data_exchange",
+        "alert_distribution",
+        "reporting"
+      ]
+    }
+  }
+}

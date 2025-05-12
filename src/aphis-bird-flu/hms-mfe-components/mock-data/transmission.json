@@ -1,0 +1,320 @@
+{
+  "transmission_network": {
+    "cases": 15,
+    "links": [
+      {
+        "source": "CASE-2023-0001",
+        "target": "CASE-2023-0003",
+        "likelihood": 0.82,
+        "days_apart": 7,
+        "distance_km": 45.3,
+        "genetic_distance": 0.03
+      },
+      {
+        "source": "CASE-2023-0001",
+        "target": "CASE-2023-0004",
+        "likelihood": 0.73,
+        "days_apart": 12,
+        "distance_km": 68.2,
+        "genetic_distance": 0.04
+      },
+      {
+        "source": "CASE-2023-0003",
+        "target": "CASE-2023-0007",
+        "likelihood": 0.91,
+        "days_apart": 5,
+        "distance_km": 23.8,
+        "genetic_distance": 0.02
+      },
+      {
+        "source": "CASE-2023-0004",
+        "target": "CASE-2023-0008",
+        "likelihood": 0.68,
+        "days_apart": 14,
+        "distance_km": 52.6,
+        "genetic_distance": 0.05
+      },
+      {
+        "source": "CASE-2023-0007",
+        "target": "CASE-2023-0009",
+        "likelihood": 0.85,
+        "days_apart": 6,
+        "distance_km": 37.1,
+        "genetic_distance": 0.03
+      },
+      {
+        "source": "CASE-2023-0008",
+        "target": "CASE-2023-0012",
+        "likelihood": 0.78,
+        "days_apart": 9,
+        "distance_km": 42.9,
+        "genetic_distance": 0.04
+      },
+      {
+        "source": "CASE-2023-0012",
+        "target": "CASE-2023-0015",
+        "likelihood": 0.89,
+        "days_apart": 4,
+        "distance_km": 18.7,
+        "genetic_distance": 0.02
+      },
+      {
+        "source": "CASE-2023-0002",
+        "target": "CASE-2023-0005",
+        "likelihood": 0.76,
+        "days_apart": 11,
+        "distance_km": 58.4,
+        "genetic_distance": 0.04
+      },
+      {
+        "source": "CASE-2023-0002",
+        "target": "CASE-2023-0006",
+        "likelihood": 0.65,
+        "days_apart": 15,
+        "distance_km": 72.3,
+        "genetic_distance": 0.06
+      },
+      {
+        "source": "CASE-2023-0005",
+        "target": "CASE-2023-0010",
+        "likelihood": 0.82,
+        "days_apart": 8,
+        "distance_km": 43.6,
+        "genetic_distance": 0.03
+      },
+      {
+        "source": "CASE-2023-0006",
+        "target": "CASE-2023-0011",
+        "likelihood": 0.72,
+        "days_apart": 10,
+        "distance_km": 49.2,
+        "genetic_distance": 0.05
+      },
+      {
+        "source": "CASE-2023-0010",
+        "target": "CASE-2023-0013",
+        "likelihood": 0.88,
+        "days_apart": 5,
+        "distance_km": 31.8,
+        "genetic_distance": 0.02
+      },
+      {
+        "source": "CASE-2023-0011",
+        "target": "CASE-2023-0014",
+        "likelihood": 0.79,
+        "days_apart": 7,
+        "distance_km": 39.5,
+        "genetic_distance": 0.03
+      }
+    ],
+    "network_metrics": {
+      "node_count": 15,
+      "edge_count": 13,
+      "density": 0.062,
+      "component_count": 2,
+      "largest_component_size": 8,
+      "max_in_degree_centrality": 0.286,
+      "max_out_degree_centrality": 0.143,
+      "max_betweenness_centrality": 0.418,
+      "average_path_length": 2.429
+    },
+    "clusters": [
+      {
+        "id": "cluster_1",
+        "cases": ["CASE-2023-0001", "CASE-2023-0003", "CASE-2023-0004", "CASE-2023-0007", "CASE-2023-0008", "CASE-2023-0009", "CASE-2023-0012", "CASE-2023-0015"],
+        "metrics": {
+          "size": 8,
+          "edge_count": 7,
+          "density": 0.125
+        },
+        "central_nodes": {
+          "highest_in_degree": "CASE-2023-0001",
+          "highest_betweenness": "CASE-2023-0003"
+        }
+      },
+      {
+        "id": "cluster_2",
+        "cases": ["CASE-2023-0002", "CASE-2023-0005", "CASE-2023-0006", "CASE-2023-0010", "CASE-2023-0011", "CASE-2023-0013", "CASE-2023-0014"],
+        "metrics": {
+          "size": 7,
+          "edge_count": 6,
+          "density": 0.143
+        },
+        "central_nodes": {
+          "highest_in_degree": "CASE-2023-0002",
+          "highest_betweenness": "CASE-2023-0005"
+        }
+      }
+    ],
+    "index_cases": [
+      {
+        "case_id": "CASE-2023-0001",
+        "outbreak_size": 4,
+        "index_score": 0.86,
+        "detection_date": "2023-01-15T00:00:00Z"
+      },
+      {
+        "case_id": "CASE-2023-0002",
+        "outbreak_size": 3,
+        "index_score": 0.78,
+        "detection_date": "2023-01-18T00:00:00Z"
+      }
+    ],
+    "superspreaders": [
+      {
+        "case_id": "CASE-2023-0001",
+        "outgoing_links": 2,
+        "superspreader_score": 2.8
+      },
+      {
+        "case_id": "CASE-2023-0002",
+        "outgoing_links": 2,
+        "superspreader_score": 2.4
+      },
+      {
+        "case_id": "CASE-2023-0003",
+        "outgoing_links": 1,
+        "superspreader_score": 1.6
+      },
+      {
+        "case_id": "CASE-2023-0004",
+        "outgoing_links": 1,
+        "superspreader_score": 1.4
+      }
+    ],
+    "analysis_timestamp": "2023-05-17T08:23:45.123Z"
+  },
+  "pattern_assessment": {
+    "pattern_type": "multiple_introductions",
+    "geographic_focus": "regional",
+    "temporal_pattern": "moderate",
+    "transmission_intensity": "high",
+    "superspreading_evidence": true,
+    "intervention_recommendations": {
+      "surveillance": [
+        "Wild bird surveillance",
+        "Import pathway monitoring",
+        "Multi-jurisdictional coordination",
+        "Daily reporting"
+      ],
+      "control": [
+        "Border biosecurity enhancement",
+        "Regional movement controls",
+        "Urgent response measures"
+      ],
+      "priority_level": "very high"
+    },
+    "assessment_timestamp": "2023-05-17T08:23:45.123Z"
+  },
+  "trajectory_prediction": {
+    "reproduction_number": 1.3,
+    "growth_rate": 0.18,
+    "average_transmission_interval_days": 8.5,
+    "days_ahead": 14,
+    "total_projected_new_cases": 24.6,
+    "daily_projections": [
+      {
+        "day": 1,
+        "date": "2023-05-18",
+        "projected_new_cases": 1.3,
+        "cumulative_projected_cases": 16.3,
+        "uncertainty": 0.1
+      },
+      {
+        "day": 2,
+        "date": "2023-05-19",
+        "projected_new_cases": 1.4,
+        "cumulative_projected_cases": 17.7,
+        "uncertainty": 0.2
+      },
+      {
+        "day": 3,
+        "date": "2023-05-20",
+        "projected_new_cases": 1.5,
+        "cumulative_projected_cases": 19.2,
+        "uncertainty": 0.3
+      },
+      {
+        "day": 4,
+        "date": "2023-05-21",
+        "projected_new_cases": 1.6,
+        "cumulative_projected_cases": 20.8,
+        "uncertainty": 0.4
+      },
+      {
+        "day": 5,
+        "date": "2023-05-22",
+        "projected_new_cases": 1.7,
+        "cumulative_projected_cases": 22.5,
+        "uncertainty": 0.5
+      },
+      {
+        "day": 6,
+        "date": "2023-05-23",
+        "projected_new_cases": 1.8,
+        "cumulative_projected_cases": 24.3,
+        "uncertainty": 0.6
+      },
+      {
+        "day": 7,
+        "date": "2023-05-24",
+        "projected_new_cases": 1.9,
+        "cumulative_projected_cases": 26.2,
+        "uncertainty": 0.7
+      },
+      {
+        "day": 8,
+        "date": "2023-05-25",
+        "projected_new_cases": 2.1,
+        "cumulative_projected_cases": 28.3,
+        "uncertainty": 0.8
+      },
+      {
+        "day": 9,
+        "date": "2023-05-26",
+        "projected_new_cases": 2.2,
+        "cumulative_projected_cases": 30.5,
+        "uncertainty": 0.9
+      },
+      {
+        "day": 10,
+        "date": "2023-05-27",
+        "projected_new_cases": 2.4,
+        "cumulative_projected_cases": 32.9,
+        "uncertainty": 1.0
+      },
+      {
+        "day": 11,
+        "date": "2023-05-28",
+        "projected_new_cases": 2.5,
+        "cumulative_projected_cases": 35.4,
+        "uncertainty": 1.1
+      },
+      {
+        "day": 12,
+        "date": "2023-05-29",
+        "projected_new_cases": 2.7,
+        "cumulative_projected_cases": 38.1,
+        "uncertainty": 1.2
+      },
+      {
+        "day": 13,
+        "date": "2023-05-30",
+        "projected_new_cases": 2.7,
+        "cumulative_projected_cases": 40.8,
+        "uncertainty": 1.3
+      },
+      {
+        "day": 14,
+        "date": "2023-05-31",
+        "projected_new_cases": 3.0,
+        "cumulative_projected_cases": 43.8,
+        "uncertainty": 1.4
+      }
+    ],
+    "confidence_level": "moderate",
+    "projection_timestamp": "2023-05-17T08:23:45.123Z"
+  },
+  "analysis_timestamp": "2023-05-17T08:23:45.123Z",
+  "analysis_version": "1.0"
+}

@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  # HMS-MFE with APHIS components
+  hms-mfe:
+    build:
+      context: ../..
+      dockerfile: ./aphis-bird-flu/hms-mfe-components/Dockerfile
+      args:
+        - VITE_API_BASE_URL=http://mock-api:8000
+        - VITE_MAPBOX_ACCESS_TOKEN=${MAPBOX_ACCESS_TOKEN:-pk.your_mapbox_token_here}
+        - VITE_FEDERATION_HUB_URL=http://federation-hub:9000
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - mock-api
+      - federation-hub
+    networks:
+      - hms-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # Mock API server for development
+  mock-api:
+    build:
+      context: ./mock-data
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      - hms-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8000/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+  # Federation Hub for cross-agency integration
+  federation-hub:
+    build:
+      context: ../agency-implementation/foundation/federation
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    environment:
+      - NODE_ENV=production
+      - LOG_LEVEL=info
+      - AGENCIES=aphis,cdc,epa,fema
+    volumes:
+      - federation-data:/app/data
+    networks:
+      - hms-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:9000/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+networks:
+  hms-network:
+    driver: bridge
+
+volumes:
+  federation-data:

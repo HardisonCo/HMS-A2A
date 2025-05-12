@@ -1,0 +1,82 @@
+federation:
+  local_agency: "USDA-APHIS"
+  
+  # Gateway configuration
+  gateway:
+    host: "0.0.0.0"
+    port: 8585
+    tls:
+      enabled: true
+      cert: "/path/to/cert.pem"
+      key: "/path/to/key.pem"
+  
+  # API configuration
+  api:
+    host: "0.0.0.0"
+    port: 8080
+    cors:
+      allowed_origins: ["*"]
+  
+  # Audit logging configuration
+  audit:
+    file:
+      enabled: true
+      path: "/var/log/federation/audit.log"
+    database:
+      enabled: false
+      connection_string: "postgresql://user:password@localhost/federation"
+  
+  # Identity federation configuration
+  identity:
+    default_provider: "jwt"
+    jwt:
+      enabled: true
+      secret_key: "your-secret-key-here"  # In production, use an environment variable
+    oidc:
+      enabled: false
+      client_id: "federation-client"
+      client_secret: "your-client-secret-here"
+      issuer_url: "https://auth.example.com"
+  
+  # Schema registry configuration
+  schema:
+    directory: "/var/lib/federation/schemas"
+  
+  # Governance configuration
+  governance:
+    policy_directory: "/var/lib/federation/policies"
+  
+  # Partner agencies
+  partners:
+    - id: "STATE-DOA-WA"
+      endpoint: "https://wa-agriculture.gov/federation"
+      trust_level: "PARTNER"
+      allowed_datasets: ["outbreak_reports", "poultry_farm_status"]
+    
+    - id: "CDC"
+      endpoint: "https://cdc.gov/federation"
+      trust_level: "TRUSTED"
+      allowed_datasets: ["human_exposure", "health_metrics"]
+    
+    - id: "STATE-DOA-OR"
+      endpoint: "https://oregon.gov/agriculture/federation"
+      trust_level: "PARTNER"
+      allowed_datasets: ["outbreak_reports", "poultry_farm_status"]
+
+  # Default datasets
+  datasets:
+    - name: "outbreak_reports"
+      description: "Poultry disease outbreak reports"
+      security_classification: "SENSITIVE"
+    
+    - name: "poultry_farm_status"
+      description: "Status of poultry farms"
+      security_classification: "SENSITIVE"
+    
+    - name: "human_exposure"
+      description: "Human exposure to avian diseases"
+      security_classification: "RESTRICTED"
+    
+    - name: "health_metrics"
+      description: "Health metrics for poultry populations"
+      security_classification: "PUBLIC"

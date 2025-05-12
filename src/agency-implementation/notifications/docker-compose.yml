@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  notification-system:
+    build: .
+    volumes:
+      - ./config:/app/config
+    environment:
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    networks:
+      - agency-network
+
+  federation-service:
+    image: federation-service:latest
+    volumes:
+      - ./federation-data:/data
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:////data/federation.db
+    restart: unless-stopped
+    networks:
+      - agency-network
+
+  api-gateway:
+    image: api-gateway:latest
+    ports:
+      - "5000:5000"
+    environment:
+      - NOTIFICATION_SERVICE_URL=http://notification-system:8080
+      - FEDERATION_SERVICE_URL=http://federation-service:8000
+    depends_on:
+      - notification-system
+      - federation-service
+    restart: unless-stopped
+    networks:
+      - agency-network
+
+networks:
+  agency-network:
+    driver: bridge

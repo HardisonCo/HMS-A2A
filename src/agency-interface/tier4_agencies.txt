@@ -1,0 +1,12 @@
+# Tier 4 Agencies for batch processing
+
+CFPB
+CFTC
+CPSC
+EEOC
+FTC
+GSA
+NARA
+NRC
+PBGC
+SEC

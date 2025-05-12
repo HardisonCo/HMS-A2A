@@ -1,0 +1,304 @@
+{
+  "cases": [
+    {
+      "id": "case_001",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "detection_date": "2023-05-01T10:30:00Z",
+      "report_date": "2023-05-02T09:45:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H5N1",
+      "case_type": "commercial_poultry",
+      "impact_score": 4.8,
+      "farm_size": 25000,
+      "metadata": {
+        "farm_type": "broiler",
+        "age_weeks": 4,
+        "mortality_rate": 0.35
+      }
+    },
+    {
+      "id": "case_002",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.7306,
+        "longitude": -73.9352
+      },
+      "detection_date": "2023-05-03T14:15:00Z",
+      "report_date": "2023-05-04T11:20:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H5N1",
+      "case_type": "commercial_poultry",
+      "impact_score": 3.6,
+      "farm_size": 18000,
+      "metadata": {
+        "farm_type": "layer",
+        "age_weeks": 45,
+        "mortality_rate": 0.28
+      }
+    },
+    {
+      "id": "case_003",
+      "region_id": "region_12",
+      "location": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
+      "detection_date": "2023-05-05T09:45:00Z",
+      "report_date": "2023-05-06T15:30:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H5N1",
+      "case_type": "backyard_poultry",
+      "impact_score": 2.2,
+      "farm_size": 75,
+      "metadata": {
+        "farm_type": "mixed",
+        "age_weeks": null,
+        "mortality_rate": 0.45
+      }
+    },
+    {
+      "id": "case_004",
+      "region_id": "region_08",
+      "location": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "detection_date": "2023-05-08T11:20:00Z",
+      "report_date": "2023-05-09T14:05:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H7N9",
+      "case_type": "wild_bird",
+      "impact_score": 1.5,
+      "farm_size": null,
+      "metadata": {
+        "species": "mallard",
+        "location_type": "wetland",
+        "surveillance_type": "passive"
+      }
+    },
+    {
+      "id": "case_005",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.6782,
+        "longitude": -73.9442
+      },
+      "detection_date": "2023-05-10T08:30:00Z",
+      "report_date": "2023-05-11T16:15:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H5N1",
+      "case_type": "commercial_poultry",
+      "impact_score": 4.2,
+      "farm_size": 22000,
+      "metadata": {
+        "farm_type": "broiler",
+        "age_weeks": 3,
+        "mortality_rate": 0.32
+      }
+    },
+    {
+      "id": "case_006",
+      "region_id": "region_12",
+      "location": {
+        "latitude": 41.9542,
+        "longitude": -87.7278
+      },
+      "detection_date": "2023-05-12T16:45:00Z",
+      "report_date": "2023-05-13T09:20:00Z",
+      "status": "suspected",
+      "virus_subtype": "unknown",
+      "case_type": "backyard_poultry",
+      "impact_score": 1.8,
+      "farm_size": 120,
+      "metadata": {
+        "farm_type": "mixed",
+        "age_weeks": null,
+        "mortality_rate": 0.25
+      }
+    },
+    {
+      "id": "case_007",
+      "region_id": "region_08",
+      "location": {
+        "latitude": 33.9850,
+        "longitude": -118.4695
+      },
+      "detection_date": "2023-05-15T10:15:00Z",
+      "report_date": "2023-05-16T14:30:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H7N9",
+      "case_type": "wild_bird",
+      "impact_score": 1.3,
+      "farm_size": null,
+      "metadata": {
+        "species": "canada goose",
+        "location_type": "park",
+        "surveillance_type": "active"
+      }
+    },
+    {
+      "id": "case_008",
+      "region_id": "region_03",
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "detection_date": "2023-05-18T13:45:00Z",
+      "report_date": "2023-05-19T11:10:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H9N2",
+      "case_type": "commercial_poultry",
+      "impact_score": 2.8,
+      "farm_size": 15000,
+      "metadata": {
+        "farm_type": "layer",
+        "age_weeks": 35,
+        "mortality_rate": 0.18
+      }
+    },
+    {
+      "id": "case_009",
+      "region_id": "region_15",
+      "location": {
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "detection_date": "2023-05-20T09:30:00Z",
+      "report_date": "2023-05-21T15:20:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H5N1",
+      "case_type": "commercial_poultry",
+      "impact_score": 4.5,
+      "farm_size": 30000,
+      "metadata": {
+        "farm_type": "broiler",
+        "age_weeks": 5,
+        "mortality_rate": 0.38
+      }
+    },
+    {
+      "id": "case_010",
+      "region_id": "region_15",
+      "location": {
+        "latitude": 29.8318,
+        "longitude": -95.4437
+      },
+      "detection_date": "2023-05-22T14:15:00Z",
+      "report_date": "2023-05-23T10:05:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H5N1",
+      "case_type": "commercial_poultry",
+      "impact_score": 4.3,
+      "farm_size": 28000,
+      "metadata": {
+        "farm_type": "broiler",
+        "age_weeks": 4,
+        "mortality_rate": 0.36
+      }
+    },
+    {
+      "id": "case_011",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.8340,
+        "longitude": -73.8654
+      },
+      "detection_date": "2023-05-25T11:20:00Z",
+      "report_date": "2023-05-26T16:45:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H5N1",
+      "case_type": "commercial_poultry",
+      "impact_score": 3.9,
+      "farm_size": 20000,
+      "metadata": {
+        "farm_type": "broiler",
+        "age_weeks": 4,
+        "mortality_rate": 0.31
+      }
+    },
+    {
+      "id": "case_012",
+      "region_id": "region_12",
+      "location": {
+        "latitude": 42.0119,
+        "longitude": -87.8742
+      },
+      "detection_date": "2023-05-28T09:45:00Z",
+      "report_date": "2023-05-29T14:30:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H7N9",
+      "case_type": "backyard_poultry",
+      "impact_score": 2.1,
+      "farm_size": 95,
+      "metadata": {
+        "farm_type": "mixed",
+        "age_weeks": null,
+        "mortality_rate": 0.22
+      }
+    },
+    {
+      "id": "case_013",
+      "region_id": "region_08",
+      "location": {
+        "latitude": 34.1814,
+        "longitude": -118.3087
+      },
+      "detection_date": "2023-05-30T13:10:00Z",
+      "report_date": "2023-05-31T10:45:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H7N9",
+      "case_type": "wild_bird",
+      "impact_score": 1.6,
+      "farm_size": null,
+      "metadata": {
+        "species": "mallard",
+        "location_type": "wetland",
+        "surveillance_type": "passive"
+      }
+    },
+    {
+      "id": "case_014",
+      "region_id": "region_03",
+      "location": {
+        "latitude": 37.8044,
+        "longitude": -122.2712
+      },
+      "detection_date": "2023-06-01T10:30:00Z",
+      "report_date": "2023-06-02T15:15:00Z",
+      "status": "confirmed",
+      "virus_subtype": "H9N2",
+      "case_type": "commercial_poultry",
+      "impact_score": 2.7,
+      "farm_size": 14000,
+      "metadata": {
+        "farm_type": "layer",
+        "age_weeks": 40,
+        "mortality_rate": 0.16
+      }
+    },
+    {
+      "id": "case_015",
+      "region_id": "region_15",
+      "location": {
+        "latitude": 30.0458,
+        "longitude": -95.5253
+      },
+      "detection_date": "2023-06-03T09:15:00Z",
+      "report_date": "2023-06-04T14:40:00Z",
+      "status": "suspected",
+      "virus_subtype": "unknown",
+      "case_type": "backyard_poultry",
+      "impact_score": 1.9,
+      "farm_size": 85,
+      "metadata": {
+        "farm_type": "mixed",
+        "age_weeks": null,
+        "mortality_rate": 0.20
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "sequence_length": 1704,
+  "subtype": "H5N1",
+  "gene": "HA",
+  "mutations": [
+    {
+      "position": 123,
+      "reference": "A",
+      "alternate": "G",
+      "mutation": "A123G",
+      "gene": "HA",
+      "significance": {
+        "phenotype": "unknown",
+        "drug_resistance": false,
+        "transmission": "unknown",
+        "severity": "unknown",
+        "first_detected": "unknown",
+        "literature_refs": []
+      }
+    },
+    {
+      "position": 156,
+      "reference": "T",
+      "alternate": "A",
+      "mutation": "T156A",
+      "gene": "HA",
+      "significance": {
+        "phenotype": "Receptor binding change",
+        "drug_resistance": false,
+        "transmission": "increased",
+        "severity": "unknown",
+        "first_detected": "2022-03-15",
+        "literature_refs": ["Smith et al, 2022"]
+      }
+    },
+    {
+      "position": 223,
+      "reference": "G",
+      "alternate": "C",
+      "mutation": "G223C",
+      "gene": "HA",
+      "significance": {
+        "phenotype": "unknown",
+        "drug_resistance": false,
+        "transmission": "unknown",
+        "severity": "unknown",
+        "first_detected": "unknown",
+        "literature_refs": []
+      }
+    },
+    {
+      "position": 627,
+      "reference": "E",
+      "alternate": "K",
+      "mutation": "E627K",
+      "gene": "PB2",
+      "significance": {
+        "phenotype": "Mammalian adaptation",
+        "drug_resistance": false,
+        "transmission": "increased",
+        "severity": "increased",
+        "first_detected": "2005-08-12",
+        "literature_refs": ["Chen et al, 2005", "Jones et al, 2014"]
+      }
+    },
+    {
+      "position": 701,
+      "reference": "D",
+      "alternate": "N",
+      "mutation": "D701N",
+      "gene": "PB2",
+      "significance": {
+        "phenotype": "Mammalian adaptation",
+        "drug_resistance": false,
+        "transmission": "increased",
+        "severity": "increased",
+        "first_detected": "2006-03-21",
+        "literature_refs": ["Wilson et al, 2006"]
+      }
+    },
+    {
+      "position": 96,
+      "reference": "T",
+      "alternate": "I",
+      "mutation": "T96I",
+      "gene": "HA",
+      "significance": {
+        "phenotype": "Antigenic drift",
+        "drug_resistance": false,
+        "transmission": "unknown",
+        "severity": "unknown",
+        "first_detected": "2021-05-17",
+        "literature_refs": ["Zhang et al, 2021"]
+      }
+    },
+    {
+      "position": 140,
+      "reference": "T",
+      "alternate": "K",
+      "mutation": "T140K",
+      "gene": "HA",
+      "significance": {
+        "phenotype": "Antigenic drift",
+        "drug_resistance": false,
+        "transmission": "unknown",
+        "severity": "unknown",
+        "first_detected": "2022-01-08",
+        "literature_refs": ["Lin et al, 2022"]
+      }
+    }
+  ],
+  "lineage": {
+    "lineage": "clade_2.3.4.4b",
+    "confidence": 0.85,
+    "related_lineages": ["clade_2.3.4.4a", "clade_2.3.4.4c"],
+    "defining_mutations": ["T96I", "G54R", "T140K", "N220K", "N94H"],
+    "geographic_distribution": {
+      "Eastern_Asia": 0.85,
+      "Southeast_Asia": 0.65,
+      "Europe": 0.45,
+      "North_America": 0.35,
+      "Africa": 0.20
+    },
+    "first_detected": "2020-03-15",
+    "recent_expansion": true,
+    "trend": "increasing"
+  },
+  "antigenic_properties": {
+    "drift_score": 0.57,
+    "antigenic_cluster": "clade_2.3.4.4b_EU2020",
+    "has_key_antigenic_mutation": true,
+    "vaccine_match": 0.43,
+    "vaccine_effectiveness_prediction": {
+      "overall": 0.39,
+      "children": 0.43,
+      "adults": 0.39,
+      "elderly": 0.31
+    },
+    "cross_reactivity": {
+      "H5N1_clade_2.3.4.4a": 0.39,
+      "H5N1_clade_2.3.4.4c": 0.34,
+      "H5N1_clade_2.3.2.1": 0.26,
+      "H5N1_clade_2.2": 0.22,
+      "H5N6": 0.17,
+      "H5N8": 0.17
+    }
+  },
+  "zoonotic_potential": {
+    "zoonotic_risk_level": "high",
+    "mammalian_adaptation_score": 0.75,
+    "mammalian_adaptation_markers": ["E627K", "D701N"],
+    "transmission_risk": {
+      "avian": 0.9,
+      "swine": 0.65,
+      "human": 0.55,
+      "other_mammals": 0.40
+    },
+    "surveillance_recommendation": {
+      "priority": "high",
+      "sampling_frequency": "weekly",
+      "geographic_focus": "widespread",
+      "mammalian_surveillance": "enhanced",
+      "sentinel_species": ["poultry", "wild_birds", "swine", "cats"]
+    },
+    "history": {
+      "first_human_case": "1997-05-21",
+      "total_human_cases": 863,
+      "total_human_deaths": 455,
+      "case_fatality_rate": 0.53,
+      "major_outbreaks": [
+        {"year": 1997, "location": "Hong Kong", "cases": 18},
+        {"year": 2004, "location": "Vietnam", "cases": 29},
+        {"year": 2006, "location": "Indonesia", "cases": 55},
+        {"year": 2009, "location": "Egypt", "cases": 39},
+        {"year": 2015, "location": "Egypt", "cases": 136}
+      ],
+      "sustained_human_transmission": false
+    }
+  },
+  "analysis_timestamp": "2023-05-17T08:23:45.123Z",
+  "analysis_version": "1.0"
+}

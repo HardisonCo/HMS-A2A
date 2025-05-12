@@ -1,0 +1,98 @@
+{
+  "processing_interval_seconds": 300,
+  "federation": {
+    "base_url": "http://localhost:8000/api",
+    "api_key": "YOUR_API_KEY_HERE",
+    "timeout": 30,
+    "retry_count": 3,
+    "use_cache": true,
+    "cache_ttl": 300,
+    "test_connection": true
+  },
+  "channels": {
+    "email": {
+      "type": "email",
+      "enabled": true,
+      "smtp_host": "smtp.example.com",
+      "smtp_port": 587,
+      "smtp_user": "notifications@example.com",
+      "smtp_password": "YOUR_SMTP_PASSWORD",
+      "use_tls": true,
+      "default_sender": "Federal Agency Notifications <notifications@example.com>",
+      "templates": {
+        "alert": {
+          "subject": "{{ alert.severity.name }} ALERT: {{ alert.title }}",
+          "html_body": "<html><body><h1>{{ alert.title }}</h1><p>{{ alert.description }}</p></body></html>",
+          "text_body": "{{ alert.title }}\n\n{{ alert.description }}"
+        }
+      }
+    },
+    "sms": {
+      "type": "sms",
+      "enabled": true,
+      "provider": "twilio",
+      "account_sid": "YOUR_TWILIO_SID",
+      "auth_token": "YOUR_TWILIO_TOKEN",
+      "from_number": "+15551234567",
+      "max_length": 160
+    },
+    "webhook": {
+      "type": "webhook",
+      "enabled": true,
+      "endpoints": {
+        "internal_api": {
+          "url": "http://localhost:5000/webhook/alerts",
+          "method": "POST",
+          "headers": {
+            "X-API-Key": "YOUR_INTERNAL_API_KEY"
+          },
+          "format": "json"
+        },
+        "external_partner": {
+          "url": "https://partner.example.com/api/alerts",
+          "method": "POST",
+          "headers": {
+            "Authorization": "Bearer YOUR_PARTNER_TOKEN"
+          },
+          "format": "json"
+        }
+      },
+      "default_headers": {
+        "User-Agent": "FederalAlertSystem/1.0"
+      },
+      "retry_count": 3,
+      "verify_ssl": true
+    }
+  },
+  "adapters": {
+    "cdc": {
+      "type": "cdc",
+      "api_url": "https://api.cdc.gov/alerts",
+      "api_key": "YOUR_CDC_API_KEY",
+      "timeout": 30,
+      "include_advisories": true,
+      "include_outbreaks": true,
+      "include_recalls": true
+    },
+    "epa": {
+      "type": "epa",
+      "api_url": "https://api.epa.gov/alerts",
+      "api_key": "YOUR_EPA_API_KEY",
+      "timeout": 30,
+      "include_air_quality": true,
+      "include_water_quality": true,
+      "include_hazardous_materials": true,
+      "severity_threshold": "low"
+    },
+    "fema": {
+      "type": "fema",
+      "api_url": "https://api.fema.gov/alerts",
+      "api_key": "YOUR_FEMA_API_KEY",
+      "timeout": 30,
+      "include_disasters": true,
+      "include_emergencies": true,
+      "include_warnings": true,
+      "include_preparedness": true
+    }
+  }
+}

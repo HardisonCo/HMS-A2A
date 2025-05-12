@@ -1,0 +1,464 @@
+{
+  "surveillance_sites": [
+    {
+      "id": "site_001",
+      "name": "Northeast Commercial Farm A",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "site_type": "commercial_farm",
+      "risk_factors": {
+        "farm_size": 0.85,
+        "proximity_to_migration": 0.75,
+        "previous_outbreaks": 0.6,
+        "biosecurity_level": 0.4
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "broiler",
+        "bird_capacity": 25000,
+        "contact_name": "John Smith",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_002",
+      "name": "Northeast Commercial Farm B",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.7306,
+        "longitude": -73.9352
+      },
+      "site_type": "commercial_farm",
+      "risk_factors": {
+        "farm_size": 0.7,
+        "proximity_to_migration": 0.6,
+        "previous_outbreaks": 0.8,
+        "biosecurity_level": 0.5
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "layer",
+        "bird_capacity": 18000,
+        "contact_name": "Mary Johnson",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_003",
+      "name": "Midwest Backyard Flock A",
+      "region_id": "region_12",
+      "location": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
+      "site_type": "backyard",
+      "risk_factors": {
+        "farm_size": 0.2,
+        "proximity_to_migration": 0.8,
+        "previous_outbreaks": 0.3,
+        "biosecurity_level": 0.2
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "mixed",
+        "bird_capacity": 75,
+        "contact_name": "Robert Davis",
+        "sampling_frequency": "monthly"
+      }
+    },
+    {
+      "id": "site_004",
+      "name": "West Coast Wetland A",
+      "region_id": "region_08",
+      "location": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "site_type": "wetland",
+      "risk_factors": {
+        "migratory_traffic": 0.9,
+        "wetland_size": 0.6,
+        "previous_detections": 0.7,
+        "proximity_to_farms": 0.5
+      },
+      "active": true,
+      "metadata": {
+        "habitat_type": "coastal",
+        "area_acres": 250,
+        "contact_name": "Sarah Wilson",
+        "sampling_frequency": "biweekly"
+      }
+    },
+    {
+      "id": "site_005",
+      "name": "Northeast Commercial Farm C",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.6782,
+        "longitude": -73.9442
+      },
+      "site_type": "commercial_farm",
+      "risk_factors": {
+        "farm_size": 0.75,
+        "proximity_to_migration": 0.7,
+        "previous_outbreaks": 0.9,
+        "biosecurity_level": 0.5
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "broiler",
+        "bird_capacity": 22000,
+        "contact_name": "James Anderson",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_006",
+      "name": "Midwest Backyard Flock B",
+      "region_id": "region_12",
+      "location": {
+        "latitude": 41.9542,
+        "longitude": -87.7278
+      },
+      "site_type": "backyard",
+      "risk_factors": {
+        "farm_size": 0.3,
+        "proximity_to_migration": 0.7,
+        "previous_outbreaks": 0.4,
+        "biosecurity_level": 0.3
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "mixed",
+        "bird_capacity": 120,
+        "contact_name": "Patricia Brown",
+        "sampling_frequency": "monthly"
+      }
+    },
+    {
+      "id": "site_007",
+      "name": "West Coast Wetland B",
+      "region_id": "region_08",
+      "location": {
+        "latitude": 33.9850,
+        "longitude": -118.4695
+      },
+      "site_type": "wetland",
+      "risk_factors": {
+        "migratory_traffic": 0.8,
+        "wetland_size": 0.5,
+        "previous_detections": 0.6,
+        "proximity_to_farms": 0.4
+      },
+      "active": true,
+      "metadata": {
+        "habitat_type": "inland",
+        "area_acres": 180,
+        "contact_name": "David Martinez",
+        "sampling_frequency": "biweekly"
+      }
+    },
+    {
+      "id": "site_008",
+      "name": "West Coast Commercial Farm A",
+      "region_id": "region_03",
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "site_type": "commercial_farm",
+      "risk_factors": {
+        "farm_size": 0.65,
+        "proximity_to_migration": 0.8,
+        "previous_outbreaks": 0.3,
+        "biosecurity_level": 0.7
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "layer",
+        "bird_capacity": 15000,
+        "contact_name": "Jennifer Lopez",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_009",
+      "name": "Southern Commercial Farm A",
+      "region_id": "region_15",
+      "location": {
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "site_type": "commercial_farm",
+      "risk_factors": {
+        "farm_size": 0.9,
+        "proximity_to_migration": 0.85,
+        "previous_outbreaks": 0.7,
+        "biosecurity_level": 0.6
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "broiler",
+        "bird_capacity": 30000,
+        "contact_name": "Michael Garcia",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_010",
+      "name": "Southern Commercial Farm B",
+      "region_id": "region_15",
+      "location": {
+        "latitude": 29.8318,
+        "longitude": -95.4437
+      },
+      "site_type": "commercial_farm",
+      "risk_factors": {
+        "farm_size": 0.85,
+        "proximity_to_migration": 0.8,
+        "previous_outbreaks": 0.65,
+        "biosecurity_level": 0.55
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "broiler",
+        "bird_capacity": 28000,
+        "contact_name": "Linda Rodriguez",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_011",
+      "name": "Northeast Live Bird Market",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.8340,
+        "longitude": -73.8654
+      },
+      "site_type": "market",
+      "risk_factors": {
+        "market_size": 0.7,
+        "turnover_rate": 0.9,
+        "previous_detections": 0.5,
+        "biosecurity_level": 0.3
+      },
+      "active": true,
+      "metadata": {
+        "market_type": "wholesale",
+        "average_volume": 500,
+        "contact_name": "Thomas Lee",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_012",
+      "name": "Midwest Wetland A",
+      "region_id": "region_12",
+      "location": {
+        "latitude": 42.0119,
+        "longitude": -87.8742
+      },
+      "site_type": "wetland",
+      "risk_factors": {
+        "migratory_traffic": 0.85,
+        "wetland_size": 0.7,
+        "previous_detections": 0.5,
+        "proximity_to_farms": 0.6
+      },
+      "active": true,
+      "metadata": {
+        "habitat_type": "inland",
+        "area_acres": 320,
+        "contact_name": "Lisa Clark",
+        "sampling_frequency": "biweekly"
+      }
+    },
+    {
+      "id": "site_013",
+      "name": "West Coast Park",
+      "region_id": "region_08",
+      "location": {
+        "latitude": 34.1814,
+        "longitude": -118.3087
+      },
+      "site_type": "recreational",
+      "risk_factors": {
+        "waterfowl_presence": 0.8,
+        "human_traffic": 0.9,
+        "previous_detections": 0.4,
+        "proximity_to_farms": 0.5
+      },
+      "active": true,
+      "metadata": {
+        "park_type": "urban",
+        "waterbody_present": true,
+        "contact_name": "Daniel Miller",
+        "sampling_frequency": "monthly"
+      }
+    },
+    {
+      "id": "site_014",
+      "name": "West Coast Live Bird Market",
+      "region_id": "region_03",
+      "location": {
+        "latitude": 37.8044,
+        "longitude": -122.2712
+      },
+      "site_type": "market",
+      "risk_factors": {
+        "market_size": 0.6,
+        "turnover_rate": 0.85,
+        "previous_detections": 0.3,
+        "biosecurity_level": 0.4
+      },
+      "active": true,
+      "metadata": {
+        "market_type": "retail",
+        "average_volume": 300,
+        "contact_name": "William Chen",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_015",
+      "name": "Southern Backyard Flock",
+      "region_id": "region_15",
+      "location": {
+        "latitude": 30.0458,
+        "longitude": -95.5253
+      },
+      "site_type": "backyard",
+      "risk_factors": {
+        "farm_size": 0.25,
+        "proximity_to_migration": 0.75,
+        "previous_outbreaks": 0.2,
+        "biosecurity_level": 0.3
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "mixed",
+        "bird_capacity": 85,
+        "contact_name": "Karen White",
+        "sampling_frequency": "monthly"
+      }
+    },
+    {
+      "id": "site_016",
+      "name": "Northeast Wetland",
+      "region_id": "region_05",
+      "location": {
+        "latitude": 40.5795,
+        "longitude": -73.8456
+      },
+      "site_type": "wetland",
+      "risk_factors": {
+        "migratory_traffic": 0.95,
+        "wetland_size": 0.8,
+        "previous_detections": 0.6,
+        "proximity_to_farms": 0.7
+      },
+      "active": true,
+      "metadata": {
+        "habitat_type": "coastal",
+        "area_acres": 450,
+        "contact_name": "Richard Taylor",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_017",
+      "name": "Midwest Commercial Farm",
+      "region_id": "region_12",
+      "location": {
+        "latitude": 41.7527,
+        "longitude": -87.9125
+      },
+      "site_type": "commercial_farm",
+      "risk_factors": {
+        "farm_size": 0.8,
+        "proximity_to_migration": 0.7,
+        "previous_outbreaks": 0.4,
+        "biosecurity_level": 0.6
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "turkey",
+        "bird_capacity": 15000,
+        "contact_name": "Susan Thompson",
+        "sampling_frequency": "weekly"
+      }
+    },
+    {
+      "id": "site_018",
+      "name": "West Coast Backyard Flock",
+      "region_id": "region_08",
+      "location": {
+        "latitude": 33.8756,
+        "longitude": -118.1255
+      },
+      "site_type": "backyard",
+      "risk_factors": {
+        "farm_size": 0.2,
+        "proximity_to_migration": 0.65,
+        "previous_outbreaks": 0.1,
+        "biosecurity_level": 0.2
+      },
+      "active": true,
+      "metadata": {
+        "farm_type": "mixed",
+        "bird_capacity": 45,
+        "contact_name": "Joseph Adams",
+        "sampling_frequency": "monthly"
+      }
+    },
+    {
+      "id": "site_019",
+      "name": "Southern Wetland",
+      "region_id": "region_15",
+      "location": {
+        "latitude": 29.6213,
+        "longitude": -95.0875
+      },
+      "site_type": "wetland",
+      "risk_factors": {
+        "migratory_traffic": 0.9,
+        "wetland_size": 0.75,
+        "previous_detections": 0.55,
+        "proximity_to_farms": 0.65
+      },
+      "active": true,
+      "metadata": {
+        "habitat_type": "coastal",
+        "area_acres": 380,
+        "contact_name": "Michelle Evans",
+        "sampling_frequency": "biweekly"
+      }
+    },
+    {
+      "id": "site_020",
+      "name": "West Coast Waterfowl Sanctuary",
+      "region_id": "region_03",
+      "location": {
+        "latitude": 37.5275,
+        "longitude": -122.0356
+      },
+      "site_type": "wetland",
+      "risk_factors": {
+        "migratory_traffic": 0.95,
+        "wetland_size": 0.9,
+        "previous_detections": 0.7,
+        "proximity_to_farms": 0.5
+      },
+      "active": true,
+      "metadata": {
+        "habitat_type": "estuarine",
+        "area_acres": 520,
+        "contact_name": "Christopher King",
+        "sampling_frequency": "weekly"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Defense_Security",
+    "statement": "Defense systems should maintain national security",
+    "proof": "Security is the fundamental purpose of defense systems. This theorem validates that defense components contribute to maintaining national security. The proof follows from strategic defense principles and security frameworks established in defense policy and doctrine.",
+    "verified": true,
+    "domain": "defense",
+    "components": [
+      "security",
+      "national_defense",
+      "threat_mitigation"
+    ],
+    "timestamp": "2025-05-09T10:35:00.000Z"
+  },
+  {
+    "name": "Defense_Interoperability",
+    "statement": "Defense systems should be interoperable with allied systems",
+    "proof": "Interoperability is critical for joint and combined operations. This theorem validates that defense systems can operate effectively with allied systems. The proof follows from interoperability standards and protocols established in defense frameworks such as NATO STANAGs and joint doctrine.",
+    "verified": true,
+    "domain": "defense",
+    "components": [
+      "interoperability",
+      "allied_operations",
+      "joint_capability"
+    ],
+    "timestamp": "2025-05-09T10:36:00.000Z"
+  },
+  {
+    "name": "Defense_Resilience",
+    "statement": "Defense systems should be resilient to disruption and attack",
+    "proof": "Resilience is essential for defense systems to maintain operations under adverse conditions. This theorem validates that defense systems can withstand disruption and attack. The proof follows from resilience engineering principles and defensive design patterns established in systems engineering and cybersecurity domains.",
+    "verified": true,
+    "domain": "defense",
+    "components": [
+      "resilience",
+      "continuity",
+      "defensive_design"
+    ],
+    "timestamp": "2025-05-09T10:37:00.000Z"
+  },
+  {
+    "name": "Defense_Integration",
+    "statement": "Defense components should integrate seamlessly with HMS systems",
+    "proof": "Integration is necessary for effective defense system operation. This theorem validates that defense components can be integrated with HMS systems without compromising security or functionality. The proof follows from systems integration principles and security engineering patterns established in defense IT and systems engineering domains.",
+    "verified": true,
+    "domain": "defense",
+    "components": [
+      "integration",
+      "systems_design",
+      "security_engineering"
+    ],
+    "timestamp": "2025-05-09T10:38:00.000Z"
+  },
+  {
+    "name": "Defense_Information_Assurance",
+    "statement": "Defense systems should provide information assurance",
+    "proof": "Information assurance is critical for defense operations. This theorem validates that defense systems protect information confidentiality, integrity, and availability. The proof follows from information assurance frameworks and cybersecurity principles established in defense IT security domains.",
+    "verified": true,
+    "domain": "defense",
+    "components": [
+      "information_assurance",
+      "confidentiality",
+      "integrity",
+      "availability"
+    ],
+    "timestamp": "2025-05-09T10:39:00.000Z"
+  }
+]

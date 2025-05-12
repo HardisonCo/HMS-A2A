@@ -1,0 +1,9 @@
+# Tier 1 Agencies for batch processing
+# HHS, USDA, DOD are already implemented
+
+# Remaining Tier 1 agencies
+TREAS
+DOJ
+DHS
+DOS
+DOE

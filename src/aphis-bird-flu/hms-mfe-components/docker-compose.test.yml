@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  hms-mfe:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=test
+      - API_BASE_URL=http://mock-api:3000
+      - FEDERATION_HUB_URL=http://federation-hub:3001
+    depends_on:
+      - mock-api
+      - federation-hub
+    networks:
+      - test-network
+
+  mock-api:
+    build:
+      context: ./mock-data
+      dockerfile: Dockerfile.mock
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=test
+      - PORT=3000
+    networks:
+      - test-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  federation-hub:
+    build:
+      context: ./mock-data
+      dockerfile: Dockerfile.federation
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=test
+      - PORT=3001
+    networks:
+      - test-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  tests:
+    build:
+      context: ./tests
+      dockerfile: Dockerfile.tests
+    environment:
+      - HMS_MFE_URL=http://hms-mfe
+      - API_URL=http://mock-api:3000
+      - FEDERATION_URL=http://federation-hub:3001
+    depends_on:
+      hms-mfe:
+        condition: service_started
+      mock-api:
+        condition: service_healthy
+      federation-hub:
+        condition: service_healthy
+    volumes:
+      - ./test-results:/app/test-results
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    driver: bridge

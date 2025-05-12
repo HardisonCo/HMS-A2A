@@ -1,0 +1,51 @@
+{
+  "agencyCode": "AGENCY",
+  "agencyName": "Agency Name",
+  "description": "Brief description of the agency's purpose and functions",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Maintainer Name",
+      "email": "maintainer@example.com"
+    }
+  ],
+  "endpoints": {
+    "base": "/api/agency",
+    "healthCheck": "/health",
+    "status": "/status"
+  },
+  "dependencies": {
+    "required": [
+      "HMS-API",
+      "HMS-CDF"
+    ],
+    "optional": [
+      "HMS-DTA"
+    ]
+  },
+  "integration": {
+    "authType": "OAuth2",
+    "webhooks": true,
+    "eventSubscriptions": [
+      "system.status",
+      "policy.update"
+    ]
+  },
+  "features": {
+    "selfHealing": true,
+    "monitoring": true,
+    "economicModeling": false,
+    "geneticOptimization": false
+  },
+  "customization": {
+    "allowedDataModels": [
+      "standard",
+      "extended"
+    ],
+    "processingTypes": [
+      "sync",
+      "async",
+      "batch"
+    ]
+  }
+}

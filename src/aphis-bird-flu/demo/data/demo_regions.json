@@ -1,0 +1,324 @@
+{
+  "regions": [
+    {
+      "id": "region_01",
+      "name": "Washington",
+      "level": "state",
+      "centroid": {
+        "latitude": 47.7511,
+        "longitude": -120.7401
+      },
+      "parent_id": "country_usa",
+      "farm_count": 125,
+      "farm_density": 0.45,
+      "metadata": {
+        "population": 7614893,
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "region_02",
+      "name": "Oregon",
+      "level": "state",
+      "centroid": {
+        "latitude": 43.8041,
+        "longitude": -120.5542
+      },
+      "parent_id": "country_usa",
+      "farm_count": 95,
+      "farm_density": 0.35,
+      "metadata": {
+        "population": 4217737,
+        "risk_level": "moderate_low"
+      }
+    },
+    {
+      "id": "region_03",
+      "name": "California",
+      "level": "state",
+      "centroid": {
+        "latitude": 36.7783,
+        "longitude": -119.4179
+      },
+      "parent_id": "country_usa",
+      "farm_count": 280,
+      "farm_density": 0.65,
+      "metadata": {
+        "population": 39538223,
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "region_04",
+      "name": "Idaho",
+      "level": "state",
+      "centroid": {
+        "latitude": 44.0682,
+        "longitude": -114.7420
+      },
+      "parent_id": "country_usa",
+      "farm_count": 85,
+      "farm_density": 0.30,
+      "metadata": {
+        "population": 1826156,
+        "risk_level": "low"
+      }
+    },
+    {
+      "id": "region_05",
+      "name": "New York",
+      "level": "state",
+      "centroid": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "parent_id": "country_usa",
+      "farm_count": 175,
+      "farm_density": 0.55,
+      "metadata": {
+        "population": 19453561,
+        "risk_level": "high"
+      }
+    },
+    {
+      "id": "region_06",
+      "name": "New Jersey",
+      "level": "state",
+      "centroid": {
+        "latitude": 40.0583,
+        "longitude": -74.4057
+      },
+      "parent_id": "country_usa",
+      "farm_count": 85,
+      "farm_density": 0.50,
+      "metadata": {
+        "population": 8882190,
+        "risk_level": "moderate_high"
+      }
+    },
+    {
+      "id": "region_07",
+      "name": "Pennsylvania",
+      "level": "state",
+      "centroid": {
+        "latitude": 41.2033,
+        "longitude": -77.1945
+      },
+      "parent_id": "country_usa",
+      "farm_count": 210,
+      "farm_density": 0.60,
+      "metadata": {
+        "population": 12801989,
+        "risk_level": "moderate_high"
+      }
+    },
+    {
+      "id": "region_08",
+      "name": "Los Angeles County",
+      "level": "county",
+      "centroid": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "parent_id": "region_03",
+      "farm_count": 65,
+      "farm_density": 0.40,
+      "metadata": {
+        "population": 10014009,
+        "risk_level": "high"
+      }
+    },
+    {
+      "id": "region_09",
+      "name": "San Diego County",
+      "level": "county",
+      "centroid": {
+        "latitude": 32.7157,
+        "longitude": -117.1611
+      },
+      "parent_id": "region_03",
+      "farm_count": 45,
+      "farm_density": 0.35,
+      "metadata": {
+        "population": 3338330,
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "region_10",
+      "name": "King County",
+      "level": "county",
+      "centroid": {
+        "latitude": 47.4810,
+        "longitude": -121.8359
+      },
+      "parent_id": "region_01",
+      "farm_count": 35,
+      "farm_density": 0.25,
+      "metadata": {
+        "population": 2252782,
+        "risk_level": "moderate_low"
+      }
+    },
+    {
+      "id": "region_11",
+      "name": "Multnomah County",
+      "level": "county",
+      "centroid": {
+        "latitude": 45.5051,
+        "longitude": -122.6750
+      },
+      "parent_id": "region_02",
+      "farm_count": 25,
+      "farm_density": 0.20,
+      "metadata": {
+        "population": 812855,
+        "risk_level": "low"
+      }
+    },
+    {
+      "id": "region_12",
+      "name": "Cook County",
+      "level": "county",
+      "centroid": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
+      "parent_id": "region_17",
+      "farm_count": 40,
+      "farm_density": 0.30,
+      "metadata": {
+        "population": 5150233,
+        "risk_level": "high"
+      }
+    },
+    {
+      "id": "region_13",
+      "name": "Suffolk County",
+      "level": "county",
+      "centroid": {
+        "latitude": 40.9849,
+        "longitude": -72.6151
+      },
+      "parent_id": "region_05",
+      "farm_count": 55,
+      "farm_density": 0.45,
+      "metadata": {
+        "population": 1476601,
+        "risk_level": "moderate_high"
+      }
+    },
+    {
+      "id": "region_14",
+      "name": "Philadelphia County",
+      "level": "county",
+      "centroid": {
+        "latitude": 39.9526,
+        "longitude": -75.1652
+      },
+      "parent_id": "region_07",
+      "farm_count": 15,
+      "farm_density": 0.15,
+      "metadata": {
+        "population": 1584064,
+        "risk_level": "moderate_low"
+      }
+    },
+    {
+      "id": "region_15",
+      "name": "Harris County",
+      "level": "county",
+      "centroid": {
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "parent_id": "region_18",
+      "farm_count": 85,
+      "farm_density": 0.50,
+      "metadata": {
+        "population": 4713325,
+        "risk_level": "high"
+      }
+    },
+    {
+      "id": "region_16",
+      "name": "Maricopa County",
+      "level": "county",
+      "centroid": {
+        "latitude": 33.4484,
+        "longitude": -112.0740
+      },
+      "parent_id": "region_19",
+      "farm_count": 65,
+      "farm_density": 0.40,
+      "metadata": {
+        "population": 4485414,
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "region_17",
+      "name": "Illinois",
+      "level": "state",
+      "centroid": {
+        "latitude": 40.6331,
+        "longitude": -89.3985
+      },
+      "parent_id": "country_usa",
+      "farm_count": 190,
+      "farm_density": 0.55,
+      "metadata": {
+        "population": 12671821,
+        "risk_level": "moderate_high"
+      }
+    },
+    {
+      "id": "region_18",
+      "name": "Texas",
+      "level": "state",
+      "centroid": {
+        "latitude": 31.9686,
+        "longitude": -99.9018
+      },
+      "parent_id": "country_usa",
+      "farm_count": 320,
+      "farm_density": 0.70,
+      "metadata": {
+        "population": 29145505,
+        "risk_level": "moderate_high"
+      }
+    },
+    {
+      "id": "region_19",
+      "name": "Arizona",
+      "level": "state",
+      "centroid": {
+        "latitude": 34.0489,
+        "longitude": -111.0937
+      },
+      "parent_id": "country_usa",
+      "farm_count": 110,
+      "farm_density": 0.45,
+      "metadata": {
+        "population": 7278717,
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "region_20",
+      "name": "Florida",
+      "level": "state",
+      "centroid": {
+        "latitude": 27.6648,
+        "longitude": -81.5158
+      },
+      "parent_id": "country_usa",
+      "farm_count": 205,
+      "farm_density": 0.60,
+      "metadata": {
+        "population": 21538187,
+        "risk_level": "moderate_low"
+      }
+    }
+  ]
+}

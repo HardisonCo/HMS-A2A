@@ -1,0 +1,128 @@
+name: Implementation Validation
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'implementations/**'
+      - 'foundation/**'
+      - 'tests/**'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'implementations/**'
+      - 'foundation/**'
+      - 'tests/**'
+  workflow_dispatch:
+    inputs:
+      implementation:
+        description: 'Specific implementation to validate'
+        required: false
+        type: string
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    outputs:
+      implementations: ${{ steps.find-implementations.outputs.implementations }}
+    steps:
+      - uses: actions/checkout@v3
+      - id: find-implementations
+        name: Find implementations
+        run: |
+          if [ -n "${{ github.event.inputs.implementation }}" ]; then
+            echo "implementations=[\"${{ github.event.inputs.implementation }}\"]" >> $GITHUB_OUTPUT
+          else
+            IMPL_LIST=$(ls -d implementations/*/ | cut -d'/' -f2 | jq -R -s -c 'split("\n")[:-1]')
+            echo "implementations=$IMPL_LIST" >> $GITHUB_OUTPUT
+          fi
+
+  validate-implementations:
+    needs: discovery
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        implementation: ${{ fromJson(needs.discovery.outputs.implementations) }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pytest-cov
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+      - name: Validate implementation structure
+        run: |
+          python scripts/validate_implementation.py implementations/${{ matrix.implementation }}
+      - name: Run implementation tests
+        run: |
+          pytest implementations/${{ matrix.implementation }}/tests --cov=implementations/${{ matrix.implementation }} --cov-report=xml
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.xml
+          flags: ${{ matrix.implementation }}
+          fail_ci_if_error: false
+
+  integration-with-foundation:
+    needs: [discovery, validate-implementations]
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_USER: postgres
+          POSTGRES_DB: agency_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pytest-cov
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+      - name: Test integration with foundation
+        run: |
+          pytest tests/integration/test_implementation_integration.py --cov=foundation --cov-report=xml
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/agency_test
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.xml
+          flags: integration
+          fail_ci_if_error: false
+
+  example-deployment-test:
+    needs: [validate-implementations, integration-with-foundation]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+      - name: Build and run with Docker Compose
+        run: |
+          docker-compose -f docker-compose.test.yml up -d
+          sleep 10  # Give services time to start
+          docker-compose -f docker-compose.test.yml exec -T api pytest tests/api
+          docker-compose -f docker-compose.test.yml down
+      - name: Test deployment script
+        run: |
+          # Mock deployment to verify deployment scripts
+          bash scripts/test_deployment.sh
